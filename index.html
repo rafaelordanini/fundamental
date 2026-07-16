@@ -28,13 +28,13 @@ const QUALITY_CRITERIA = [
   { key: "roic", label: "ROIC", good: v => v >= 0.12, ok: v => v >= 0.06 },
   { key: "mrg_liq", label: "Mrg. líquida", good: v => v >= 0.15, ok: v => v >= 0.05 },
   { key: "liq_corr", label: "Liq. corrente", good: v => v >= 1.5, ok: v => v >= 1.0 },
-  { key: "div_brut_pat", label: "Dív/PL", good: v => v <= 0.5, ok: v => v <= 1.0 },
+  { key: "div_liq_pat", label: "DívLíq/PL", good: v => v <= 0.5, ok: v => v <= 1.0 },
   { key: "cresc_rec_5a", label: "Cresc. 5a", good: v => v >= 0.10, ok: v => v >= 0.0 },
   { key: "ev_ebitda", label: "EV/EBITDA", good: v => v > 0 && v <= 6, ok: v => v > 0 && v <= 10 },
 ];
 
 const VETOES = [
-  { key: "div_brut_pat", label: "Alavancagem excessiva (Dív/PL > 3)", test: v => v !== null && v > 3 },
+  { key: "div_liq_pat", label: "Alavancagem excessiva (DívLíq/PL > 3)", test: v => v !== null && v > 3 },
   { key: "liq_corr", label: "Liquidez corrente crítica (< 0,8)", test: v => v !== null && v < 0.8 },
   { key: "roe", label: "ROE negativo", test: v => v !== null && v < 0 },
   { key: "mrg_liq", label: "Margem líquida negativa", test: v => v !== null && v < 0 },
@@ -105,7 +105,7 @@ const COLUMNS = [
   { key: "pl", label: "P/L", fmt: "num" },
   { key: "div_yield", label: "DY", fmt: "pct" },
   { key: "roe", label: "ROE", fmt: "pct" },
-  { key: "div_brut_pat", label: "Dív/PL", fmt: "num" },
+  { key: "div_liq_pat", label: "DívLíq/PL", fmt: "num" },
   { key: "graham", label: "Justo", fmt: "brl" },
   { key: "margem", label: "Margem", fmt: "pctSigned" },
   { key: "qualidade", label: "Qualidade", fmt: "quality" },
@@ -132,7 +132,7 @@ function valueColor(key, value) {
     return "text-gray-600";
   }
   if ((key === "roe" || key === "pl") && value < 0) return "text-red-600";
-  if (key === "div_brut_pat" && value > 3) return "text-red-600 font-semibold";
+  if (key === "div_liq_pat" && value > 3) return "text-red-600 font-semibold";
   return "text-gray-800";
 }
 
