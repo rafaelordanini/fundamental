@@ -90,21 +90,27 @@ def main() -> None:
     tickers = set(carrega_ibov())
     segmentos = carrega_segmentos()
 
-  def fetch_html() -> str:
-    # Se definido, usa um proxy próprio (plano B — ver instruções)
-    url_base = os.environ.get("FUNDAMENTUS_PROXY") or URL
-    ultimo_erro = None
-    for tentativa in range(1, 6):
-        try:
-            resp = requests.get(url_base, headers=HEADERS, timeout=(15, 60))
-            resp.raise_for_status()
-            return resp.text
-        except requests.RequestException as e:
-            ultimo_erro = e
-            espera = tentativa * 20
-            print(f"Tentativa {tentativa}/5 falhou: {e}. Aguardando {espera}s...")
-            time.sleep(espera)
-    sys.exit(f"ERRO: Fundamentus inacessível após 5 tentativas: {ultimo_erro}")
+    def fetch_html() -> str:
+        # Se definido, usa um proxy próprio (plano B — ver instruções)
+        url_base = os.environ.get("FUNDAMENTUS_PROXY") or URL
+        ultimo_erro = None
+        for tentativa in range(1, 6):
+            try:
+                resp = requests.get(url_base, headers=HEADERS, timeout=(15, 60))
+                resp.raise_for_status()
+                return resp.text
+            except requests.RequestException as e:
+                ultimo_erro = e
+                espera = tentativa * 20
+                print(f"Tentativa {tentativa}/5 falhou: {e}. Aguardando {espera}s...")
+                time.sleep(espera)
+        sys.exit(f"ERRO: Fundamentus inacessível após 5 tentativas: {ultimo_erro}")
+
+    html = fetch_html()
+    soup = BeautifulSoup(html, "html.parser")
+    tabela = soup.find("table")
+    if not tabela:
+        sys.exit("ERRO: Nenhuma tabela encontrada no HTML.")
 
     ths = tabela.find("thead").find_all("th")
     cabecalhos_norm = [normaliza(th.get_text()) for th in ths]
