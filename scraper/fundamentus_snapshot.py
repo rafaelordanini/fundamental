@@ -36,7 +36,7 @@ CAMPOS = {
     "roic": ("roic", True),
     "mrgliq": ("mrg_liq", True),
     "liqcorr": ("liq_corr", False),
-    "divbrutpatrim": ("div_brut_pat", False),
+    "divliqpatrim": ("div_liq_pat", False),
     "crescrec5a": ("cresc_rec_5a", True),
 }
 
@@ -46,7 +46,7 @@ FINANCEIRAS = {
     "ITSA4", "ITUB4", "PSSA3", "SANB11",
 }
 NULOS_FINANCEIRAS = {
-    "ev_ebit", "ev_ebitda", "mrg_liq", "liq_corr", "div_brut_pat", "roic",
+    "ev_ebit", "ev_ebitda", "mrg_liq", "liq_corr", "div_liq_pat", "roic",
 }
 
 
