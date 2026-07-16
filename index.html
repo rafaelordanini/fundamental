@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitor IBOV — Valuation & Qualidade</title>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useMemo, useEffect } = React;
+
+// ─── Parâmetros da estratégia ───
+const BAZIN_YIELD_MIN = 0.06;
+const MARGEM_COMPRA = 0.25;
+const MARGEM_VENDA = -0.1667;
+const QUALIDADE_MIN = 60;
+
+const SEGMENTO_LABEL = { NM: "Novo Mercado", N2: "Nível 2", N1: "Nível 1", TRAD: "Tradicional" };
+const SEGMENTO_PTS = { NM: 2, N2: 1, N1: 0, TRAD: 0 };
+
+const QUALITY_CRITERIA = [
+  { key: "roe", label: "ROE", good: v => v >= 0.15, ok: v => v >= 0.08 },
+  { key: "roic", label: "ROIC", good: v => v >= 0.12, ok: v => v >= 0.06 },
+  { key: "mrg_liq", label: "Mrg. líquida", good: v => v >= 0.15, ok: v => v >= 0.05 },
+  { key: "liq_corr", label: "Liq. corrente", good: v => v >= 1.5, ok: v => v >= 1.0 },
+  { key: "div_brut_pat", label: "Dív/PL", good: v => v <= 0.5, ok: v => v <= 1.0 },
+  { key: "cresc_rec_5a", label: "Cresc. 5a", good: v => v >= 0.10, ok: v => v >= 0.0 },
+  { key: "ev_ebitda", label: "EV/EBITDA", good: v => v > 0 && v <= 6, ok: v => v > 0 && v <= 10 },
+];
+
+const VETOES = [
+  { key: "div_brut_pat", label: "Alavancagem excessiva (Dív/PL > 3)", test: v => v !== null && v > 3 },
+  { key: "liq_corr", label: "Liquidez corrente crítica (< 0,8)", test: v => v !== null && v < 0.8 },
+  { key: "roe", label: "ROE negativo", test: v => v !== null && v < 0 },
+  { key: "mrg_liq", label: "Margem líquida negativa", test: v => v !== null && v < 0 },
+];
+
+function computeQuality(row) {
+  let points = 0, maxPoints = 0;
+  const breakdown = [];
+  for (const c of QUALITY_CRITERIA) {
+    const v = row[c.key];
+    if (v === null || v === undefined) continue;
+    maxPoints += 2;
+    const pts = c.good(v) ? 2 : c.ok(v) ? 1 : 0;
+    points += pts;
+    breakdown.push({ label: c.label, pts });
+  }
+  if (row.segmento) {
+    maxPoints += 2;
+    const pts = SEGMENTO_PTS[row.segmento] ?? 0;
+    points += pts;
+    breakdown.push({ label: "Governança (" + (SEGMENTO_LABEL[row.segmento] ?? row.segmento) + ")", pts });
+  }
+  const score = maxPoints > 0 ? Math.round((points / maxPoints) * 100) : null;
+  return { score, breakdown, applicable: maxPoints / 2 };
+}
+
+function computeValuation(row) {
+  const { cotacao, pl, pvp, div_yield } = row;
+  let graham = null;
+  if (cotacao > 0 && pl !== null && pl > 0 && pvp !== null && pvp > 0) {
+    graham = Math.sqrt(22.5 * (cotacao / pl) * (cotacao / pvp));
+  }
+  let bazin = null;
+  if (cotacao > 0 && div_yield !== null && div_yield > 0) {
+    bazin = (div_yield * cotacao) / BAZIN_YIELD_MIN;
+  }
+  const referencia = graham ?? bazin;
+  const modeloUsado = graham !== null ? "Graham" : bazin !== null ? "Bazin" : null;
+  const margem = referencia !== null ? (referencia - cotacao) / cotacao : null;
+  const { score: qualidade, breakdown, applicable } = computeQuality(row);
+  const vetos = VETOES.filter(v => v.test(row[v.key])).map(v => v.label);
+
+  let recomendacao = "N/A", alerta = false;
+  if (margem !== null) {
+    if (margem <= MARGEM_VENDA) recomendacao = "Venda";
+    else if (margem >= MARGEM_COMPRA) {
+      if (vetos.length === 0 && qualidade !== null && qualidade >= QUALIDADE_MIN) recomendacao = "Compra";
+      else { recomendacao = "Neutro"; alerta = true; }
+    } else recomendacao = "Neutro";
+  }
+
+  let rankScore = null;
+  if (margem !== null) {
+    const margemNorm = Math.max(0, Math.min(100, ((margem + 0.5) / 2) * 100));
+    const gov = row.segmento === "NM" ? 100 : row.segmento === "N2" ? 50 : 0;
+    rankScore = Math.round(0.45 * margemNorm + 0.45 * (qualidade ?? 0) + 0.10 * gov);
+    if (vetos.length > 0) rankScore = Math.max(0, rankScore - 20);
+  }
+
+  return { ...row, graham, bazin, margem, qualidade, breakdown, applicable, vetos, recomendacao, alerta, modeloUsado, rankScore };
+}
+
+const COLUMNS = [
+  { key: "rankScore", label: "Score", fmt: "score" },
+  { key: "papel", label: "Papel", fmt: "text" },
+  { key: "segmento", label: "Seg.", fmt: "segmento" },
+  { key: "cotacao", label: "Cotação", fmt: "brl" },
+  { key: "pl", label: "P/L", fmt: "num" },
+  { key: "div_yield", label: "DY", fmt: "pct" },
+  { key: "roe", label: "ROE", fmt: "pct" },
+  { key: "div_brut_pat", label: "Dív/PL", fmt: "num" },
+  { key: "graham", label: "Justo", fmt: "brl" },
+  { key: "margem", label: "Margem", fmt: "pctSigned" },
+  { key: "qualidade", label: "Qualidade", fmt: "quality" },
+  { key: "recomendacao", label: "Sinal", fmt: "badge" },
+];
+
+function formatValue(value, fmt) {
+  if (value === null || value === undefined) return "—";
+  if (fmt === "text" || fmt === "badge") return value;
+  if (fmt === "brl") return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+  if (fmt === "pct") return (value * 100).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "%";
+  if (fmt === "pctSigned") {
+    const sign = value > 0 ? "+" : "";
+    return sign + (value * 100).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "%";
+  }
+  return value.toLocaleString("pt-BR", { maximumFractionDigits: 2 });
+}
+
+function valueColor(key, value) {
+  if (value === null || value === undefined) return "text-gray-400";
+  if (key === "margem") {
+    if (value >= MARGEM_COMPRA) return "text-emerald-600 font-semibold";
+    if (value <= MARGEM_VENDA) return "text-red-600 font-semibold";
+    return "text-gray-600";
+  }
+  if ((key === "roe" || key === "pl") && value < 0) return "text-red-600";
+  if (key === "div_brut_pat" && value > 3) return "text-red-600 font-semibold";
+  return "text-gray-800";
+}
+
+function SegmentoBadge({ value }) {
+  if (!value) return <span className="text-gray-400">—</span>;
+  const styles = {
+    NM: "bg-emerald-100 text-emerald-700 border-emerald-300",
+    N2: "bg-blue-100 text-blue-700 border-blue-200",
+    N1: "bg-gray-100 text-gray-600 border-gray-200",
+    TRAD: "bg-gray-50 text-gray-400 border-gray-100",
+  };
+  return (
+    <span className={"inline-flex items-center gap-0.5 rounded border px-1.5 py-0.5 text-xs font-semibold " + (styles[value] ?? styles.TRAD)} title={SEGMENTO_LABEL[value] ?? value}>
+      {value === "NM" ? "🛡 " : ""}{value}
+    </span>
+  );
+}
+
+function ScoreBadge({ value, rank }) {
+  if (value === null) return <span className="text-gray-400">—</span>;
+  const color = value >= 65 ? "text-emerald-700 bg-emerald-50 border-emerald-200" : value >= 45 ? "text-gray-700 bg-gray-50 border-gray-200" : "text-red-600 bg-red-50 border-red-100";
+  return (
+    <span className={"inline-flex items-center gap-1 rounded-lg border px-2 py-0.5 text-sm font-bold " + color}>
+      {rank !== null && rank <= 3 ? "🏆 " : ""}{value}
+    </span>
+  );
+}
+
+function QualityBar({ score }) {
+  if (score === null) return <span className="text-gray-400">—</span>;
+  const color = score >= 60 ? "bg-emerald-500" : score >= 40 ? "bg-amber-400" : "bg-red-400";
+  return (
+    <div className="flex items-center gap-2">
+      <div className="h-2 w-16 overflow-hidden rounded-full bg-gray-200">
+        <div className={"h-full " + color} style={{ width: score + "%" }} />
+      </div>
+      <span className="text-xs font-medium text-gray-600">{score}</span>
+    </div>
+  );
+}
+
+function RecomendacaoBadge({ row, onDetail }) {
+  const styles = {
+    Compra: "bg-emerald-100 text-emerald-700 border-emerald-200",
+    Venda: "bg-red-100 text-red-700 border-red-200",
+    Neutro: "bg-gray-100 text-gray-600 border-gray-200",
+    "N/A": "bg-gray-50 text-gray-400 border-gray-100",
+  };
+  return (
+    <button onClick={() => onDetail(row)} className={"inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium transition-transform hover:scale-105 " + styles[row.recomendacao]}>
+      {row.recomendacao}{row.alerta ? " ⚠" : ""}
+    </button>
+  );
+}
+
+function DetailModal({ row, onClose }) {
+  if (!row) return null;
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 p-4" onClick={onClose}>
+      <div className="max-h-full w-full max-w-md overflow-y-auto rounded-xl bg-white p-5 shadow-xl" onClick={e => e.stopPropagation()}>
+        <div className="mb-3 flex items-center justify-between">
+          <h3 className="flex items-center gap-2 text-lg font-bold text-gray-900">{row.papel} <SegmentoBadge value={row.segmento} /></h3>
+          <button onClick={onClose} className="rounded p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600">✕</button>
+        </div>
+        <div className="mb-3 rounded-lg bg-gray-50 p-3 text-sm">
+          <div className="flex justify-between py-0.5"><span className="text-gray-500">Score de ranking</span><span className="font-bold">{row.rankScore ?? "—"}/100</span></div>
+          <div className="flex justify-between py-0.5"><span className="text-gray-500">Modelo de valuation</span><span className="font-medium">{row.modeloUsado ?? "Nenhum aplicável"}</span></div>
+          <div className="flex justify-between py-0.5"><span className="text-gray-500">Preço justo</span><span className="font-medium">{formatValue(row.graham ?? row.bazin, "brl")}</span></div>
+          <div className="flex justify-between py-0.5"><span className="text-gray-500">Margem de segurança</span><span className={valueColor("margem", row.margem)}>{formatValue(row.margem, "pctSigned")}</span></div>
+        </div>
+        <h4 className="mb-1 text-sm font-semibold text-gray-700">Qualidade: {row.qualidade ?? "—"}/100 ({row.applicable} critérios aplicáveis)</h4>
+        <div className="mb-3 space-y-1">
+          {row.breakdown.map(b => (
+            <div key={b.label} className="flex items-center justify-between text-sm">
+              <span className="text-gray-600">{b.label}</span>
+              <span className={b.pts === 2 ? "text-emerald-600" : b.pts === 1 ? "text-amber-500" : "text-red-500"}>
+                {b.pts === 2 ? "●● bom" : b.pts === 1 ? "●○ ok" : "○○ ruim"}
+              </span>
+            </div>
+          ))}
+        </div>
+        {row.vetos.length > 0 && (
+          <div className="rounded-lg border border-red-200 bg-red-50 p-3">
+            <h4 className="mb-1 text-sm font-semibold text-red-700">⚠ Vetos ativos (−20 no score)</h4>
+            <ul className="list-inside list-disc text-sm text-red-600">{row.vetos.map(v => <li key={v}>{v}</li>)}</ul>
+          </div>
+        )}
+        {row.alerta && <p className="mt-3 text-xs text-amber-600">⚠ Margem de compra pelo valuation, mas rebaixado a Neutro por qualidade insuficiente ou vetos.</p>}
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  const [dados, setDados] = useState(null);
+  const [erro, setErro] = useState(null);
+  const [search, setSearch] = useState("");
+  const [sortKey, setSortKey] = useState("rankScore");
+  const [sortAsc, setSortAsc] = useState(false);
+  const [detail, setDetail] = useState(null);
+  const [soNovoMercado, setSoNovoMercado] = useState(false);
+
+  useEffect(() => {
+    fetch("./data/latest.json?v=" + new Date().toISOString().slice(0, 10))
+      .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(setDados)
+      .catch(e => setErro(e.message));
+  }, []);
+
+  const enriched = useMemo(() => {
+    if (!dados || !dados.rows) return [];
+    const list = dados.rows.map(computeValuation);
+    const ordered = [...list].sort((a, b) => (b.rankScore ?? -1) - (a.rankScore ?? -1));
+    ordered.forEach((r, i) => { r.posicao = r.rankScore !== null ? i + 1 : null; });
+    return list;
+  }, [dados]);
+
+  const filtered = useMemo(() => {
+    const term = search.trim().toUpperCase();
+    let result = enriched.filter(r => {
+      if (term && !r.papel.includes(term)) return false;
+      if (soNovoMercado && r.segmento !== "NM") return false;
+      return true;
+    });
+    result.sort((a, b) => {
+      const va = a[sortKey], vb = b[sortKey];
+      if (va === null || va === undefined) return 1;
+      if (vb === null || vb === undefined) return -1;
+      if (typeof va === "string") return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+      return sortAsc ? va - vb : vb - va;
+    });
+    return result;
+  }, [enriched, search, sortKey, sortAsc, soNovoMercado]);
+
+  function toggleSort(key) {
+    if (key === sortKey) setSortAsc(!sortAsc);
+    else { setSortKey(key); setSortAsc(key === "papel"); }
+  }
+
+  if (erro) return (
+    <div className="mx-auto mt-16 max-w-md rounded-xl border border-red-200 bg-red-50 p-6 text-center">
+      <p className="font-semibold text-red-700">Não foi possível carregar data/latest.json</p>
+      <p className="mt-2 text-sm text-red-600">{erro}</p>
+      <p className="mt-2 text-xs text-gray-500">Rode o workflow "Snapshot diário Fundamentus" no GitHub Actions para gerar o primeiro snapshot.</p>
+    </div>
+  );
+  if (!dados) return <div className="mt-16 text-center text-gray-400">Carregando…</div>;
+
+  const nCompra = enriched.filter(r => r.recomendacao === "Compra").length;
+  const nVenda = enriched.filter(r => r.recomendacao === "Venda").length;
+  const nRebaixados = enriched.filter(r => r.alerta).length;
+
+  return (
+    <div className="min-h-screen p-4 md:p-6">
+      <div className="mx-auto max-w-7xl">
+        <div className="mb-6 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-gray-900">📈 Monitor IBOV</h1>
+            <p className="mt-1 text-sm text-gray-500">
+              Snapshot de {dados.data_coleta === "seed" ? "— (seed inicial)" : new Date(dados.data_coleta + "T12:00:00").toLocaleDateString("pt-BR")} · {dados.fonte} · {dados.total} papéis · ordenado pelas melhores
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+            <label className="flex cursor-pointer items-center gap-2 text-sm text-gray-600">
+              <input type="checkbox" checked={soNovoMercado} onChange={e => setSoNovoMercado(e.target.checked)} className="h-4 w-4 rounded border-gray-300 text-emerald-600" />
+              🛡 Só Novo Mercado
+            </label>
+            <input type="text" placeholder="🔍 Buscar ticker..." value={search} onChange={e => setSearch(e.target.value)} className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 sm:w-56" />
+          </div>
+        </div>
+
+        <div className="mb-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
+            <div className="text-sm text-gray-500">Tickers</div>
+            <div className="mt-1 text-2xl font-bold text-gray-900">{enriched.length}</div>
+          </div>
+          <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4 shadow-sm">
+            <div className="text-sm text-emerald-700">Compra</div>
+            <div className="mt-1 text-2xl font-bold text-emerald-700">{nCompra}</div>
+          </div>
+          <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 shadow-sm">
+            <div className="text-sm text-amber-700">Baratas rebaixadas ⚠</div>
+            <div className="mt-1 text-2xl font-bold text-amber-700">{nRebaixados}</div>
+          </div>
+          <div className="rounded-xl border border-red-200 bg-red-50 p-4 shadow-sm">
+            <div className="text-sm text-red-700">Venda</div>
+            <div className="mt-1 text-2xl font-bold text-red-700">{nVenda}</div>
+          </div>
+        </div>
+
+        <div className="mb-4 rounded-lg border border-blue-100 bg-blue-50 p-3 text-xs text-blue-800">
+          ℹ <strong>Score de ranking</strong> = 45% margem de segurança + 45% qualidade + 10% governança (NM integral, N2 parcial), −20 se houver veto ativo.
+          <strong> Compra</strong> exige margem ≥ +25%, qualidade ≥ {QUALIDADE_MIN} e zero vetos. Clique no sinal para a decomposição.
+        </div>
+
+        <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white shadow-sm">
+          <table className="w-full min-w-max text-sm">
+            <thead>
+              <tr className="border-b border-gray-200 bg-gray-50">
+                {COLUMNS.map(col => (
+                  <th key={col.key} onClick={() => toggleSort(col.key)} className="cursor-pointer select-none whitespace-nowrap px-3 py-3 text-left font-semibold text-gray-600 hover:bg-gray-100 hover:text-gray-900">
+                    {col.label}{sortKey === col.key ? (sortAsc ? " ↑" : " ↓") : ""}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {filtered.map(row => (
+                <tr key={row.papel} className="border-b border-gray-100 last:border-0 hover:bg-emerald-50">
+                  {COLUMNS.map(col => (
+                    <td key={col.key} className={"whitespace-nowrap px-3 py-2.5 " + (col.key === "papel" ? "font-semibold text-gray-900" : valueColor(col.key, row[col.key]))}>
+                      {col.fmt === "badge" ? <RecomendacaoBadge row={row} onDetail={setDetail} />
+                        : col.fmt === "quality" ? <QualityBar score={row.qualidade} />
+                        : col.fmt === "segmento" ? <SegmentoBadge value={row.segmento} />
+                        : col.fmt === "score" ? <ScoreBadge value={row.rankScore} rank={row.posicao} />
+                        : formatValue(row[col.key], col.fmt)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+              {filtered.length === 0 && (
+                <tr><td colSpan={COLUMNS.length} className="px-3 py-8 text-center text-gray-400">Nenhum ticker encontrado. Se a lista está vazia, rode o workflow no GitHub Actions.</td></tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+
+        <p className="mt-4 text-xs text-gray-400">
+          Ferramenta educacional de screening quantitativo — <strong>não constitui recomendação de investimento</strong>.
+          Dados: Fundamentus, atualizados em dias úteis via GitHub Actions. Composição do IBOV e segmentos devem ser validados contra a B3 a cada quadrimestre.
+        </p>
+
+        <DetailModal row={detail} onClose={() => setDetail(null)} />
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
