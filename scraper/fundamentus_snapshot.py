@@ -5,6 +5,7 @@ e grava data/latest.json na raiz do repositório.
 """
 import csv
 import json
+import re
 import sys
 import unicodedata
 from datetime import date
@@ -23,20 +24,20 @@ HEADERS = {
     )
 }
 
-# cabeçalho normalizado do Fundamentus -> (chave JSON, é percentual?)
+# cabeçalho totalmente normalizado (só letras/números) -> (chave JSON, é percentual?)
 CAMPOS = {
     "cotacao": ("cotacao", False),
-    "p/l": ("pl", False),
-    "p/vp": ("pvp", False),
-    "div.yield": ("div_yield", True),
-    "ev/ebit": ("ev_ebit", False),
-    "ev/ebitda": ("ev_ebitda", False),
+    "pl": ("pl", False),
+    "pvp": ("pvp", False),
+    "divyield": ("div_yield", True),
+    "evebit": ("ev_ebit", False),
+    "evebitda": ("ev_ebitda", False),
     "roe": ("roe", True),
     "roic": ("roic", True),
-    "mrg.liq.": ("mrg_liq", True),
-    "liq.corr.": ("liq_corr", False),
-    "div.brut/patrim.": ("div_brut_pat", False),
-    "cresc.rec.5a": ("cresc_rec_5a", True),
+    "mrgliq": ("mrg_liq", True),
+    "liqcorr": ("liq_corr", False),
+    "divbrutpatrim": ("div_brut_pat", False),
+    "crescrec5a": ("cresc_rec_5a", True),
 }
 
 # Instituições financeiras: EV/EBITDA, liq. corrente etc. não se aplicam.
@@ -50,10 +51,12 @@ NULOS_FINANCEIRAS = {
 
 
 def normaliza(texto: str) -> str:
-    """Remove acentos e espaços para casar cabeçalhos com robustez."""
+    """Remove acentos e QUALQUER caractere que não seja letra ou número.
+    'Dív.Brut/ Patrim.' -> 'divbrutpatrim'. Imune a espaços extras,
+    quebras de linha, pontos e barras."""
     s = unicodedata.normalize("NFKD", texto)
     s = "".join(c for c in s if not unicodedata.combining(c))
-    return s.replace(" ", "").replace("í", "i").lower()
+    return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
 def parse_num(txt: str, pct: bool):
@@ -93,14 +96,21 @@ def main() -> None:
     if tabela is None:
         sys.exit("ERRO: tabela de resultados não encontrada — layout mudou?")
 
-    cabecalhos = [normaliza(th.get_text()) for th in tabela.find("thead").find_all("th")]
+    ths = tabela.find("thead").find_all("th")
+    cabecalhos_norm = [normaliza(th.get_text()) for th in ths]
+
     indices = {}
-    for i, h in enumerate(cabecalhos):
+    for i, h in enumerate(cabecalhos_norm):
         if h in CAMPOS:
             indices[i] = CAMPOS[h]
 
-    faltando = set(k for k, _ in CAMPOS.values()) - set(k for k, _ in indices.values())
+    esperadas = {k for k, _ in CAMPOS.values()}
+    obtidas = {k for k, _ in indices.values()}
+    faltando = esperadas - obtidas
     if faltando:
+        print("Cabeçalhos originais encontrados no site:")
+        for th in ths:
+            print(f"  {th.get_text(strip=True)!r} -> {normaliza(th.get_text())!r}")
         sys.exit(f"ERRO: colunas ausentes no Fundamentus: {faltando}")
 
     rows = []
