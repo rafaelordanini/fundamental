@@ -11,6 +11,11 @@ on:
         description: "Ticker específico, por exemplo PETR4; vazio processa todos os alterados"
         required: false
         type: string
+      max_news:
+        description: "Máximo de novas matérias lidas pelo V4 Flash"
+        required: false
+        default: "120"
+        type: string
 
 concurrency:
   group: deepseek-analysis
@@ -19,7 +24,7 @@ concurrency:
 jobs:
   analyse:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     permissions:
       contents: write
     steps:
@@ -37,24 +42,34 @@ jobs:
             echo "Configure o secret DEEPSEEK_API_KEY em Settings > Secrets and variables > Actions."
             exit 1
           fi
-      - name: Gerar análises
+      - name: Calcular comparação setorial
+        run: python scraper/sector_context.py
+      - name: Ler notícias com DeepSeek V4 Flash
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_READER_MODEL: ${{ vars.DEEPSEEK_READER_MODEL || 'deepseek-v4-flash' }}
+          DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL || 'https://api.deepseek.com' }}
+          MAX_NEWS: ${{ inputs.max_news }}
+        run: python scraper/news_context.py --max-new-articles "${MAX_NEWS:-120}"
+      - name: Gerar análise final com DeepSeek V4 Pro
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-pro' }}
           DEEPSEEK_THINKING: ${{ vars.DEEPSEEK_THINKING || 'enabled' }}
+          DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL || 'https://api.deepseek.com' }}
           FORCE_ANALYSIS: ${{ inputs.force }}
           TICKER_ANALYSIS: ${{ inputs.ticker }}
         run: |
           args=()
           if [ "$FORCE_ANALYSIS" = "true" ]; then args+=(--force); fi
           if [ -n "$TICKER_ANALYSIS" ]; then args+=(--ticker "$TICKER_ANALYSIS"); fi
-          python scraper/deepseek_analysis.py "${args[@]}"
+          python scraper/contextual_analysis.py "${args[@]}"
       - name: Validar arquivo gerado
-        run: python scraper/deepseek_analysis.py --validate-only
-      - name: Commit análises
+        run: python scraper/contextual_analysis.py --validate-only
+      - name: Commit contextos e análises
         run: |
           git config user.name "bot-analysis"
           git config user.email "bot@users.noreply.github.com"
-          git add data/analysis.json
+          git add data/sector_context.json data/news_context.json data/analysis.json
           git diff --staged --quiet || git commit -m "analysis DeepSeek V4 $(date -u +%F)"
           git push
