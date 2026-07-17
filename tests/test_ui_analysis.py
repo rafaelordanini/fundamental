@@ -1,3 +1,4 @@
+import re
 import unittest
 from pathlib import Path
 
@@ -26,11 +27,12 @@ class AnalysisUiTests(unittest.TestCase):
         self.assertIn("entry.prompt_version", panels)
         self.assertIn("mudancas_desde_anterior", panels)
 
-    def test_api_key_is_not_referenced_in_client_files(self):
+    def test_client_does_not_contain_api_credentials_or_endpoint_calls(self):
         for filename in ("index.html", "ui-core.jsx", "ui-panels.jsx", "app.jsx"):
             content = (ROOT / filename).read_text(encoding="utf-8")
-            self.assertNotIn("DEEPSEEK_API_KEY", content, filename)
             self.assertNotIn("api.deepseek.com", content, filename)
+            self.assertNotIn("Authorization", content, filename)
+            self.assertNotRegex(content, re.compile(r"sk-[A-Za-z0-9_-]{12,}"), filename)
 
 
 if __name__ == "__main__":
