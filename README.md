@@ -1,18 +1,37 @@
 # Monitor IBOV — Valuation, Qualidade & Histórico
 
 Screening quantitativo das ações do IBOV com valuation (Graham/Bazin),
-indicadores atuais do Fundamentus e até 20 trimestres de demonstrações
-consolidadas da CVM.
+indicadores atuais do Fundamentus, classificação setorial e até 20 trimestres de
+demonstrações consolidadas da CVM.
 
 ## Como funciona
 
-- **Diariamente:** `scraper/fundamentus_snapshot.py` atualiza cotação, múltiplos e
-  indicadores correntes em `data/latest.json`.
-- **Semanalmente:** `scraper/cvm_history.py` cruza os tickers com o cadastro da B3,
-  baixa ITR/DFP dos últimos seis anos, transforma valores acumulados em trimestres
-  isolados e grava `data/history.json`.
+- **Diariamente:** `scraper/fundamentus_snapshot.py` atualiza cotação, múltiplos,
+  indicadores correntes, setor e atividade em `data/latest.json`.
+- **Semanalmente:** `scraper/run_cvm_history.py` cruza os tickers com o cadastro da
+  B3, baixa ITR/DFP de até dez anos-calendário, transforma valores acumulados em
+  trimestres isolados e grava `data/history.json`.
 - **No navegador:** `score.js` combina os dois conjuntos sem backend e calcula o
   ranking, os vetos e o sinal final.
+
+## Filtros e ranking
+
+A tabela pode ser filtrada por:
+
+- setor econômico amplo;
+- atividade específica;
+- Novo Mercado;
+- disponibilidade mínima de histórico;
+- ticker, empresa, setor ou atividade pela busca textual.
+
+Ao escolher setor ou atividade, a ordenação volta automaticamente para o score
+combinado de qualidade e preço. A posição e o troféu são recalculados dentro do
+recorte selecionado. Os desempates consideram, nesta ordem, qualidade
+consolidada, margem de segurança e ticker.
+
+A classificação setorial fica em `scraper/classificacao_setorial.csv`. Ela segue
+a estrutura de setores da B3 e deve ser conferida quando a carteira do IBOV ou a
+classificação oficial forem revisadas.
 
 ## Setup
 
@@ -21,8 +40,8 @@ consolidadas da CVM.
 2. Rode manualmente **Snapshot diário Fundamentus** para atualizar
    `data/latest.json`.
 3. Rode manualmente **Histórico semanal CVM** para gerar o primeiro histórico.
-   A primeira execução baixa aproximadamente seis anos de arquivos ITR/DFP e pode
-   levar alguns minutos.
+   A primeira execução baixa aproximadamente dez anos-calendário de arquivos
+   ITR/DFP e pode levar alguns minutos.
 4. Na Vercel, use Framework Preset **Other**, sem build command, com output na raiz.
 
 ## Metodologia do score
@@ -58,10 +77,10 @@ Aliases decorrentes de mudanças societárias podem ser registrados em
 
 - Fundamentus: dias úteis, via GitHub Actions.
 - CVM: conjuntos públicos ITR e DFP consolidados, atualizados semanalmente.
-- B3: cadastro de companhias usado para cruzar o prefixo do ticker com o código CVM.
+- B3: cadastro de companhias e estrutura de classificação setorial.
 
-A coleta aborta quando a cobertura cai abaixo dos limites mínimos, evitando que
-um arquivo parcial substitua um snapshot válido.
+As coletas abortam quando a cobertura cai abaixo dos limites mínimos, evitando
+que arquivos parciais substituam snapshots válidos.
 
 ## Testes
 
