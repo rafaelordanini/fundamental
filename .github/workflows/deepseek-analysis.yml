@@ -1,0 +1,60 @@
+name: Análises DeepSeek V4
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Regenerar inclusive análises cujo hash não mudou"
+        required: false
+        default: false
+        type: boolean
+      ticker:
+        description: "Ticker específico, por exemplo PETR4; vazio processa todos os alterados"
+        required: false
+        type: string
+
+concurrency:
+  group: deepseek-analysis
+  cancel-in-progress: false
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Verificar chave da API
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          if [ -z "$DEEPSEEK_API_KEY" ]; then
+            echo "Configure o secret DEEPSEEK_API_KEY em Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+      - name: Gerar análises
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-pro' }}
+          DEEPSEEK_THINKING: ${{ vars.DEEPSEEK_THINKING || 'enabled' }}
+          FORCE_ANALYSIS: ${{ inputs.force }}
+          TICKER_ANALYSIS: ${{ inputs.ticker }}
+        run: |
+          args=()
+          if [ "$FORCE_ANALYSIS" = "true" ]; then args+=(--force); fi
+          if [ -n "$TICKER_ANALYSIS" ]; then args+=(--ticker "$TICKER_ANALYSIS"); fi
+          python scraper/deepseek_analysis.py "${args[@]}"
+      - name: Validar arquivo gerado
+        run: python scraper/deepseek_analysis.py --validate-only
+      - name: Commit análises
+        run: |
+          git config user.name "bot-analysis"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/analysis.json
+          git diff --staged --quiet || git commit -m "analysis DeepSeek V4 $(date -u +%F)"
+          git push
