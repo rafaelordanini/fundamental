@@ -9,6 +9,7 @@ on:
       - "scraper/cvm_history.py"
       - "scraper/cvm_cashflow.py"
       - "scraper/run_cvm_history.py"
+      - "scraper/deepseek_analysis.py"
       - "scraper/cvm_overrides.csv"
       - "scraper/ibov.txt"
       - ".github/workflows/weekly-cvm-history.yml"
@@ -20,7 +21,7 @@ concurrency:
 jobs:
   history:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 90
     permissions:
       contents: write
     steps:
@@ -50,10 +51,21 @@ jobs:
           if cashflow < 10:
               raise SystemExit("Cobertura insuficiente: menos de 10 empresas com fluxo de caixa")
           PY
-      - name: Commit histórico
+      - name: Atualizar análises com DeepSeek V4
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-pro' }}
+          DEEPSEEK_THINKING: ${{ vars.DEEPSEEK_THINKING || 'enabled' }}
+        run: |
+          if [ -z "$DEEPSEEK_API_KEY" ]; then
+            echo "::warning::DEEPSEEK_API_KEY não configurada; o histórico será atualizado sem regenerar os textos."
+          else
+            python scraper/deepseek_analysis.py
+          fi
+      - name: Commit histórico e análises
         run: |
           git config user.name "bot-history"
           git config user.email "bot@users.noreply.github.com"
-          git add data/history.json
+          git add data/history.json data/analysis.json
           git diff --staged --quiet || git commit -m "history $(date -u +%F)"
           git push
