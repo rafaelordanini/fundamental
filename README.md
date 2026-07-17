@@ -2,7 +2,8 @@
 
 Screening quantitativo das ações do IBOV com valuation por Graham/Bazin,
 fluxo de caixa descontado, indicadores atuais do Fundamentus, classificação
-setorial e até 20 trimestres de demonstrações consolidadas da CVM.
+setorial, até 20 trimestres de demonstrações consolidadas da CVM e relatórios
+analíticos gerados pelo DeepSeek V4.
 
 ## Como funciona
 
@@ -14,7 +15,11 @@ setorial e até 20 trimestres de demonstrações consolidadas da CVM.
 - **Fluxo de caixa:** `scraper/cvm_cashflow.py` acrescenta as demonstrações DFC-MI
   e DFC-MD, corrige a escala numérica dos CSVs da CVM e calcula uma aproximação
   conservadora do fluxo de caixa livre.
-- **No navegador:** `score.js` calcula qualidade, ranking, sinais e o modelo FCD.
+- **Análise por IA:** `scraper/deepseek_analysis.py` transforma os dados calculados
+  em um pacote de fatos, chama o DeepSeek V4 e grava relatórios validados em
+  `data/analysis.json`.
+- **No navegador:** `score.js` calcula qualidade, ranking, sinais e o modelo FCD;
+  os arquivos `ui-core.jsx`, `ui-panels.jsx` e `app.jsx` exibem os resultados.
 
 ## Filtros e ranking
 
@@ -74,20 +79,79 @@ com alternativa por lucro TTM e LPA. Bancos, seguradoras e holdings financeiras
 não recebem esse FCD, pois seus fluxos operacionais e de financiamento exigem
 modelos próprios, como desconto de dividendos ou excesso de capital.
 
-O FCD é exibido como ferramenta exploratória e **não altera o ranking principal**
-nesta versão. Isso impede que premissas subjetivas de crescimento e desconto
-mudem silenciosamente o sinal de compra ou venda.
+O FCD é exibido como ferramenta exploratória e **não altera o ranking principal**.
+Isso impede que premissas subjetivas de crescimento e desconto mudem
+silenciosamente o sinal de compra ou venda.
+
+## Análises com DeepSeek V4
+
+A terceira aba da página individual apresenta um relatório com:
+
+- leitura rápida da empresa;
+- tese quantitativa;
+- pontos fortes;
+- pontos de atenção;
+- leitura de valuation;
+- mudanças desde a análise anterior;
+- itens a monitorar;
+- limitações e confiança dos dados.
+
+O modelo padrão é `deepseek-v4-pro`. Para menor custo e menor latência, o projeto
+aceita também `deepseek-v4-flash`.
+
+### Separação entre cálculo e redação
+
+O DeepSeek não calcula os indicadores e não recebe liberdade para alterar o
+score. O script primeiro gera fatos determinísticos a partir dos arquivos do
+projeto. A IA apenas interpreta esses fatos e devolve JSON estruturado.
+
+Cada afirmação material deve citar chaves existentes no pacote de evidências. A
+resposta é rejeitada quando:
+
+- utiliza uma evidência inexistente;
+- não respeita a estrutura esperada;
+- contém linguagem de certeza ou recomendação indevida;
+- excede os limites de tamanho definidos pelo validador.
+
+Cada análise registra modelo, versão do prompt, data de geração, fatos utilizados
+e um hash. Quando o hash não muda, a API não é chamada novamente. Se uma chamada
+falhar, o relatório anterior é preservado.
+
+### Configuração da API
+
+Em **Settings → Secrets and variables → Actions**, configure:
+
+- secret obrigatório `DEEPSEEK_API_KEY`;
+- variável opcional `DEEPSEEK_MODEL`, com `deepseek-v4-pro` ou
+  `deepseek-v4-flash`;
+- variável opcional `DEEPSEEK_THINKING`, com `enabled` ou `disabled`.
+
+A chave nunca é enviada ao navegador nem gravada no repositório. As chamadas são
+feitas dentro do GitHub Actions para `https://api.deepseek.com/chat/completions`.
+
+O workflow **Análises DeepSeek V4** permite:
+
+- processar apenas empresas cujos fatos mudaram;
+- forçar a regeneração completa;
+- gerar novamente somente um ticker;
+- validar o arquivo antes do commit.
+
+Os workflows diário e semanal também atualizam os relatórios depois de mudanças
+nos dados. Se o secret ainda não estiver configurado, eles atualizam os números e
+apenas emitem um aviso, sem derrubar a coleta.
 
 ## Setup
 
 1. Em **Settings → Actions → General → Workflow permissions**, habilite
    **Read and write permissions**.
-2. Rode manualmente **Snapshot diário Fundamentus** para atualizar
+2. Configure o secret `DEEPSEEK_API_KEY`.
+3. Rode manualmente **Snapshot diário Fundamentus** para atualizar
    `data/latest.json`.
-3. Rode manualmente **Histórico semanal CVM** para gerar o histórico e os fluxos
+4. Rode manualmente **Histórico semanal CVM** para gerar o histórico e os fluxos
    de caixa. A primeira execução baixa aproximadamente dez anos-calendário de
    arquivos ITR/DFP e pode levar vários minutos.
-4. Na Vercel, use Framework Preset **Other**, sem build command, com output na raiz.
+5. Rode **Análises DeepSeek V4** para gerar os primeiros relatórios.
+6. Na Vercel, use Framework Preset **Other**, sem build command, com output na raiz.
 
 ## Metodologia do score
 
@@ -121,6 +185,7 @@ registrados em `scraper/cvm_overrides.csv`.
 - Fundamentus: dias úteis, via GitHub Actions.
 - CVM: ITR e DFP consolidados, incluindo DFC-MI e DFC-MD, atualizados semanalmente.
 - B3: cadastro de companhias e estrutura de classificação setorial.
+- DeepSeek: geração textual sobre fatos estruturados; não é fonte dos números.
 
 As coletas abortam quando a cobertura cai abaixo dos limites mínimos, evitando
 que arquivos parciais substituam snapshots válidos.
@@ -132,6 +197,9 @@ pip install -r requirements.txt
 python -m unittest discover -s tests -v
 node tests/test_score.js
 ```
+
+Os testes de IA utilizam respostas simuladas. Uma execução real da API depende do
+secret `DEEPSEEK_API_KEY`.
 
 ## Aviso legal
 

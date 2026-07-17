@@ -1,0 +1,12 @@
+{
+ "data_geracao": "seed",
+ "fonte": "DeepSeek API sobre fatos determinísticos do projeto",
+ "modelo_padrao": "deepseek-v4-pro",
+ "prompt_version": "deepseek-analyst-v1",
+ "mercado_data": null,
+ "historico_data": null,
+ "total": 0,
+ "geradas_nesta_execucao": 0,
+ "erros": [],
+ "companies": {}
+}
