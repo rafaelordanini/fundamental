@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "scraper/cvm_history.py"
+      - "scraper/run_cvm_history.py"
       - "scraper/cvm_overrides.csv"
       - "scraper/ibov.txt"
       - ".github/workflows/weekly-cvm-history.yml"
@@ -29,7 +30,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Coletar histórico CVM
-        run: python scraper/cvm_history.py --years 10
+        run: python scraper/run_cvm_history.py --years 10
       - name: Validar histórico gerado
         run: |
           python - <<'PY'
