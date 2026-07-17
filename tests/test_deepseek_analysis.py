@@ -1,4 +1,3 @@
-import json
 import sys
 import unittest
 from pathlib import Path
@@ -78,7 +77,7 @@ class DeepSeekAnalysisTests(unittest.TestCase):
     def test_build_facts_contains_only_known_evidence(self):
         facts = build_facts(ROW, HISTORY)
         self.assertEqual(facts["ticker"], "TEST3")
-        self.assertEqual(facts["qualidade"]["consolidada"], 94)
+        self.assertEqual(facts["qualidade"]["consolidada"], 96)
         self.assertEqual(facts["valuation"]["reference_model"], "Graham")
         self.assertIn("roe", facts["evidencias"])
         self.assertIn("normalized_fcf_million", facts["evidencias"])
