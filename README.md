@@ -1,42 +1,75 @@
-# Monitor IBOV — Valuation & Qualidade
+# Monitor IBOV — Valuation, Qualidade & Histórico
 
 Screening quantitativo das ações do IBOV com valuation (Graham/Bazin),
-score de qualidade fundamentalista e ranking combinado.
-Dados coletados do Fundamentus em dias úteis via GitHub Actions.
+indicadores atuais do Fundamentus e até 20 trimestres de demonstrações
+consolidadas da CVM.
+
+## Como funciona
+
+- **Diariamente:** `scraper/fundamentus_snapshot.py` atualiza cotação, múltiplos e
+  indicadores correntes em `data/latest.json`.
+- **Semanalmente:** `scraper/cvm_history.py` cruza os tickers com o cadastro da B3,
+  baixa ITR/DFP dos últimos seis anos, transforma valores acumulados em trimestres
+  isolados e grava `data/history.json`.
+- **No navegador:** `score.js` combina os dois conjuntos sem backend e calcula o
+  ranking, os vetos e o sinal final.
 
 ## Setup
 
-1. Crie um repositório no GitHub e suba todos os arquivos.
-2. Em **Settings → Actions → General → Workflow permissions**, marque
-   **Read and write permissions** (necessário para o bot commitar o snapshot).
-3. Em **Actions**, rode manualmente o workflow **Snapshot diário Fundamentus**
-   (botão *Run workflow*) para gerar o primeiro `data/latest.json`.
-4. Importe o repositório na Vercel: Framework Preset **Other**,
-   sem build command, output directory **./** (raiz). Cada commit do bot
-   redeploya o site automaticamente.
+1. Em **Settings → Actions → General → Workflow permissions**, habilite
+   **Read and write permissions**.
+2. Rode manualmente **Snapshot diário Fundamentus** para atualizar
+   `data/latest.json`.
+3. Rode manualmente **Histórico semanal CVM** para gerar o primeiro histórico.
+   A primeira execução baixa aproximadamente seis anos de arquivos ITR/DFP e pode
+   levar alguns minutos.
+4. Na Vercel, use Framework Preset **Other**, sem build command, com output na raiz.
 
-## Manutenção
+## Metodologia do score
 
-- **A cada quadrimestre (jan/mai/set):** conferir `scraper/ibov.txt` contra a
-  carteira teórica vigente da B3 e `scraper/segmentos.csv` contra os segmentos
-  de listagem atuais.
-- Se o Fundamentus mudar o layout, o scraper aborta com erro explícito em vez
-  de gravar dados ruins (validação de colunas e de cobertura mínima de 80%).
-- Instituições financeiras têm indicadores não aplicáveis (EV/EBITDA,
-  liquidez corrente etc.) zerados no scraper — lista em `FINANCEIRAS`.
+### Qualidade consolidada
 
-## Metodologia
+- **65% indicadores atuais:** ROE, ROIC, margem líquida, liquidez corrente,
+  dívida líquida/PL, crescimento de receita, EV/EBITDA e governança.
+- **35% histórico CVM:** cobertura, proporção de trimestres lucrativos, CAGR da
+  receita, frequência de crescimento anual, estabilidade da margem, ROE TTM e
+  tendência da dívida líquida.
+- Bancos e seguradoras não recebem o critério histórico de dívida, pois sua
+  estrutura de balanço não é comparável à de companhias não financeiras.
 
-- **Preço justo:** Graham (√(22,5 · LPA · VPA)) quando P/L e P/VP > 0;
-  fallback Bazin (DPA / 6%) para o restante.
-- **Qualidade (0–100):** ROE, ROIC, margem líquida, liquidez corrente,
-  Dív/PL, crescimento 5a, EV/EBITDA e segmento de listagem, ponderados
-  apenas pelos critérios aplicáveis a cada papel.
-- **Vetos:** Dív/PL > 3, liq. corrente < 0,8, ROE ou margem negativos.
-- **Score de ranking:** 45% margem de segurança + 45% qualidade +
-  10% governança, −20 pontos se houver veto.
-- **Sinais:** Compra = margem ≥ +25% E qualidade ≥ 60 E zero vetos;
-  Venda = margem ≤ −16,7%; caso contrário Neutro.
+### Sinais
+
+- **Compra:** margem de segurança ≥ 25%, qualidade consolidada ≥ 60, pelo menos
+  8 trimestres de histórico e nenhum veto.
+- **Venda:** margem de segurança ≤ −16,7%.
+- **Neutro:** demais casos.
+
+### Vetos históricos
+
+- patrimônio líquido negativo;
+- prejuízo em mais da metade dos trimestres, desde que existam ao menos oito.
+
+O histórico não tenta substituir análise contábil. Reapresentações, mudanças de
+estrutura societária, fusões e alterações de ticker exigem revisão humana.
+Aliases decorrentes de mudanças societárias podem ser registrados em
+`scraper/cvm_overrides.csv`.
+
+## Dados e atualização
+
+- Fundamentus: dias úteis, via GitHub Actions.
+- CVM: conjuntos públicos ITR e DFP consolidados, atualizados semanalmente.
+- B3: cadastro de companhias usado para cruzar o prefixo do ticker com o código CVM.
+
+A coleta aborta quando a cobertura cai abaixo dos limites mínimos, evitando que
+um arquivo parcial substitua um snapshot válido.
+
+## Testes
+
+```bash
+pip install -r requirements.txt
+python -m unittest discover -s tests -v
+node tests/test_score.js
+```
 
 ## Aviso legal
 
