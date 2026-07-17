@@ -3,6 +3,14 @@ on:
   schedule:
     - cron: "0 21 * * 1-5"   # 21h UTC = 18h BRT, dias úteis
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scraper/fundamentus_snapshot.py"
+      - "scraper/ibov.txt"
+      - "scraper/segmentos.csv"
+      - "scraper/classificacao_setorial.csv"
+      - ".github/workflows/daily-snapshot.yml"
 
 jobs:
   scrape:
