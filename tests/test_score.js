@@ -1,9 +1,16 @@
 const assert = require("assert");
-const { computeQuality, computeValuation } = require("../score.js");
+const {
+  computeQuality,
+  computeValuation,
+  computeDCF,
+  getDcfDefaults,
+} = require("../score.js");
 
 const base = {
   papel: "TEST3",
   segmento: "NM",
+  setor: "Consumo não Cíclico",
+  atividade: "Alimentos e Bebidas",
   cotacao: 10,
   pl: 5,
   pvp: 1,
@@ -55,4 +62,53 @@ const blended = computeQuality({
   history: { summary: { history_score: 0, quarters_count: 20, breakdown: [], vetos: [] } },
 });
 assert.ok(blended.score < blended.currentScore);
+
+const dcfRow = {
+  ...base,
+  history: {
+    summary: {
+      history_score: 80,
+      quarters_count: 20,
+      breakdown: [],
+      vetos: [],
+      revenue_cagr: 0.08,
+      normalized_free_cash_flow_million: 100,
+      free_cash_flow_years_count: 5,
+      positive_free_cash_flow_years_ratio: 0.8,
+      latest_equity_million: 500,
+      ttm_net_income_million: 50,
+      free_cash_flow_method: "Caixa operacional + caixa de investimentos",
+    },
+  },
+};
+
+const defaults = getDcfDefaults(dcfRow);
+assert.strictEqual(defaults.growthRate, 0.08);
+assert.strictEqual(defaults.discountRate, 0.12);
+
+const baseDcf = computeDCF(dcfRow);
+assert.strictEqual(baseDcf.available, true);
+assert.ok(baseDcf.fairPrice > 0);
+assert.ok(baseDcf.sharesMillion > 0);
+assert.strictEqual(baseDcf.projection.length, 5);
+assert.strictEqual(baseDcf.confidence, "Alta");
+
+const higherDiscountDcf = computeDCF(dcfRow, {
+  ...defaults,
+  discountRate: 0.16,
+});
+assert.ok(higherDiscountDcf.fairPrice < baseDcf.fairPrice);
+
+const invalidDcf = computeDCF(dcfRow, {
+  ...defaults,
+  discountRate: 0.03,
+  terminalGrowthRate: 0.04,
+});
+assert.strictEqual(invalidDcf.available, false);
+assert.ok(invalidDcf.reason.includes("superior"));
+
+const bankDcf = computeDCF({ ...dcfRow, atividade: "Bancos" });
+assert.strictEqual(bankDcf.available, false);
+assert.ok(bankDcf.reason.includes("bancos"));
+
 console.log("score.js: OK");
