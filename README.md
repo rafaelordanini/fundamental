@@ -1,8 +1,8 @@
 # Monitor IBOV — Valuation, Qualidade & Histórico
 
-Screening quantitativo das ações do IBOV com valuation (Graham/Bazin),
-indicadores atuais do Fundamentus, classificação setorial e até 20 trimestres de
-demonstrações consolidadas da CVM.
+Screening quantitativo das ações do IBOV com valuation por Graham/Bazin,
+fluxo de caixa descontado, indicadores atuais do Fundamentus, classificação
+setorial e até 20 trimestres de demonstrações consolidadas da CVM.
 
 ## Como funciona
 
@@ -11,8 +11,10 @@ demonstrações consolidadas da CVM.
 - **Semanalmente:** `scraper/run_cvm_history.py` cruza os tickers com o cadastro da
   B3, baixa ITR/DFP de até dez anos-calendário, transforma valores acumulados em
   trimestres isolados e grava `data/history.json`.
-- **No navegador:** `score.js` combina os dois conjuntos sem backend e calcula o
-  ranking, os vetos e o sinal final.
+- **Fluxo de caixa:** `scraper/cvm_cashflow.py` acrescenta as demonstrações DFC-MI
+  e DFC-MD, corrige a escala numérica dos CSVs da CVM e calcula uma aproximação
+  conservadora do fluxo de caixa livre.
+- **No navegador:** `score.js` calcula qualidade, ranking, sinais e o modelo FCD.
 
 ## Filtros e ranking
 
@@ -26,12 +28,55 @@ A tabela pode ser filtrada por:
 
 Ao escolher setor ou atividade, a ordenação volta automaticamente para o score
 combinado de qualidade e preço. A posição e o troféu são recalculados dentro do
-recorte selecionado. Os desempates consideram, nesta ordem, qualidade
-consolidada, margem de segurança e ticker.
+recorte selecionado. Os desempates consideram qualidade consolidada, margem de
+segurança e ticker.
 
 A classificação setorial fica em `scraper/classificacao_setorial.csv`. Ela segue
 a estrutura de setores da B3 e deve ser conferida quando a carteira do IBOV ou a
 classificação oficial forem revisadas.
+
+## Valuation
+
+### Graham e Bazin
+
+O ranking principal continua utilizando Graham quando P/L e P/VP são positivos,
+com Bazin como alternativa para empresas pagadoras de dividendos. Essa referência
+é usada para a margem de segurança e para o sinal geral.
+
+### Fluxo de Caixa Descontado
+
+A página individual possui uma aba **Fluxo de Caixa Descontado** com:
+
+- cenário conservador, base e otimista;
+- crescimento anual editável;
+- taxa de desconto editável;
+- crescimento na perpetuidade editável;
+- período explícito entre 3 e 10 anos;
+- projeção anual dos fluxos;
+- valor presente do período explícito e da perpetuidade;
+- margem sobre a cotação;
+- tabela de sensibilidade.
+
+O fluxo de caixa livre usado é uma aproximação:
+
+```text
+FCL aproximado = caixa líquido das atividades operacionais (6.01)
+               + caixa líquido das atividades de investimento (6.02)
+```
+
+Como a conta 6.02 inclui aquisições, aplicações, alienações e outros movimentos
+de investimento, o valor é tratado como uma aproximação conservadora. A base da
+projeção é a mediana dos últimos três anos completos disponíveis, com fallback
+para os últimos doze meses.
+
+A quantidade de ações é estimada prioritariamente por patrimônio líquido e VPA,
+com alternativa por lucro TTM e LPA. Bancos, seguradoras e holdings financeiras
+não recebem esse FCD, pois seus fluxos operacionais e de financiamento exigem
+modelos próprios, como desconto de dividendos ou excesso de capital.
+
+O FCD é exibido como ferramenta exploratória e **não altera o ranking principal**
+nesta versão. Isso impede que premissas subjetivas de crescimento e desconto
+mudem silenciosamente o sinal de compra ou venda.
 
 ## Setup
 
@@ -39,9 +84,9 @@ classificação oficial forem revisadas.
    **Read and write permissions**.
 2. Rode manualmente **Snapshot diário Fundamentus** para atualizar
    `data/latest.json`.
-3. Rode manualmente **Histórico semanal CVM** para gerar o primeiro histórico.
-   A primeira execução baixa aproximadamente dez anos-calendário de arquivos
-   ITR/DFP e pode levar alguns minutos.
+3. Rode manualmente **Histórico semanal CVM** para gerar o histórico e os fluxos
+   de caixa. A primeira execução baixa aproximadamente dez anos-calendário de
+   arquivos ITR/DFP e pode levar vários minutos.
 4. Na Vercel, use Framework Preset **Other**, sem build command, com output na raiz.
 
 ## Metodologia do score
@@ -50,11 +95,10 @@ classificação oficial forem revisadas.
 
 - **65% indicadores atuais:** ROE, ROIC, margem líquida, liquidez corrente,
   dívida líquida/PL, crescimento de receita, EV/EBITDA e governança.
-- **35% histórico CVM:** cobertura, proporção de trimestres lucrativos, CAGR da
-  receita, frequência de crescimento anual, estabilidade da margem, ROE TTM e
-  tendência da dívida líquida.
-- Bancos e seguradoras não recebem o critério histórico de dívida, pois sua
-  estrutura de balanço não é comparável à de companhias não financeiras.
+- **35% histórico CVM:** cobertura, lucros recorrentes, crescimento da receita,
+  estabilidade da margem, ROE TTM, dívida e frequência de FCL anual positivo.
+- Bancos e seguradoras não recebem critérios de dívida ou FCL que não sejam
+  diretamente comparáveis a empresas não financeiras.
 
 ### Sinais
 
@@ -68,15 +112,14 @@ classificação oficial forem revisadas.
 - patrimônio líquido negativo;
 - prejuízo em mais da metade dos trimestres, desde que existam ao menos oito.
 
-O histórico não tenta substituir análise contábil. Reapresentações, mudanças de
-estrutura societária, fusões e alterações de ticker exigem revisão humana.
-Aliases decorrentes de mudanças societárias podem ser registrados em
-`scraper/cvm_overrides.csv`.
+O histórico não substitui análise contábil. Reapresentações, mudanças de estrutura
+societária, fusões e alterações de ticker exigem revisão humana. Aliases podem ser
+registrados em `scraper/cvm_overrides.csv`.
 
 ## Dados e atualização
 
 - Fundamentus: dias úteis, via GitHub Actions.
-- CVM: conjuntos públicos ITR e DFP consolidados, atualizados semanalmente.
+- CVM: ITR e DFP consolidados, incluindo DFC-MI e DFC-MD, atualizados semanalmente.
 - B3: cadastro de companhias e estrutura de classificação setorial.
 
 As coletas abortam quando a cobertura cai abaixo dos limites mínimos, evitando

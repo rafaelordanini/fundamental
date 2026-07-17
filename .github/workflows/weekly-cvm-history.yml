@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "scraper/cvm_history.py"
+      - "scraper/cvm_cashflow.py"
       - "scraper/run_cvm_history.py"
       - "scraper/cvm_overrides.csv"
       - "scraper/ibov.txt"
@@ -19,7 +20,7 @@ concurrency:
 jobs:
   history:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     permissions:
       contents: write
     steps:
@@ -31,7 +32,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Coletar histórico CVM
         run: python scraper/run_cvm_history.py --years 10
-      - name: Validar histórico gerado
+      - name: Validar histórico e fluxo de caixa
         run: |
           python - <<'PY'
           import json
@@ -41,9 +42,13 @@ jobs:
               raise SystemExit("Histórico continua vazio após a coleta")
           companies = data.get("companies", {})
           ready = sum(1 for item in companies.values() if item.get("summary", {}).get("quarters_count", 0) >= 8)
-          print(f"Empresas com histórico: {len(companies)}; com >= 8 trimestres: {ready}")
+          cashflow = sum(1 for item in companies.values() if item.get("summary", {}).get("cashflow_quarters_count", 0) >= 8)
+          positive = sum(1 for item in companies.values() if (item.get("summary", {}).get("normalized_free_cash_flow_million") or 0) > 0)
+          print(f"Empresas: {len(companies)}; histórico >= 8 tri: {ready}; DFC >= 8 tri: {cashflow}; FCL normalizado positivo: {positive}")
           if ready < 10:
               raise SystemExit("Cobertura insuficiente: menos de 10 empresas com 8 trimestres")
+          if cashflow < 10:
+              raise SystemExit("Cobertura insuficiente: menos de 10 empresas com fluxo de caixa")
           PY
       - name: Commit histórico
         run: |
