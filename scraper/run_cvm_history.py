@@ -1,15 +1,11 @@
-"""Executa a coleta CVM com consulta resiliente ao cadastro da B3.
-
-A listagem completa da B3 pode retornar ``results`` vazio quando solicitada com
-uma página muito grande. Este wrapper consulta somente os prefixos dos tickers do
-IBOV, em páginas pequenas, e aceita variações do formato de resposta.
-"""
+"""Executa a coleta CVM com consulta resiliente à B3 e extensão de fluxo de caixa."""
 from __future__ import annotations
 
 import base64
 import json
 from collections.abc import Iterable
 
+import cvm_cashflow
 import cvm_history
 
 
@@ -40,9 +36,6 @@ def _payloads(prefix: str) -> Iterable[str]:
         "pageSize": 20,
         "company": prefix,
     }
-    # A API da B3 já aceitou tanto JSON quanto a representação Python do dict.
-    # Testar os dois formatos reduz o acoplamento a uma implementação não
-    # documentada do frontend.
     raw_candidates = (
         json.dumps(params, separators=(",", ":")),
         str(params),
@@ -52,7 +45,9 @@ def _payloads(prefix: str) -> Iterable[str]:
 
 
 def fetch_b3_companies_by_ticker(session) -> list[dict]:
-    prefixes = sorted({cvm_history.ticker_prefix(ticker) for ticker in cvm_history.load_tickers()})
+    prefixes = sorted(
+        {cvm_history.ticker_prefix(ticker) for ticker in cvm_history.load_tickers()}
+    )
     found: dict[str, dict] = {}
     failures: list[str] = []
 
@@ -73,7 +68,8 @@ def fetch_b3_companies_by_ticker(session) -> list[dict]:
                 break
 
         exact = [
-            item for item in prefix_results
+            item
+            for item in prefix_results
             if str(item.get("issuingCompany") or "").strip().upper() == prefix
         ]
         candidates = exact or prefix_results
@@ -99,6 +95,7 @@ def fetch_b3_companies_by_ticker(session) -> list[dict]:
 
 
 def main() -> None:
+    cvm_cashflow.install()
     cvm_history.fetch_b3_companies = fetch_b3_companies_by_ticker
     cvm_history.main()
 
