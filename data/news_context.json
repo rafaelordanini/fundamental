@@ -1,0 +1,9 @@
+{
+ "data_geracao": "seed",
+ "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
+ "reader_model": "deepseek-v4-flash",
+ "metadata_only": true,
+ "new_reads": 0,
+ "total": 0,
+ "companies": {}
+}

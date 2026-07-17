@@ -9,7 +9,10 @@ on:
       - "scraper/cvm_history.py"
       - "scraper/cvm_cashflow.py"
       - "scraper/run_cvm_history.py"
+      - "scraper/sector_context.py"
+      - "scraper/news_context.py"
       - "scraper/deepseek_analysis.py"
+      - "scraper/contextual_analysis.py"
       - "scraper/cvm_overrides.csv"
       - "scraper/ibov.txt"
       - ".github/workflows/weekly-cvm-history.yml"
@@ -21,7 +24,7 @@ concurrency:
 jobs:
   history:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     permissions:
       contents: write
     steps:
@@ -51,21 +54,27 @@ jobs:
           if cashflow < 10:
               raise SystemExit("Cobertura insuficiente: menos de 10 empresas com fluxo de caixa")
           PY
-      - name: Atualizar análises com DeepSeek V4
+      - name: Calcular comparação setorial
+        run: python scraper/sector_context.py
+      - name: Atualizar notícias e análise final
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_READER_MODEL: ${{ vars.DEEPSEEK_READER_MODEL || 'deepseek-v4-flash' }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-pro' }}
           DEEPSEEK_THINKING: ${{ vars.DEEPSEEK_THINKING || 'enabled' }}
+          DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL || 'https://api.deepseek.com' }}
         run: |
           if [ -z "$DEEPSEEK_API_KEY" ]; then
-            echo "::warning::DEEPSEEK_API_KEY não configurada; o histórico será atualizado sem regenerar os textos."
+            echo "::warning::DEEPSEEK_API_KEY não configurada; contexto setorial atualizado sem análise de notícias."
+            python scraper/news_context.py --metadata-only --max-new-articles 0
           else
-            python scraper/deepseek_analysis.py
+            python scraper/news_context.py --max-new-articles 100
+            python scraper/contextual_analysis.py
           fi
-      - name: Commit histórico e análises
+      - name: Commit histórico, contextos e análises
         run: |
           git config user.name "bot-history"
           git config user.email "bot@users.noreply.github.com"
-          git add data/history.json data/analysis.json
+          git add data/history.json data/sector_context.json data/news_context.json data/analysis.json
           git diff --staged --quiet || git commit -m "history $(date -u +%F)"
           git push
