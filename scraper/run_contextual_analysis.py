@@ -1,9 +1,9 @@
-"""Executa a análise contextual com recuperação de respostas JSON truncadas.
+"""Executa a análise contextual com recuperação de respostas vazias ou truncadas.
 
-O V4 Pro pode consumir parte do orçamento de saída com raciocínio e encerrar o
-conteúdo no meio de uma string. Este wrapper preserva o pipeline existente, mas
-faz uma segunda chamada curta, com maior orçamento de saída e thinking
-desativado, quando a primeira resposta estiver truncada ou malformada.
+O V4 Pro pode consumir o orçamento com raciocínio e retornar ``content`` vazio,
+ou pode encerrar o JSON no meio de uma string. Este wrapper mantém o V4 Pro como
+modelo da análise final e tenta variantes progressivamente mais simples antes de
+considerar a execução perdida.
 """
 from __future__ import annotations
 
@@ -51,7 +51,36 @@ def extract_json(content: str) -> dict[str, Any]:
 
 def response_error(response: requests.Response) -> str:
     body = (response.text or "").strip().replace("\n", " ")
-    return f"DeepSeek HTTP {response.status_code}: {body[:600]}"
+    return f"DeepSeek HTTP {response.status_code}: {body[:800]}"
+
+
+def content_text(value: Any) -> str:
+    """Normaliza os formatos textuais observados em APIs compatíveis com OpenAI."""
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        parts: list[str] = []
+        for item in value:
+            if isinstance(item, str):
+                parts.append(item)
+            elif isinstance(item, dict):
+                text = item.get("text") or item.get("content") or item.get("output_text")
+                if isinstance(text, str):
+                    parts.append(text)
+        return "\n".join(parts).strip()
+    return ""
+
+
+def response_diagnostics(body: dict[str, Any], choice: dict[str, Any]) -> str:
+    message = choice.get("message") if isinstance(choice.get("message"), dict) else {}
+    content = content_text(message.get("content"))
+    reasoning = content_text(message.get("reasoning_content"))
+    usage = body.get("usage") if isinstance(body.get("usage"), dict) else {}
+    return (
+        f"finish_reason={choice.get('finish_reason')}; content_chars={len(content)}; "
+        f"reasoning_chars={len(reasoning)}; prompt_tokens={usage.get('prompt_tokens')}; "
+        f"completion_tokens={usage.get('completion_tokens')}; total_tokens={usage.get('total_tokens')}"
+    )
 
 
 def make_payload(
@@ -60,29 +89,42 @@ def make_payload(
     *,
     model: str,
     thinking: str,
-    compact: bool,
+    mode: str,
 ) -> dict[str, Any]:
+    compact = mode != "full"
     system = base.SYSTEM_PROMPT + (COMPACT_SYSTEM_SUFFIX if compact else "")
     user_prompt = base.prompt_for(facts, previous)
     if compact:
         user_prompt = (
-            "A tentativa anterior não produziu JSON completo. Gere novamente uma versão curta, "
-            "obedecendo exatamente ao esquema e usando somente as evidências fornecidas.\n\n"
+            "A tentativa anterior não produziu conteúdo final utilizável. Gere novamente uma versão curta, "
+            "obedecendo exatamente ao esquema e usando somente as evidências fornecidas. "
+            "Não descreva seu raciocínio; entregue diretamente o JSON final.\n\n"
             + user_prompt
         )
+
     payload: dict[str, Any] = {
         "model": model,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user_prompt},
         ],
-        "response_format": {"type": "json_object"},
-        "thinking": {"type": "disabled" if compact else thinking},
-        "max_tokens": 5200 if compact else 4200,
+        "max_tokens": 7000 if compact else 6500,
         "stream": False,
     }
-    if not compact:
-        payload["reasoning_effort"] = "medium"
+
+    if mode == "full":
+        payload["response_format"] = {"type": "json_object"}
+        payload["thinking"] = {"type": thinking}
+        payload["reasoning_effort"] = "low"
+    elif mode == "compact_json":
+        payload["response_format"] = {"type": "json_object"}
+        payload["thinking"] = {"type": "disabled"}
+    elif mode == "compact_compat":
+        # Compatibilidade máxima: alguns gateways retornam conteúdo vazio quando
+        # recebem campos opcionais, mesmo respondendo HTTP 200.
+        pass
+    else:  # pragma: no cover - proteção contra erro de programação
+        raise ValueError(f"Modo desconhecido: {mode}")
     return payload
 
 
@@ -91,18 +133,29 @@ def request_once(
     url: str,
     headers: dict[str, str],
     payload: dict[str, Any],
-) -> tuple[dict[str, Any], str | None, int]:
-    response = session.post(url, headers=headers, json=payload, timeout=(20, 300))
+) -> tuple[dict[str, Any], str | None, int, str]:
+    response = session.post(url, headers=headers, json=payload, timeout=(20, 360))
     if response.status_code >= 400:
         raise RuntimeError(response_error(response))
-    body = response.json()
-    choice = body["choices"][0]
-    content = choice.get("message", {}).get("content")
-    finish_reason = choice.get("finish_reason")
+    try:
+        body = response.json()
+    except ValueError as exc:
+        raise RuntimeError(f"DeepSeek retornou resposta não JSON: {response.text[:800]}") from exc
+    choices = body.get("choices")
+    if not isinstance(choices, list) or not choices:
+        raise RuntimeError(f"DeepSeek retornou resposta sem choices; chaves={sorted(body.keys())}")
+    choice = choices[0] if isinstance(choices[0], dict) else {}
+    message = choice.get("message") if isinstance(choice.get("message"), dict) else {}
+    content = content_text(message.get("content"))
+    # Alguns gateways usam output_text em vez de content.
     if not content:
-        raise RuntimeError(f"DeepSeek retornou conteúdo vazio; finish_reason={finish_reason}")
+        content = content_text(message.get("output_text")) or content_text(body.get("output_text"))
+    finish_reason = choice.get("finish_reason")
+    diagnostics = response_diagnostics(body, choice)
+    if not content:
+        raise RuntimeError("DeepSeek retornou conteúdo vazio; " + diagnostics)
     parsed = extract_json(content)
-    return parsed, finish_reason, len(content)
+    return parsed, finish_reason, len(content), diagnostics
 
 
 def request_deepseek_resilient(
@@ -119,36 +172,50 @@ def request_deepseek_resilient(
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     errors: list[str] = []
 
-    # A primeira tentativa mantém o raciocínio solicitado. A segunda privilegia
-    # exclusivamente a emissão de um JSON curto e completo.
-    for compact in (False, True):
+    modes = ("full", "compact_json", "compact_compat")
+    for mode in modes:
         payload = make_payload(
             facts,
             previous,
             model=model,
             thinking=thinking,
-            compact=compact,
+            mode=mode,
         )
-        for attempt in range(1, 3):
+        attempts = 1 if mode == "full" else 2
+        for attempt in range(1, attempts + 1):
             try:
-                parsed, finish_reason, content_length = request_once(session, url, headers, payload)
+                parsed, finish_reason, content_length, diagnostics = request_once(
+                    session, url, headers, payload
+                )
                 if finish_reason == "length":
                     raise RuntimeError(
-                        f"resposta interrompida por limite; caracteres={content_length}"
+                        f"resposta interrompida por limite; caracteres={content_length}; {diagnostics}"
                     )
+                if mode != "full":
+                    print(f"Análise recuperada no modo {mode}.")
                 return parsed
-            except (requests.RequestException, RuntimeError, KeyError, IndexError, ValueError, json.JSONDecodeError) as exc:
-                label = "compacta" if compact else "completa"
-                errors.append(f"{label} tentativa {attempt}: {exc}")
-                # Erros de JSON/truncamento devem migrar logo para o modo compacto.
-                if isinstance(exc, json.JSONDecodeError) or "interrompida por limite" in str(exc):
+            except (
+                requests.RequestException,
+                RuntimeError,
+                KeyError,
+                IndexError,
+                ValueError,
+                json.JSONDecodeError,
+            ) as exc:
+                errors.append(f"{mode} tentativa {attempt}: {exc}")
+                # Resposta vazia, JSON inválido ou corte por limite pedem mudança
+                # imediata de formato, não repetição da mesma chamada completa.
+                text = str(exc).lower()
+                if mode == "full" or "conteúdo vazio" in text or "interrompida por limite" in text:
                     break
-                if attempt < 2:
+                if attempt < attempts:
                     time.sleep(4 * attempt)
-        if not compact:
-            print("AVISO: resposta completa inválida; repetindo em formato compacto.")
+        if mode == "full":
+            print("AVISO: resposta completa indisponível; tentando V4 Pro sem raciocínio.")
+        elif mode == "compact_json":
+            print("AVISO: JSON compacto indisponível; tentando modo de compatibilidade.")
 
-    raise RuntimeError("Falha ao gerar JSON completo no DeepSeek: " + " | ".join(errors[-4:]))
+    raise RuntimeError("Falha ao gerar JSON completo no DeepSeek: " + " | ".join(errors[-6:]))
 
 
 base.request_deepseek = request_deepseek_resilient
