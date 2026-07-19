@@ -12,6 +12,7 @@ on:
       - "scraper/run_news_context.py"
       - "scraper/deepseek_analysis.py"
       - "scraper/contextual_analysis.py"
+      - "scraper/run_contextual_analysis.py"
       - "scraper/ibov.txt"
       - "scraper/segmentos.csv"
       - "scraper/classificacao_setorial.csv"
@@ -51,7 +52,7 @@ jobs:
             python scraper/run_news_context.py --metadata-only --max-new-articles 0
           else
             python scraper/run_news_context.py --max-new-articles 15
-            python scraper/contextual_analysis.py
+            python scraper/run_contextual_analysis.py
           fi
       - name: Commit snapshot, contextos e análises
         run: |

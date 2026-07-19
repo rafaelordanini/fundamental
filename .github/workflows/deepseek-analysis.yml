@@ -84,9 +84,9 @@ jobs:
           args=()
           if [ "$FORCE_ANALYSIS" = "true" ]; then args+=(--force); fi
           if [ -n "$TICKER_ANALYSIS" ]; then args+=(--ticker "$TICKER_ANALYSIS"); fi
-          python scraper/contextual_analysis.py "${args[@]}"
+          python scraper/run_contextual_analysis.py "${args[@]}"
       - name: Validar arquivo gerado
-        run: python scraper/contextual_analysis.py --validate-only
+        run: python scraper/run_contextual_analysis.py --validate-only
       - name: Commit contextos e análises
         run: |
           git config user.name "bot-analysis"
