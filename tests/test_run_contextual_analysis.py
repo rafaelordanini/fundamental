@@ -82,6 +82,36 @@ class ContextualAnalysisRunnerTests(unittest.TestCase):
         ]
         self.assertEqual(runner.content_text(content), '{"ok":\ntrue}')
 
+    def test_first_analysis_change_allows_empty_evidence(self):
+        result = runner.validate_claim_resilient(
+            {
+                "texto": "Esta é a primeira análise disponível para a companhia.",
+                "evidencias": [],
+            },
+            "mudancas_desde_anterior",
+            {"roe"},
+        )
+        self.assertEqual(result["evidencias"], [])
+
+    def test_empty_evidence_remains_invalid_for_material_claim(self):
+        with self.assertRaisesRegex(ValueError, "lista não vazia"):
+            runner.validate_claim_resilient(
+                {"texto": "O ROE está elevado.", "evidencias": []},
+                "pontos_fortes[0]",
+                {"roe"},
+            )
+
+    def test_empty_evidence_is_rejected_for_non_initial_change(self):
+        with self.assertRaisesRegex(ValueError, "lista não vazia"):
+            runner.validate_claim_resilient(
+                {
+                    "texto": "A dívida aumentou desde a análise anterior.",
+                    "evidencias": [],
+                },
+                "mudancas_desde_anterior",
+                {"net_debt_trend"},
+            )
+
     def test_retries_compact_after_truncated_json(self):
         session = FakeSession([
             FakeResponse('{"titulo":"Análise incompleta'),

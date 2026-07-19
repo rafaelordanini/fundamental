@@ -29,6 +29,56 @@ Modo de recuperação de formato:
 - feche corretamente todas as strings, listas e chaves JSON.
 """
 
+FIRST_ANALYSIS_PROMPT_SUFFIX = """
+
+Regra de primeira execução:
+- quando o campo `anterior` for nulo, `mudancas_desde_anterior.texto` deve apenas
+  informar que esta é a primeira análise disponível;
+- nesse caso específico, `mudancas_desde_anterior.evidencias` pode ser uma lista
+  vazia, pois a inexistência de análise anterior é metadado do sistema, não uma
+  afirmação fundamentalista sobre a companhia.
+"""
+
+# A regra vale para a resposta completa e para as tentativas compactas.
+base.SYSTEM_PROMPT += FIRST_ANALYSIS_PROMPT_SUFFIX
+_ORIGINAL_VALIDATE_CLAIM = base.validate_claim
+
+
+def _is_first_analysis_text(text: str) -> bool:
+    normalized = re.sub(r"\s+", " ", text).strip().lower()
+    phrases = (
+        "primeira análise",
+        "primeira analise",
+        "não há análise anterior",
+        "nao ha analise anterior",
+        "sem análise anterior",
+        "sem analise anterior",
+        "ainda não existe análise anterior",
+        "ainda nao existe analise anterior",
+    )
+    return any(phrase in normalized for phrase in phrases)
+
+
+def validate_claim_resilient(
+    value: Any,
+    field: str,
+    evidence_keys: set[str],
+) -> dict[str, Any]:
+    """Permite evidência vazia somente para o marco inicial da primeira análise.
+
+    As demais afirmações continuam passando pelo validador original e exigem uma
+    ou mais chaves existentes em ``fatos.evidencias``.
+    """
+    if field == "mudancas_desde_anterior" and isinstance(value, dict):
+        text = base.require_text(value.get("texto"), f"{field}.texto", 500)
+        evidence = value.get("evidencias")
+        if evidence in (None, []) and _is_first_analysis_text(text):
+            return {"texto": text, "evidencias": []}
+    return _ORIGINAL_VALIDATE_CLAIM(value, field, evidence_keys)
+
+
+base.validate_claim = validate_claim_resilient
+
 
 def extract_json(content: str) -> dict[str, Any]:
     """Extrai um objeto JSON completo, aceitando cercas Markdown ocasionais."""
