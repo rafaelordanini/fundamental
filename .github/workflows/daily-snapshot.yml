@@ -9,6 +9,7 @@ on:
       - "scraper/fundamentus_snapshot.py"
       - "scraper/sector_context.py"
       - "scraper/news_context.py"
+      - "scraper/run_news_context.py"
       - "scraper/deepseek_analysis.py"
       - "scraper/contextual_analysis.py"
       - "scraper/ibov.txt"
@@ -47,9 +48,9 @@ jobs:
         run: |
           if [ -z "$DEEPSEEK_API_KEY" ]; then
             echo "::warning::DEEPSEEK_API_KEY não configurada; serão atualizados somente os metadados públicos das notícias."
-            python scraper/news_context.py --metadata-only --max-new-articles 0
+            python scraper/run_news_context.py --metadata-only --max-new-articles 0
           else
-            python scraper/news_context.py --max-new-articles 50
+            python scraper/run_news_context.py --max-new-articles 15
             python scraper/contextual_analysis.py
           fi
       - name: Commit snapshot, contextos e análises
