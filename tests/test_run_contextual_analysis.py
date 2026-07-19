@@ -2,6 +2,7 @@ import json
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scraper"))
 
@@ -12,6 +13,7 @@ class FakeResponse:
     def __init__(self, content, *, finish_reason="stop", status_code=200):
         self.status_code = status_code
         self._content = content
+        self.finish_reason = finish_reason
         self.text = content if status_code >= 400 else ""
 
     def json(self):
@@ -20,19 +22,11 @@ class FakeResponse:
         return {
             "choices": [
                 {
-                    "finish_reason": self._finish_reason,
+                    "finish_reason": self.finish_reason,
                     "message": {"content": self._content},
                 }
             ]
         }
-
-    @property
-    def _finish_reason(self):
-        return getattr(self, "finish_reason", "stop")
-
-    @_finish_reason.setter
-    def _finish_reason(self, value):
-        self.finish_reason = value
 
 
 class FakeSession:
@@ -42,11 +36,7 @@ class FakeSession:
 
     def post(self, _url, *, headers, json, timeout):
         self.payloads.append(json)
-        response = self.responses.pop(0)
-        # Compatibilidade com a construção simples de FakeResponse.
-        if not hasattr(response, "finish_reason"):
-            response.finish_reason = "stop"
-        return response
+        return self.responses.pop(0)
 
 
 class ContextualAnalysisRunnerTests(unittest.TestCase):
@@ -76,8 +66,7 @@ class ContextualAnalysisRunnerTests(unittest.TestCase):
         self.assertGreater(session.payloads[1]["max_tokens"], session.payloads[0]["max_tokens"])
 
     def test_finish_reason_length_forces_compact_retry(self):
-        first = FakeResponse('{"titulo":"completo"}')
-        first.finish_reason = "length"
+        first = FakeResponse('{"titulo":"completo"}', finish_reason="length")
         second = FakeResponse('{"titulo":"compacto"}')
         session = FakeSession([first, second])
 
@@ -94,7 +83,8 @@ class ContextualAnalysisRunnerTests(unittest.TestCase):
         self.assertEqual(result["titulo"], "compacto")
         self.assertEqual(len(session.payloads), 2)
 
-    def test_http_error_includes_api_body(self):
+    @patch("run_contextual_analysis.time.sleep", return_value=None)
+    def test_http_error_includes_api_body(self, _sleep):
         session = FakeSession([
             FakeResponse("campo inválido", status_code=400),
             FakeResponse("campo inválido", status_code=400),
