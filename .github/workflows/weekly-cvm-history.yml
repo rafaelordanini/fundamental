@@ -14,6 +14,7 @@ on:
       - "scraper/run_news_context.py"
       - "scraper/deepseek_analysis.py"
       - "scraper/contextual_analysis.py"
+      - "scraper/run_contextual_analysis.py"
       - "scraper/cvm_overrides.csv"
       - "scraper/ibov.txt"
       - ".github/workflows/weekly-cvm-history.yml"
@@ -70,7 +71,7 @@ jobs:
             python scraper/run_news_context.py --metadata-only --max-new-articles 0
           else
             python scraper/run_news_context.py --max-new-articles 40
-            python scraper/contextual_analysis.py
+            python scraper/run_contextual_analysis.py
           fi
       - name: Commit histórico, contextos e análises
         run: |
