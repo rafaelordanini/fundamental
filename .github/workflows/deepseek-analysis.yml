@@ -14,7 +14,7 @@ on:
       max_news:
         description: "Máximo de novas matérias lidas pelo V4 Flash"
         required: false
-        default: "120"
+        default: "20"
         type: string
 
 concurrency:
@@ -24,7 +24,7 @@ concurrency:
 jobs:
   analyse:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -34,14 +34,31 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Verificar chave da API
+      - name: Verificar chave e modelos da API
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL || 'https://api.deepseek.com' }}
         run: |
           if [ -z "$DEEPSEEK_API_KEY" ]; then
             echo "Configure o secret DEEPSEEK_API_KEY em Settings > Secrets and variables > Actions."
             exit 1
           fi
+          python - <<'PY'
+          import os, requests
+          response = requests.get(
+              os.environ["DEEPSEEK_BASE_URL"].rstrip("/") + "/models",
+              headers={"Authorization": "Bearer " + os.environ["DEEPSEEK_API_KEY"]},
+              timeout=30,
+          )
+          if response.status_code >= 400:
+              raise SystemExit(f"Falha ao consultar modelos: HTTP {response.status_code} {response.text[:1000]}")
+          models = [item.get("id") for item in response.json().get("data", [])]
+          print("Modelos disponíveis:", models)
+          required = {"deepseek-v4-flash", "deepseek-v4-pro"}
+          missing = sorted(required.difference(models))
+          if missing:
+              raise SystemExit(f"Modelos não disponíveis para esta chave: {missing}")
+          PY
       - name: Calcular comparação setorial
         run: python scraper/sector_context.py
       - name: Ler notícias com DeepSeek V4 Flash
@@ -50,7 +67,11 @@ jobs:
           DEEPSEEK_READER_MODEL: ${{ vars.DEEPSEEK_READER_MODEL || 'deepseek-v4-flash' }}
           DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL || 'https://api.deepseek.com' }}
           MAX_NEWS: ${{ inputs.max_news }}
-        run: python scraper/news_context.py --max-new-articles "${MAX_NEWS:-120}"
+          TICKER_ANALYSIS: ${{ inputs.ticker }}
+        run: |
+          args=(--max-new-articles "${MAX_NEWS:-20}")
+          if [ -n "$TICKER_ANALYSIS" ]; then args+=(--ticker "$TICKER_ANALYSIS"); fi
+          python scraper/run_news_context.py "${args[@]}"
       - name: Gerar análise final com DeepSeek V4 Pro
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
