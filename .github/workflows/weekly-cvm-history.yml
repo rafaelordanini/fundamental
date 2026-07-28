@@ -18,6 +18,7 @@ on:
       - "scraper/cvm_overrides.csv"
       - "scraper/ibov.txt"
       - ".github/workflows/weekly-cvm-history.yml"
+      - "scraper/commit_generated_data.sh"
 
 concurrency:
   group: cvm-history
@@ -58,7 +59,13 @@ jobs:
           PY
       - name: Calcular comparação setorial
         run: python scraper/sector_context.py
+      - name: Salvar histórico antes das APIs de IA
+        run: |
+          scraper/commit_generated_data.sh \
+            bot-history bot@users.noreply.github.com "history $(date -u +%F)" \
+            data/history.json data/sector_context.json
       - name: Atualizar notícias e análise final
+        continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_READER_MODEL: ${{ vars.DEEPSEEK_READER_MODEL || 'deepseek-v4-flash' }}
@@ -75,8 +82,6 @@ jobs:
           fi
       - name: Commit histórico, contextos e análises
         run: |
-          git config user.name "bot-history"
-          git config user.email "bot@users.noreply.github.com"
-          git add data/history.json data/sector_context.json data/news_context.json data/analysis.json
-          git diff --staged --quiet || git commit -m "history $(date -u +%F)"
-          git push
+          scraper/commit_generated_data.sh \
+            bot-history bot@users.noreply.github.com "history analysis $(date -u +%F)" \
+            data/news_context.json data/analysis.json
