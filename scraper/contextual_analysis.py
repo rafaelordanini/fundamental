@@ -66,6 +66,13 @@ def build_facts(row: dict[str, Any], company_history: dict[str, Any] | None) -> 
                     "valor": value,
                     "formatado": pct(value),
                 }
+        top_peers = sector_entry.get("top_peers")
+        if isinstance(top_peers, list) and top_peers:
+            evidence["melhores_pares"] = {
+                "rotulo": "Melhores pares no comparativo",
+                "valor": top_peers,
+                "formatado": ", ".join(str(peer.get("ticker")) for peer in top_peers if peer.get("ticker")),
+            }
         for metric_key, metric in (sector_entry.get("metrics") or {}).items():
             evidence[f"sector_metric_{metric_key}"] = {
                 "rotulo": f"{metric.get('label')} versus pares",
@@ -105,7 +112,7 @@ def build_facts(row: dict[str, Any], company_history: dict[str, Any] | None) -> 
     return facts
 
 
-base.PROMPT_VERSION = "deepseek-sector-news-v2"
+base.PROMPT_VERSION = "deepseek-sector-news-v4"
 base.SYSTEM_PROMPT = _ORIGINAL_SYSTEM_PROMPT + """
 
 Regras adicionais de contexto:
