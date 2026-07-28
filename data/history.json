@@ -1,5 +1,5 @@
 {
- "data_coleta": "2026-07-17",
+ "data_coleta": "2026-07-28",
  "fonte": "CVM ITR/DFP consolidados (inclui DFC) + cadastro B3",
  "years": [
   2017,
@@ -22631,7 +22631,7 @@
   },
   "RAIL3": {
    "code_cvm": "17450",
-   "cnpj": "2387241000160",
+   "cnpj": "02387241000160",
    "company_name": "RUMO S.A.",
    "quarters": [
     {
@@ -31556,23 +31556,6 @@
    "company_name": "WEG S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 5748.206,
-     "ebit": 1265.972,
-     "net_income": 1152.401,
-     "operating_cash_flow": 122.44,
-     "investing_cash_flow": -204.896,
-     "assets": 21411.835,
-     "cash": 3275.927,
-     "current_assets": 13990.9,
-     "current_liabilities": 7407.489,
-     "equity": 12322.213,
-     "gross_debt": 1501.736,
-     "net_debt": -1774.191,
-     "net_margin": 0.20048011501327545,
-     "free_cash_flow": -82.456
-    },
-    {
      "date": "2021-09-30",
      "revenue": 6198.243,
      "ebit": 1014.041,
@@ -31894,6 +31877,23 @@
      "net_debt": -2268.066,
      "net_margin": 0.16684080891706896,
      "free_cash_flow": 617.76
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 10143.555,
+     "ebit": 1956.643,
+     "net_income": 1646.544,
+     "operating_cash_flow": 1188.789,
+     "investing_cash_flow": -772.135,
+     "assets": 46666.431,
+     "cash": 7750.256,
+     "current_assets": 30055.127,
+     "current_liabilities": 18925.658,
+     "equity": 20191.394,
+     "gross_debt": 5066.346,
+     "net_debt": -2683.91,
+     "net_margin": 0.1623241555845066,
+     "free_cash_flow": 416.654
     }
    ],
    "summary": {
@@ -31904,10 +31904,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.16620053741205154,
     "margin_volatility": 0.013496525057542971,
-    "roe_ttm": 0.3252522843192641,
-    "net_debt_to_equity": -0.11884877870975168,
-    "net_debt_trend": -0.27836630892615266,
-    "latest_equity_million": 19083.629,
+    "roe_ttm": 0.30791119125557376,
+    "net_debt_to_equity": -0.13292346234242172,
+    "net_debt_trend": -2.525865534428262,
+    "latest_equity_million": 20191.394,
     "history_score": 100,
     "breakdown": [
      {
@@ -31938,12 +31938,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "32.5%"
+      "value": "30.8%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 2,
-      "value": "-27.8%"
+      "value": "-252.6%"
      },
      {
       "label": "FCL anual positivo",
@@ -31955,9 +31955,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 4319.28,
+    "free_cash_flow_ttm_million": 3929.416,
     "normalized_free_cash_flow_million": 3540.223,
-    "ttm_net_income_million": 6718.479,
+    "ttm_net_income_million": 6672.361,
     "annual_cash_flow": [
      {
       "year": 2022,

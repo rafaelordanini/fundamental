@@ -1,9 +1,1680 @@
 {
- "data_geracao": "seed",
+ "data_geracao": "2026-07-28",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
- "metadata_only": true,
- "new_reads": 0,
- "total": 0,
- "companies": {}
+ "metadata_only": false,
+ "new_reads": 40,
+ "total": 76,
+ "companies": {
+  "ABEV3": {
+   "checked_at": "2026-07-28T12:37:11.141577+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
+   "articles": []
+  },
+  "ALOS3": {
+   "checked_at": "2026-07-28T12:37:11.649669+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
+   "articles": []
+  },
+  "ASAI3": {
+   "checked_at": "2026-07-28T12:37:12.286127+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
+   "articles": []
+  },
+  "AURE3": {
+   "checked_at": "2026-07-28T12:37:12.764852+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
+   "articles": []
+  },
+  "AZUL4": {
+   "checked_at": "2026-07-28T12:37:16.125187+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
+   "articles": [
+    {
+     "id": "b80289c73bb0d6ab",
+     "title": "Azul (AZUL4) acelera crescimento internacional com nova encomenda bilionária",
+     "url": "https://www.suno.com.br/noticias/azul-azul4-encomenda-bilionaria-expansao-internacional-mtae/",
+     "source": "Suno",
+     "published": "2026-06-01",
+     "content_hash": "b80289c73bb0d6ab09f3c8883c74ee046116ba8a031d1ec7506ce532a9615405",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Azul encomenda quatro Airbus A330neo adicionais para expansão internacional, após receber a primeira de 11 aeronaves do contrato prévio. As novas aeronaves visam ampliar rotas para EUA e Europa, com maior eficiência de combustível.",
+      "evento": "resultado",
+      "impacto": "neutro",
+      "horizonte": "longo",
+      "intensidade": "media",
+      "drivers": [
+       "expansão internacional",
+       "eficiência operacional"
+      ],
+      "riscos": [
+       "elevado investimento",
+       "demanda incerta",
+       "câmbio"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "caixa"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "AZZA3": {
+   "checked_at": "2026-07-28T12:37:16.609442+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
+   "articles": []
+  },
+  "B3SA3": {
+   "checked_at": "2026-07-28T12:37:21.626031+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
+   "articles": [
+    {
+     "id": "7c4188bca373a745",
+     "title": "B3 (B3SA3): renda fixa “usada” dispara 40%; entenda esse mercado",
+     "url": "https://www.suno.com.br/noticias/b3-b3sa3-renda-fixa-trademate-titulos-privados/",
+     "source": "Suno",
+     "published": "2026-07-23",
+     "content_hash": "7c4188bca373a745e756bdaeea687723cf05751ba66dd9d26394f68c2a874e22",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "B3 (B3SA3) reporta alta de 40% no volume de negócios de títulos privados no Trademate no 1º semestre de 2026, atingindo R$ 797 bilhões, refletindo o crescimento do mercado secundário de renda fixa. A empresa também anuncia programa de formador de mercado para debêntures a partir de agosto.",
+      "evento": "resultado",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "crescimento do mercado secundário de renda fixa",
+       "aumento da liquidez de títulos privados",
+       "programa de formador de mercado"
+      ],
+      "riscos": [
+       "dependência das condições macroeconômicas",
+       "possível concorrência de outras plataformas"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "lucro"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "BBAS3": {
+   "checked_at": "2026-07-28T12:37:24.992350+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
+   "articles": [
+    {
+     "id": "2acf2bc8859142a6",
+     "title": "BBAS3: socorro do governo ao agro pode aliviar o Banco do Brasil?",
+     "url": "https://www.suno.com.br/noticias/bbas3-banco-do-brasil-credito-rural-governo-lula-agro-mt/",
+     "source": "Suno",
+     "published": "2026-07-23",
+     "content_hash": "2acf2bc8859142a69a5c1a46e4a5652ab3eb380e35d8678fb2ba9742cfd9946d",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "MP do crédito rural pode aliviar inadimplência no agro do BB, mas impacto financeiro ainda é incerto e depende de regulamentação; alívio deve vir apenas a partir do 4º trimestre.",
+      "evento": "regulacao",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "renegociação de dívidas rurais",
+       "redução de inadimplência",
+       "possibilidade de reversão de provisões"
+      ],
+      "riscos": [
+       "dependência de regulamentação complementar",
+       "baixa adesão dos produtores",
+       "piora da inadimplência no curto prazo"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "lucro",
+       "caixa",
+       "dividendos"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "BBDC4": {
+   "checked_at": "2026-07-28T12:37:28.134149+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
+   "articles": [
+    {
+     "id": "1d4f98032a18e9ce",
+     "title": "IRB(Re) (IRBR3) e Bradesco (BBDC4): Veja quem paga dividendos na semana",
+     "url": "https://www.suno.com.br/noticias/irb-irbr3-o-bradesco-bbdc4-agenda-dividendos-24072026/",
+     "source": "Suno",
+     "published": "2026-07-26",
+     "content_hash": "1d4f98032a18e9ce0b1509bafdc484cd0232b9d53f1dd594ae7166002b3b9bd1",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Agenda de dividendos da semana destaca pagamentos do IRB (R$0,3201/ação) e Bradesco (R$0,3863/ação) em 31/07. Outras empresas: M.Dias Branco e SmartFit. Datas de corte para novos dividendos incluem Telefônica e Itaú Unibanco.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
+      "drivers": [
+       "pagamento de dividendos"
+      ],
+      "riscos": [
+       "nenhum"
+      ],
+      "metricas_afetadas": [
+       "dividendos"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "BBSE3": {
+   "checked_at": "2026-07-28T12:37:31.670954+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
+   "articles": [
+    {
+     "id": "2cc6791cff8bcdcb",
+     "title": "Caixa Seguridade (CXSE3) ou BB Seguridade (BBSE3): qual tem melhores indicadores?",
+     "url": "https://www.suno.com.br/noticias/bb-seguridade-bbse3-caixa-seguridade-cxse3-indicadores-mt/",
+     "source": "Suno",
+     "published": "2026-07-20",
+     "content_hash": "2cc6791cff8bcdcbe6c70c852de66781a6fc8976a178a0ae045045d636e7b682",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Análise comparativa entre BB Seguridade (BBSE3) e Caixa Seguridade (CXSE3) com base em indicadores fundamentalistas. BBSE3 apresenta maior dividend yield (11,02% vs 5,82%), ROE (72,72% vs 31,89%), menor P/L (8,70 vs 15,38) e maior liquidez média diária. CXSE3 se destaca em valorização recente (75,37% em 12 meses) e menor P/VP (4,90 vs 6,32). A conclusão é que BBSE3 possui conjunto de indicadores mais forte.",
+      "evento": "outro",
+      "impacto": "neutro",
+      "horizonte": "indefinido",
+      "intensidade": "baixa",
+      "drivers": [
+       "comparação de indicadores fundamentalistas",
+       "dividend yield",
+       "ROE",
+       "P/L",
+       "liquidez",
+       "valorização recente"
+      ],
+      "riscos": [
+       "análise baseada apenas em indicadores passados",
+       "fatores macroeconômicos ou setoriais não considerados"
+      ],
+      "metricas_afetadas": [
+       "nenhuma"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "BEEF3": {
+   "checked_at": "2026-07-28T12:37:34.922512+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
+   "articles": [
+    {
+     "id": "03aa910dcc16a52e",
+     "title": "Boi sobe no prato e dá fôlego à Minerva (BEEF3); entenda",
+     "url": "https://www.suno.com.br/noticias/boi-sobe-minerva-beef3-carne-bovina-ambev-mt/",
+     "source": "Suno",
+     "published": "2026-07-13",
+     "content_hash": "03aa910dcc16a52efcf753461cdb03bc3f1c8fce04b58d270e33033d83ac5b5b",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Carne bovina subiu 9,5% no 2T26 e favorece Minerva (BEEF3) devido a spreads positivos, conforme análise do Safra. Aves e suínos caíram, pressionando Marfrig e JBS. Cerveja desacelerou para 4,5%, visão neutra a levemente negativa para Ambev.",
+      "evento": "resultado",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "alta de preços da carne bovina",
+       "demanda doméstica resiliente",
+       "spreads bovinos em alta"
+      ],
+      "riscos": [
+       "pressão em aves e suínos afetando outras empresas",
+       "desaceleração da inflação da cerveja limitando reajustes"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "BPAC11": {
+   "checked_at": "2026-07-28T12:37:38.198669+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
+   "articles": [
+    {
+     "id": "8aa15cff1456e4ff",
+     "title": "BTG Pactual (BPAC11) vira favorito em trimestre azedo para corretoras e bolsa",
+     "url": "https://www.suno.com.br/noticias/btg-pactual-bpac11-xp-b3-resultados-2t26-safra-mt/",
+     "source": "Suno",
+     "published": "2026-07-20",
+     "content_hash": "8aa15cff1456e4ff03ee9eb0f28de55899c40af2775e92772e6ca8ff521e522a",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Análise do Safra projeta resultados mistos para BTG Pactual, XP e B3 no 2T26, com destaque para resiliência do BTG, apoiado por diversificação e crédito, enquanto XP e B3 sofrem com menor atividade em renda variável e investment banking.",
+      "evento": "resultado",
+      "impacto": "misto",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "diversificação de receitas do BTG",
+       "crescimento em crédito e gestão de patrimônio",
+       "controle de despesas"
+      ],
+      "riscos": [
+       "menor atividade em investment banking",
+       "queda nos volumes negociados na B3",
+       "desaceleração da renda variável"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "BRAP4": {
+   "checked_at": "2026-07-28T12:37:38.715873+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
+   "articles": []
+  },
+  "BRAV3": {
+   "checked_at": "2026-07-28T12:37:42.510684+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
+   "articles": [
+    {
+     "id": "944856849c33672e",
+     "title": "Brava (BRAV3): Ecopetrol melhora oferta, mas impasse da OPA continua",
+     "url": "https://www.suno.com.br/noticias/brava-brav3-opa-ecopetrol-cvm-governanca-mt/",
+     "source": "Suno",
+     "published": "2026-07-09",
+     "content_hash": "944856849c33672e1ee42421a4cbcc7f596a5bb1556f34151bf6bd3f2f7e3f72",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Ecopetrol teria igualado preço da OPA da Brava a R$ 24, mas analista aponta assimetria de execução e impasse de governança. Oferta parcial mantém incerteza para minoritários, e preço ainda é visto como pouco atrativo. Decisão da CVM sobre estrutura da operação é central.",
+      "evento": "aquisicao",
+      "impacto": "misto",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "equalização de preço pela Ecopetrol",
+       "assimetria de execução na OPA",
+       "governança do Novo Mercado",
+       "decisão da CVM"
+      ],
+      "riscos": [
+       "rejeição da CVM por assimetria",
+       "preço considerado baixo pelo mercado",
+       "rateio e liquidez para minoritários"
+      ],
+      "metricas_afetadas": [
+       "governanca",
+       "valuation"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "BRFS3": {
+   "checked_at": "2026-07-28T12:37:45.632564+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
+   "articles": [
+    {
+     "id": "9e665f91c46367b7",
+     "title": "BRF (BRFS3) pega carona no boom do frango, aponta Safra",
+     "url": "https://www.suno.com.br/noticias/brf-brfs3-safra-exportacoes-frango-mt/",
+     "source": "Suno",
+     "published": "2026-07-06",
+     "content_hash": "9e665f91c46367b7a748be425b098d8dde96629a336f9e6f22105d0bd852d766",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Safra destaca que BRF (BRFS3) é beneficiada pelo boom do frango, com aumento das exportações de carne de frango (44% em junho), preços elevados e custos de grãos menores, o que favorece spreads e resultados no segundo trimestre.",
+      "evento": "resultado",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "alta",
+      "drivers": [
+       "alta nas exportações de frango",
+       "preços internacionais elevados",
+       "custos de grãos em queda"
+      ],
+      "riscos": [
+       "possível reversão da demanda externa",
+       "volatilidade nos preços de grãos"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "BRKM5": {
+   "checked_at": "2026-07-28T12:37:49.349154+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
+   "articles": [
+    {
+     "id": "ab7a34412572c063",
+     "title": "Braskem (BRKM5) lidera perdas do Ibovespa após cortes de recomendação e ratings",
+     "url": "https://www.suno.com.br/noticias/braskem-brkm5-lidera-perdas-ibovespa-cortes-rating-jpmorgan-go/",
+     "source": "Suno",
+     "published": "2026-06-30",
+     "content_hash": "ab7a34412572c06365d25809e8506f772370964919f11694da407d0c791b4b77",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Ações da Braskem (BRKM5) lideram perdas do Ibovespa após JPMorgan cortar recomendação de compra para neutra e reduzir preço-alvo, além de Fitch e S&P rebaixarem ratings de crédito, refletindo piora nas perspectivas do setor petroquímico e incertezas sobre reestruturação financeira.",
+      "evento": "recomendacao_terceiro",
+      "impacto": "negativo",
+      "horizonte": "curto",
+      "intensidade": "alta",
+      "drivers": [
+       "Corte de recomendação pelo JPMorgan",
+       "Rebaixamento de rating por Fitch e S&P",
+       "Piora nas perspectivas do setor petroquímico",
+       "Incertezas sobre reestruturação financeira",
+       "Elevado endividamento da companhia"
+      ],
+      "riscos": [
+       "Inadimplência ou reestruturação da dívida",
+       "Dificuldade de acesso ao mercado de crédito",
+       "Aumento do custo de captação",
+       "Perda de interesse de investidores institucionais"
+      ],
+      "metricas_afetadas": [
+       "caixa",
+       "divida",
+       "valuation"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "CMIG4": {
+   "checked_at": "2026-07-28T12:37:51.917375+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
+   "articles": [
+    {
+     "id": "18420f34bc15daab",
+     "title": "IRB(Re) (IRBR3) e Cemig (CMIG4): Veja quem paga dividendos nesta terça-feira",
+     "url": "https://www.suno.com.br/noticias/irb-brasil-irbr3-agenda-dividendos-30062026/",
+     "source": "Suno",
+     "published": "2026-06-30",
+     "content_hash": "18420f34bc15daab7c709b2a717fff207a1b44a25415d532b9677221f5af1e3e",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Cemig paga dividendos de R$ 0,1184 por ação em 30/06; acionistas com posição em 23/12 têm direito.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
+      "drivers": [
+       "pagamento de dividendos"
+      ],
+      "riscos": [],
+      "metricas_afetadas": [
+       "caixa"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "CMIN3": {
+   "checked_at": "2026-07-28T12:37:52.395232+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
+   "articles": []
+  },
+  "COGN3": {
+   "checked_at": "2026-07-28T12:37:55.133615+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
+   "articles": [
+    {
+     "id": "c162e714fabd203f",
+     "title": "IRB (IRBR3) e Cogna (COGN3) pagam proventos nesta sexta; veja valores",
+     "url": "https://www.suno.com.br/noticias/o-irb-brasil-resseguros-irbr3-agenda-dividendos-29052026/",
+     "source": "Suno",
+     "published": "2026-05-29",
+     "content_hash": "c162e714fabd203fba4e9e79b2ac1ba80b2492f7ae6cb1b47f5220d78c80d403",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Cogna (COGN3) paga dividendos de R$ 0,0142 por ação nesta sexta-feira, 29 de maio de 2026, para acionistas com posição em 27 de abril. Os dividendos são isentos de IR.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
+      "drivers": [
+       "pagamento de dividendos"
+      ],
+      "riscos": [
+       "nenhum"
+      ],
+      "metricas_afetadas": [
+       "dividendos"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "CPFE3": {
+   "checked_at": "2026-07-28T12:37:55.623824+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
+   "articles": []
+  },
+  "CPLE6": {
+   "checked_at": "2026-07-28T12:37:56.045152+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
+   "articles": []
+  },
+  "CRFB3": {
+   "checked_at": "2026-07-28T12:37:56.528538+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
+   "articles": []
+  },
+  "CSAN3": {
+   "checked_at": "2026-07-28T12:37:59.628500+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
+   "articles": [
+    {
+     "id": "6470d7b9e44a5d26",
+     "title": "Cosan (CSAN3) avalia alternativas para venda de participação na Rumo (RAIL3)",
+     "url": "https://www.suno.com.br/noticias/cosan-csan3-avalia-alternativas-venda-participacao-rumo-go/",
+     "source": "Suno",
+     "published": "2026-06-29",
+     "content_hash": "6470d7b9e44a5d26dd097065acf4b3fb9dc42ea4e1ae22ba32147cd144f91840",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Cosan (CSAN3) avalia alternativas para sua participação na Rumo (RAIL3), contratou BTG Pactual como assessor, visando reduzir endividamento. Processo em estágio inicial, sem decisão sobre formato ou condições. Possibilidade inclui venda parcial ou total.",
+      "evento": "venda_ativo",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "redução de endividamento",
+       "otimização de estrutura de capital"
+      ],
+      "riscos": [
+       "incerteza sobre concretização da venda",
+       "condições de mercado desfavoráveis",
+       "preço de venda abaixo do esperado"
+      ],
+      "metricas_afetadas": [
+       "caixa",
+       "divida",
+       "valuation"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "CSNA3": {
+   "checked_at": "2026-07-28T12:38:03.107852+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
+   "articles": [
+    {
+     "id": "2911fb0502286dce",
+     "title": "CSN (CSNA3), Usiminas (USIM5) e Gerdau (GGBR3) impulsionam Ibovespa após decisão dos EUA; entenda",
+     "url": "https://www.suno.com.br/noticias/csn-csna3-usiminas-usim5-gerdau-ggbr4-disparam-decisao-eua-go/",
+     "source": "Suno",
+     "published": "2026-06-02",
+     "content_hash": "2911fb0502286dce412f8297a1b5d24ac27d1b687c324ac8809acd9e1360deae",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Mudança nas tarifas de aço dos EUA (Seção 232) reduz taxas para alguns produtos derivados, mantendo incentivo à produção industrial americana. Ações da CSN, Usiminas e Gerdau lideram altas do Ibovespa com ganhos entre 5% e 8%.",
+      "evento": "regulacao",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "alta",
+      "drivers": [
+       "Redução de tarifas para produtos derivados de aço e alumínio",
+       "Incentivo à produção industrial americana"
+      ],
+      "riscos": [
+       "Ampliação de lista de itens taxados em 25%",
+       "Dependência de acordos comerciais e critérios específicos"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "CVCB3": {
+   "checked_at": "2026-07-28T12:38:03.976104+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
+   "articles": []
+  },
+  "CXSE3": {
+   "checked_at": "2026-07-28T12:38:07.474965+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
+   "articles": [
+    {
+     "id": "2cc6791cff8bcdcb",
+     "title": "Caixa Seguridade (CXSE3) ou BB Seguridade (BBSE3): qual tem melhores indicadores?",
+     "url": "https://www.suno.com.br/noticias/bb-seguridade-bbse3-caixa-seguridade-cxse3-indicadores-mt/",
+     "source": "Suno",
+     "published": "2026-07-20",
+     "content_hash": "2cc6791cff8bcdcbe6c70c852de66781a6fc8976a178a0ae045045d636e7b682",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Comparação entre BB Seguridade e Caixa Seguridade mostra que BBSE3 lidera em dividendos (DY 11,02%), ROE (72,72%), P/L (8,70) e liquidez (R$221,3M). CXSE3 destaca-se em valorização (75,37% em 12 meses) e P/VP (4,90). O texto analisa indicadores do Status Invest e conclui que BBSE3 é superior no conjunto fundamentalista.",
+      "evento": "outro",
+      "impacto": "neutro",
+      "horizonte": "medio",
+      "intensidade": "baixa",
+      "drivers": [
+       "Comparativo de indicadores fundamentalistas entre BBSE3 e CXSE3"
+      ],
+      "riscos": [
+       "Análise baseada em dados históricos; desempenho passado não garante resultados futuros"
+      ],
+      "metricas_afetadas": [
+       "nenhuma"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "CYRE3": {
+   "checked_at": "2026-07-28T12:38:10.715204+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
+   "articles": [
+    {
+     "id": "38706838a689df8c",
+     "title": "Cyrela (CYRE3) sobe após anúncio de recompra de até 14 milhões de ações; entenda",
+     "url": "https://www.suno.com.br/noticias/cyrela-cyre3-sobe-apos-recompra-de-acoes-go/",
+     "source": "Suno",
+     "published": "2026-06-08",
+     "content_hash": "38706838a689df8cfccb322ea3854698ae932b271ecdafe8420a55d8c4aedcb2",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Cyrela aprova novo programa de recompra de até 14,48 milhões de ações e cancelamento de 3,35 milhões de ações preferenciais em tesouraria, sem redução do capital social. Ações sobem 2,21%.",
+      "evento": "outro",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "Programa de recompra de ações",
+       "Cancelamento de ações em tesouraria"
+      ],
+      "riscos": [
+       "Possível diluição futura se programa não for concluído",
+       "Incerteza sobre aprovação de alteração estatutária"
+      ],
+      "metricas_afetadas": [
+       "valuation",
+       "dividendos"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "DIRR3": {
+   "checked_at": "2026-07-28T12:38:11.249812+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
+   "articles": []
+  },
+  "EGIE3": {
+   "checked_at": "2026-07-28T12:38:15.685663+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
+   "articles": [
+    {
+     "id": "53080eda8b541e42",
+     "title": "Analistas veem Engie (EGIE3) pagando caro por Jirau; entenda",
+     "url": "https://www.suno.com.br/noticias/engie-egie3-jirau-analistas-genial-mt/",
+     "source": "Suno",
+     "published": "2026-07-03",
+     "content_hash": "53080eda8b541e42966950b0cd17e2d43486274505199fad9bce054a86ecf010",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Analistas da Genial mantêm recomendação neutra para Engie (EGIE3), com preço-alvo de R$ 35, e criticam o valuation da compra de 40% da UHE Jirau por R$ 5,744 bilhões, considerando o preço acima do justo. A aquisição faz sentido estratégico, mas a TIR real implícita de 6% é inferior ao rendimento das NTN-Bs (IPCA+7,6%), limitando a criação de valor para minoritários.",
+      "evento": "aquisicao",
+      "impacto": "negativo",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "Aquisição de participação em ativo hidrelétrico de qualidade",
+       "Vida contratual longa até 2045",
+       "Ativo renovável e relevante"
+      ],
+      "riscos": [
+       "Preço da aquisição acima do valor justo estimado",
+       "TIR real implícita baixa (6%) comparada a NTN-Bs (7,6%)",
+       "Operação entre partes relacionadas"
+      ],
+      "metricas_afetadas": [
+       "valuation"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "ENEV3": {
+   "checked_at": "2026-07-28T12:38:16.155517+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
+   "articles": []
+  },
+  "ENGI11": {
+   "checked_at": "2026-07-28T12:38:19.491693+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
+   "articles": [
+    {
+     "id": "4ce79f91d5dd290b",
+     "title": "Energisa (ENGI11) vende mais energia, mas um alerta pesa na prévia; entenda",
+     "url": "https://www.suno.com.br/noticias/energisa-engi11-previa-operacional-2t26-btg-mt/",
+     "source": "Suno",
+     "published": "2026-07-21",
+     "content_hash": "4ce79f91d5dd290baa12f8b8608da79b9dec39fbf9290a4510a16d32bf305a7f",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Energisa reporta alta de 4,5% no consumo de energia no 2T26, mas perdas aumentam 9 p.b. para 12,28%. BTG Pactual mantém recomendação de compra, preço-alvo de R$ 60,00. Evolução das perdas é o principal ponto de atenção.",
+      "evento": "resultado",
+      "impacto": "misto",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "crescimento do consumo de energia",
+       "expansão da base de clientes",
+       "melhora de renda e emprego"
+      ],
+      "riscos": [
+       "aumento das perdas de energia",
+       "concessões acima dos limites regulatórios"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "EQTL3": {
+   "checked_at": "2026-07-28T12:38:22.208600+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
+   "articles": [
+    {
+     "id": "81664e0377ebd4f2",
+     "title": "Rede D&#8217;Or (RDOR3) e Equatorial (EQTL3) pagam dividendos nesta quarta; veja detalhes",
+     "url": "https://www.suno.com.br/noticias/a-rede-dor-rdor3-agenda-dividendos-08072026-go/",
+     "source": "Suno",
+     "published": "2026-07-08",
+     "content_hash": "81664e0377ebd4f2613a3fa96a2a3c51704246ddc61c21016b1dca75882828e3",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Rede D'Or e Equatorial pagam dividendos nesta quarta-feira. RDOR3 paga R$ 0,1833 por ação e EQTL3 paga R$ 0,3168. Data de corte para ambos foi 25 de junho.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
+      "drivers": [
+       "pagamento de dividendos"
+      ],
+      "riscos": [],
+      "metricas_afetadas": [
+       "dividendos"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "FLRY3": {
+   "checked_at": "2026-07-28T12:38:22.697193+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
+   "articles": []
+  },
+  "GGBR4": {
+   "checked_at": "2026-07-28T12:38:26.075934+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
+   "articles": [
+    {
+     "id": "a2b62313f8d1bd94",
+     "title": "Gerdau (GGBR4) ganha sinal verde da Fitch e mira novo degrau no rating",
+     "url": "https://www.suno.com.br/noticias/gerdau-ggbr4-fitch-rating-perspectiva-positiva-mt/",
+     "source": "Suno",
+     "published": "2026-07-03",
+     "content_hash": "a2b62313f8d1bd94ad74ce58cff6c87ce7a1cf232d3801752040c2e4acf178ae",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Fitch reafirma rating BBB da Gerdau e revisa perspectiva de estável para positiva, citando melhora nos negócios nos EUA e Brasil, alavancagem baixa e geração de caixa. A revisão indica chance de upgrade no curto e médio prazo.",
+      "evento": "regulacao",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "Melhora no perfil de negócios",
+       "Presença na América do Norte",
+       "Recuperação no Brasil",
+       "Alavancagem baixa",
+       "Geração de caixa resiliente"
+      ],
+      "riscos": [
+       "Dependência de condições econômicas nos EUA e Brasil",
+       "Possibilidade de não concretização do upgrade"
+      ],
+      "metricas_afetadas": [
+       "caixa",
+       "divida",
+       "valuation"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "HAPV3": {
+   "checked_at": "2026-07-28T12:38:31.184424+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
+   "articles": [
+    {
+     "id": "e83315df855b198d",
+     "title": "Hapvida (HAPV3) cai após ANS definir teto de reajuste dos planos de saúde",
+     "url": "https://www.suno.com.br/noticias/hapvida-hapv3-cai-ans-reduzir-teto-reajuste-planos-go/",
+     "source": "Suno",
+     "published": "2026-05-29",
+     "content_hash": "e83315df855b198d176011c321642470dec87adcf23ea0cf1d33604781c01976",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "ANS define teto de reajuste dos planos de saúde individuais em 5,11%, abaixo das expectativas de parte do mercado, impactando negativamente as ações da Hapvida devido à sua alta exposição ao segmento.",
+      "evento": "regulacao",
+      "impacto": "negativo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "Regulamentação da ANS com teto abaixo das expectativas"
+      ],
+      "riscos": [
+       "Pressão sobre margens",
+       "Revisões negativas de projeções de lucro",
+       "Custos médicos elevados"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "HYPE3": {
+   "checked_at": "2026-07-28T12:38:34.775028+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
+   "articles": [
+    {
+     "id": "fbe7f877579fc04f",
+     "title": "Ozempic brasileiro? Hypera (HYPE3) dá passo em direção à caneta emagrecedora, diz jornal",
+     "url": "https://www.suno.com.br/noticias/hypera-hype3-caneta-emagrecedora-semavy-semaglutida-go/",
+     "source": "Suno",
+     "published": "2026-06-24",
+     "content_hash": "fbe7f877579fc04fabf59fd2230d15b6cc47c8515cdedccea3aea80d4b4087c1",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Hypera registra nome comercial Semavy no Brasil e pede análise de preço da semaglutida à CMED, mas ainda aguarda registro sanitário da Anvisa. Move-se para entrar no mercado de agonistas GLP-1, concorrendo com Ozempic e outras marcas. Expectativa de aumento de oferta e queda de preços no longo prazo.",
+      "evento": "outro",
+      "impacto": "positivo",
+      "horizonte": "longo",
+      "intensidade": "media",
+      "drivers": [
+       "Registro de nome comercial Semavy",
+       "Pedido de análise de preço à CMED",
+       "Potencial entrada no mercado de semaglutida",
+       "Expansão do mercado de GLP-1"
+      ],
+      "riscos": [
+       "Ainda sem registro sanitário da Anvisa",
+       "Concorrência com Novo Nordisk e EMS",
+       "Incerteza regulatória"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "valuation"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "IGTI11": {
+   "checked_at": "2026-07-28T12:38:35.288216+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
+   "articles": []
+  },
+  "ITSA4": {
+   "checked_at": "2026-07-28T12:38:38.153593+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
+   "articles": [
+    {
+     "id": "a768f93d3498de05",
+     "title": "Itaúsa (ITSA4) e Bradesco (BBDC4) pagam dividendos nesta quarta; saiba mais",
+     "url": "https://www.suno.com.br/noticias/itausa-itsa4-agenda-dividendos-01072026-go/",
+     "source": "Suno",
+     "published": "2026-07-01",
+     "content_hash": "a768f93d3498de0584142ef5cd02e6e443e0a470e52b32c3cb6712abe85fddcd",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Itaúsa e Bradesco pagam dividendos nesta quarta-feira, com valores de R$ 0,0181 e R$ 0,0172 por ação, respectivamente. Os dividendos são isentos de IR e distribuídos a acionistas com posição em datas específicas.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
+      "drivers": [
+       "pagamento de dividendos"
+      ],
+      "riscos": [
+       "nenhum"
+      ],
+      "metricas_afetadas": [
+       "caixa",
+       "dividendos"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "ITUB4": {
+   "checked_at": "2026-07-28T12:38:41.385625+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
+   "articles": [
+    {
+     "id": "7fb8eff0d16fba22",
+     "title": "Ibovespa fecha em queda com tarifaço dos EUA no radar; Itaú (ITUB4) pesa no índice",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-15-julho-2026-itub4-tarifaco-eua-mt/",
+     "source": "Suno",
+     "published": "2026-07-15",
+     "content_hash": "7fb8eff0d16fba2263759b76677ef50fdc8b5230862dc5309ec21c9462ec06b2",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "O Ibovespa caiu 0,36% pressionado pela expectativa de novas tarifas dos EUA sobre produtos brasileiros. O Itaú (ITUB4) teve queda de 1,12%, contribuindo para o desempenho negativo do índice. O dólar fechou estável a R$ 5,0785.",
+      "evento": "macroeconomia",
+      "impacto": "negativo",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "Expectativa de tarifas dos EUA sobre Brasil",
+       "Cenário político e geopolítico",
+       "Cautela fiscal doméstica"
+      ],
+      "riscos": [
+       "Novas tarifas comerciais dos EUA",
+       "Riscos fiscais no Brasil"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "lucro",
+       "valuation"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "JBSS3": {
+   "checked_at": "2026-07-28T12:38:44.857581+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
+   "articles": [
+    {
+     "id": "25bd4833fc30e25f",
+     "title": "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne",
+     "url": "https://www.suno.com.br/noticias/rascunho-automaticojbs-jbss32-previa-resultados-2t26-xp-mt/",
+     "source": "Suno",
+     "published": "2026-07-22",
+     "content_hash": "25bd4833fc30e25f24f61ff7367669ba1184cc1a64989f1e2df7b2209dabd99f",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "XP projeta recuperação sequencial da JBS no 2T26, mas vê preocupações estruturais no ciclo da carne bovina e alavancagem elevada, enquanto espera que revisões negativas de resultados estejam perto do fim.",
+      "evento": "resultado",
+      "impacto": "misto",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "recuperação sequencial",
+       "exportações favoráveis",
+       "ausência de perdas com hedge",
+       "fim das cotas tarifárias chinesas"
+      ],
+      "riscos": [
+       "ciclo da carne bovina desafiador",
+       "normalização das margens da Seara e PPC",
+       "alavancagem elevada (3,1x EBITDA)"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro",
+       "caixa",
+       "divida"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "KLBN11": {
+   "checked_at": "2026-07-28T12:38:48.242548+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
+   "articles": [
+    {
+     "id": "5a439d8a193d7d6b",
+     "title": "Suzano (SUZB3) ou Klabin (KLBN11): qual ação vence na celulose?",
+     "url": "https://www.suno.com.br/noticias/suzano-suzb3-klabin-klbn11-indicadores-status-invest-mt/",
+     "source": "Suno",
+     "published": "2026-07-23",
+     "content_hash": "5a439d8a193d7d6b196bc66368c5a8db12fa541a8442195c171b1bb91978a93b",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Comparação entre Suzano (SUZB3) e Klabin (KLBN11) mostra que Suzano é mais barata em múltiplos de valuation, mas Klabin se destaca em dividend yield, ROIC e menor queda recente. Endividamento da Klabin é maior. Ambas divulgarão balanços em agosto de 2026.",
+      "evento": "outro",
+      "impacto": "neutro",
+      "horizonte": "indefinido",
+      "intensidade": "baixa",
+      "drivers": [
+       "comparação entre empresas",
+       "valuation",
+       "dividend yield",
+       "ROIC",
+       "endividamento"
+      ],
+      "riscos": [
+       "Klabin tem maior endividamento (3,85x dívida líquida/Ebitda)",
+       "volatilidade do setor de celulose"
+      ],
+      "metricas_afetadas": [
+       "nenhuma"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
+  "LREN3": {
+   "checked_at": "2026-07-28T12:38:50.389364+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
+   "articles": []
+  },
+  "MGLU3": {
+   "checked_at": "2026-07-28T12:38:55.382183+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
+   "articles": [
+    {
+     "id": "55e741ae74b65a1c",
+     "title": "Mercado Livre (MELI34) resiste aos juros, enquanto Magalu (MGLU3) e Casas Bahia (BHIA3) patinam",
+     "url": "https://www.suno.com.br/noticias/mercado-livre-meli34-ecommerce-magalu-casas-bahia-mt/",
+     "source": "Suno",
+     "published": "2026-07-13",
+     "content_hash": "55e741ae74b65a1cab3acaab718a86caf1675b603dd4e63220f1d30507913312",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "O Safra manteve Mercado Livre (MELI34) como favorito no e-commerce, com preço-alvo reduzido de US$2.400 para US$2.300 e recomendação de compra. Para Magalu (MGLU3), manteve neutra e cortou alvo de R$10 para R$6. Para Casas Bahia (BHIA3), manteve venda e cortou alvo de R$3 para R$1,20. Juros altos pressionam consumo e crédito, beneficiando MELI34. Magalu e BHIA3 enfrentam consumo de caixa e baixo retorno.",
+      "evento": "recomendacao_terceiro",
+      "impacto": "misto",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "Juros altos favorecem Mercado Livre com posição financeira sólida",
+       "Mercado Livre tem crescimento acelerado e valuation abaixo da média histórica",
+       "Magalu e BHIA3 sofrem com consumo de caixa e dependência de crédito",
+       "Mercado Livre projeta ROIC médio de 39% entre 2025-2028"
+      ],
+      "riscos": [
+       "Piora do cenário macroeconômico no Brasil",
+       "Aumento da inadimplência e pressão sobre consumo",
+       "Competição de plataformas internacionais",
+       "Exposição do Mercado Livre à economia argentina"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "caixa",
+       "valuation",
+       "nenhuma"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "MRVE3": {
+   "checked_at": "2026-07-28T12:38:59.285336+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
+   "articles": [
+    {
+     "id": "fa27db8e4972c913",
+     "title": "MRV (MRVE3) frustra no 2T26, mas analistas veem ação quase dobrar",
+     "url": "https://www.suno.com.br/noticias/mrv-mrve3-previa-operacional-2t26-btg-mt/",
+     "source": "Suno",
+     "published": "2026-07-13",
+     "content_hash": "fa27db8e4972c913f354b742b9806de7766cff08f4646bdd02d57a5f7bed9f20",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "MRV (MRVE3) reporta prévia operacional fraca no 2T26, com lançamentos caindo 11% e vendas -7% no Brasil, gerando queima de caixa de R$ 39 milhões, abaixo da expectativa do BTG de geração de R$ 150 milhões. Apesar disso, BTG mantém recomendação de compra e preço-alvo de R$ 12, implicando upside de 147,9% sobre cotação de R$ 4,84, apostando na normalização dos resultados e no forte momento do Minha Casa Minha Vida.",
+      "evento": "resultado",
+      "impacto": "misto",
+      "horizonte": "medio",
+      "intensidade": "alta",
+      "drivers": [
+       "Minha Casa Minha Vida forte",
+       "potencial de alta no valuation (P/TBV de 0,7x)",
+       "normalização da geração de caixa esperada"
+      ],
+      "riscos": [
+       "execução operacional ainda fraca",
+       "pressão no caixa no curto prazo",
+       "descasamento entre unidades produzidas e transferidas"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "caixa",
+       "valuation"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "MULT3": {
+   "checked_at": "2026-07-28T12:38:59.758235+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
+   "articles": []
+  },
+  "NTCO3": {
+   "checked_at": "2026-07-28T12:39:00.296220+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
+   "articles": []
+  },
+  "PCAR3": {
+   "checked_at": "2026-07-28T12:39:00.793905+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
+   "articles": []
+  },
+  "PETR4": {
+   "checked_at": "2026-07-28T12:39:06.097089+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
+   "articles": [
+    {
+     "id": "4f31e4fece6ae393",
+     "title": "Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-24-julho-2026-petr4-vale3-mt/",
+     "source": "Suno",
+     "published": "2026-07-24",
+     "content_hash": "4f31e4fece6ae393ae39dfcec658f623df05651a5a8bf9245db1b9e456f4c3e1",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Ibovespa cai 1,52% pressionado por Petrobras, Vale e bancos. Queda do petróleo e tarifas dos EUA pesam. Dólar estável. Mercado cauteloso com Oriente Médio e eleições.",
+      "evento": "macroeconomia",
+      "impacto": "negativo",
+      "horizonte": "curto",
+      "intensidade": "alta",
+      "drivers": [
+       "queda do petróleo",
+       "tarifas dos EUA",
+       "tensões no Oriente Médio",
+       "realização de lucros",
+       "cautela fiscal e eleitoral"
+      ],
+      "riscos": [
+       "agravamento geopolítico",
+       "juros elevados",
+       "volatilidade eleitoral"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "lucro",
+       "valuation"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "PETZ3": {
+   "checked_at": "2026-07-28T12:39:06.582877+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
+   "articles": []
+  },
+  "POMO4": {
+   "checked_at": "2026-07-28T12:39:10.443120+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
+   "articles": [
+    {
+     "id": "b499fd6c0ccfb960",
+     "title": "Marcopolo (POMO4): mercado de ônibus perde fôlego e acende alerta",
+     "url": "https://www.suno.com.br/noticias/marcopolo-pomo4-onibus-antt-demanda-btg-mt/",
+     "source": "Suno",
+     "published": "2026-07-15",
+     "content_hash": "b499fd6c0ccfb9602ace3df88da108f958e6a55a2f516f1d5fbb84eb4cee7518",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Dados da ANTT mostram queda na frota (-2%), passageiros (-9,7%) e receita de ônibus rodoviários em 2025. BTG Pactual mantém recomendação neutra para Marcopolo, citando ambiente de juros elevados e orçamentos apertados das operadoras, mas vê potencial no fretamento. O programa Move Brasil pode trazer alívio em 2026, mas o banco segue conservador.",
+      "evento": "regulacao",
+      "impacto": "negativo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "queda na frota de ônibus rodoviários",
+       "redução de passageiros transportados",
+       "menor receita do setor",
+       "juros elevados",
+       "orçamentos apertados das operadoras"
+      ],
+      "riscos": [
+       "demanda por ônibus menor que o esperado",
+       "custo de financiamento elevado",
+       "dificuldade de renovação de frota"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "lucro",
+       "caixa"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "PRIO3": {
+   "checked_at": "2026-07-28T12:39:13.633575+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
+   "articles": [
+    {
+     "id": "844105d18915a776",
+     "title": "Petrobras (PETR4) e PRIO (PRIO3) sobem com alta do petróleo após ataque a petroleiros sauditas",
+     "url": "https://www.suno.com.br/noticias/petroleiras-petrobras-prio-petroleo-ataques-sauditas-23072026-go/",
+     "source": "Suno",
+     "published": "2026-07-23",
+     "content_hash": "844105d18915a7763769eaa25c73e710ff367e707aeac9ec2e8e1905cdc3d388",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Ações da Prio e Petrobras sobem com alta do petróleo após ataques a petroleiros sauditas, reacendendo temores de escalada no Oriente Médio.",
+      "evento": "macroeconomia",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "alta",
+      "drivers": [
+       "ataque a petroleiros sauditas",
+       "tensão geopolítica no Oriente Médio",
+       "alta do petróleo Brent"
+      ],
+      "riscos": [
+       "escalada do conflito regional",
+       "interrupção do abastecimento global de energia",
+       "volatilidade dos preços do petróleo"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "lucro",
+       "caixa"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "PSSA3": {
+   "checked_at": "2026-07-28T12:39:14.105694+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
+   "articles": []
+  },
+  "RADL3": {
+   "checked_at": "2026-07-28T12:39:18.453765+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
+   "articles": [
+    {
+     "id": "87e4c99af3378d58",
+     "title": "RD Saúde (RADL3): Safra corta preço-alvo, mas ainda vê alta de 63%",
+     "url": "https://www.suno.com.br/noticias/rd-saude-radl3-safra-preco-alvo-compra-mt/",
+     "source": "Suno",
+     "published": "2026-06-19",
+     "content_hash": "87e4c99af3378d58b190b8826d329a4b0145e5bcd13fffe3ba8c02f64fcafc72",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Safra corta preço-alvo da RD Saúde (RADL3) de R$30 para R$27, mas mantém recomendação de compra com potencial de alta de 63%. Banco revisa estimativas após resultado do 1T26, novas premissas macro e visão conservadora para 2027. Destaca múltiplos atrativos (17x lucro 2026, 13x 2027 vs média histórica 25x). Aumenta estimativa de vendas mesmas lojas em 2026 (11,8%), mas reduz projeções de lucro líquido em 5% (2026) e 10% (2027) devido a custo financeiro maior e incertezas sobre genéricos. Riscos i",
+      "evento": "recomendacao_terceiro",
+      "impacto": "misto",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "múltiplos atrativos",
+       "crescimento vendas mesmas lojas acima do esperado",
+       "redução de preço-alvo mas ainda com upside significativo"
+      ],
+      "riscos": [
+       "ambiente macroeconômico adverso",
+       "aumento da concorrência",
+       "desafios de execução",
+       "mudanças regulatórias",
+       "incertezas sobre preços de genéricos",
+       "risco de mudanças na jornada de trabalho"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro",
+       "valuation"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "RAIL3": {
+   "checked_at": "2026-07-28T12:39:22.452770+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
+   "articles": [
+    {
+     "id": "872c8d127b8bac27",
+     "title": "Rumo (RAIL3) desarma risco da Malha Oeste e analistas veem alta de 75%",
+     "url": "https://www.suno.com.br/noticias/rumo-rail3-malha-oeste-analistas-alta-mt/",
+     "source": "Suno",
+     "published": "2026-07-02",
+     "content_hash": "872c8d127b8bac27bd4baceb51fa601fd317ac7ff5552786f878e861432e9147",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Analistas mantêm recomendação de compra para Rumo (RAIL3) com preço-alvo de R$ 23 (potencial de 74,6%), após acordo de transição da Malha Oeste que reduz riscos financeiros. A concessão foi encerrada e a Rumo operará temporariamente em escopo mínimo por até 180 dias, sem cobrança de outorga. Custos serão tratados como créditos. O encontro de contas com o governo reduz incertezas. Ação negocia a 6x EV/EBITDA estimado para 2026.",
+      "evento": "outro",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "redução de risco da Malha Oeste",
+       "acordo de transição sem encargos",
+       "encontro de contas com governo",
+       "valuation atrativo (EV/EBITDA 6x)"
+      ],
+      "riscos": [
+       "possíveis passivos regulatórios",
+       "incertezas no encontro de contas"
+      ],
+      "metricas_afetadas": [
+       "caixa",
+       "divida",
+       "valuation"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
+  "RAIZ4": {
+   "checked_at": "2026-07-28T12:39:25.943936+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
+   "articles": [
+    {
+     "id": "22d79d6c286a0a6b",
+     "title": "Raízen (RAIZ4) recebe novo prazo da B3 para reenquadrar ações acima de R$ 1",
+     "url": "https://www.suno.com.br/noticias/raizen-raiz4-prazo-b3-reenquadrar-acoes-2027-go/",
+     "source": "Suno",
+     "published": "2026-07-20",
+     "content_hash": "22d79d6c286a0a6b5a2131b12823b3c45424074ce90bb93c1f21bb2e35927540",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "A B3 concedeu novo prazo até 31/03/2027 para a Raízen reenquadrar o valor de suas ações (RAIZ4) acima de R$ 1, atualmente negociadas como penny stock. A empresa está em recuperação extrajudicial desde março de 2025, com dívidas de R$ 65 bilhões, e foi removida dos índices da B3.",
+      "evento": "governanca",
+      "impacto": "negativo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "Penny stock",
+       "Recuperação extrajudicial",
+       "Dívida elevada"
+      ],
+      "riscos": [
+       "Não cumprimento do prazo de reenquadramento",
+       "Deslistagem da B3",
+       "Dificuldade de renegociação de dívidas"
+      ],
+      "metricas_afetadas": [
+       "valuation",
+       "governanca"
+      ],
+      "incerteza": "alta"
+     }
+    }
+   ]
+  },
+  "RDOR3": {
+   "checked_at": "2026-07-28T12:39:28.495635+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
+   "articles": [
+    {
+     "id": "4f143b9357130957",
+     "title": "Notícias sobre Ações - Suno Notícias",
+     "url": "https://www.suno.com.br/noticias/tags/acoes",
+     "source": "Suno",
+     "published": null,
+     "content_hash": "4f143b93571309570c4db60f23d144287108d497f74bf77f4d70ac59042f66cb",
+     "reader_model": null,
+     "leitura": null
+    },
+    {
+     "id": "81664e0377ebd4f2",
+     "title": "Rede D&#8217;Or (RDOR3) e Equatorial (EQTL3) pagam dividendos nesta quarta; veja detalhes",
+     "url": "https://www.suno.com.br/noticias/a-rede-dor-rdor3-agenda-dividendos-08072026-go/",
+     "source": "Suno",
+     "published": "2026-07-08",
+     "content_hash": "81664e0377ebd4f2613a3fa96a2a3c51704246ddc61c21016b1dca75882828e3",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "RECV3": {
+   "checked_at": "2026-07-28T12:39:29.180255+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
+   "articles": [
+    {
+     "id": "805cd006ad8af60f",
+     "title": "PetroReconcavo (RECV3) dispara após Citi elevar recomendação; veja detalhes",
+     "url": "https://www.suno.com.br/noticias/petroreconcavo-recv3-sobe-citi-eleva-recomendacao-compra-go/",
+     "source": "Suno",
+     "published": "2026-06-11",
+     "content_hash": "805cd006ad8af60f468b887172f44d371c06e301b029b3479d61ef1f8a244e90",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "RENT3": {
+   "checked_at": "2026-07-28T12:39:29.833089+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
+   "articles": [
+    {
+     "id": "3be979707663af14",
+     "title": "Localiza (RENT3): carro subsidiado ameaça aluguel para app? Analistas respondem",
+     "url": "https://www.suno.com.br/noticias/localiza-rent3-move-brasil-zarp-motoristas-app-mt/",
+     "source": "Suno",
+     "published": "2026-06-15",
+     "content_hash": "3be979707663af144bc08af2c5186a8313844e94dbbdfc01efa0c801c793e099",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "SANB11": {
+   "checked_at": "2026-07-28T12:39:30.473864+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
+   "articles": [
+    {
+     "id": "01a428815ee14093",
+     "title": "Santander Brasil (SANB11) deve ter 2T26 fraco, com lucro 20% abaixo do consenso",
+     "url": "https://www.suno.com.br/noticias/santander-brasil-sanb11-2t26-lucro-provisoes-mt/",
+     "source": "Suno",
+     "published": "2026-07-08",
+     "content_hash": "01a428815ee14093a1df4c7639c6e82c6a8b4a9cccf10328913289ae18831e47",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "SBSP3": {
+   "checked_at": "2026-07-28T12:39:31.465667+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
+   "articles": [
+    {
+     "id": "1330221f4a024862",
+     "title": "Suno Notícias - o portal de notícias da Suno",
+     "url": "https://www.suno.com.br/noticias/",
+     "source": "Suno",
+     "published": null,
+     "content_hash": "1330221f4a02486267118f90c52dd297de0c658bd48acb5c8e57609b96dbb48c",
+     "reader_model": null,
+     "leitura": null
+    },
+    {
+     "id": "4f143b9357130957",
+     "title": "Notícias sobre Ações - Suno Notícias",
+     "url": "https://www.suno.com.br/noticias/tags/acoes",
+     "source": "Suno",
+     "published": null,
+     "content_hash": "4f143b93571309570c4db60f23d144287108d497f74bf77f4d70ac59042f66cb",
+     "reader_model": null,
+     "leitura": null
+    },
+    {
+     "id": "ae94bd6d611f3679",
+     "title": "Vale a pena investir na Sabesp (SBSP3)? UBS BB eleva recomendação",
+     "url": "https://www.suno.com.br/noticias/vale-a-pena-investir-na-sabesp-sbsp3-ubs-eleva-recomendacao-go/",
+     "source": "Suno",
+     "published": "2026-06-18",
+     "content_hash": "ae94bd6d611f3679d2b9f69536a2f28f1124585acd99bad683803e0fa096c28a",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "SLCE3": {
+   "checked_at": "2026-07-28T12:39:31.972287+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
+   "articles": []
+  },
+  "SMFT3": {
+   "checked_at": "2026-07-28T12:39:32.456228+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
+   "articles": []
+  },
+  "STBP3": {
+   "checked_at": "2026-07-28T12:39:33.246907+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
+   "articles": []
+  },
+  "SUZB3": {
+   "checked_at": "2026-07-28T12:39:33.889140+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
+   "articles": [
+    {
+     "id": "5a439d8a193d7d6b",
+     "title": "Suzano (SUZB3) ou Klabin (KLBN11): qual ação vence na celulose?",
+     "url": "https://www.suno.com.br/noticias/suzano-suzb3-klabin-klbn11-indicadores-status-invest-mt/",
+     "source": "Suno",
+     "published": "2026-07-23",
+     "content_hash": "5a439d8a193d7d6b196bc66368c5a8db12fa541a8442195c171b1bb91978a93b",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "TAEE11": {
+   "checked_at": "2026-07-28T12:39:34.353218+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
+   "articles": []
+  },
+  "TIMS3": {
+   "checked_at": "2026-07-28T12:39:35.011974+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
+   "articles": [
+    {
+     "id": "9e27c7adbcdfdc64",
+     "title": "TIM (TIMS3) e Banestes (BEES3): veja quem paga dividendos na semana",
+     "url": "https://www.suno.com.br/noticias/tims3-banestes-bees3-agenda-dividendos-17072026-go/",
+     "source": "Suno",
+     "published": "2026-07-19",
+     "content_hash": "9e27c7adbcdfdc647e04980a388a8609ec26ae5e6a4dbbd6e26f9a583c736f4b",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "TOTS3": {
+   "checked_at": "2026-07-28T12:39:35.641412+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
+   "articles": [
+    {
+     "id": "3535914122ece559",
+     "title": "JHSF (JHSF3) e Totvs (TOTS3): Veja quem paga dividendos nesta sexta-feira",
+     "url": "https://www.suno.com.br/noticias/a-jhsf-jhsf3-agenda-dividendos-10072026/",
+     "source": "Suno",
+     "published": "2026-07-10",
+     "content_hash": "3535914122ece559a032aa4e8292cd7ffa9129ac787d8cbd188c4ed933609a84",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "UGPA3": {
+   "checked_at": "2026-07-28T12:39:36.245848+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
+   "articles": [
+    {
+     "id": "12a2c5da19f6ea51",
+     "title": "Grupo Ultra (UGPA3) aprova recompra de ações e sobe mais de 2%",
+     "url": "https://www.suno.com.br/noticias/grupo-ultra-ugpa3-recompra-acoes-sobe-bolsa-go/",
+     "source": "Suno",
+     "published": "2026-06-18",
+     "content_hash": "12a2c5da19f6ea51c1491069dc9d3af0215f13f44ed383974a543c00eee1befc",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "USIM5": {
+   "checked_at": "2026-07-28T12:39:36.904545+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
+   "articles": [
+    {
+     "id": "2911fb0502286dce",
+     "title": "CSN (CSNA3), Usiminas (USIM5) e Gerdau (GGBR3) impulsionam Ibovespa após decisão dos EUA; entenda",
+     "url": "https://www.suno.com.br/noticias/csn-csna3-usiminas-usim5-gerdau-ggbr4-disparam-decisao-eua-go/",
+     "source": "Suno",
+     "published": "2026-06-02",
+     "content_hash": "2911fb0502286dce412f8297a1b5d24ac27d1b687c324ac8809acd9e1360deae",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "VALE3": {
+   "checked_at": "2026-07-28T12:39:37.568545+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
+   "articles": [
+    {
+     "id": "4f4739582273095e",
+     "title": "Temporada de resultados do 2T26 acelera com Vale (VALE3) e Ambev (ABEV3); veja o calendário",
+     "url": "https://www.suno.com.br/noticias/temporada-de-resultados-do-2t26-acelera-com-vale-vale3-e-ambev-abev3-veja-o-calendario/",
+     "source": "Suno",
+     "published": "2026-07-27",
+     "content_hash": "4f4739582273095e7d970a6ab1139cf530aa3ad2a7664fc2106b11c05fb4b32e",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "VAMO3": {
+   "checked_at": "2026-07-28T12:39:38.104464+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
+   "articles": []
+  },
+  "VBBR3": {
+   "checked_at": "2026-07-28T12:39:38.823958+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
+   "articles": [
+    {
+     "id": "a506ffad8b433bd9",
+     "title": "Vibra (VBBR3) anuncia resgate antecipado de R$ 779 milhões em debêntures",
+     "url": "https://www.suno.com.br/noticias/vibra-anuncia-resgate-antecipado-de-r-779-milhoes-em-debentures-go/",
+     "source": "Suno",
+     "published": "2026-06-05",
+     "content_hash": "a506ffad8b433bd991e3e500e104122a0d9465ffa0ba40072811329e97d54796",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "VIVA3": {
+   "checked_at": "2026-07-28T12:39:39.329741+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
+   "articles": []
+  },
+  "VIVT3": {
+   "checked_at": "2026-07-28T12:39:39.838430+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
+   "articles": []
+  },
+  "WEGE3": {
+   "checked_at": "2026-07-28T12:39:40.517852+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
+   "articles": [
+    {
+     "id": "c29759197f5582a5",
+     "title": "WEG (WEGE3) dispara 10%, e XP mostra o que fez investidor mudar de humor",
+     "url": "https://www.suno.com.br/noticias/weg-wege3-dispara-balanco-2t26-pesquisa-xp-mt/",
+     "source": "Suno",
+     "published": "2026-07-23",
+     "content_hash": "c29759197f5582a5ccc05d132715f7b911886c1b719e4a6ca5366d3f8f8aa9ea",
+     "reader_model": null,
+     "leitura": null
+    }
+   ]
+  },
+  "YDUQ3": {
+   "checked_at": "2026-07-28T12:39:41.045562+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
+   "articles": []
+  }
+ }
 }
