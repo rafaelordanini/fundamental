@@ -101,6 +101,49 @@ class DeepSeekAnalysisTests(unittest.TestCase):
         self.assertEqual(result["confianca"], "alta")
         self.assertEqual(len(result["pontos_fortes"]), 2)
 
+    def test_validator_repairs_common_model_format_deviations(self):
+        facts = build_facts(ROW, HISTORY)
+        analysis = valid_analysis()
+        analysis["titulo"] = "T" * 130
+        analysis["tese"] = "A" * 950
+        analysis["valuation"]["evidencias"] = ["graham"]
+        analysis["mudancas_desde_anterior"]["evidencias"] = []
+
+        result = validate_analysis(analysis, facts)
+
+        self.assertEqual(len(result["titulo"]), 120)
+        self.assertEqual(len(result["tese"]), 900)
+        self.assertEqual(result["valuation"]["evidencias"], ["fair_price_reference"])
+        self.assertEqual(result["mudancas_desde_anterior"]["evidencias"], [])
+
+    def test_build_facts_exposes_veto_as_its_own_evidence(self):
+        facts = build_facts({**ROW, "roe": -0.1}, HISTORY)
+        self.assertIn("vetos", facts["evidencias"])
+        self.assertIn("ROE atual negativo", facts["evidencias"]["vetos"]["valor"])
+
+    def test_validator_accepts_omitted_evidence_for_changes_only(self):
+        facts = build_facts(ROW, HISTORY)
+        analysis = valid_analysis()
+        del analysis["mudancas_desde_anterior"]["evidencias"]
+
+        result = validate_analysis(analysis, facts)
+
+        self.assertEqual(result["mudancas_desde_anterior"]["evidencias"], [])
+
+    def test_validator_still_rejects_omitted_evidence_for_material_claim(self):
+        facts = build_facts(ROW, HISTORY)
+        analysis = valid_analysis()
+        del analysis["valuation"]["evidencias"]
+        with self.assertRaisesRegex(ValueError, "valuation.evidencias"):
+            validate_analysis(analysis, facts)
+
+    def test_validator_drops_unknown_evidence_when_a_valid_key_remains(self):
+        facts = build_facts(ROW, HISTORY)
+        analysis = valid_analysis()
+        analysis["pontos_fortes"][0]["evidencias"] = ["comparacao_inventada", "roe"]
+        result = validate_analysis(analysis, facts)
+        self.assertEqual(result["pontos_fortes"][0]["evidencias"], ["roe"])
+
     @patch("deepseek_analysis.request_deepseek")
     def test_generate_reuses_unchanged_analysis(self, mocked_request):
         latest = {"data_coleta": "2026-07-17", "rows": [ROW]}

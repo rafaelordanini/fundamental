@@ -33,6 +33,7 @@ class ContextualAnalysisTests(unittest.TestCase):
         self.assertEqual(facts["comparacao_setorial"]["grupo"], "Máquinas")
         self.assertEqual(facts["contexto_noticioso"][0]["impacto"], "misto")
         self.assertIn("sector_combined_percentile", facts["evidencias"])
+        self.assertIn("melhores_pares", facts["evidencias"])
         self.assertIn("news_abc123", facts["evidencias"])
         self.assertEqual(facts["evidencias"]["news_abc123"]["url"], "https://example.com/noticia")
 

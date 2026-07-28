@@ -32,7 +32,7 @@ LATEST_PATH = ROOT / "data" / "latest.json"
 HISTORY_PATH = ROOT / "data" / "history.json"
 DEFAULT_OUTPUT = ROOT / "data" / "analysis.json"
 
-PROMPT_VERSION = "deepseek-analyst-v1"
+PROMPT_VERSION = "deepseek-analyst-v3"
 DEFAULT_MODEL = "deepseek-v4-pro"
 ALLOWED_MODELS = {"deepseek-v4-pro", "deepseek-v4-flash"}
 FINANCIAL_ACTIVITIES = {
@@ -63,6 +63,12 @@ Regras obrigatórias:
 5. Toda afirmação material deve trazer uma ou mais chaves de evidência existentes em fatos.evidencias.
 6. Use português brasileiro natural, direto e didático, como um relatório curto de research para investidor de longo prazo.
 7. A resposta deve ser um objeto JSON válido, sem markdown e sem texto fora do JSON.
+8. Respeite os limites: título 120 caracteres; resumo e tese 900; textos de pontos,
+   valuation e mudanças 500. Não use nomes de campos dos fatos como evidência:
+   cada item de evidencias deve ser copiado literalmente de uma chave de fatos.evidencias.
+9. evidencias nunca pode ser vazia nos pontos fortes, pontos de atenção e valuation.
+   mudancas_desde_anterior.evidencias pode ser vazia quando não houver uma mudança
+   mensurável nos fatos atuais ou quando esta for a primeira análise.
 
 Formato JSON obrigatório:
 {
@@ -258,6 +264,8 @@ def build_facts(row: dict[str, Any], company_history: dict[str, Any] | None) -> 
 
     history_vetoes = summary.get("vetos") if isinstance(summary.get("vetos"), list) else []
     all_vetoes = current_vetoes(row) + [str(item) for item in history_vetoes]
+    if all_vetoes:
+        add_evidence(evidence, "vetos", "Alertas quantitativos", all_vetoes, "; ".join(all_vetoes))
 
     confidence = "alta" if quarters >= 16 else "media" if quarters >= 8 else "baixa"
     if len(evidence) < 10:
@@ -352,9 +360,30 @@ def require_text(value: Any, field: str, maximum: int) -> str:
     if not isinstance(value, str) or not value.strip():
         raise ValueError(f"Campo {field} deve ser texto não vazio")
     text = re.sub(r"\s+", " ", value).strip()
-    if len(text) > maximum:
-        raise ValueError(f"Campo {field} excede {maximum} caracteres")
-    return text
+    # Limites de apresentação não devem inutilizar uma análise inteira. Modelos
+    # ocasionalmente ultrapassam a contagem por poucos caracteres, mesmo quando
+    # ela está explícita no prompt; cortar é determinístico e preserva o conteúdo.
+    return text if len(text) <= maximum else text[:maximum].rstrip()
+
+
+def normalize_evidence_key(key: Any, evidence_keys: set[str]) -> str | None:
+    """Converte aliases comuns do modelo em chaves reais, sem aceitar invenções."""
+    if not isinstance(key, str):
+        return None
+    if key in evidence_keys:
+        return key
+    aliases = {
+        "graham": "fair_price_reference",
+        "bazin": "fair_price_reference",
+        "reference_price": "fair_price_reference",
+        "margin": "safety_margin",
+        "comparacao_setorial": "sector_combined_percentile",
+        "melhores_pares": "sector_combined_percentile",
+        "posicao_qualidade": "sector_quality_percentile",
+        "posicao_valuation": "sector_valuation_percentile",
+    }
+    normalized = aliases.get(key)
+    return normalized if normalized in evidence_keys else None
 
 
 def validate_claim(value: Any, field: str, evidence_keys: set[str]) -> dict[str, Any]:
@@ -362,14 +391,23 @@ def validate_claim(value: Any, field: str, evidence_keys: set[str]) -> dict[str,
         raise ValueError(f"Campo {field} deve ser objeto")
     text = require_text(value.get("texto"), f"{field}.texto", 500)
     evidence = value.get("evidencias")
-    if not isinstance(evidence, list) or not evidence:
+    if not isinstance(evidence, list):
+        # O modelo frequentemente omite a lista ao declarar que não há análise
+        # anterior. Isso é equivalente à lista vazia permitida para este campo.
+        if field == "mudancas_desde_anterior":
+            return {"texto": text, "evidencias": []}
         raise ValueError(f"Campo {field}.evidencias deve ser lista não vazia")
     cleaned = []
     for key in evidence:
-        if not isinstance(key, str) or key not in evidence_keys:
-            raise ValueError(f"Evidência inválida em {field}: {key}")
-        if key not in cleaned:
-            cleaned.append(key)
+        normalized = normalize_evidence_key(key, evidence_keys)
+        if normalized and normalized not in cleaned:
+            cleaned.append(normalized)
+    # Ausência de mudança não é uma afirmação material que possa ser sustentada
+    # artificialmente por qualquer indicador atual. A UI aceita a lista vazia.
+    if not cleaned and field == "mudancas_desde_anterior":
+        return {"texto": text, "evidencias": []}
+    if not cleaned:
+        raise ValueError(f"Campo {field}.evidencias não contém chave válida")
     return {"texto": text, "evidencias": cleaned}
 
 
