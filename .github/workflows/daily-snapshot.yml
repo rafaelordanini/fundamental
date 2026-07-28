@@ -17,6 +17,7 @@ on:
       - "scraper/segmentos.csv"
       - "scraper/classificacao_setorial.csv"
       - ".github/workflows/daily-snapshot.yml"
+      - "scraper/commit_generated_data.sh"
 
 concurrency:
   group: daily-snapshot
@@ -56,8 +57,6 @@ jobs:
           fi
       - name: Commit snapshot, contextos e análises
         run: |
-          git config user.name "bot-snapshot"
-          git config user.email "bot@users.noreply.github.com"
-          git add data/latest.json data/sector_context.json data/news_context.json data/analysis.json
-          git diff --staged --quiet || git commit -m "snapshot $(date -u +%F)"
-          git push
+          scraper/commit_generated_data.sh \
+            bot-snapshot bot@users.noreply.github.com "snapshot $(date -u +%F)" \
+            data/latest.json data/sector_context.json data/news_context.json data/analysis.json
