@@ -110,6 +110,16 @@ def validate_claim_hardened(
             return {"texto": text, "evidencias": []}
         raise ValueError(f"Campo {field}.evidencias deve ser lista não vazia")
 
+    reference_model = (facts.get("valuation") or {}).get("reference_model")
+    if "graham" in evidence and reference_model != "Graham":
+        raise ValueError(
+            f"Campo {field}.evidencias cita Graham, mas o modelo de referência é {reference_model or 'indefinido'}"
+        )
+    if "bazin" in evidence and reference_model != "Bazin":
+        raise ValueError(
+            f"Campo {field}.evidencias cita Bazin, mas o modelo de referência é {reference_model or 'indefinido'}"
+        )
+
     cleaned: list[str] = []
     for key in evidence:
         normalized = normalize_evidence_key_hardened(key, evidence_keys, facts)
