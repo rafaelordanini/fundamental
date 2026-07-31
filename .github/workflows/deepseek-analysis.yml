@@ -18,7 +18,7 @@ on:
         type: string
 
 concurrency:
-  group: deepseek-analysis
+  group: generated-data-main
   cancel-in-progress: false
 
 jobs:
@@ -84,9 +84,9 @@ jobs:
           args=()
           if [ "$FORCE_ANALYSIS" = "true" ]; then args+=(--force); fi
           if [ -n "$TICKER_ANALYSIS" ]; then args+=(--ticker "$TICKER_ANALYSIS"); fi
-          python scraper/run_contextual_analysis.py "${args[@]}"
+          python scraper/run_analysis_pipeline.py "${args[@]}"
       - name: Validar arquivo gerado
-        run: python scraper/run_contextual_analysis.py --validate-only
+        run: python scraper/run_analysis_pipeline.py --validate-only
       - name: Commit contextos e análises
         run: |
           scraper/commit_generated_data.sh \
