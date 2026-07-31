@@ -49,10 +49,11 @@ def valid_analysis():
 
 
 class PipelineIntegrityTests(unittest.TestCase):
-    def test_seed_analysis_file_is_valid_json(self):
+    def test_analysis_file_is_valid_json(self):
         data = json.loads((ROOT / "data" / "analysis.json").read_text(encoding="utf-8"))
-        self.assertEqual(data["companies"], {})
-        self.assertEqual(data["total"], 0)
+        self.assertIsInstance(data.get("companies"), dict)
+        self.assertEqual(data.get("total"), len(data["companies"]))
+        self.assertIsInstance(data.get("erros"), list)
 
     def test_empty_cache_uses_safe_default(self):
         with tempfile.TemporaryDirectory() as directory:
