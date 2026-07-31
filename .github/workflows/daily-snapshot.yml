@@ -13,6 +13,7 @@ on:
       - "scraper/deepseek_analysis.py"
       - "scraper/contextual_analysis.py"
       - "scraper/run_contextual_analysis.py"
+      - "scraper/run_analysis_pipeline.py"
       - "scraper/ibov.txt"
       - "scraper/segmentos.csv"
       - "scraper/classificacao_setorial.csv"
@@ -20,7 +21,7 @@ on:
       - "scraper/commit_generated_data.sh"
 
 concurrency:
-  group: daily-snapshot
+  group: generated-data-main
   cancel-in-progress: false
 
 jobs:
@@ -53,7 +54,7 @@ jobs:
             python scraper/run_news_context.py --metadata-only --max-new-articles 0
           else
             python scraper/run_news_context.py --max-new-articles 15
-            python scraper/run_contextual_analysis.py
+            python scraper/run_analysis_pipeline.py
           fi
       - name: Commit snapshot, contextos e análises
         run: |
