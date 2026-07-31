@@ -23,9 +23,10 @@ fi
 
 git commit -m "$message"
 
-# Uma análise pode levar mais de uma hora. Nesse intervalo outro workflow pode
-# atualizar main; nesse caso, reaplique somente o commit de dados e tente de
-# novo, em vez de perder todo o resultado com um non-fast-forward.
+# Os workflows que geram dados compartilham o mesmo grupo de concorrência, mas a
+# branch ainda pode avançar por uma alteração humana. Durante um rebase, "ours"
+# representa o estado mais novo da branch de destino; em conflito, preserve esse
+# estado em vez de sobrescrevê-lo com a saída potencialmente mais antiga do job.
 for attempt in 1 2 3 4 5; do
   if git push origin "HEAD:${branch}"; then
     exit 0
@@ -36,6 +37,6 @@ for attempt in 1 2 3 4 5; do
   fi
   echo "Branch avançou durante a execução; sincronizando (tentativa ${attempt}/5)."
   git fetch origin "$branch"
-  git rebase -X theirs "origin/${branch}"
+  git rebase -X ours "origin/${branch}"
   sleep $((attempt * 2))
 done
