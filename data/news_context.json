@@ -1,13 +1,13 @@
 {
- "data_geracao": "2026-07-31",
+ "data_geracao": "2026-08-03",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
- "new_reads": 7,
+ "new_reads": 15,
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-07-31T13:12:45.931700+00:00",
+   "checked_at": "2026-08-03T21:55:38.161232+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -48,22 +48,22 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-07-31T13:12:46.929415+00:00",
+   "checked_at": "2026-08-03T21:55:38.929731+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
    "articles": []
   },
   "ASAI3": {
-   "checked_at": "2026-07-31T13:12:47.364056+00:00",
+   "checked_at": "2026-08-03T21:55:39.679106+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-07-31T13:12:47.774173+00:00",
+   "checked_at": "2026-08-03T21:55:40.450597+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-07-31T13:12:48.193624+00:00",
+   "checked_at": "2026-08-03T21:55:52.401936+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -101,12 +101,12 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-07-31T13:12:48.575436+00:00",
+   "checked_at": "2026-08-03T21:55:53.695275+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": []
   },
   "B3SA3": {
-   "checked_at": "2026-07-31T13:12:50.532908+00:00",
+   "checked_at": "2026-08-03T21:55:56.460293+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
@@ -143,7 +143,7 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-07-31T13:12:50.898441+00:00",
+   "checked_at": "2026-08-03T21:55:57.108762+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
@@ -183,20 +183,20 @@
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-07-31T13:12:51.288143+00:00",
+   "checked_at": "2026-08-03T21:56:00.437552+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
-     "id": "1d4f98032a18e9ce",
-     "title": "IRB(Re) (IRBR3) e Bradesco (BBDC4): Veja quem paga dividendos na semana",
-     "url": "https://www.suno.com.br/noticias/irb-irbr3-o-bradesco-bbdc4-agenda-dividendos-24072026/",
+     "id": "d01e45ee231bb794",
+     "title": "Bradesco (BBDC4) e Itaú Unibanco (ITUB4) pagam dividendos nesta segunda",
+     "url": "https://www.suno.com.br/noticias/o-bradesco-bbdc4-agenda-dividendos-03082026/",
      "source": "Suno",
-     "published": "2026-07-26",
-     "content_hash": "1d4f98032a18e9ce0b1509bafdc484cd0232b9d53f1dd594ae7166002b3b9bd1",
+     "published": "2026-08-03",
+     "content_hash": "d01e45ee231bb794ab40ab88d2cc658e47c34e176fbb8d7a49f99afe6390c084",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Agenda de dividendos da semana destaca pagamentos do IRB (R$0,3201/ação) e Bradesco (R$0,3863/ação) em 31/07. Outras empresas: M.Dias Branco e SmartFit. Datas de corte para novos dividendos incluem Telefônica e Itaú Unibanco.",
+      "resumo": "Bradesco e Itaú Unibanco pagam dividendos nesta segunda-feira (03/08). Bradesco paga R$ 0,0172 por ação, com data de corte em 01/07. Itaú paga R$ 0,0181 por ação, com data de corte em 30/06. Apenas acionistas que detinham papéis nas datas de corte recebem os proventos.",
       "evento": "dividendo",
       "impacto": "neutro",
       "horizonte": "curto",
@@ -205,10 +205,12 @@
        "pagamento de dividendos"
       ],
       "riscos": [
-       "nenhum"
+       "valor do dividendo pode variar em relação ao preço da ação",
+       "possíveis mudanças na política de dividendos"
       ],
       "metricas_afetadas": [
-       "dividendos"
+       "dividendos",
+       "caixa"
       ],
       "incerteza": "baixa"
      }
@@ -216,7 +218,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-07-31T13:12:51.666847+00:00",
+   "checked_at": "2026-08-03T21:56:01.170623+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -255,7 +257,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-07-31T13:12:52.049290+00:00",
+   "checked_at": "2026-08-03T21:56:01.866990+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -293,7 +295,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-07-31T13:12:52.439417+00:00",
+   "checked_at": "2026-08-03T21:56:02.794493+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -332,12 +334,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-07-31T13:12:52.850445+00:00",
+   "checked_at": "2026-08-03T21:56:04.016398+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-07-31T13:12:53.219775+00:00",
+   "checked_at": "2026-08-03T21:56:04.679587+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -376,7 +378,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-07-31T13:12:53.617480+00:00",
+   "checked_at": "2026-08-03T21:56:05.326886+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -414,7 +416,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-07-31T13:12:53.929477+00:00",
+   "checked_at": "2026-08-03T21:56:05.912951+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -456,7 +458,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-07-31T13:12:54.285428+00:00",
+   "checked_at": "2026-08-03T21:56:06.544406+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -487,7 +489,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-07-31T13:12:54.644019+00:00",
+   "checked_at": "2026-08-03T21:56:07.198981+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -527,55 +529,64 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-07-31T13:12:55.032187+00:00",
+   "checked_at": "2026-08-03T21:56:11.220052+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
-     "id": "c162e714fabd203f",
-     "title": "IRB (IRBR3) e Cogna (COGN3) pagam proventos nesta sexta; veja valores",
-     "url": "https://www.suno.com.br/noticias/o-irb-brasil-resseguros-irbr3-agenda-dividendos-29052026/",
+     "id": "98d7be74be120942",
+     "title": "Cogna (COGN3) pode roubar a cena no 2T26; entenda o motivo",
+     "url": "https://www.suno.com.br/noticias/cogna-cogn3-resultados-2t26-setor-educacao-safra-mt/",
      "source": "Suno",
-     "published": "2026-05-29",
-     "content_hash": "c162e714fabd203fba4e9e79b2ac1ba80b2492f7ae6cb1b47f5220d78c80d403",
+     "published": "2026-07-30",
+     "content_hash": "98d7be74be12094269789c35a5bd05bbe069b80ef4073173e09d753c3da58f02",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Cogna (COGN3) paga dividendos de R$ 0,0142 por ação nesta sexta-feira, 29 de maio de 2026, para acionistas com posição em 27 de abril. Os dividendos são isentos de IR.",
-      "evento": "dividendo",
-      "impacto": "neutro",
+      "resumo": "Análise do Safra para o 2T26 do setor de educação: Cogna deve ter maior crescimento de receita impulsionada pelo PNLD, mas margem pressionada. Demais empresas com crescimento moderado. Ênfase em medicina e saúde é resiliente. Safra espera FCL negativo e aumento da dívida para a maioria; exceção Cogna. Trimestre é pausa, não mudança de tendência.",
+      "evento": "outro",
+      "impacto": "misto",
       "horizonte": "curto",
-      "intensidade": "baixa",
+      "intensidade": "media",
       "drivers": [
-       "pagamento de dividendos"
+       "Calendário do PNLD concentrando receitas",
+       "Queda de matrículas no EAD",
+       "Aumento de ticket médio e redução de descontos",
+       "Exposição a cursos de medicina e saúde"
       ],
       "riscos": [
-       "nenhum"
+       "Pressão sobre margem operacional da Cogna",
+       "Queda contínua do EAD",
+       "Fluxo de caixa livre negativo para a maioria",
+       "Aumento da dívida líquida no setor"
       ],
       "metricas_afetadas": [
-       "dividendos"
+       "receita",
+       "margem",
+       "caixa",
+       "divida"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-07-31T13:12:55.440176+00:00",
+   "checked_at": "2026-08-03T21:56:12.075761+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
    "articles": []
   },
   "CPLE6": {
-   "checked_at": "2026-07-31T13:12:55.825879+00:00",
+   "checked_at": "2026-08-03T21:56:40.554209+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-07-31T13:12:56.283121+00:00",
+   "checked_at": "2026-08-03T21:56:41.744795+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-07-31T13:12:56.651380+00:00",
+   "checked_at": "2026-08-03T21:56:42.514153+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -613,7 +624,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-07-31T13:12:57.017449+00:00",
+   "checked_at": "2026-08-03T21:56:43.199784+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -649,12 +660,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-07-31T13:12:57.434957+00:00",
+   "checked_at": "2026-08-03T21:56:43.984359+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-07-31T13:12:57.870445+00:00",
+   "checked_at": "2026-08-03T21:56:44.640414+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -687,7 +698,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-07-31T13:12:58.242686+00:00",
+   "checked_at": "2026-08-03T21:56:45.350481+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -723,12 +734,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-07-31T13:12:59.425109+00:00",
+   "checked_at": "2026-08-03T21:56:46.131888+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-07-31T13:12:59.836276+00:00",
+   "checked_at": "2026-08-03T21:56:46.808744+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -769,12 +780,12 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-07-31T13:13:01.064501+00:00",
+   "checked_at": "2026-08-03T21:56:47.588802+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": []
   },
   "ENGI11": {
-   "checked_at": "2026-07-31T13:13:01.417126+00:00",
+   "checked_at": "2026-08-03T21:56:48.222064+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -812,7 +823,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-07-31T13:13:01.803000+00:00",
+   "checked_at": "2026-08-03T21:56:48.845199+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -843,12 +854,12 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-07-31T13:13:02.226926+00:00",
+   "checked_at": "2026-08-03T21:56:51.250909+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": []
   },
   "GGBR4": {
-   "checked_at": "2026-07-31T13:13:03.100287+00:00",
+   "checked_at": "2026-08-03T21:56:51.894002+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -888,7 +899,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-07-31T13:13:05.737001+00:00",
+   "checked_at": "2026-08-03T21:56:54.175467+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -925,7 +936,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-07-31T13:13:06.138806+00:00",
+   "checked_at": "2026-08-03T21:56:54.937685+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -964,12 +975,12 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-07-31T13:13:06.513972+00:00",
+   "checked_at": "2026-08-03T21:57:20.645766+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": []
   },
   "ITSA4": {
-   "checked_at": "2026-07-31T13:13:06.880181+00:00",
+   "checked_at": "2026-08-03T21:57:21.321379+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1011,48 +1022,41 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-07-31T13:13:07.290326+00:00",
+   "checked_at": "2026-08-03T21:57:24.204613+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
-     "id": "d3733a4b666dd479",
-     "title": "Itaúsa (ITSA4) ou Itaú (ITUB4): holding ou banco, quem paga mais dividendos?",
-     "url": "https://www.suno.com.br/noticias/itausa-itsa4-itau-itub4-dividendos-indicadores-status-invest-mt/",
+     "id": "d01e45ee231bb794",
+     "title": "Bradesco (BBDC4) e Itaú Unibanco (ITUB4) pagam dividendos nesta segunda",
+     "url": "https://www.suno.com.br/noticias/o-bradesco-bbdc4-agenda-dividendos-03082026/",
      "source": "Suno",
-     "published": "2026-07-27",
-     "content_hash": "d3733a4b666dd4796cfd75ebbcde24f4aae8c9052b367e31987709afdab780ae",
+     "published": "2026-08-03",
+     "content_hash": "d01e45ee231bb794ab40ab88d2cc658e47c34e176fbb8d7a49f99afe6390c084",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "A matéria compara Itaúsa (ITSA4) e Itaú Unibanco (ITUB4) quanto a dividendos e indicadores financeiros. ITSA4 apresenta maior dividend yield (9,84% vs 7,51%), enquanto ITUB4 paga maior valor absoluto por ação (R$ 3,20 vs R$ 1,32). ITSA4 tem P/L e P/VP menores e melhor performance recente; ITUB4 tem maior liquidez, ROE e crescimento de receita.",
-      "evento": "outro",
-      "impacto": "neutro",
-      "horizonte": "indefinido",
-      "intensidade": "media",
+      "resumo": "Bradesco e Itaú Unibanco pagam dividendos nesta segunda-feira, 03/08. Bradesco paga R$ 0,0172 por ação e Itaú R$ 0,0181, para acionistas com posição em 01/07 e 30/06, respectivamente. Valores são isentos de IR. Não é recomendação de investimento.",
+      "evento": "dividendo",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "baixa",
       "drivers": [
-       "dividend yield",
-       "P/L",
-       "P/VP",
-       "liquidez",
-       "ROE",
-       "crescimento de receita"
+       "Pagamento de dividendos"
       ],
       "riscos": [
-       "incerteza sobre futuros proventos",
-       "mudanças em valuation"
+       "Possibilidade de redução futura de proventos"
       ],
       "metricas_afetadas": [
-       "dividendos",
-       "valuation",
-       "nenhuma"
+       "caixa",
+       "dividendos"
       ],
-      "incerteza": "media"
+      "incerteza": "baixa"
      }
     }
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-07-31T13:13:07.653186+00:00",
+   "checked_at": "2026-08-03T21:57:24.908866+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
@@ -1094,7 +1098,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-07-31T13:13:08.017863+00:00",
+   "checked_at": "2026-08-03T21:57:25.587291+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1132,7 +1136,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-07-31T13:13:08.435152+00:00",
+   "checked_at": "2026-08-03T21:57:26.265529+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1164,7 +1168,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-07-31T13:13:08.816536+00:00",
+   "checked_at": "2026-08-03T21:57:26.895723+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1207,7 +1211,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-07-31T13:13:09.187672+00:00",
+   "checked_at": "2026-08-03T21:57:27.597400+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1246,67 +1250,65 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-07-31T13:13:09.595598+00:00",
+   "checked_at": "2026-08-03T21:57:28.402525+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
    "articles": []
   },
   "NTCO3": {
-   "checked_at": "2026-07-31T13:13:10.666401+00:00",
+   "checked_at": "2026-08-03T21:57:29.859330+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-07-31T13:13:12.106037+00:00",
+   "checked_at": "2026-08-03T21:57:30.604386+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-07-31T13:13:14.294900+00:00",
+   "checked_at": "2026-08-03T21:57:35.747447+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
-     "id": "ceeee8cd6fd29e57",
-     "title": "Petrobras (PETR4) registra maior produção da sua história no 2T26; veja detalhes",
-     "url": "https://www.suno.com.br/noticias/petr4-petrobras-recorde-producao-2t26-pre-sal-go/",
+     "id": "abe7706e7ad4fb60",
+     "title": "Petrobras (PETR4) anuncia descoberta de gás em águas profundas da Colômbia",
+     "url": "https://www.suno.com.br/noticias/petr4-poco-sandia-1-gas-offshore-colombia-agosto-2026-go/",
      "source": "Suno",
-     "published": "2026-07-29",
-     "content_hash": "ceeee8cd6fd29e57f19ff3989d8c50fe90b959cd65b9a49642d8f31699dcccf5",
+     "published": "2026-08-03",
+     "content_hash": "abe7706e7ad4fb60bc1f93af25ca4314af1dd86981d92ce9b327cfcb6516aada",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Petrobras registrou produção recorde de 3,336 milhões de boed no 2T26, alta de 14% ante 2T25, impulsionada pelo pré-sal e novas plataformas.",
-      "evento": "resultado",
+      "resumo": "Petrobras anuncia descoberta de gás no poço Sandia-1 na Colômbia, a 42 km da costa, em lâmina d'água de 1.251 m. A companhia é operadora com 44,44%, enquanto a Ecopetrol detém 55,56%. Estima-se potencial na região, mas avaliações ainda estão em andamento. Anúncio ocorre antes do balanço do 2T26.",
+      "evento": "outro",
       "impacto": "positivo",
-      "horizonte": "curto",
-      "intensidade": "alta",
+      "horizonte": "longo",
+      "intensidade": "media",
       "drivers": [
-       "recorde de produção",
-       "aumento no pré-sal",
-       "novas plataformas em operação",
-       "preços elevados do petróleo",
-       "forte desempenho das refinarias"
+       "Descoberta de gás em águas profundas",
+       "Estratégia de recomposição de reservas",
+       "Parceria com Ecopetrol"
       ],
       "riscos": [
-       "volatilidade dos preços do petróleo",
-       "possível desaceleração futura da produção"
+       "Avaliações laboratoriais ainda não concluídas",
+       "Viabilidade econômica do desenvolvimento",
+       "Riscos regulatórios e ambientais"
       ],
       "metricas_afetadas": [
-       "receita",
-       "margem",
-       "lucro"
+       "reservas",
+       "valuation"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "PETZ3": {
-   "checked_at": "2026-07-31T13:13:14.797684+00:00",
+   "checked_at": "2026-08-03T21:57:37.318089+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
    "articles": []
   },
   "POMO4": {
-   "checked_at": "2026-07-31T13:13:15.168281+00:00",
+   "checked_at": "2026-08-03T21:57:37.968236+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
    "articles": [
     {
@@ -1347,7 +1349,7 @@
    ]
   },
   "PRIO3": {
-   "checked_at": "2026-07-31T13:13:15.527862+00:00",
+   "checked_at": "2026-08-03T21:57:38.678246+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1386,12 +1388,12 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-07-31T13:13:15.966222+00:00",
+   "checked_at": "2026-08-03T21:57:40.254025+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-07-31T13:13:16.333464+00:00",
+   "checked_at": "2026-08-03T21:57:40.883738+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
@@ -1434,7 +1436,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-07-31T13:13:16.687161+00:00",
+   "checked_at": "2026-08-03T21:57:41.599651+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1473,7 +1475,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-07-31T13:13:17.083827+00:00",
+   "checked_at": "2026-08-03T21:57:42.229345+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1511,7 +1513,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-07-31T13:13:20.735872+00:00",
+   "checked_at": "2026-08-03T21:57:45.900061+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1542,7 +1544,7 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-07-31T13:13:21.088611+00:00",
+   "checked_at": "2026-08-03T21:57:46.652947+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
@@ -1582,7 +1584,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-07-31T13:13:21.456637+00:00",
+   "checked_at": "2026-08-03T21:57:47.291127+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1616,72 +1618,35 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-07-31T13:13:21.885682+00:00",
+   "checked_at": "2026-08-03T21:57:51.243113+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
-     "id": "4e9f1aebffa71cc6",
-     "title": "Santander Brasil (SANB11) tem lucro de R$ 3 bilhões no 2T26, queda de 17,6%",
-     "url": "https://www.suno.com.br/noticias/santander-brasil-sanb11-lucro-liquido-recorrente-29062026-go/",
+     "id": "4a2350a0e664cda0",
+     "title": "Ibovespa fecha julho em alta de 3,47% e Santander (SANB11) dispara após anúncio de OPA",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-31-julho-2026-santander-sanb11-opa-mt/",
      "source": "Suno",
-     "published": "2026-07-29",
-     "content_hash": "4e9f1aebffa71cc6114411b9269fd582454a2a026877aaac1cc8e6fc8e55dd71",
+     "published": "2026-07-31",
+     "content_hash": "4a2350a0e664cda0dc5695de5d1f15cc8223f7ea7724d8e7f708f88f94be2876",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Santander Brasil reporta lucro líquido recorrente de R$ 3,014 bilhões no 2T26, queda de 17,6% ante 2T25 e 20,4% ante 1T26. ROE cai para 12,5% (16% no 1T26 e 16,4% há um ano). Margem financeira total recua 0,4% anual e 3% trimestral. Margem com clientes cai 0,4% anual e 3,2% trimestral, influenciada por menor exposição ao segmento massivo. Margem com mercado negativa em R$ 718 milhões, melhora ante R$ 771 milhões negativos no trimestre anterior.",
-      "evento": "resultado",
-      "impacto": "negativo",
-      "horizonte": "curto",
-      "intensidade": "media",
-      "drivers": [
-       "Queda de 17,6% no lucro anual",
-       "Queda de 20,4% no lucro trimestral",
-       "ROE cai de 16% para 12,5%",
-       "Margem financeira total em queda"
-      ],
-      "riscos": [
-       "Pressão sobre rentabilidade (ROE)",
-       "Menor exposição a segmento massivo pode indicar perda de market share"
-      ],
-      "metricas_afetadas": [
-       "lucro",
-       "margem",
-       "valuation"
-      ],
-      "incerteza": "baixa"
-     }
-    }
-   ]
-  },
-  "SBSP3": {
-   "checked_at": "2026-07-31T13:13:25.462122+00:00",
-   "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
-   "articles": [
-    {
-     "id": "ae94bd6d611f3679",
-     "title": "Vale a pena investir na Sabesp (SBSP3)? UBS BB eleva recomendação",
-     "url": "https://www.suno.com.br/noticias/vale-a-pena-investir-na-sabesp-sbsp3-ubs-eleva-recomendacao-go/",
-     "source": "Suno",
-     "published": "2026-06-18",
-     "content_hash": "ae94bd6d611f3679d2b9f69536a2f28f1124585acd99bad683803e0fa096c28a",
-     "reader_model": "deepseek-v4-flash",
-     "leitura": {
-      "relevante": true,
-      "resumo": "UBS BB elevou recomendação da Sabesp de neutra para compra, com preço-alvo de R$ 38 por ação, veendo potencial de valorização de 36% e retorno total de 40% em 12 meses. O banco atribui a queda recente de 20% a saída de capital estrangeiro, não a deterioração de fundamentos, e vê risco excessivo de reversão da privatização.",
-      "evento": "recomendacao_terceiro",
+      "resumo": "O Ibovespa subiu 0,47%, fechando aos 177.999 pontos, com alta de 3,47% em julho. O Santander (SANB11) disparou 13,35% após anúncio de OPA das ações da unidade brasileira. Setor financeiro e commodities impulsionaram o índice. Dólar subiu levemente com Ptax e Fed. Petrobras e Vale tiveram alta.",
+      "evento": "outro",
       "impacto": "positivo",
-      "horizonte": "medio",
+      "horizonte": "curto",
       "intensidade": "alta",
       "drivers": [
-       "potencial de valorização de 36%",
-       "posição favorável para crescimento com universalização do saneamento",
-       "baixa probabilidade de reversão da privatização"
+       "OPA do Santander",
+       "alta de commodities",
+       "resultados da Amazon",
+       "dados de produção da Petrobras",
+       "recompra de ações da Vale"
       ],
       "riscos": [
-       "desafios operacionais na execução de investimentos",
-       "possível saída contínua de capital estrangeiro",
-       "risco de mudanças regulatórias ou institucionais"
+       "Fed pode manter juros altos por mais tempo",
+       "queda do minério de ferro",
+       "problemas técnicos na B3"
       ],
       "metricas_afetadas": [
        "valuation"
@@ -1691,23 +1656,61 @@
     }
    ]
   },
+  "SBSP3": {
+   "checked_at": "2026-08-03T21:57:58.632028+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
+   "articles": [
+    {
+     "id": "4b452077d58f145e",
+     "title": "Sabesp (SBSP3) assusta investidores, mas cenário de longo prazo segue positivo",
+     "url": "https://www.suno.com.br/noticias/sabesp-sbsp3-queda-acoes-cenario-longo-prazo-mt/",
+     "source": "Suno",
+     "published": "2026-07-31",
+     "content_hash": "4b452077d58f145e6f6125f175dcc3a4f0a06931975915c63134fe3565ded8ed",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "A Sabesp (SBSP3) teve forte queda após reunião com investidores, que indicou 2º semestre de 2026 desafiador: adiamento de obras para 2027, consumo menor por temperaturas baixas e despesas extras pressionam resultados de curto prazo. Analistas veem queda desproporcional e mantêm visão positiva de longo prazo, citando eficiência operacional, capex adiado mas não cancelado e fundamentos preservados.",
+      "evento": "outro",
+      "impacto": "misto",
+      "horizonte": "curto",
+      "intensidade": "media",
+      "drivers": [
+       "Adiamento de obras (capex) para 2027",
+       "Pressão no 2º e 3º trimestres (consumo, mix tarifário, despesas)"
+      ],
+      "riscos": [
+       "Perspectiva mais conservadora para o 2º semestre de 2026",
+       "Possibilidade de queda nos resultados de curto prazo"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro",
+       "caixa"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
+  },
   "SLCE3": {
-   "checked_at": "2026-07-31T13:13:25.866557+00:00",
+   "checked_at": "2026-08-03T21:57:59.506948+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-07-31T13:13:26.318200+00:00",
+   "checked_at": "2026-08-03T21:58:00.261880+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-07-31T13:13:26.737390+00:00",
+   "checked_at": "2026-08-03T21:58:11.856365+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-07-31T13:13:27.104998+00:00",
+   "checked_at": "2026-08-03T21:58:12.529372+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1740,12 +1743,12 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-07-31T13:13:27.588404+00:00",
+   "checked_at": "2026-08-03T21:58:13.302528+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": []
   },
   "TIMS3": {
-   "checked_at": "2026-07-31T13:13:27.956271+00:00",
+   "checked_at": "2026-08-03T21:58:14.035632+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
@@ -1786,7 +1789,7 @@
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-07-31T13:13:28.397482+00:00",
+   "checked_at": "2026-08-03T21:58:14.713039+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -1817,7 +1820,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-07-31T13:13:28.774133+00:00",
+   "checked_at": "2026-08-03T21:58:15.372898+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -1851,87 +1854,96 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-07-31T13:13:29.152025+00:00",
+   "checked_at": "2026-08-03T21:58:19.199350+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
-     "id": "60fb492b42a58d4f",
-     "title": "Usiminas (USIM5) tem lucro líquido de R$ 428 milhões no 2T, alta de 236%",
-     "url": "https://www.suno.com.br/noticias/usiminas-usim5-registra-lucro-liquido-de-r-428-milhoes-no-2o-trimestre-go/",
+     "id": "3d8ae72848e15e24",
+     "title": "Usiminas (USIM5) surpreende no 2T26, mas acende alerta para os próximos meses",
+     "url": "https://www.suno.com.br/noticias/usiminas-usim5-resultado-2t26-aco-minerio-guidance-mt/",
      "source": "Suno",
-     "published": "2026-07-30",
-     "content_hash": "60fb492b42a58d4f9b1e408796098c2b37432e2904996a3f46f3a1ec479e9c61",
+     "published": "2026-07-31",
+     "content_hash": "3d8ae72848e15e24baeb2f9888b0b0737507fc3cf5a4f0540185724125689702",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Usiminas reporta lucro líquido de R$ 428 milhões no 2T26, alta de 236% ante 2T25. Ebitda ajustado sobe 86% para R$ 761 milhões. Receita líquida cai 7% para R$ 6,131 bilhões. Empresa projeta estabilidade na siderurgia e queda na mineração no próximo trimestre. Caixa líquido aumenta para R$ 499 milhões.",
+      "resumo": "Usiminas supera expectativas no 2T26 com siderurgia forte, mas mineração sofre com fretes altos. Ebitda ajustado de R$ 761 mi (+86% a/a), margem de 12,4%. Lucro líquido de R$ 428 mi, queda de 52% t/t por efeitos não recorrentes. Para o 3T26, empresa espera estabilidade na siderurgia e queda na mineração. Capex revisado para baixo. Caixa líquido de R$ 499 mi.",
       "evento": "resultado",
-      "impacto": "positivo",
+      "impacto": "misto",
       "horizonte": "curto",
-      "intensidade": "alta",
+      "intensidade": "media",
       "drivers": [
-       "melhora gradual da rentabilidade",
-       "gestão rigorosa de custos",
-       "aumento de produtividade",
-       "estratégia comercial de agregação de valor e diversificação"
+       "recuperação da siderurgia",
+       "preços e mix favoráveis",
+       "ganhos de eficiência no alto-forno"
       ],
       "riscos": [
-       "aumento dos custos de vendas (carvão, coque, placas)",
-       "redução de vendas de minério de ferro",
-       "custos logísticos elevados (frete marítimo)"
+       "aumento dos custos de carvão, coque e placas",
+       "fretes marítimos elevados na mineração",
+       "menor volume de vendas de minério no 3T26"
       ],
       "metricas_afetadas": [
        "receita",
+       "margem",
        "lucro",
-       "caixa",
-       "divida"
+       "caixa"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "VALE3": {
-   "checked_at": "2026-07-31T13:13:29.545948+00:00",
+   "checked_at": "2026-08-03T21:58:23.206167+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
-     "id": "3141b26287d089b3",
-     "title": "Vale (VALE3): vice-presidente do conselho renuncia ao cargo",
-     "url": "https://www.suno.com.br/noticias/vale-vale3-renuncia-vice-presidente-conselho-mt/",
+     "id": "f318eee207ac7964",
+     "title": "Vale (VALE3) tem lucro de US$ 1,375 bilhão no 2T26, queda de 35% na comparação anual",
+     "url": "https://www.suno.com.br/noticias/vale-vale3-lucro-2t26-queda-35-go/",
      "source": "Suno",
-     "published": "2026-07-27",
-     "content_hash": "3141b26287d089b38eb3b6a7280f06de89ea009e41543a1367d54435535ec6c2",
+     "published": "2026-07-31",
+     "content_hash": "f318eee207ac7964442753d7f1eedfa9188026c86759192d6ae167b5a925a1ca",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Vale anuncia renúncia de Marcelo Gasparino dos cargos de membro e vice-presidente do Conselho de Administração, com efeito a partir de 1º de agosto de 2026. Conselho avaliará providências necessárias.",
-      "evento": "governanca",
-      "impacto": "neutro",
+      "resumo": "A Vale registrou lucro líquido de US$ 1,375 bi no 2T26, queda de 35% ante 2T25, abaixo das expectativas de US$ 1,8 bi. O resultado foi afetado por derivativos e tributos. Ebitda ajustado subiu 9% para US$ 3,676 bi, com receita de US$ 10,498 bi (+19%). Companhia anunciou recompra de 100 mi de ações e dividendos de US$ 1,7 bi.",
+      "evento": "resultado",
+      "impacto": "misto",
       "horizonte": "curto",
-      "intensidade": "baixa",
+      "intensidade": "alta",
       "drivers": [
-       "renúncia de conselheiro",
-       "avaliação de sucessão"
+       "Queda de 35% no lucro líquido anual",
+       "Ebitda acima do esperado",
+       "Aumento de 19% na receita",
+       "Anúncio de recompra e dividendos",
+       "Guidance de produção elevado"
       ],
       "riscos": [
-       "possível instabilidade na governança temporária"
+       "Efeitos cambiais e de derivativos",
+       "Tributos sobre o lucro",
+       "Incertezas macroeconômicas"
       ],
       "metricas_afetadas": [
-       "governanca"
+       "lucro",
+       "caixa",
+       "valuation",
+       "governanca",
+       "receita",
+       "margem"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-07-31T13:13:29.953616+00:00",
+   "checked_at": "2026-08-03T21:58:24.797067+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-07-31T13:13:30.368336+00:00",
+   "checked_at": "2026-08-03T21:58:25.481631+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -1966,12 +1978,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-07-31T13:13:30.797973+00:00",
+   "checked_at": "2026-08-03T21:58:26.235023+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-07-31T13:13:31.178788+00:00",
+   "checked_at": "2026-08-03T21:58:26.862298+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2008,7 +2020,7 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-07-31T13:13:31.569903+00:00",
+   "checked_at": "2026-08-03T21:58:27.537826+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
@@ -2047,7 +2059,7 @@
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-07-31T13:13:32.034348+00:00",
+   "checked_at": "2026-08-03T21:58:28.318018+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
