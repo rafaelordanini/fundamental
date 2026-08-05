@@ -1,5 +1,5 @@
 {
- "data_geracao": "2026-08-04",
+ "data_geracao": "2026-08-05",
  "fonte": "Indicadores do projeto; comparação calculada sem IA",
  "metodologia": "atividade com mínimo de 3 pares; fallback setor e mercado; percentil 100 = melhor",
  "total": 76,
@@ -8,22 +8,22 @@
    "scope": "setor",
    "group": "Consumo não Cíclico",
    "peer_count": 10,
-   "quality_percentile": 0.6754,
-   "valuation_percentile": 0.3719,
-   "combined_percentile": 0.5692,
+   "quality_percentile": 0.667,
+   "valuation_percentile": 0.3969,
+   "combined_percentile": 0.5725,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.184,
-     "median": 0.1475,
-     "percentile": 0.65,
+     "median": 0.1515,
+     "percentile": 0.55,
      "direction": "higher",
      "sample": 10
     },
     "roic": {
      "label": "ROIC atual",
      "value": 0.2062,
-     "median": 0.142,
+     "median": 0.1482,
      "percentile": 0.95,
      "direction": "higher",
      "sample": 10
@@ -110,23 +110,23 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 15.3,
-     "median": 12.755,
+     "value": 15.4,
+     "median": 12.805,
      "percentile": 0.4375,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.81,
-     "median": 1.99,
-     "percentile": 0.25,
+     "value": 2.83,
+     "median": 2.0,
+     "percentile": 0.35,
      "direction": "lower_positive",
      "sample": 10
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 8.68,
+     "value": 8.74,
      "median": 4.96,
      "percentile": 0.05,
      "direction": "lower_positive",
@@ -134,8 +134,8 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0573,
-     "median": 0.0178,
+     "value": 0.0569,
+     "median": 0.0174,
      "percentile": 0.75,
      "direction": "higher",
      "sample": 10
@@ -159,7 +159,7 @@
    "top_peers": [
     {
      "ticker": "ABEV3",
-     "combined_percentile": 0.5692
+     "combined_percentile": 0.5725
     },
     {
      "ticker": "RADL3",
@@ -179,14 +179,14 @@
    "scope": "atividade",
    "group": "Exploração de Imóveis",
    "peer_count": 3,
-   "quality_percentile": 0.5139,
+   "quality_percentile": 0.5417,
    "valuation_percentile": 0.6667,
-   "combined_percentile": 0.5674,
+   "combined_percentile": 0.5855,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.0639,
-     "median": 0.1463,
+     "median": 0.1293,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -194,7 +194,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.063,
-     "median": 0.1257,
+     "median": 0.1216,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -202,7 +202,7 @@
     "mrg_liq": {
      "label": "Margem líquida",
      "value": 0.3251,
-     "median": 0.4342,
+     "median": 0.4181,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -210,15 +210,15 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 2.81,
-     "median": 2.81,
-     "percentile": 0.5,
+     "median": 2.73,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": -0.17,
-     "median": 0.39,
+     "median": 0.43,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -281,8 +281,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 16.68,
-     "median": 10.63,
+     "value": 16.79,
+     "median": 11.88,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
@@ -297,26 +297,26 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.66,
-     "median": 7.82,
+     "value": 5.7,
+     "median": 7.89,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1076,
-     "median": 0.0391,
+     "value": 0.1069,
+     "median": 0.0386,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     }
    },
    "strengths": [
+    "liq_corr",
     "div_liq_pat",
     "cresc_rec_5a",
-    "revenue_cagr",
-    "net_debt_to_equity"
+    "revenue_cagr"
    ],
    "weaknesses": [
     "pl",
@@ -330,15 +330,15 @@
    "top_peers": [
     {
      "ticker": "ALOS3",
-     "combined_percentile": 0.5674
+     "combined_percentile": 0.5855
     },
     {
      "ticker": "MULT3",
-     "combined_percentile": 0.534
+     "combined_percentile": 0.5813
     },
     {
      "ticker": "IGTI11",
-     "combined_percentile": 0.3986
+     "combined_percentile": 0.3333
     }
    ]
   },
@@ -361,7 +361,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.1966,
-     "median": 0.128,
+     "median": 0.1294,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -440,31 +440,31 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 16.53,
-     "median": 13.185,
+     "value": 16.75,
+     "median": 13.295,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 2
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.97,
-     "median": 1.97,
+     "value": 1.99,
+     "median": 1.99,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 2.95,
-     "median": 2.95,
+     "value": 2.97,
+     "median": 2.97,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0122,
+     "value": 0.012,
      "median": 0.0,
      "percentile": 0.8333,
      "direction": "higher",
@@ -613,7 +613,7 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 11.84,
+     "value": 11.87,
      "median": 9.45,
      "percentile": 0.0556,
      "direction": "lower_positive",
@@ -772,7 +772,7 @@
     "pl": {
      "label": "P/L",
      "value": 0.07,
-     "median": 13.195,
+     "median": 13.335,
      "percentile": 0.9167,
      "direction": "lower_positive",
      "sample": 6
@@ -780,7 +780,7 @@
     "ev_ebitda": {
      "label": "EV/EBITDA",
      "value": 2.98,
-     "median": 5.66,
+     "median": 5.425,
      "percentile": 0.9167,
      "direction": "lower_positive",
      "sample": 6
@@ -788,7 +788,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0229,
+     "median": 0.0226,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 6
@@ -807,12 +807,12 @@
     "liq_corr"
    ],
    "quality_rank": 5,
-   "valuation_rank": 3,
+   "valuation_rank": 2,
    "combined_rank": 4,
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6689
+     "combined_percentile": 0.6864
     },
     {
      "ticker": "STBP3",
@@ -828,7 +828,7 @@
     },
     {
      "ticker": "VAMO3",
-     "combined_percentile": 0.4225
+     "combined_percentile": 0.405
     }
    ]
   },
@@ -938,15 +938,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 4.03,
-     "median": 9.34,
+     "value": 3.98,
+     "median": 9.21,
      "percentile": 0.9545,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.42,
+     "value": 0.41,
      "median": 1.16,
      "percentile": 0.8077,
      "direction": "lower_positive",
@@ -954,16 +954,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.3,
-     "median": 3.82,
+     "value": 3.27,
+     "median": 3.81,
      "percentile": 0.6538,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1525,
-     "median": 0.0514,
+     "value": 0.1543,
+     "median": 0.0524,
      "percentile": 0.9615,
      "direction": "higher",
      "sample": 13
@@ -996,11 +996,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -1008,9 +1008,9 @@
    "scope": "setor",
    "group": "Financeiro e Outros",
    "peer_count": 13,
-   "quality_percentile": 0.5383,
-   "valuation_percentile": 0.1851,
-   "combined_percentile": 0.4147,
+   "quality_percentile": 0.5591,
+   "valuation_percentile": 0.1755,
+   "combined_percentile": 0.4248,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -1023,7 +1023,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.2156,
-     "median": 0.1563,
+     "median": 0.1543,
      "percentile": 0.875,
      "direction": "higher",
      "sample": 4
@@ -1031,15 +1031,15 @@
     "mrg_liq": {
      "label": "Margem líquida",
      "value": 0.425,
-     "median": 0.4296,
-     "percentile": 0.375,
+     "median": 0.4215,
+     "percentile": 0.625,
      "direction": "higher",
      "sample": 4
     },
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 2.09,
-     "median": 2.45,
+     "median": 2.41,
      "percentile": 0.375,
      "direction": "higher",
      "sample": 4
@@ -1047,7 +1047,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": -0.03,
-     "median": 0.18,
+     "median": 0.2,
      "percentile": 0.625,
      "direction": "lower",
      "sample": 4
@@ -1110,32 +1110,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 15.9,
-     "median": 10.25,
+     "value": 15.99,
+     "median": 9.96,
      "percentile": 0.1154,
      "direction": "lower_positive",
      "sample": 13
     },
     "pvp": {
      "label": "P/VP",
-     "value": 4.32,
-     "median": 2.18,
-     "percentile": 0.1538,
+     "value": 4.34,
+     "median": 2.21,
+     "percentile": 0.1154,
      "direction": "lower_positive",
      "sample": 13
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 10.55,
-     "median": 8.22,
+     "value": 10.6,
+     "median": 8.44,
      "percentile": 0.125,
      "direction": "lower_positive",
      "sample": 4
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0495,
-     "median": 0.0558,
+     "value": 0.0493,
+     "median": 0.0685,
      "percentile": 0.3462,
      "direction": "higher",
      "sample": 13
@@ -1148,10 +1148,10 @@
     "roe_ttm"
    ],
    "weaknesses": [
+    "pvp",
     "pl",
     "ev_ebitda",
-    "revenue_cagr",
-    "pvp"
+    "revenue_cagr"
    ],
    "quality_rank": 1,
    "valuation_rank": 2,
@@ -1163,7 +1163,7 @@
     },
     {
      "ticker": "B3SA3",
-     "combined_percentile": 0.4147
+     "combined_percentile": 0.4248
     }
    ]
   },
@@ -1241,24 +1241,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 8.47,
-     "median": 8.47,
+     "value": 8.36,
+     "median": 8.36,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 5
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.65,
-     "median": 1.13,
+     "value": 0.64,
+     "median": 1.11,
      "percentile": 0.9,
      "direction": "lower_positive",
      "sample": 5
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0258,
-     "median": 0.0798,
+     "value": 0.0262,
+     "median": 0.0793,
      "percentile": 0.3,
      "direction": "higher",
      "sample": 5
@@ -1280,16 +1280,16 @@
    "combined_rank": 4,
    "top_peers": [
     {
-     "ticker": "ITUB4",
-     "combined_percentile": 0.6847
+     "ticker": "SANB11",
+     "combined_percentile": 0.6636
     },
     {
-     "ticker": "SANB11",
-     "combined_percentile": 0.6752
+     "ticker": "ITUB4",
+     "combined_percentile": 0.6587
     },
     {
      "ticker": "BBDC4",
-     "combined_percentile": 0.4847
+     "combined_percentile": 0.4964
     },
     {
      "ticker": "BBAS3",
@@ -1297,7 +1297,7 @@
     },
     {
      "ticker": "BPAC11",
-     "combined_percentile": 0.23
+     "combined_percentile": 0.256
     }
    ]
   },
@@ -1306,8 +1306,8 @@
    "group": "Bancos",
    "peer_count": 5,
    "quality_percentile": 0.3688,
-   "valuation_percentile": 0.7,
-   "combined_percentile": 0.4847,
+   "valuation_percentile": 0.7333,
+   "combined_percentile": 0.4964,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -1375,24 +1375,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 8.26,
-     "median": 8.47,
+     "value": 8.12,
+     "median": 8.36,
      "percentile": 0.7,
      "direction": "lower_positive",
      "sample": 5
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.13,
-     "median": 1.13,
-     "percentile": 0.5,
+     "value": 1.11,
+     "median": 1.11,
+     "percentile": 0.6,
      "direction": "lower_positive",
      "sample": 5
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0828,
-     "median": 0.0798,
+     "value": 0.0854,
+     "median": 0.0793,
      "percentile": 0.9,
      "direction": "higher",
      "sample": 5
@@ -1413,16 +1413,16 @@
    "combined_rank": 3,
    "top_peers": [
     {
-     "ticker": "ITUB4",
-     "combined_percentile": 0.6847
+     "ticker": "SANB11",
+     "combined_percentile": 0.6636
     },
     {
-     "ticker": "SANB11",
-     "combined_percentile": 0.6752
+     "ticker": "ITUB4",
+     "combined_percentile": 0.6587
     },
     {
      "ticker": "BBDC4",
-     "combined_percentile": 0.4847
+     "combined_percentile": 0.4964
     },
     {
      "ticker": "BBAS3",
@@ -1430,7 +1430,7 @@
     },
     {
      "ticker": "BPAC11",
-     "combined_percentile": 0.23
+     "combined_percentile": 0.256
     }
    ]
   },
@@ -1500,24 +1500,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 8.74,
-     "median": 9.48,
+     "value": 8.89,
+     "median": 9.53,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 7.37,
-     "median": 4.32,
+     "value": 7.5,
+     "median": 4.3,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1129,
-     "median": 0.0558,
+     "value": 0.111,
+     "median": 0.0685,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -1545,11 +1545,11 @@
     },
     {
      "ticker": "PSSA3",
-     "combined_percentile": 0.5544
+     "combined_percentile": 0.5155
     },
     {
      "ticker": "CXSE3",
-     "combined_percentile": 0.3758
+     "combined_percentile": 0.4147
     }
    ]
   },
@@ -1659,15 +1659,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 5.12,
-     "median": 5.12,
+     "value": 5.09,
+     "median": 5.09,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.89,
+     "value": 2.87,
      "median": 2.01,
      "percentile": 0.1667,
      "direction": "lower_positive",
@@ -1675,7 +1675,7 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.54,
+     "value": 3.53,
      "median": 3.82,
      "percentile": 0.8333,
      "direction": "lower_positive",
@@ -1683,8 +1683,8 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0537,
-     "median": 0.0537,
+     "value": 0.054,
+     "median": 0.054,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -1724,15 +1724,15 @@
    "scope": "atividade",
    "group": "Bancos",
    "peer_count": 5,
-   "quality_percentile": 0.3,
+   "quality_percentile": 0.34,
    "valuation_percentile": 0.1,
-   "combined_percentile": 0.23,
+   "combined_percentile": 0.256,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.2323,
      "median": 0.1569,
-     "percentile": 0.7,
+     "percentile": 0.9,
      "direction": "higher",
      "sample": 5
     },
@@ -1770,24 +1770,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 12.84,
-     "median": 8.47,
+     "value": 12.76,
+     "median": 8.36,
      "percentile": 0.1,
      "direction": "lower_positive",
      "sample": 5
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.98,
-     "median": 1.13,
+     "value": 2.96,
+     "median": 1.11,
      "percentile": 0.1,
      "direction": "lower_positive",
      "sample": 5
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0215,
-     "median": 0.0798,
+     "value": 0.0217,
+     "median": 0.0793,
      "percentile": 0.1,
      "direction": "higher",
      "sample": 5
@@ -1807,16 +1807,16 @@
    "combined_rank": 5,
    "top_peers": [
     {
-     "ticker": "ITUB4",
-     "combined_percentile": 0.6847
+     "ticker": "SANB11",
+     "combined_percentile": 0.6636
     },
     {
-     "ticker": "SANB11",
-     "combined_percentile": 0.6752
+     "ticker": "ITUB4",
+     "combined_percentile": 0.6587
     },
     {
      "ticker": "BBDC4",
-     "combined_percentile": 0.4847
+     "combined_percentile": 0.4964
     },
     {
      "ticker": "BBAS3",
@@ -1824,7 +1824,7 @@
     },
     {
      "ticker": "BPAC11",
-     "combined_percentile": 0.23
+     "combined_percentile": 0.256
     }
    ]
   },
@@ -1926,24 +1926,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 10.81,
-     "median": 13.96,
+     "value": 10.99,
+     "median": 14.4,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.08,
-     "median": 1.69,
+     "value": 1.1,
+     "median": 1.72,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1096,
-     "median": 0.1096,
+     "value": 0.1078,
+     "median": 0.1078,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -1982,14 +1982,14 @@
    "scope": "atividade",
    "group": "Exploração e Produção",
    "peer_count": 3,
-   "quality_percentile": 0.3195,
+   "quality_percentile": 0.2917,
    "valuation_percentile": 0.4167,
-   "combined_percentile": 0.3535,
+   "combined_percentile": 0.3355,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.0204,
-     "median": 0.0972,
+     "median": 0.1274,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -1997,15 +1997,15 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.0784,
-     "median": 0.0784,
-     "percentile": 0.5,
+     "median": 0.0937,
+     "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     },
     "mrg_liq": {
      "label": "Margem líquida",
      "value": 0.0196,
-     "median": 0.1465,
+     "median": 0.1793,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -2013,7 +2013,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.12,
-     "median": 1.92,
+     "median": 1.34,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -2021,7 +2021,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 0.93,
-     "median": 0.91,
+     "median": 0.77,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -2029,7 +2029,7 @@
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
      "value": 0.9385,
-     "median": 0.3679,
+     "median": 0.3596,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -2084,32 +2084,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 39.71,
-     "median": 19.71,
+     "value": 37.89,
+     "median": 13.18,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.81,
-     "median": 0.81,
+     "value": 0.77,
+     "median": 0.77,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.59,
-     "median": 3.59,
+     "value": 3.51,
+     "median": 3.51,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0062,
-     "median": 0.0062,
+     "value": 0.0065,
+     "median": 0.0065,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -2131,15 +2131,15 @@
    "top_peers": [
     {
      "ticker": "RECV3",
-     "combined_percentile": 0.743
+     "combined_percentile": 0.6889
     },
     {
      "ticker": "PRIO3",
-     "combined_percentile": 0.4035
+     "combined_percentile": 0.4757
     },
     {
      "ticker": "BRAV3",
-     "combined_percentile": 0.3535
+     "combined_percentile": 0.3355
     }
    ]
   },
@@ -2250,7 +2250,7 @@
     "pl": {
      "label": "P/L",
      "value": 10.21,
-     "median": 5.12,
+     "median": 5.09,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
@@ -2274,7 +2274,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.1228,
-     "median": 0.0537,
+     "median": 0.054,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -2321,7 +2321,7 @@
     "roe": {
      "label": "ROE atual",
      "value": 0.5803,
-     "median": 0.0826,
+     "median": 0.0592,
      "percentile": 0.9444,
      "direction": "higher",
      "sample": 9
@@ -2337,7 +2337,7 @@
     "mrg_liq": {
      "label": "Margem líquida",
      "value": -0.155,
-     "median": 0.0242,
+     "median": 0.0259,
      "percentile": 0.0556,
      "direction": "higher",
      "sample": 9
@@ -2345,7 +2345,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 0.71,
-     "median": 1.78,
+     "median": 2.0,
      "percentile": 0.0556,
      "direction": "higher",
      "sample": 9
@@ -2353,7 +2353,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": -2.73,
-     "median": 0.16,
+     "median": 0.15,
      "percentile": 0.9444,
      "direction": "lower",
      "sample": 9
@@ -2416,8 +2416,8 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 56.13,
-     "median": 5.35,
+     "value": 56.01,
+     "median": 5.275,
      "percentile": 0.0625,
      "direction": "lower_positive",
      "sample": 8
@@ -2425,7 +2425,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0268,
+     "median": 0.0266,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 9
@@ -2449,11 +2449,11 @@
    "top_peers": [
     {
      "ticker": "SUZB3",
-     "combined_percentile": 0.5764
+     "combined_percentile": 0.5714
     },
     {
      "ticker": "KLBN11",
-     "combined_percentile": 0.4774
+     "combined_percentile": 0.4362
     },
     {
      "ticker": "BRKM5",
@@ -2568,7 +2568,7 @@
     "pl": {
      "label": "P/L",
      "value": 6.67,
-     "median": 14.47,
+     "median": 14.49,
      "percentile": 0.9375,
      "direction": "lower_positive",
      "sample": 8
@@ -2739,32 +2739,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 13.96,
-     "median": 13.96,
+     "value": 14.4,
+     "median": 14.4,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 4.4,
-     "median": 1.69,
+     "value": 4.53,
+     "median": 1.72,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.87,
-     "median": 4.645,
+     "value": 5.02,
+     "median": 4.765,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 2
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1901,
-     "median": 0.1096,
+     "value": 0.1843,
+     "median": 0.1078,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -2804,8 +2804,8 @@
    "group": "Consumo Cíclico",
    "peer_count": 13,
    "quality_percentile": 0.4693,
-   "valuation_percentile": 0.6835,
-   "combined_percentile": 0.5443,
+   "valuation_percentile": 0.7124,
+   "combined_percentile": 0.5544,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -2905,33 +2905,33 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 7.16,
-     "median": 9.34,
+     "value": 6.94,
+     "median": 9.21,
      "percentile": 0.7727,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.35,
+     "value": 0.34,
      "median": 1.16,
-     "percentile": 0.9615,
+     "percentile": 0.9231,
      "direction": "lower_positive",
      "sample": 13
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.53,
-     "median": 3.82,
+     "value": 3.48,
+     "median": 3.81,
      "percentile": 0.5769,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0509,
-     "median": 0.0514,
-     "percentile": 0.4231,
+     "value": 0.0525,
+     "median": 0.0524,
+     "percentile": 0.5769,
      "direction": "higher",
      "sample": 13
     }
@@ -2962,11 +2962,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -3076,15 +3076,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 9.22,
-     "median": 14.47,
+     "value": 9.27,
+     "median": 14.49,
      "percentile": 0.6875,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.19,
+     "value": 2.2,
      "median": 1.78,
      "percentile": 0.2778,
      "direction": "lower_positive",
@@ -3092,7 +3092,7 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.87,
+     "value": 5.89,
      "median": 9.45,
      "percentile": 0.9444,
      "direction": "lower_positive",
@@ -3100,7 +3100,7 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0809,
+     "value": 0.0805,
      "median": 0.0323,
      "percentile": 0.7222,
      "direction": "higher",
@@ -3252,7 +3252,7 @@
     "pl": {
      "label": "P/L",
      "value": 15.67,
-     "median": 14.47,
+     "median": 14.49,
      "percentile": 0.4375,
      "direction": "lower_positive",
      "sample": 8
@@ -3337,7 +3337,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.0632,
-     "median": 0.128,
+     "median": 0.1294,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -3377,7 +3377,7 @@
     "pl": {
      "label": "P/L",
      "value": 9.84,
-     "median": 13.185,
+     "median": 13.295,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 2
@@ -3385,7 +3385,7 @@
     "pvp": {
      "label": "P/VP",
      "value": 0.83,
-     "median": 1.97,
+     "median": 1.99,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -3393,7 +3393,7 @@
     "ev_ebitda": {
      "label": "EV/EBITDA",
      "value": 5.79,
-     "median": 2.95,
+     "median": 2.97,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
@@ -3447,7 +3447,7 @@
     "roe": {
      "label": "ROE atual",
      "value": -2.7242,
-     "median": 0.1329,
+     "median": 0.1377,
      "percentile": 0.0625,
      "direction": "higher",
      "sample": 8
@@ -3455,8 +3455,8 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.085,
-     "median": 0.0893,
-     "percentile": 0.4375,
+     "median": 0.0963,
+     "percentile": 0.3125,
      "direction": "higher",
      "sample": 8
     },
@@ -3471,15 +3471,15 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.87,
-     "median": 1.72,
-     "percentile": 0.6875,
+     "median": 1.505,
+     "percentile": 0.8125,
      "direction": "higher",
      "sample": 8
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 13.57,
-     "median": 0.845,
+     "median": 0.805,
      "percentile": 0.0625,
      "direction": "lower",
      "sample": 8
@@ -3542,16 +3542,16 @@
     },
     "pvp": {
      "label": "P/VP",
-     "value": 4.65,
-     "median": 1.92,
+     "value": 4.6,
+     "median": 1.81,
      "percentile": 0.0714,
      "direction": "lower_positive",
      "sample": 7
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.94,
-     "median": 5.325,
+     "value": 4.93,
+     "median": 5.28,
      "percentile": 0.5625,
      "direction": "lower_positive",
      "sample": 8
@@ -3559,7 +3559,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0227,
+     "median": 0.0232,
      "percentile": 0.1875,
      "direction": "higher",
      "sample": 8
@@ -3576,7 +3576,7 @@
     "roe"
    ],
    "quality_rank": 5,
-   "valuation_rank": 5,
+   "valuation_rank": 4,
    "combined_rank": 5,
    "top_peers": [
     {
@@ -3584,16 +3584,16 @@
      "combined_percentile": 0.6857
     },
     {
-     "ticker": "VBBR3",
-     "combined_percentile": 0.5227
+     "ticker": "UGPA3",
+     "combined_percentile": 0.5112
     },
     {
-     "ticker": "UGPA3",
-     "combined_percentile": 0.5221
+     "ticker": "VBBR3",
+     "combined_percentile": 0.5013
     },
     {
      "ticker": "RAIZ4",
-     "combined_percentile": 0.3396
+     "combined_percentile": 0.3177
     },
     {
      "ticker": "CSAN3",
@@ -3636,7 +3636,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.11,
-     "median": 2.76,
+     "median": 2.87,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -3644,7 +3644,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 2.88,
-     "median": 0.16,
+     "median": 0.15,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -3652,7 +3652,7 @@
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
      "value": -0.0119,
-     "median": -0.0506,
+     "median": -0.0514,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -3707,16 +3707,16 @@
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.47,
-     "median": 0.47,
+     "value": 0.49,
+     "median": 0.49,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.05,
-     "median": 4.05,
+     "value": 4.08,
+     "median": 4.08,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
@@ -3864,7 +3864,7 @@
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.88,
+     "value": 1.81,
      "median": 1.16,
      "percentile": 0.1923,
      "direction": "lower_positive",
@@ -3872,8 +3872,8 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 2.51,
-     "median": 3.82,
+     "value": 2.43,
+     "median": 3.81,
      "percentile": 0.9615,
      "direction": "lower_positive",
      "sample": 13
@@ -3881,7 +3881,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0514,
+     "median": 0.0524,
      "percentile": 0.1154,
      "direction": "higher",
      "sample": 13
@@ -3914,11 +3914,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -3927,8 +3927,8 @@
    "group": "Seguradoras",
    "peer_count": 3,
    "quality_percentile": 0.4286,
-   "valuation_percentile": 0.2778,
-   "combined_percentile": 0.3758,
+   "valuation_percentile": 0.3889,
+   "combined_percentile": 0.4147,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -3988,25 +3988,25 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 13.56,
-     "median": 9.48,
+     "value": 13.49,
+     "median": 9.53,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 4.32,
-     "median": 4.32,
+     "value": 4.3,
+     "median": 4.3,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0505,
-     "median": 0.0558,
-     "percentile": 0.1667,
+     "value": 0.0685,
+     "median": 0.0685,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     }
@@ -4015,10 +4015,10 @@
     "profitable_quarters_ratio"
    ],
    "weaknesses": [
-    "div_yield",
     "pl",
     "net_debt_to_equity",
-    "history_score"
+    "history_score",
+    "cresc_rec_5a"
    ],
    "quality_rank": 3,
    "valuation_rank": 3,
@@ -4030,11 +4030,11 @@
     },
     {
      "ticker": "PSSA3",
-     "combined_percentile": 0.5544
+     "combined_percentile": 0.5155
     },
     {
      "ticker": "CXSE3",
-     "combined_percentile": 0.3758
+     "combined_percentile": 0.4147
     }
    ]
   },
@@ -4144,32 +4144,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 4.93,
-     "median": 6.115,
+     "value": 4.9,
+     "median": 6.08,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 2
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.92,
-     "median": 0.92,
+     "value": 0.91,
+     "median": 0.91,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 8.58,
-     "median": 5.58,
+     "value": 8.54,
+     "median": 5.56,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1075,
-     "median": 0.1075,
+     "value": 0.1083,
+     "median": 0.1083,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -4307,32 +4307,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 7.3,
-     "median": 6.115,
+     "value": 7.26,
+     "median": 6.08,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 2
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.87,
-     "median": 0.92,
+     "value": 2.86,
+     "median": 0.91,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.58,
-     "median": 5.58,
+     "value": 5.56,
+     "median": 5.56,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1319,
-     "median": 0.1075,
+     "value": 0.1326,
+     "median": 0.1083,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -4472,15 +4472,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 16.62,
-     "median": 14.47,
+     "value": 16.63,
+     "median": 14.49,
      "percentile": 0.3125,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 3.13,
+     "value": 3.14,
      "median": 1.78,
      "percentile": 0.0556,
      "direction": "lower_positive",
@@ -4647,15 +4647,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 39.98,
-     "median": 14.47,
+     "value": 40.6,
+     "median": 14.49,
      "percentile": 0.0625,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.54,
+     "value": 2.58,
      "median": 1.78,
      "percentile": 0.1667,
      "direction": "lower_positive",
@@ -4663,7 +4663,7 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 11.61,
+     "value": 11.75,
      "median": 9.45,
      "percentile": 0.1667,
      "direction": "lower_positive",
@@ -4822,8 +4822,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 13.27,
-     "median": 14.47,
+     "value": 13.31,
+     "median": 14.49,
      "percentile": 0.5625,
      "direction": "lower_positive",
      "sample": 8
@@ -4846,7 +4846,7 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0308,
+     "value": 0.0307,
      "median": 0.0323,
      "percentile": 0.3889,
      "direction": "higher",
@@ -4997,15 +4997,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 31.67,
-     "median": 14.47,
+     "value": 31.93,
+     "median": 14.49,
      "percentile": 0.1875,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.91,
+     "value": 1.92,
      "median": 1.78,
      "percentile": 0.3889,
      "direction": "lower_positive",
@@ -5013,7 +5013,7 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 7.43,
+     "value": 7.46,
      "median": 9.45,
      "percentile": 0.6111,
      "direction": "lower_positive",
@@ -5021,7 +5021,7 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0406,
+     "value": 0.0403,
      "median": 0.0323,
      "percentile": 0.6111,
      "direction": "higher",
@@ -5171,32 +5171,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 14.89,
-     "median": 15.71,
+     "value": 15.08,
+     "median": 15.89,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 2
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.82,
-     "median": 1.82,
+     "value": 1.85,
+     "median": 1.85,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.74,
-     "median": 5.93,
+     "value": 5.79,
+     "median": 5.9,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0625,
-     "median": 0.0625,
+     "value": 0.0617,
+     "median": 0.0617,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -5240,7 +5240,7 @@
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": 0.0311,
+     "value": 0.0418,
      "median": -0.1118,
      "percentile": 0.8333,
      "direction": "higher",
@@ -5248,7 +5248,7 @@
     },
     "roic": {
      "label": "ROIC atual",
-     "value": 0.0894,
+     "value": 0.1003,
      "median": 0.0797,
      "percentile": 0.8333,
      "direction": "higher",
@@ -5256,7 +5256,7 @@
     },
     "mrg_liq": {
      "label": "Margem líquida",
-     "value": 0.0242,
+     "value": 0.0327,
      "median": -0.0299,
      "percentile": 0.8333,
      "direction": "higher",
@@ -5264,24 +5264,24 @@
     },
     "liq_corr": {
      "label": "Liquidez corrente",
-     "value": 2.76,
-     "median": 2.76,
+     "value": 2.87,
+     "median": 2.87,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
-     "value": 0.16,
-     "median": 0.16,
+     "value": 0.15,
+     "median": 0.15,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": -0.0506,
-     "median": -0.0506,
+     "value": -0.0514,
+     "median": -0.0514,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -5337,22 +5337,22 @@
     "pvp": {
      "label": "P/VP",
      "value": 0.96,
-     "median": 0.47,
+     "median": 0.49,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.96,
-     "median": 4.05,
+     "value": 5.53,
+     "median": 4.08,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0268,
+     "value": 0.0266,
      "median": 0.0,
      "percentile": 0.8333,
      "direction": "higher",
@@ -5494,15 +5494,15 @@
     "pvp": {
      "label": "P/VP",
      "value": 0.12,
-     "median": 1.82,
+     "median": 1.85,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.93,
-     "median": 5.93,
+     "value": 5.9,
+     "median": 5.9,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
@@ -5510,7 +5510,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0625,
+     "median": 0.0617,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -5652,8 +5652,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 9.0,
-     "median": 14.89,
+     "value": 9.01,
+     "median": 15.08,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -5661,15 +5661,15 @@
     "pvp": {
      "label": "P/VP",
      "value": 1.07,
-     "median": 1.445,
+     "median": 1.46,
      "percentile": 0.625,
      "direction": "lower_positive",
      "sample": 4
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 7.67,
-     "median": 6.435,
+     "value": 7.68,
+     "median": 6.45,
      "percentile": 0.125,
      "direction": "lower_positive",
      "sample": 4
@@ -5677,7 +5677,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0489,
-     "median": 0.0557,
+     "median": 0.0553,
      "percentile": 0.375,
      "direction": "higher",
      "sample": 4
@@ -5707,53 +5707,53 @@
    "scope": "atividade",
    "group": "Exploração de Imóveis",
    "peer_count": 3,
-   "quality_percentile": 0.3889,
-   "valuation_percentile": 0.4167,
-   "combined_percentile": 0.3986,
+   "quality_percentile": 0.3333,
+   "valuation_percentile": 0.3333,
+   "combined_percentile": 0.3333,
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": 0.1463,
-     "median": 0.1463,
+     "value": 0.1293,
+     "median": 0.1293,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "roic": {
      "label": "ROIC atual",
-     "value": 0.1257,
-     "median": 0.1257,
+     "value": 0.1216,
+     "median": 0.1216,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "mrg_liq": {
      "label": "Margem líquida",
-     "value": 0.4652,
-     "median": 0.4342,
-     "percentile": 0.8333,
+     "value": 0.4181,
+     "median": 0.4181,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "liq_corr": {
      "label": "Liquidez corrente",
-     "value": 2.82,
-     "median": 2.81,
-     "percentile": 0.8333,
+     "value": 2.73,
+     "median": 2.73,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
-     "value": 0.39,
-     "median": 0.39,
+     "value": 0.43,
+     "median": 0.43,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": 0.1285,
+     "value": 0.1117,
      "median": 0.1889,
      "percentile": 0.1667,
      "direction": "higher",
@@ -5809,9 +5809,9 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 10.53,
-     "median": 10.63,
-     "percentile": 0.8333,
+     "value": 11.88,
+     "median": 11.88,
+     "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
@@ -5825,26 +5825,22 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 8.62,
-     "median": 7.82,
+     "value": 8.99,
+     "median": 7.89,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0116,
-     "median": 0.0391,
+     "value": 0.0115,
+     "median": 0.0386,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     }
    },
-   "strengths": [
-    "mrg_liq",
-    "liq_corr",
-    "pl"
-   ],
+   "strengths": [],
    "weaknesses": [
     "div_yield",
     "ev_ebitda",
@@ -5852,20 +5848,20 @@
     "net_debt_to_equity"
    ],
    "quality_rank": 3,
-   "valuation_rank": 2,
+   "valuation_rank": 3,
    "combined_rank": 3,
    "top_peers": [
     {
      "ticker": "ALOS3",
-     "combined_percentile": 0.5674
+     "combined_percentile": 0.5855
     },
     {
      "ticker": "MULT3",
-     "combined_percentile": 0.534
+     "combined_percentile": 0.5813
     },
     {
      "ticker": "IGTI11",
-     "combined_percentile": 0.3986
+     "combined_percentile": 0.3333
     }
    ]
   },
@@ -5943,24 +5939,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 9.16,
-     "median": 10.25,
+     "value": 9.01,
+     "median": 9.96,
      "percentile": 0.6538,
      "direction": "lower_positive",
      "sample": 13
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.73,
-     "median": 2.18,
+     "value": 1.7,
+     "median": 2.21,
      "percentile": 0.5769,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0943,
-     "median": 0.0558,
+     "value": 0.0959,
+     "median": 0.0685,
      "percentile": 0.8077,
      "direction": "higher",
      "sample": 13
@@ -5987,7 +5983,7 @@
     },
     {
      "ticker": "B3SA3",
-     "combined_percentile": 0.4147
+     "combined_percentile": 0.4248
     }
    ]
   },
@@ -5995,21 +5991,21 @@
    "scope": "atividade",
    "group": "Bancos",
    "peer_count": 5,
-   "quality_percentile": 0.82,
+   "quality_percentile": 0.78,
    "valuation_percentile": 0.4333,
-   "combined_percentile": 0.6847,
+   "combined_percentile": 0.6587,
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": 0.2324,
+     "value": 0.2245,
      "median": 0.1569,
-     "percentile": 0.9,
+     "percentile": 0.7,
      "direction": "higher",
      "sample": 5
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": 0.7155,
+     "value": 0.3028,
      "median": 0.0845,
      "percentile": 0.9,
      "direction": "higher",
@@ -6041,33 +6037,33 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 10.25,
-     "median": 8.47,
+     "value": 9.96,
+     "median": 8.36,
      "percentile": 0.3,
      "direction": "lower_positive",
      "sample": 5
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.38,
-     "median": 1.13,
+     "value": 2.24,
+     "median": 1.11,
      "percentile": 0.3,
      "direction": "lower_positive",
      "sample": 5
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0803,
-     "median": 0.0798,
+     "value": 0.0824,
+     "median": 0.0793,
      "percentile": 0.7,
      "direction": "higher",
      "sample": 5
     }
    },
    "strengths": [
-    "roe",
     "cresc_rec_5a",
     "positive_free_cash_flow_years_ratio",
+    "roe",
     "history_score"
    ],
    "weaknesses": [
@@ -6076,19 +6072,19 @@
    ],
    "quality_rank": 1,
    "valuation_rank": 4,
-   "combined_rank": 1,
+   "combined_rank": 2,
    "top_peers": [
     {
-     "ticker": "ITUB4",
-     "combined_percentile": 0.6847
+     "ticker": "SANB11",
+     "combined_percentile": 0.6636
     },
     {
-     "ticker": "SANB11",
-     "combined_percentile": 0.6752
+     "ticker": "ITUB4",
+     "combined_percentile": 0.6587
     },
     {
      "ticker": "BBDC4",
-     "combined_percentile": 0.4847
+     "combined_percentile": 0.4964
     },
     {
      "ticker": "BBAS3",
@@ -6096,7 +6092,7 @@
     },
     {
      "ticker": "BPAC11",
-     "combined_percentile": 0.23
+     "combined_percentile": 0.256
     }
    ]
   },
@@ -6199,7 +6195,7 @@
     "pl": {
      "label": "P/L",
      "value": 3.69,
-     "median": 5.12,
+     "median": 5.09,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -6223,7 +6219,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0537,
+     "median": 0.054,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -6261,21 +6257,21 @@
    "scope": "setor",
    "group": "Materiais Básicos",
    "peer_count": 9,
-   "quality_percentile": 0.5307,
-   "valuation_percentile": 0.3785,
-   "combined_percentile": 0.4774,
+   "quality_percentile": 0.5122,
+   "valuation_percentile": 0.2951,
+   "combined_percentile": 0.4362,
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": 0.0826,
-     "median": 0.0826,
+     "value": 0.0592,
+     "median": 0.0592,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
     "roic": {
      "label": "ROIC atual",
-     "value": 0.0628,
+     "value": 0.0545,
      "median": 0.0683,
      "percentile": 0.3889,
      "direction": "higher",
@@ -6283,33 +6279,33 @@
     },
     "mrg_liq": {
      "label": "Margem líquida",
-     "value": 0.0353,
-     "median": 0.0242,
-     "percentile": 0.6111,
+     "value": 0.0259,
+     "median": 0.0259,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
     "liq_corr": {
      "label": "Liquidez corrente",
-     "value": 1.78,
-     "median": 1.78,
+     "value": 2.0,
+     "median": 2.0,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
-     "value": 2.73,
-     "median": 0.16,
+     "value": 2.61,
+     "median": 0.15,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 9
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": 0.0339,
+     "value": 0.0272,
      "median": -0.0119,
-     "percentile": 0.9444,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 9
     },
@@ -6363,32 +6359,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 30.48,
-     "median": 22.22,
-     "percentile": 0.4167,
+     "value": 40.58,
+     "median": 18.68,
+     "percentile": 0.0833,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.52,
-     "median": 1.105,
+     "value": 2.4,
+     "median": 1.115,
      "percentile": 0.1875,
      "direction": "lower_positive",
      "sample": 8
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.98,
-     "median": 5.35,
+     "value": 6.27,
+     "median": 5.275,
      "percentile": 0.1875,
      "direction": "lower_positive",
      "sample": 8
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0773,
-     "median": 0.0268,
+     "value": 0.0772,
+     "median": 0.0266,
      "percentile": 0.7222,
      "direction": "higher",
      "sample": 9
@@ -6401,10 +6397,10 @@
     "div_yield"
    ],
    "weaknesses": [
+    "pl",
     "net_debt_to_equity",
     "div_liq_pat",
-    "ev_ebitda",
-    "pvp"
+    "ev_ebitda"
    ],
    "quality_rank": 2,
    "valuation_rank": 2,
@@ -6412,11 +6408,11 @@
    "top_peers": [
     {
      "ticker": "SUZB3",
-     "combined_percentile": 0.5764
+     "combined_percentile": 0.5714
     },
     {
      "ticker": "KLBN11",
-     "combined_percentile": 0.4774
+     "combined_percentile": 0.4362
     },
     {
      "ticker": "BRKM5",
@@ -6530,15 +6526,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 9.34,
-     "median": 9.34,
+     "value": 9.21,
+     "median": 9.21,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.35,
+     "value": 1.33,
      "median": 1.16,
      "percentile": 0.4231,
      "direction": "lower_positive",
@@ -6546,16 +6542,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 2.52,
-     "median": 3.82,
+     "value": 2.48,
+     "median": 3.81,
      "percentile": 0.8846,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0658,
-     "median": 0.0514,
+     "value": 0.0666,
+     "median": 0.0524,
      "percentile": 0.6538,
      "direction": "higher",
      "sample": 13
@@ -6589,11 +6585,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -6602,8 +6598,8 @@
    "group": "Consumo Cíclico",
    "peer_count": 13,
    "quality_percentile": 0.3,
-   "valuation_percentile": 0.5245,
-   "combined_percentile": 0.3786,
+   "valuation_percentile": 0.5341,
+   "combined_percentile": 0.3819,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -6703,32 +6699,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 29.31,
-     "median": 9.34,
+     "value": 27.94,
+     "median": 9.21,
      "percentile": 0.1364,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.36,
+     "value": 0.34,
      "median": 1.16,
-     "percentile": 0.8846,
+     "percentile": 0.9231,
      "direction": "lower_positive",
      "sample": 13
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 2.66,
-     "median": 3.82,
+     "value": 2.59,
+     "median": 3.81,
      "percentile": 0.8077,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0158,
-     "median": 0.0514,
+     "value": 0.0165,
+     "median": 0.0524,
      "percentile": 0.2692,
      "direction": "higher",
      "sample": 13
@@ -6764,11 +6760,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -6878,16 +6874,16 @@
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.51,
-     "median": 0.92,
+     "value": 0.5,
+     "median": 0.91,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.26,
-     "median": 5.58,
+     "value": 5.24,
+     "median": 5.56,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -6895,7 +6891,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.1075,
+     "median": 0.1083,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -6933,14 +6929,14 @@
    "scope": "atividade",
    "group": "Exploração de Imóveis",
    "peer_count": 3,
-   "quality_percentile": 0.5972,
-   "valuation_percentile": 0.4167,
-   "combined_percentile": 0.534,
+   "quality_percentile": 0.625,
+   "valuation_percentile": 0.5,
+   "combined_percentile": 0.5813,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.2052,
-     "median": 0.1463,
+     "median": 0.1293,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -6948,7 +6944,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.187,
-     "median": 0.1257,
+     "median": 0.1216,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -6956,15 +6952,15 @@
     "mrg_liq": {
      "label": "Margem líquida",
      "value": 0.4342,
-     "median": 0.4342,
-     "percentile": 0.5,
+     "median": 0.4181,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.64,
-     "median": 2.81,
+     "median": 2.73,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -6972,7 +6968,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 0.67,
-     "median": 0.39,
+     "median": 0.43,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -7035,15 +7031,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 10.63,
-     "median": 10.63,
-     "percentile": 0.5,
+     "value": 10.76,
+     "median": 11.88,
+     "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.18,
+     "value": 2.21,
      "median": 1.54,
      "percentile": 0.1667,
      "direction": "lower_positive",
@@ -7051,16 +7047,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 7.82,
-     "median": 7.82,
+     "value": 7.89,
+     "median": 7.89,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0391,
-     "median": 0.0391,
+     "value": 0.0386,
+     "median": 0.0386,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -7069,8 +7065,8 @@
    "strengths": [
     "roe",
     "roic",
-    "history_score",
-    "roe_ttm"
+    "mrg_liq",
+    "history_score"
    ],
    "weaknesses": [
     "pvp",
@@ -7078,20 +7074,20 @@
     "liq_corr"
    ],
    "quality_rank": 1,
-   "valuation_rank": 3,
+   "valuation_rank": 2,
    "combined_rank": 2,
    "top_peers": [
     {
      "ticker": "ALOS3",
-     "combined_percentile": 0.5674
+     "combined_percentile": 0.5855
     },
     {
      "ticker": "MULT3",
-     "combined_percentile": 0.534
+     "combined_percentile": 0.5813
     },
     {
      "ticker": "IGTI11",
-     "combined_percentile": 0.3986
+     "combined_percentile": 0.3333
     }
    ]
   },
@@ -7106,7 +7102,7 @@
     "roe": {
      "label": "ROE atual",
      "value": -0.4714,
-     "median": 0.1475,
+     "median": 0.1515,
      "percentile": 0.15,
      "direction": "higher",
      "sample": 10
@@ -7114,7 +7110,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.1009,
-     "median": 0.142,
+     "median": 0.1482,
      "percentile": 0.25,
      "direction": "higher",
      "sample": 10
@@ -7154,7 +7150,7 @@
     "pvp": {
      "label": "P/VP",
      "value": 0.99,
-     "median": 1.99,
+     "median": 2.0,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 10
@@ -7170,7 +7166,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0178,
+     "median": 0.0174,
      "percentile": 0.2,
      "direction": "higher",
      "sample": 10
@@ -7193,7 +7189,7 @@
    "top_peers": [
     {
      "ticker": "ABEV3",
-     "combined_percentile": 0.5692
+     "combined_percentile": 0.5725
     },
     {
      "ticker": "RADL3",
@@ -7219,7 +7215,7 @@
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": -3.1601,
+     "value": -5.2029,
      "median": 0.0848,
      "percentile": 0.1667,
      "direction": "higher",
@@ -7227,15 +7223,15 @@
     },
     "roic": {
      "label": "ROIC atual",
-     "value": 0.128,
-     "median": 0.128,
+     "value": 0.1294,
+     "median": 0.1294,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "mrg_liq": {
      "label": "Margem líquida",
-     "value": -0.1112,
+     "value": -0.116,
      "median": 0.009,
      "percentile": 0.1667,
      "direction": "higher",
@@ -7243,7 +7239,7 @@
     },
     "liq_corr": {
      "label": "Liquidez corrente",
-     "value": 0.56,
+     "value": 0.52,
      "median": 1.07,
      "percentile": 0.1667,
      "direction": "higher",
@@ -7251,7 +7247,7 @@
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
-     "value": 4.84,
+     "value": 8.95,
      "median": 2.04,
      "percentile": 0.1667,
      "direction": "lower",
@@ -7259,7 +7255,7 @@
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": -0.1342,
+     "value": -0.0766,
      "median": 0.1131,
      "percentile": 0.1667,
      "direction": "higher",
@@ -7307,16 +7303,16 @@
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.05,
-     "median": 1.97,
+     "value": 3.31,
+     "median": 1.99,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 1.64,
-     "median": 2.95,
+     "value": 1.81,
+     "median": 2.97,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -7369,7 +7365,7 @@
     "roe": {
      "label": "ROE atual",
      "value": 0.2417,
-     "median": 0.1329,
+     "median": 0.1377,
      "percentile": 0.8125,
      "direction": "higher",
      "sample": 8
@@ -7377,7 +7373,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.1679,
-     "median": 0.0893,
+     "median": 0.0963,
      "percentile": 0.9375,
      "direction": "higher",
      "sample": 8
@@ -7393,7 +7389,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 0.74,
-     "median": 1.72,
+     "median": 1.505,
      "percentile": 0.1875,
      "direction": "higher",
      "sample": 8
@@ -7401,7 +7397,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 0.73,
-     "median": 0.845,
+     "median": 0.805,
      "percentile": 0.6875,
      "direction": "lower",
      "sample": 8
@@ -7464,32 +7460,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 5.16,
-     "median": 13.37,
+     "value": 5.09,
+     "median": 12.66,
      "percentile": 0.9167,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.25,
-     "median": 1.92,
+     "value": 1.23,
+     "median": 1.81,
      "percentile": 0.6429,
      "direction": "lower_positive",
      "sample": 7
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.12,
-     "median": 5.325,
+     "value": 3.1,
+     "median": 5.28,
      "percentile": 0.9375,
      "direction": "lower_positive",
      "sample": 8
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.069,
-     "median": 0.0227,
+     "value": 0.0699,
+     "median": 0.0232,
      "percentile": 0.8125,
      "direction": "higher",
      "sample": 8
@@ -7515,16 +7511,16 @@
      "combined_percentile": 0.6857
     },
     {
-     "ticker": "VBBR3",
-     "combined_percentile": 0.5227
+     "ticker": "UGPA3",
+     "combined_percentile": 0.5112
     },
     {
-     "ticker": "UGPA3",
-     "combined_percentile": 0.5221
+     "ticker": "VBBR3",
+     "combined_percentile": 0.5013
     },
     {
      "ticker": "RAIZ4",
-     "combined_percentile": 0.3396
+     "combined_percentile": 0.3177
     },
     {
      "ticker": "CSAN3",
@@ -7591,7 +7587,7 @@
     "pl": {
      "label": "P/L",
      "value": 40.84,
-     "median": 9.34,
+     "median": 9.21,
      "percentile": 0.0455,
      "direction": "lower_positive",
      "sample": 11
@@ -7607,7 +7603,7 @@
     "ev_ebitda": {
      "label": "EV/EBITDA",
      "value": 3.16,
-     "median": 3.82,
+     "median": 3.81,
      "percentile": 0.7308,
      "direction": "lower_positive",
      "sample": 13
@@ -7615,7 +7611,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0514,
+     "median": 0.0524,
      "percentile": 0.1154,
      "direction": "higher",
      "sample": 13
@@ -7632,7 +7628,7 @@
     "mrg_liq"
    ],
    "quality_rank": 7,
-   "valuation_rank": 9,
+   "valuation_rank": 7,
    "combined_rank": 8,
    "top_peers": [
     {
@@ -7649,11 +7645,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -7662,8 +7658,8 @@
    "group": "Bens Industriais",
    "peer_count": 6,
    "quality_percentile": 0.6319,
-   "valuation_percentile": 0.7375,
-   "combined_percentile": 0.6689,
+   "valuation_percentile": 0.7875,
+   "combined_percentile": 0.6864,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -7763,32 +7759,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 5.59,
-     "median": 13.195,
+     "value": 5.01,
+     "median": 13.335,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.58,
+     "value": 1.42,
      "median": 1.89,
-     "percentile": 0.7,
+     "percentile": 0.9,
      "direction": "lower_positive",
      "sample": 5
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.58,
-     "median": 5.66,
+     "value": 5.12,
+     "median": 5.425,
      "percentile": 0.5833,
      "direction": "lower_positive",
      "sample": 6
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1758,
-     "median": 0.0229,
+     "value": 0.1963,
+     "median": 0.0226,
      "percentile": 0.9167,
      "direction": "higher",
      "sample": 6
@@ -7797,8 +7793,8 @@
    "strengths": [
     "liq_corr",
     "div_yield",
-    "cresc_rec_5a",
-    "profitable_quarters_ratio"
+    "pvp",
+    "cresc_rec_5a"
    ],
    "weaknesses": [
     "positive_free_cash_flow_years_ratio"
@@ -7809,7 +7805,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6689
+     "combined_percentile": 0.6864
     },
     {
      "ticker": "STBP3",
@@ -7825,7 +7821,7 @@
     },
     {
      "ticker": "VAMO3",
-     "combined_percentile": 0.4225
+     "combined_percentile": 0.405
     }
    ]
   },
@@ -7833,54 +7829,54 @@
    "scope": "atividade",
    "group": "Exploração e Produção",
    "peer_count": 3,
-   "quality_percentile": 0.4861,
+   "quality_percentile": 0.5972,
    "valuation_percentile": 0.25,
-   "combined_percentile": 0.4035,
+   "combined_percentile": 0.4757,
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": 0.0972,
-     "median": 0.0972,
-     "percentile": 0.5,
+     "value": 0.1371,
+     "median": 0.1274,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "roic": {
      "label": "ROIC atual",
-     "value": 0.0645,
-     "median": 0.0784,
-     "percentile": 0.1667,
+     "value": 0.1092,
+     "median": 0.0937,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "mrg_liq": {
      "label": "Margem líquida",
-     "value": 0.1465,
-     "median": 0.1465,
-     "percentile": 0.5,
+     "value": 0.1811,
+     "median": 0.1793,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "liq_corr": {
      "label": "Liquidez corrente",
-     "value": 1.92,
-     "median": 1.92,
+     "value": 1.34,
+     "median": 1.34,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
-     "value": 0.91,
-     "median": 0.91,
+     "value": 0.77,
+     "median": 0.77,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": 0.3679,
-     "median": 0.3679,
+     "value": 0.3596,
+     "median": 0.3596,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
@@ -7935,24 +7931,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 19.71,
-     "median": 19.71,
+     "value": 13.18,
+     "median": 13.18,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.92,
-     "median": 0.81,
+     "value": 1.81,
+     "median": 0.77,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 7.51,
-     "median": 3.59,
+     "value": 5.63,
+     "median": 3.51,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
@@ -7960,20 +7956,23 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0062,
+     "median": 0.0065,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     }
    },
    "strengths": [
+    "roe",
+    "roic",
+    "mrg_liq",
     "history_score"
    ],
    "weaknesses": [
     "div_yield",
     "ev_ebitda",
     "pvp",
-    "roic"
+    "positive_free_cash_flow_years_ratio"
    ],
    "quality_rank": 2,
    "valuation_rank": 3,
@@ -7981,15 +7980,15 @@
    "top_peers": [
     {
      "ticker": "RECV3",
-     "combined_percentile": 0.743
+     "combined_percentile": 0.6889
     },
     {
      "ticker": "PRIO3",
-     "combined_percentile": 0.4035
+     "combined_percentile": 0.4757
     },
     {
      "ticker": "BRAV3",
-     "combined_percentile": 0.3535
+     "combined_percentile": 0.3355
     }
    ]
   },
@@ -7998,8 +7997,8 @@
    "group": "Seguradoras",
    "peer_count": 3,
    "quality_percentile": 0.5238,
-   "valuation_percentile": 0.6111,
-   "combined_percentile": 0.5544,
+   "valuation_percentile": 0.5,
+   "combined_percentile": 0.5155,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -8059,25 +8058,25 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 9.48,
-     "median": 9.48,
+     "value": 9.53,
+     "median": 9.53,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.25,
-     "median": 4.32,
+     "value": 2.26,
+     "median": 4.3,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0558,
-     "median": 0.0558,
-     "percentile": 0.5,
+     "value": 0.0555,
+     "median": 0.0685,
+     "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     }
@@ -8089,6 +8088,7 @@
     "profitable_quarters_ratio"
    ],
    "weaknesses": [
+    "div_yield",
     "roe_ttm",
     "roe"
    ],
@@ -8102,11 +8102,11 @@
     },
     {
      "ticker": "PSSA3",
-     "combined_percentile": 0.5544
+     "combined_percentile": 0.5155
     },
     {
      "ticker": "CXSE3",
-     "combined_percentile": 0.3758
+     "combined_percentile": 0.4147
     }
    ]
   },
@@ -8120,23 +8120,23 @@
    "metrics": {
     "roe": {
      "label": "ROE atual",
-     "value": 0.176,
-     "median": 0.1475,
-     "percentile": 0.55,
+     "value": 0.1841,
+     "median": 0.1515,
+     "percentile": 0.65,
      "direction": "higher",
      "sample": 10
     },
     "roic": {
      "label": "ROIC atual",
-     "value": 0.1559,
-     "median": 0.142,
+     "value": 0.1671,
+     "median": 0.1482,
      "percentile": 0.55,
      "direction": "higher",
      "sample": 10
     },
     "mrg_liq": {
      "label": "Margem líquida",
-     "value": 0.0289,
+     "value": 0.0297,
      "median": 0.0191,
      "percentile": 0.65,
      "direction": "higher",
@@ -8144,7 +8144,7 @@
     },
     "liq_corr": {
      "label": "Liquidez corrente",
-     "value": 1.47,
+     "value": 1.41,
      "median": 1.35,
      "percentile": 0.65,
      "direction": "higher",
@@ -8152,7 +8152,7 @@
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
-     "value": 0.43,
+     "value": 0.38,
      "median": 1.105,
      "percentile": 0.75,
      "direction": "lower",
@@ -8160,9 +8160,9 @@
     },
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
-     "value": 0.1536,
+     "value": 0.1416,
      "median": 0.072,
-     "percentile": 0.85,
+     "percentile": 0.75,
      "direction": "higher",
      "sample": 10
     },
@@ -8216,23 +8216,23 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 25.57,
-     "median": 12.755,
+     "value": 25.34,
+     "median": 12.805,
      "percentile": 0.0625,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 4.5,
-     "median": 1.99,
+     "value": 4.67,
+     "median": 2.0,
      "percentile": 0.05,
      "direction": "lower_positive",
      "sample": 10
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 7.37,
+     "value": 7.26,
      "median": 4.96,
      "percentile": 0.15,
      "direction": "lower_positive",
@@ -8240,18 +8240,18 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0233,
-     "median": 0.0178,
+     "value": 0.0227,
+     "median": 0.0174,
      "percentile": 0.55,
      "direction": "higher",
      "sample": 10
     }
    },
    "strengths": [
-    "cresc_rec_5a",
     "profitable_quarters_ratio",
     "net_debt_to_equity",
-    "div_liq_pat"
+    "div_liq_pat",
+    "cresc_rec_5a"
    ],
    "weaknesses": [
     "pvp",
@@ -8264,7 +8264,7 @@
    "top_peers": [
     {
      "ticker": "ABEV3",
-     "combined_percentile": 0.5692
+     "combined_percentile": 0.5725
     },
     {
      "ticker": "RADL3",
@@ -8386,8 +8386,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 25.3,
-     "median": 13.195,
+     "value": 25.23,
+     "median": 13.335,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 6
@@ -8402,8 +8402,8 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.74,
-     "median": 5.66,
+     "value": 5.73,
+     "median": 5.425,
      "percentile": 0.4167,
      "direction": "lower_positive",
      "sample": 6
@@ -8411,7 +8411,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0077,
-     "median": 0.0229,
+     "median": 0.0226,
      "percentile": 0.4167,
      "direction": "higher",
      "sample": 6
@@ -8432,7 +8432,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6689
+     "combined_percentile": 0.6864
     },
     {
      "ticker": "STBP3",
@@ -8448,7 +8448,7 @@
     },
     {
      "ticker": "VAMO3",
-     "combined_percentile": 0.4225
+     "combined_percentile": 0.405
     }
    ]
   },
@@ -8457,13 +8457,13 @@
    "group": "Petróleo, Gás e Biocombustíveis",
    "peer_count": 8,
    "quality_percentile": 0.3542,
-   "valuation_percentile": 0.3125,
-   "combined_percentile": 0.3396,
+   "valuation_percentile": 0.25,
+   "combined_percentile": 0.3177,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 3.0975,
-     "median": 0.1329,
+     "median": 0.1377,
      "percentile": 0.9375,
      "direction": "higher",
      "sample": 8
@@ -8471,7 +8471,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.0206,
-     "median": 0.0893,
+     "median": 0.0963,
      "percentile": 0.0625,
      "direction": "higher",
      "sample": 8
@@ -8487,7 +8487,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 0.43,
-     "median": 1.72,
+     "median": 1.505,
      "percentile": 0.0625,
      "direction": "higher",
      "sample": 8
@@ -8495,7 +8495,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": -7.14,
-     "median": 0.845,
+     "median": 0.805,
      "percentile": 0.9375,
      "direction": "lower",
      "sample": 8
@@ -8558,16 +8558,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.71,
-     "median": 5.325,
-     "percentile": 0.4375,
+     "value": 5.72,
+     "median": 5.28,
+     "percentile": 0.3125,
      "direction": "lower_positive",
      "sample": 8
     },
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0227,
+     "median": 0.0232,
      "percentile": 0.1875,
      "direction": "higher",
      "sample": 8
@@ -8585,7 +8585,7 @@
     "history_score"
    ],
    "quality_rank": 4,
-   "valuation_rank": 4,
+   "valuation_rank": 5,
    "combined_rank": 4,
    "top_peers": [
     {
@@ -8593,16 +8593,16 @@
      "combined_percentile": 0.6857
     },
     {
-     "ticker": "VBBR3",
-     "combined_percentile": 0.5227
+     "ticker": "UGPA3",
+     "combined_percentile": 0.5112
     },
     {
-     "ticker": "UGPA3",
-     "combined_percentile": 0.5221
+     "ticker": "VBBR3",
+     "combined_percentile": 0.5013
     },
     {
      "ticker": "RAIZ4",
-     "combined_percentile": 0.3396
+     "combined_percentile": 0.3177
     },
     {
      "ticker": "CSAN3",
@@ -8716,32 +8716,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 16.53,
-     "median": 15.71,
+     "value": 16.7,
+     "median": 15.89,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 2
     },
     "pvp": {
      "label": "P/VP",
-     "value": 3.86,
-     "median": 1.82,
+     "value": 3.9,
+     "median": 1.85,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 6.94,
-     "median": 5.93,
+     "value": 7.0,
+     "median": 5.9,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1275,
-     "median": 0.0625,
+     "value": 0.1263,
+     "median": 0.0617,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -8781,38 +8781,38 @@
    "scope": "atividade",
    "group": "Exploração e Produção",
    "peer_count": 3,
-   "quality_percentile": 0.6944,
+   "quality_percentile": 0.6111,
    "valuation_percentile": 0.8333,
-   "combined_percentile": 0.743,
+   "combined_percentile": 0.6889,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.1274,
-     "median": 0.0972,
-     "percentile": 0.8333,
+     "median": 0.1274,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "roic": {
      "label": "ROIC atual",
      "value": 0.0937,
-     "median": 0.0784,
-     "percentile": 0.8333,
+     "median": 0.0937,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "mrg_liq": {
      "label": "Margem líquida",
      "value": 0.1793,
-     "median": 0.1465,
-     "percentile": 0.8333,
+     "median": 0.1793,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 2.18,
-     "median": 1.92,
+     "median": 1.34,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -8820,7 +8820,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 0.36,
-     "median": 0.91,
+     "median": 0.77,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -8828,7 +8828,7 @@
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
      "value": 0.1616,
-     "median": 0.3679,
+     "median": 0.3596,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -8883,8 +8883,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 5.67,
-     "median": 19.71,
+     "value": 5.63,
+     "median": 13.18,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -8892,33 +8892,33 @@
     "pvp": {
      "label": "P/VP",
      "value": 0.72,
-     "median": 0.81,
+     "median": 0.77,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.27,
-     "median": 3.59,
+     "value": 3.26,
+     "median": 3.51,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.1321,
-     "median": 0.0062,
+     "value": 0.1331,
+     "median": 0.0065,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     }
    },
    "strengths": [
-    "roe",
-    "roic",
-    "mrg_liq",
-    "liq_corr"
+    "liq_corr",
+    "div_liq_pat",
+    "profitable_quarters_ratio",
+    "roe_ttm"
    ],
    "weaknesses": [
     "revenue_cagr",
@@ -8930,15 +8930,15 @@
    "top_peers": [
     {
      "ticker": "RECV3",
-     "combined_percentile": 0.743
+     "combined_percentile": 0.6889
     },
     {
      "ticker": "PRIO3",
-     "combined_percentile": 0.4035
+     "combined_percentile": 0.4757
     },
     {
      "ticker": "BRAV3",
-     "combined_percentile": 0.3535
+     "combined_percentile": 0.3355
     }
    ]
   },
@@ -8947,8 +8947,8 @@
    "group": "Consumo Cíclico",
    "peer_count": 13,
    "quality_percentile": 0.507,
-   "valuation_percentile": 0.3776,
-   "combined_percentile": 0.4617,
+   "valuation_percentile": 0.3357,
+   "combined_percentile": 0.447,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -9048,15 +9048,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 19.0,
-     "median": 9.34,
-     "percentile": 0.3182,
+     "value": 19.5,
+     "median": 9.21,
+     "percentile": 0.2273,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.63,
+     "value": 1.67,
      "median": 1.16,
      "percentile": 0.3462,
      "direction": "lower_positive",
@@ -9064,17 +9064,17 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 5.27,
-     "median": 3.82,
+     "value": 5.35,
+     "median": 3.81,
      "percentile": 0.2692,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0538,
-     "median": 0.0514,
-     "percentile": 0.5769,
+     "value": 0.0524,
+     "median": 0.0524,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 13
     }
@@ -9089,10 +9089,10 @@
     "net_debt_to_equity",
     "div_liq_pat",
     "liq_corr",
-    "ev_ebitda"
+    "pl"
    ],
    "quality_rank": 5,
-   "valuation_rank": 7,
+   "valuation_rank": 9,
    "combined_rank": 6,
    "top_peers": [
     {
@@ -9109,11 +9109,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -9122,8 +9122,8 @@
    "group": "Bancos",
    "peer_count": 5,
    "quality_percentile": 0.6619,
-   "valuation_percentile": 0.7,
-   "combined_percentile": 0.6752,
+   "valuation_percentile": 0.6667,
+   "combined_percentile": 0.6636,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -9183,24 +9183,24 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 7.0,
-     "median": 8.47,
+     "value": 7.04,
+     "median": 8.36,
      "percentile": 0.9,
      "direction": "lower_positive",
      "sample": 5
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.1,
-     "median": 1.13,
-     "percentile": 0.7,
+     "value": 1.11,
+     "median": 1.11,
+     "percentile": 0.6,
      "direction": "lower_positive",
      "sample": 5
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0798,
-     "median": 0.0798,
+     "value": 0.0793,
+     "median": 0.0793,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 5
@@ -9215,19 +9215,19 @@
    "weaknesses": [],
    "quality_rank": 2,
    "valuation_rank": 2,
-   "combined_rank": 2,
+   "combined_rank": 1,
    "top_peers": [
     {
-     "ticker": "ITUB4",
-     "combined_percentile": 0.6847
+     "ticker": "SANB11",
+     "combined_percentile": 0.6636
     },
     {
-     "ticker": "SANB11",
-     "combined_percentile": 0.6752
+     "ticker": "ITUB4",
+     "combined_percentile": 0.6587
     },
     {
      "ticker": "BBDC4",
-     "combined_percentile": 0.4847
+     "combined_percentile": 0.4964
     },
     {
      "ticker": "BBAS3",
@@ -9235,7 +9235,7 @@
     },
     {
      "ticker": "BPAC11",
-     "combined_percentile": 0.23
+     "combined_percentile": 0.256
     }
    ]
   },
@@ -9345,32 +9345,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 11.13,
-     "median": 13.27,
+     "value": 11.31,
+     "median": 13.31,
      "percentile": 0.6111,
      "direction": "lower_positive",
      "sample": 9
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.22,
-     "median": 1.845,
+     "value": 2.26,
+     "median": 1.85,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 10
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 8.54,
-     "median": 8.995,
+     "value": 8.64,
+     "median": 9.045,
      "percentile": 0.55,
      "direction": "lower_positive",
      "sample": 10
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0245,
-     "median": 0.0316,
+     "value": 0.0242,
+     "median": 0.0315,
      "percentile": 0.35,
      "direction": "higher",
      "sample": 10
@@ -9409,7 +9409,7 @@
     "roe": {
      "label": "ROE atual",
      "value": 0.061,
-     "median": 0.1475,
+     "median": 0.1515,
      "percentile": 0.25,
      "direction": "higher",
      "sample": 10
@@ -9417,7 +9417,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.0978,
-     "median": 0.142,
+     "median": 0.1482,
      "percentile": 0.15,
      "direction": "higher",
      "sample": 10
@@ -9504,23 +9504,23 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 20.55,
-     "median": 12.755,
+     "value": 20.89,
+     "median": 12.805,
      "percentile": 0.1875,
      "direction": "lower_positive",
      "sample": 8
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.25,
-     "median": 1.99,
+     "value": 1.27,
+     "median": 2.0,
      "percentile": 0.65,
      "direction": "lower_positive",
      "sample": 10
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 6.15,
+     "value": 6.21,
      "median": 4.96,
      "percentile": 0.25,
      "direction": "lower_positive",
@@ -9528,8 +9528,8 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0603,
-     "median": 0.0178,
+     "value": 0.0593,
+     "median": 0.0174,
      "percentile": 0.85,
      "direction": "higher",
      "sample": 10
@@ -9553,7 +9553,7 @@
    "top_peers": [
     {
      "ticker": "ABEV3",
-     "combined_percentile": 0.5692
+     "combined_percentile": 0.5725
     },
     {
      "ticker": "RADL3",
@@ -9574,8 +9574,8 @@
    "group": "Consumo Cíclico",
    "peer_count": 13,
    "quality_percentile": 0.5299,
-   "valuation_percentile": 0.3619,
-   "combined_percentile": 0.4711,
+   "valuation_percentile": 0.3427,
+   "combined_percentile": 0.4644,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -9675,15 +9675,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 17.51,
-     "median": 9.34,
+     "value": 17.89,
+     "median": 9.21,
      "percentile": 0.4091,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.04,
+     "value": 2.08,
      "median": 1.16,
      "percentile": 0.1154,
      "direction": "lower_positive",
@@ -9691,17 +9691,17 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.4,
-     "median": 3.82,
+     "value": 4.47,
+     "median": 3.81,
      "percentile": 0.4231,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0514,
-     "median": 0.0514,
-     "percentile": 0.5,
+     "value": 0.0504,
+     "median": 0.0524,
+     "percentile": 0.4231,
      "direction": "higher",
      "sample": 13
     }
@@ -9736,11 +9736,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -9851,7 +9851,7 @@
     "pl": {
      "label": "P/L",
      "value": 13.44,
-     "median": 13.195,
+     "median": 13.335,
      "percentile": 0.4167,
      "direction": "lower_positive",
      "sample": 6
@@ -9867,7 +9867,7 @@
     "ev_ebitda": {
      "label": "EV/EBITDA",
      "value": 7.26,
-     "median": 5.66,
+     "median": 5.425,
      "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 6
@@ -9875,7 +9875,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0,
-     "median": 0.0229,
+     "median": 0.0226,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 6
@@ -9899,7 +9899,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6689
+     "combined_percentile": 0.6864
     },
     {
      "ticker": "STBP3",
@@ -9915,7 +9915,7 @@
     },
     {
      "ticker": "VAMO3",
-     "combined_percentile": 0.4225
+     "combined_percentile": 0.405
     }
    ]
   },
@@ -9923,14 +9923,14 @@
    "scope": "setor",
    "group": "Materiais Básicos",
    "peer_count": 9,
-   "quality_percentile": 0.5932,
-   "valuation_percentile": 0.5452,
-   "combined_percentile": 0.5764,
+   "quality_percentile": 0.6024,
+   "valuation_percentile": 0.5139,
+   "combined_percentile": 0.5714,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.2368,
-     "median": 0.0826,
+     "median": 0.0592,
      "percentile": 0.7222,
      "direction": "higher",
      "sample": 9
@@ -9946,7 +9946,7 @@
     "mrg_liq": {
      "label": "Margem líquida",
      "value": 0.2302,
-     "median": 0.0242,
+     "median": 0.0259,
      "percentile": 0.9444,
      "direction": "higher",
      "sample": 9
@@ -9954,7 +9954,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 3.51,
-     "median": 1.78,
+     "median": 2.0,
      "percentile": 0.7222,
      "direction": "higher",
      "sample": 9
@@ -9962,7 +9962,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 1.42,
-     "median": 0.16,
+     "median": 0.15,
      "percentile": 0.2778,
      "direction": "lower",
      "sample": 9
@@ -9971,7 +9971,7 @@
      "label": "Crescimento da receita em 5 anos",
      "value": 0.0306,
      "median": -0.0119,
-     "percentile": 0.8333,
+     "percentile": 0.9444,
      "direction": "higher",
      "sample": 9
     },
@@ -10025,8 +10025,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 4.79,
-     "median": 22.22,
+     "value": 4.78,
+     "median": 18.68,
      "percentile": 0.9167,
      "direction": "lower_positive",
      "sample": 6
@@ -10034,7 +10034,7 @@
     "pvp": {
      "label": "P/VP",
      "value": 1.13,
-     "median": 1.105,
+     "median": 1.115,
      "percentile": 0.4375,
      "direction": "lower_positive",
      "sample": 8
@@ -10042,15 +10042,15 @@
     "ev_ebitda": {
      "label": "EV/EBITDA",
      "value": 5.83,
-     "median": 5.35,
-     "percentile": 0.4375,
+     "median": 5.275,
+     "percentile": 0.3125,
      "direction": "lower_positive",
      "sample": 8
     },
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0001,
-     "median": 0.0268,
+     "median": 0.0266,
      "percentile": 0.3889,
      "direction": "higher",
      "sample": 9
@@ -10058,13 +10058,14 @@
    },
    "strengths": [
     "mrg_liq",
-    "pl",
     "cresc_rec_5a",
+    "pl",
     "roe_ttm"
    ],
    "weaknesses": [
     "net_debt_to_equity",
-    "div_liq_pat"
+    "div_liq_pat",
+    "ev_ebitda"
    ],
    "quality_rank": 1,
    "valuation_rank": 1,
@@ -10072,11 +10073,11 @@
    "top_peers": [
     {
      "ticker": "SUZB3",
-     "combined_percentile": 0.5764
+     "combined_percentile": 0.5714
     },
     {
      "ticker": "KLBN11",
-     "combined_percentile": 0.4774
+     "combined_percentile": 0.4362
     },
     {
      "ticker": "BRKM5",
@@ -10190,8 +10191,8 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 8.79,
-     "median": 14.47,
+     "value": 8.76,
+     "median": 14.49,
      "percentile": 0.8125,
      "direction": "lower_positive",
      "sample": 8
@@ -10206,7 +10207,7 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 10.08,
+     "value": 10.07,
      "median": 9.45,
      "percentile": 0.2778,
      "direction": "lower_positive",
@@ -10214,7 +10215,7 @@
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0819,
+     "value": 0.0821,
      "median": 0.0323,
      "percentile": 0.8333,
      "direction": "higher",
@@ -10261,13 +10262,13 @@
    "group": "IBOV monitorado",
    "peer_count": 76,
    "quality_percentile": 0.2968,
-   "valuation_percentile": 0.2977,
-   "combined_percentile": 0.2971,
+   "valuation_percentile": 0.3044,
+   "combined_percentile": 0.2995,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.0005,
-     "median": 0.125,
+     "median": 0.1284,
      "percentile": 0.1382,
      "direction": "higher",
      "sample": 76
@@ -10275,7 +10276,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.0076,
-     "median": 0.1019,
+     "median": 0.1054,
      "percentile": 0.0373,
      "direction": "higher",
      "sample": 67
@@ -10291,7 +10292,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 0.85,
-     "median": 1.64,
+     "median": 1.62,
      "percentile": 0.097,
      "direction": "higher",
      "sample": 67
@@ -10354,33 +10355,33 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 3377.28,
-     "median": 12.95,
+     "value": 3298.46,
+     "median": 13.18,
      "percentile": 0.0077,
      "direction": "lower_positive",
      "sample": 65
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.84,
+     "value": 1.8,
      "median": 1.73,
-     "percentile": 0.4452,
+     "percentile": 0.4589,
      "direction": "lower_positive",
      "sample": 73
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 117.96,
-     "median": 5.765,
+     "value": 115.09,
+     "median": 5.725,
      "percentile": 0.0076,
      "direction": "lower_positive",
      "sample": 66
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0761,
-     "median": 0.0411,
-     "percentile": 0.7303,
+     "value": 0.0779,
+     "median": 0.0406,
+     "percentile": 0.7434,
      "direction": "higher",
      "sample": 76
     }
@@ -10402,15 +10403,15 @@
    "top_peers": [
     {
      "ticker": "VIVT3",
-     "combined_percentile": 0.56
+     "combined_percentile": 0.5621
     },
     {
      "ticker": "TOTS3",
-     "combined_percentile": 0.5025
+     "combined_percentile": 0.5039
     },
     {
      "ticker": "TIMS3",
-     "combined_percentile": 0.2971
+     "combined_percentile": 0.2995
     }
    ]
   },
@@ -10418,14 +10419,14 @@
    "scope": "mercado",
    "group": "IBOV monitorado",
    "peer_count": 76,
-   "quality_percentile": 0.6539,
-   "valuation_percentile": 0.2213,
-   "combined_percentile": 0.5025,
+   "quality_percentile": 0.655,
+   "valuation_percentile": 0.2233,
+   "combined_percentile": 0.5039,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.1865,
-     "median": 0.125,
+     "median": 0.1284,
      "percentile": 0.6513,
      "direction": "higher",
      "sample": 76
@@ -10433,7 +10434,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.2025,
-     "median": 0.1019,
+     "median": 0.1054,
      "percentile": 0.903,
      "direction": "higher",
      "sample": 67
@@ -10442,15 +10443,15 @@
      "label": "Margem líquida",
      "value": 0.1585,
      "median": 0.0728,
-     "percentile": 0.7388,
+     "percentile": 0.7239,
      "direction": "higher",
      "sample": 67
     },
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.62,
-     "median": 1.64,
-     "percentile": 0.4851,
+     "median": 1.62,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 67
     },
@@ -10466,7 +10467,7 @@
      "label": "Crescimento da receita em 5 anos",
      "value": 0.1512,
      "median": 0.0877,
-     "percentile": 0.6513,
+     "percentile": 0.6645,
      "direction": "higher",
      "sample": 76
     },
@@ -10520,15 +10521,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 20.55,
-     "median": 12.95,
-     "percentile": 0.2,
+     "value": 20.58,
+     "median": 13.18,
+     "percentile": 0.2077,
      "direction": "lower_positive",
      "sample": 65
     },
     "pvp": {
      "label": "P/VP",
-     "value": 3.83,
+     "value": 3.84,
      "median": 1.73,
      "percentile": 0.1301,
      "direction": "lower_positive",
@@ -10536,8 +10537,8 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 8.48,
-     "median": 5.765,
+     "value": 8.49,
+     "median": 5.725,
      "percentile": 0.2197,
      "direction": "lower_positive",
      "sample": 66
@@ -10545,7 +10546,7 @@
     "div_yield": {
      "label": "Dividend yield",
      "value": 0.0214,
-     "median": 0.0411,
+     "median": 0.0406,
      "percentile": 0.3355,
      "direction": "higher",
      "sample": 76
@@ -10569,15 +10570,15 @@
    "top_peers": [
     {
      "ticker": "VIVT3",
-     "combined_percentile": 0.56
+     "combined_percentile": 0.5621
     },
     {
      "ticker": "TOTS3",
-     "combined_percentile": 0.5025
+     "combined_percentile": 0.5039
     },
     {
      "ticker": "TIMS3",
-     "combined_percentile": 0.2971
+     "combined_percentile": 0.2995
     }
    ]
   },
@@ -10586,13 +10587,13 @@
    "group": "Petróleo, Gás e Biocombustíveis",
    "peer_count": 8,
    "quality_percentile": 0.5781,
-   "valuation_percentile": 0.4182,
-   "combined_percentile": 0.5221,
+   "valuation_percentile": 0.3869,
+   "combined_percentile": 0.5112,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.1819,
-     "median": 0.1329,
+     "median": 0.1377,
      "percentile": 0.6875,
      "direction": "higher",
      "sample": 8
@@ -10600,7 +10601,7 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.1405,
-     "median": 0.0893,
+     "median": 0.0963,
      "percentile": 0.8125,
      "direction": "higher",
      "sample": 8
@@ -10616,16 +10617,16 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.67,
-     "median": 1.72,
-     "percentile": 0.4375,
+     "median": 1.505,
+     "percentile": 0.5625,
      "direction": "higher",
      "sample": 8
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 0.85,
-     "median": 0.845,
-     "percentile": 0.4375,
+     "median": 0.805,
+     "percentile": 0.3125,
      "direction": "lower",
      "sample": 8
     },
@@ -10687,32 +10688,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 12.33,
-     "median": 13.37,
+     "value": 12.14,
+     "median": 12.66,
      "percentile": 0.5833,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 2.24,
-     "median": 1.92,
+     "value": 2.21,
+     "median": 1.81,
      "percentile": 0.2143,
      "direction": "lower_positive",
      "sample": 7
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 7.12,
-     "median": 5.325,
-     "percentile": 0.3125,
+     "value": 7.05,
+     "median": 5.28,
+     "percentile": 0.1875,
      "direction": "lower_positive",
      "sample": 8
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0393,
-     "median": 0.0227,
+     "value": 0.0399,
+     "median": 0.0232,
      "percentile": 0.5625,
      "direction": "higher",
      "sample": 8
@@ -10725,30 +10726,30 @@
     "roe"
    ],
    "weaknesses": [
-    "pvp",
     "ev_ebitda",
+    "pvp",
     "net_debt_to_equity",
     "revenue_cagr"
    ],
    "quality_rank": 3,
    "valuation_rank": 2,
-   "combined_rank": 3,
+   "combined_rank": 2,
    "top_peers": [
     {
      "ticker": "PETR4",
      "combined_percentile": 0.6857
     },
     {
-     "ticker": "VBBR3",
-     "combined_percentile": 0.5227
+     "ticker": "UGPA3",
+     "combined_percentile": 0.5112
     },
     {
-     "ticker": "UGPA3",
-     "combined_percentile": 0.5221
+     "ticker": "VBBR3",
+     "combined_percentile": 0.5013
     },
     {
      "ticker": "RAIZ4",
-     "combined_percentile": 0.3396
+     "combined_percentile": 0.3177
     },
     {
      "ticker": "CSAN3",
@@ -10791,7 +10792,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 4.44,
-     "median": 2.76,
+     "median": 2.87,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -10799,7 +10800,7 @@
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": -0.03,
-     "median": 0.16,
+     "median": 0.15,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -10807,7 +10808,7 @@
     "cresc_rec_5a": {
      "label": "Crescimento da receita em 5 anos",
      "value": -0.0696,
-     "median": -0.0506,
+     "median": -0.0514,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -10862,16 +10863,16 @@
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.46,
-     "median": 0.47,
+     "value": 0.45,
+     "median": 0.49,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.8,
-     "median": 4.05,
+     "value": 3.78,
+     "median": 4.08,
      "percentile": 0.8333,
      "direction": "lower_positive",
      "sample": 3
@@ -11021,32 +11022,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 31.95,
-     "median": 13.96,
+     "value": 32.67,
+     "median": 14.4,
      "percentile": 0.1667,
      "direction": "lower_positive",
      "sample": 3
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.69,
-     "median": 1.69,
+     "value": 1.72,
+     "median": 1.72,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 3
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.42,
-     "median": 4.645,
+     "value": 4.51,
+     "median": 4.765,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 2
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.075,
-     "median": 0.1096,
+     "value": 0.0734,
+     "median": 0.1078,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -11085,8 +11086,8 @@
    "group": "Bens Industriais",
    "peer_count": 6,
    "quality_percentile": 0.2708,
-   "valuation_percentile": 0.7042,
-   "combined_percentile": 0.4225,
+   "valuation_percentile": 0.6542,
+   "combined_percentile": 0.405,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -11186,41 +11187,41 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 12.95,
-     "median": 13.195,
+     "value": 13.23,
+     "median": 13.335,
      "percentile": 0.5833,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.53,
+     "value": 1.56,
      "median": 1.89,
-     "percentile": 0.9,
+     "percentile": 0.7,
      "direction": "lower_positive",
      "sample": 5
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.19,
-     "median": 5.66,
+     "value": 4.21,
+     "median": 5.425,
      "percentile": 0.75,
      "direction": "lower_positive",
      "sample": 6
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0382,
-     "median": 0.0229,
+     "value": 0.0374,
+     "median": 0.0226,
      "percentile": 0.5833,
      "direction": "higher",
      "sample": 6
     }
    },
    "strengths": [
-    "pvp",
     "liq_corr",
-    "ev_ebitda"
+    "ev_ebitda",
+    "pvp"
    ],
    "weaknesses": [
     "positive_free_cash_flow_years_ratio",
@@ -11229,12 +11230,12 @@
     "cresc_rec_5a"
    ],
    "quality_rank": 6,
-   "valuation_rank": 2,
+   "valuation_rank": 3,
    "combined_rank": 5,
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6689
+     "combined_percentile": 0.6864
     },
     {
      "ticker": "STBP3",
@@ -11250,7 +11251,7 @@
     },
     {
      "ticker": "VAMO3",
-     "combined_percentile": 0.4225
+     "combined_percentile": 0.405
     }
    ]
   },
@@ -11258,14 +11259,14 @@
    "scope": "setor",
    "group": "Petróleo, Gás e Biocombustíveis",
    "peer_count": 8,
-   "quality_percentile": 0.599,
-   "valuation_percentile": 0.381,
-   "combined_percentile": 0.5227,
+   "quality_percentile": 0.5885,
+   "valuation_percentile": 0.3393,
+   "combined_percentile": 0.5013,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.1383,
-     "median": 0.1329,
+     "median": 0.1377,
      "percentile": 0.5625,
      "direction": "higher",
      "sample": 8
@@ -11273,8 +11274,8 @@
     "roic": {
      "label": "ROIC atual",
      "value": 0.099,
-     "median": 0.0893,
-     "percentile": 0.6875,
+     "median": 0.0963,
+     "percentile": 0.5625,
      "direction": "higher",
      "sample": 8
     },
@@ -11289,16 +11290,16 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 1.77,
-     "median": 1.72,
-     "percentile": 0.5625,
+     "median": 1.505,
+     "percentile": 0.6875,
      "direction": "higher",
      "sample": 8
     },
     "div_liq_pat": {
      "label": "Dívida líquida/PL",
      "value": 0.84,
-     "median": 0.845,
-     "percentile": 0.5625,
+     "median": 0.805,
+     "percentile": 0.4375,
      "direction": "lower",
      "sample": 8
     },
@@ -11360,32 +11361,32 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 14.41,
-     "median": 13.37,
-     "percentile": 0.4167,
+     "value": 14.13,
+     "median": 12.66,
+     "percentile": 0.25,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.99,
-     "median": 1.92,
+     "value": 1.95,
+     "median": 1.81,
      "percentile": 0.3571,
      "direction": "lower_positive",
      "sample": 7
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 9.63,
-     "median": 5.325,
+     "value": 9.5,
+     "median": 5.28,
      "percentile": 0.0625,
      "direction": "lower_positive",
      "sample": 8
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0418,
-     "median": 0.0227,
+     "value": 0.0426,
+     "median": 0.0232,
      "percentile": 0.6875,
      "direction": "higher",
      "sample": 8
@@ -11393,33 +11394,34 @@
    },
    "strengths": [
     "history_score",
-    "roic",
+    "liq_corr",
     "profitable_quarters_ratio",
     "roe_ttm"
    ],
    "weaknesses": [
     "ev_ebitda",
+    "pl",
     "mrg_liq"
    ],
    "quality_rank": 2,
    "valuation_rank": 3,
-   "combined_rank": 2,
+   "combined_rank": 3,
    "top_peers": [
     {
      "ticker": "PETR4",
      "combined_percentile": 0.6857
     },
     {
-     "ticker": "VBBR3",
-     "combined_percentile": 0.5227
+     "ticker": "UGPA3",
+     "combined_percentile": 0.5112
     },
     {
-     "ticker": "UGPA3",
-     "combined_percentile": 0.5221
+     "ticker": "VBBR3",
+     "combined_percentile": 0.5013
     },
     {
      "ticker": "RAIZ4",
-     "combined_percentile": 0.3396
+     "combined_percentile": 0.3177
     },
     {
      "ticker": "CSAN3",
@@ -11533,15 +11535,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 9.22,
-     "median": 9.34,
+     "value": 9.12,
+     "median": 9.21,
      "percentile": 0.5909,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.78,
+     "value": 1.76,
      "median": 1.16,
      "percentile": 0.2692,
      "direction": "lower_positive",
@@ -11549,16 +11551,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 6.26,
-     "median": 3.82,
+     "value": 6.2,
+     "median": 3.81,
      "percentile": 0.1154,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0305,
-     "median": 0.0514,
+     "value": 0.0309,
+     "median": 0.0524,
      "percentile": 0.3462,
      "direction": "higher",
      "sample": 13
@@ -11593,11 +11595,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   },
@@ -11605,23 +11607,23 @@
    "scope": "mercado",
    "group": "IBOV monitorado",
    "peer_count": 76,
-   "quality_percentile": 0.5474,
-   "valuation_percentile": 0.5835,
-   "combined_percentile": 0.56,
+   "quality_percentile": 0.5438,
+   "valuation_percentile": 0.596,
+   "combined_percentile": 0.5621,
    "metrics": {
     "roe": {
      "label": "ROE atual",
      "value": 0.1005,
-     "median": 0.125,
-     "percentile": 0.4013,
+     "median": 0.1284,
+     "percentile": 0.3882,
      "direction": "higher",
      "sample": 76
     },
     "roic": {
      "label": "ROIC atual",
      "value": 0.091,
-     "median": 0.1019,
-     "percentile": 0.3657,
+     "median": 0.1054,
+     "percentile": 0.3358,
      "direction": "higher",
      "sample": 67
     },
@@ -11636,7 +11638,7 @@
     "liq_corr": {
      "label": "Liquidez corrente",
      "value": 0.95,
-     "median": 1.64,
+     "median": 1.62,
      "percentile": 0.1269,
      "direction": "higher",
      "sample": 67
@@ -11707,33 +11709,33 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 15.79,
-     "median": 12.95,
+     "value": 15.48,
+     "median": 13.18,
      "percentile": 0.3615,
      "direction": "lower_positive",
      "sample": 65
     },
     "pvp": {
      "label": "P/VP",
-     "value": 1.59,
+     "value": 1.56,
      "median": 1.73,
-     "percentile": 0.5548,
+     "percentile": 0.5616,
      "direction": "lower_positive",
      "sample": 73
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 4.53,
-     "median": 5.765,
-     "percentile": 0.6742,
+     "value": 4.45,
+     "median": 5.725,
+     "percentile": 0.7045,
      "direction": "lower_positive",
      "sample": 66
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.077,
-     "median": 0.0411,
-     "percentile": 0.7434,
+     "value": 0.0785,
+     "median": 0.0406,
+     "percentile": 0.7566,
      "direction": "higher",
      "sample": 76
     }
@@ -11741,11 +11743,12 @@
    "strengths": [
     "positive_free_cash_flow_years_ratio",
     "profitable_quarters_ratio",
-    "div_liq_pat",
-    "net_debt_to_equity"
+    "div_yield",
+    "div_liq_pat"
    ],
    "weaknesses": [
-    "liq_corr"
+    "liq_corr",
+    "roic"
    ],
    "quality_rank": 2,
    "valuation_rank": 1,
@@ -11753,15 +11756,15 @@
    "top_peers": [
     {
      "ticker": "VIVT3",
-     "combined_percentile": 0.56
+     "combined_percentile": 0.5621
     },
     {
      "ticker": "TOTS3",
-     "combined_percentile": 0.5025
+     "combined_percentile": 0.5039
     },
     {
      "ticker": "TIMS3",
-     "combined_percentile": 0.2971
+     "combined_percentile": 0.2995
     }
    ]
   },
@@ -11871,15 +11874,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 32.35,
-     "median": 13.195,
+     "value": 33.0,
+     "median": 13.335,
      "percentile": 0.0833,
      "direction": "lower_positive",
      "sample": 6
     },
     "pvp": {
      "label": "P/VP",
-     "value": 10.73,
+     "value": 10.94,
      "median": 1.89,
      "percentile": 0.3,
      "direction": "lower_positive",
@@ -11887,16 +11890,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 21.03,
-     "median": 5.66,
+     "value": 21.46,
+     "median": 5.425,
      "percentile": 0.0833,
      "direction": "lower_positive",
      "sample": 6
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0416,
-     "median": 0.0229,
+     "value": 0.0408,
+     "median": 0.0226,
      "percentile": 0.75,
      "direction": "higher",
      "sample": 6
@@ -11920,7 +11923,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6689
+     "combined_percentile": 0.6864
     },
     {
      "ticker": "STBP3",
@@ -11936,7 +11939,7 @@
     },
     {
      "ticker": "VAMO3",
-     "combined_percentile": 0.4225
+     "combined_percentile": 0.405
     }
    ]
   },
@@ -11945,8 +11948,8 @@
    "group": "Consumo Cíclico",
    "peer_count": 13,
    "quality_percentile": 0.3473,
-   "valuation_percentile": 0.528,
-   "combined_percentile": 0.4105,
+   "valuation_percentile": 0.5507,
+   "combined_percentile": 0.4185,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -12046,15 +12049,15 @@
     },
     "pl": {
      "label": "P/L",
-     "value": 19.37,
-     "median": 9.34,
-     "percentile": 0.2273,
+     "value": 19.16,
+     "median": 9.21,
+     "percentile": 0.3182,
      "direction": "lower_positive",
      "sample": 11
     },
     "pvp": {
      "label": "P/VP",
-     "value": 0.77,
+     "value": 0.76,
      "median": 1.16,
      "percentile": 0.6538,
      "direction": "lower_positive",
@@ -12062,16 +12065,16 @@
     },
     "ev_ebitda": {
      "label": "EV/EBITDA",
-     "value": 3.82,
-     "median": 3.82,
+     "value": 3.81,
+     "median": 3.81,
      "percentile": 0.5,
      "direction": "lower_positive",
      "sample": 13
     },
     "div_yield": {
      "label": "Dividend yield",
-     "value": 0.0679,
-     "median": 0.0514,
+     "value": 0.0687,
+     "median": 0.0524,
      "percentile": 0.7308,
      "direction": "higher",
      "sample": 13
@@ -12107,11 +12110,11 @@
     },
     {
      "ticker": "COGN3",
-     "combined_percentile": 0.5443
+     "combined_percentile": 0.5544
     },
     {
      "ticker": "SMFT3",
-     "combined_percentile": 0.4711
+     "combined_percentile": 0.4644
     }
    ]
   }
