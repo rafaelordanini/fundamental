@@ -8,9 +8,9 @@
    "scope": "setor",
    "group": "Consumo não Cíclico",
    "peer_count": 10,
-   "quality_percentile": 0.6587,
+   "quality_percentile": 0.6483,
    "valuation_percentile": 0.3156,
-   "combined_percentile": 0.5386,
+   "combined_percentile": 0.5319,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -62,9 +62,9 @@
     },
     "history_score": {
      "label": "Qualidade histórica",
-     "value": 88.0,
+     "value": 81.0,
      "median": 68.5,
-     "percentile": 0.75,
+     "percentile": 0.625,
      "direction": "higher",
      "sample": 8
     },
@@ -86,15 +86,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1725,
-     "median": 0.1798,
+     "value": 0.184,
+     "median": 0.1876,
      "percentile": 0.4375,
      "direction": "higher",
      "sample": 8
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.1639,
+     "value": -0.1537,
      "median": 1.5287,
      "percentile": 0.9375,
      "direction": "lower",
@@ -155,15 +155,15 @@
    ],
    "quality_rank": 2,
    "valuation_rank": 3,
-   "combined_rank": 1,
+   "combined_rank": 2,
    "top_peers": [
     {
-     "ticker": "ABEV3",
-     "combined_percentile": 0.5386
+     "ticker": "RADL3",
+     "combined_percentile": 0.5369
     },
     {
-     "ticker": "RADL3",
-     "combined_percentile": 0.5336
+     "ticker": "ABEV3",
+     "combined_percentile": 0.5319
     },
     {
      "ticker": "SLCE3",
@@ -257,16 +257,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0686,
-     "median": 0.1536,
+     "value": 0.0759,
+     "median": 0.1351,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.0019,
-     "median": 0.7791,
+     "value": -0.0035,
+     "median": 0.7366,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -409,7 +409,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 1.0,
-     "median": 0.6,
+     "median": 0.575,
      "percentile": 0.75,
      "direction": "higher",
      "sample": 2
@@ -417,7 +417,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.2396,
-     "median": -0.4826,
+     "median": -0.5929,
      "percentile": 0.75,
      "direction": "higher",
      "sample": 2
@@ -425,7 +425,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 2.199,
-     "median": 3.4675,
+     "median": 5.6019,
      "percentile": 0.75,
      "direction": "lower",
      "sample": 2
@@ -503,9 +503,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.2593,
+   "quality_percentile": 0.25,
    "valuation_percentile": 0.3889,
-   "combined_percentile": 0.3047,
+   "combined_percentile": 0.2986,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -581,17 +581,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": -0.0876,
-     "median": 0.1209,
+     "value": -0.0768,
+     "median": 0.1284,
      "percentile": 0.0556,
      "direction": "higher",
      "sample": 9
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.5924,
+     "value": 1.6235,
      "median": 1.3308,
-     "percentile": 0.3889,
+     "percentile": 0.2778,
      "direction": "lower",
      "sample": 9
     },
@@ -645,23 +645,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -748,7 +748,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": -0.2788,
-     "median": 0.2143,
+     "median": 0.202,
      "percentile": 0.0833,
      "direction": "higher",
      "sample": 6
@@ -756,7 +756,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": -4.9159,
-     "median": 0.8072,
+     "median": 0.8302,
      "percentile": 0.9167,
      "direction": "lower",
      "sample": 6
@@ -812,7 +812,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6864
+     "combined_percentile": 0.6773
     },
     {
      "ticker": "STBP3",
@@ -820,7 +820,7 @@
     },
     {
      "ticker": "WEGE3",
-     "combined_percentile": 0.5308
+     "combined_percentile": 0.5398
     },
     {
      "ticker": "AZUL4",
@@ -836,9 +836,9 @@
    "scope": "setor",
    "group": "Consumo Cíclico",
    "peer_count": 13,
-   "quality_percentile": 0.6346,
+   "quality_percentile": 0.6277,
    "valuation_percentile": 0.8444,
-   "combined_percentile": 0.708,
+   "combined_percentile": 0.7035,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -899,7 +899,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 0.95,
-     "median": 0.8,
+     "median": 0.825,
      "percentile": 0.625,
      "direction": "higher",
      "sample": 12
@@ -915,8 +915,8 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.1053,
-     "median": 0.0953,
-     "percentile": 0.5417,
+     "median": 0.1111,
+     "percentile": 0.4583,
      "direction": "higher",
      "sample": 12
     },
@@ -984,7 +984,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -1000,7 +1000,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -1008,9 +1008,9 @@
    "scope": "setor",
    "group": "Financeiro e Outros",
    "peer_count": 13,
-   "quality_percentile": 0.5527,
+   "quality_percentile": 0.5451,
    "valuation_percentile": 0.1755,
-   "combined_percentile": 0.4207,
+   "combined_percentile": 0.4157,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -1087,7 +1087,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.2674,
-     "median": 0.2259,
+     "median": 0.2303,
      "percentile": 0.65,
      "direction": "higher",
      "sample": 10
@@ -1096,7 +1096,7 @@
      "label": "Dívida líquida/PL histórica",
      "value": 0.7697,
      "median": 0.0652,
-     "percentile": 0.4091,
+     "percentile": 0.3182,
      "direction": "lower",
      "sample": 11
     },
@@ -1159,11 +1159,11 @@
    "top_peers": [
     {
      "ticker": "ITSA4",
-     "combined_percentile": 0.4649
+     "combined_percentile": 0.4711
     },
     {
      "ticker": "B3SA3",
-     "combined_percentile": 0.4207
+     "combined_percentile": 0.4157
     }
    ]
   },
@@ -1218,7 +1218,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.4786,
-     "median": 0.2665,
+     "median": 0.267,
      "percentile": 0.75,
      "direction": "higher",
      "sample": 2
@@ -1226,7 +1226,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 23.2935,
-     "median": 1.6352,
+     "median": 1.661,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -1351,16 +1351,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0543,
-     "median": 0.2665,
+     "value": 0.0555,
+     "median": 0.267,
      "percentile": 0.25,
      "direction": "higher",
      "sample": 2
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.6352,
-     "median": 1.6352,
+     "value": 1.661,
+     "median": 1.661,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
@@ -1478,7 +1478,7 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.7565,
+     "value": 0.8594,
      "median": 0.3159,
      "percentile": 0.8333,
      "direction": "higher",
@@ -1486,8 +1486,8 @@
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.1786,
-     "median": -0.1272,
+     "value": -0.2095,
+     "median": -0.1123,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -2062,16 +2062,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0206,
-     "median": 0.0973,
+     "value": 0.0044,
+     "median": 0.1125,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.2883,
-     "median": 0.9053,
+     "value": 1.1468,
+     "median": 0.7716,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -2133,11 +2133,11 @@
    "top_peers": [
     {
      "ticker": "RECV3",
-     "combined_percentile": 0.6889
+     "combined_percentile": 0.6708
     },
     {
      "ticker": "PRIO3",
-     "combined_percentile": 0.4757
+     "combined_percentile": 0.4938
     },
     {
      "ticker": "BRAV3",
@@ -2316,9 +2316,9 @@
    "scope": "setor",
    "group": "Materiais Básicos",
    "peer_count": 9,
-   "quality_percentile": 0.3524,
+   "quality_percentile": 0.3571,
    "valuation_percentile": 0.1146,
-   "combined_percentile": 0.2692,
+   "combined_percentile": 0.2722,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -2372,7 +2372,7 @@
      "label": "Qualidade histórica",
      "value": 31.0,
      "median": 50.0,
-     "percentile": 0.0556,
+     "percentile": 0.1111,
      "direction": "higher",
      "sample": 9
     },
@@ -2395,7 +2395,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 1.0333,
-     "median": 0.0684,
+     "median": 0.0418,
      "percentile": 0.9444,
      "direction": "higher",
      "sample": 9
@@ -2403,7 +2403,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": -2.7343,
-     "median": 0.1616,
+     "median": 0.1564,
      "percentile": 0.9444,
      "direction": "lower",
      "sample": 9
@@ -2442,8 +2442,8 @@
    "weaknesses": [
     "positive_free_cash_flow_years_ratio",
     "profitable_quarters_ratio",
-    "history_score",
-    "cresc_rec_5a"
+    "cresc_rec_5a",
+    "liq_corr"
    ],
    "quality_rank": 3,
    "valuation_rank": 3,
@@ -2451,7 +2451,7 @@
    "top_peers": [
     {
      "ticker": "SUZB3",
-     "combined_percentile": 0.5704
+     "combined_percentile": 0.5643
     },
     {
      "ticker": "KLBN11",
@@ -2459,7 +2459,7 @@
     },
     {
      "ticker": "BRKM5",
-     "combined_percentile": 0.2692
+     "combined_percentile": 0.2722
     }
    ]
   },
@@ -2467,9 +2467,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.537,
+   "quality_percentile": 0.5417,
    "valuation_percentile": 0.8594,
-   "combined_percentile": 0.6498,
+   "combined_percentile": 0.6529,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -2531,7 +2531,7 @@
      "label": "Trimestres lucrativos",
      "value": 0.95,
      "median": 0.95,
-     "percentile": 0.4444,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
@@ -2546,7 +2546,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.1704,
-     "median": 0.1209,
+     "median": 0.1284,
      "percentile": 0.6111,
      "direction": "higher",
      "sample": 9
@@ -2616,23 +2616,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -2869,7 +2869,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 0.4,
-     "median": 0.8,
+     "median": 0.825,
      "percentile": 0.125,
      "direction": "higher",
      "sample": 12
@@ -2885,7 +2885,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.0466,
-     "median": 0.0953,
+     "median": 0.1111,
      "percentile": 0.375,
      "direction": "higher",
      "sample": 12
@@ -2953,7 +2953,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -2969,7 +2969,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -2977,9 +2977,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.662,
+   "quality_percentile": 0.6574,
    "valuation_percentile": 0.658,
-   "combined_percentile": 0.6606,
+   "combined_percentile": 0.6576,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -3041,7 +3041,7 @@
      "label": "Trimestres lucrativos",
      "value": 1.0,
      "median": 0.95,
-     "percentile": 0.7778,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 9
     },
@@ -3056,8 +3056,8 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.2476,
-     "median": 0.1209,
-     "percentile": 0.9444,
+     "median": 0.1284,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 9
     },
@@ -3112,9 +3112,9 @@
    },
    "strengths": [
     "roic",
-    "roe_ttm",
     "ev_ebitda",
-    "history_score"
+    "history_score",
+    "positive_free_cash_flow_years_ratio"
    ],
    "weaknesses": [
     "revenue_cagr",
@@ -3127,23 +3127,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -3151,9 +3151,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.4907,
+   "quality_percentile": 0.5046,
    "valuation_percentile": 0.4011,
-   "combined_percentile": 0.4593,
+   "combined_percentile": 0.4684,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -3215,7 +3215,7 @@
      "label": "Trimestres lucrativos",
      "value": 0.95,
      "median": 0.95,
-     "percentile": 0.4444,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
@@ -3229,15 +3229,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1086,
-     "median": 0.1209,
-     "percentile": 0.3889,
+     "value": 0.1284,
+     "median": 0.1284,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.7623,
+     "value": 0.8287,
      "median": 1.3308,
      "percentile": 0.8333,
      "direction": "lower",
@@ -3300,23 +3300,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -3521,7 +3521,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": -0.2994,
-     "median": 0.1104,
+     "median": 0.1261,
      "percentile": 0.1875,
      "direction": "higher",
      "sample": 8
@@ -3529,7 +3529,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 1.6132,
-     "median": 0.8682,
+     "median": 0.8013,
      "percentile": 0.0625,
      "direction": "lower",
      "sample": 8
@@ -3591,7 +3591,7 @@
     },
     {
      "ticker": "VBBR3",
-     "combined_percentile": 0.5013
+     "combined_percentile": 0.4878
     },
     {
      "ticker": "RAIZ4",
@@ -3607,9 +3607,9 @@
    "scope": "atividade",
    "group": "Siderurgia",
    "peer_count": 3,
-   "quality_percentile": 0.4583,
+   "quality_percentile": 0.4445,
    "valuation_percentile": 0.4444,
-   "combined_percentile": 0.4534,
+   "combined_percentile": 0.4445,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -3663,7 +3663,7 @@
      "label": "Qualidade histórica",
      "value": 44.0,
      "median": 44.0,
-     "percentile": 0.3333,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
@@ -3686,15 +3686,15 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": -0.0827,
-     "median": -0.0827,
-     "percentile": 0.5,
+     "median": -0.0807,
+     "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 2.3664,
-     "median": 0.1616,
+     "median": 0.1564,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -3742,7 +3742,7 @@
     "pvp",
     "positive_free_cash_flow_years_ratio",
     "net_debt_to_equity",
-    "profitable_quarters_ratio"
+    "roe_ttm"
    ],
    "quality_rank": 2,
    "valuation_rank": 3,
@@ -3754,11 +3754,11 @@
     },
     {
      "ticker": "USIM5",
-     "combined_percentile": 0.4743
+     "combined_percentile": 0.4833
     },
     {
      "ticker": "CSNA3",
-     "combined_percentile": 0.4534
+     "combined_percentile": 0.4445
     }
    ]
   },
@@ -3829,7 +3829,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 0.1,
-     "median": 0.8,
+     "median": 0.825,
      "percentile": 0.0417,
      "direction": "higher",
      "sample": 12
@@ -3845,7 +3845,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": -0.2298,
-     "median": 0.0953,
+     "median": 0.1111,
      "percentile": 0.0417,
      "direction": "higher",
      "sample": 12
@@ -3906,7 +3906,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -3922,7 +3922,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -3977,7 +3977,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 0.0007,
-     "median": -0.1272,
+     "median": -0.1123,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -4374,9 +4374,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.463,
+   "quality_percentile": 0.4954,
    "valuation_percentile": 0.3768,
-   "combined_percentile": 0.4328,
+   "combined_percentile": 0.4539,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -4438,7 +4438,7 @@
      "label": "Trimestres lucrativos",
      "value": 1.0,
      "median": 0.95,
-     "percentile": 0.7778,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 9
     },
@@ -4452,17 +4452,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.202,
-     "median": 0.1209,
-     "percentile": 0.7222,
+     "value": 0.2859,
+     "median": 0.1284,
+     "percentile": 0.9444,
      "direction": "higher",
      "sample": 9
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.6702,
+     "value": 1.5434,
      "median": 1.3308,
-     "percentile": 0.2778,
+     "percentile": 0.3889,
      "direction": "lower",
      "sample": 9
     },
@@ -4509,9 +4509,9 @@
    },
    "strengths": [
     "roe",
+    "roe_ttm",
     "roic",
-    "mrg_liq",
-    "profitable_quarters_ratio"
+    "mrg_liq"
    ],
    "weaknesses": [
     "pvp",
@@ -4519,29 +4519,29 @@
     "cresc_rec_5a",
     "liq_corr"
    ],
-   "quality_rank": 7,
+   "quality_rank": 6,
    "valuation_rank": 8,
    "combined_rank": 6,
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -4628,7 +4628,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.0872,
-     "median": 0.1209,
+     "median": 0.1284,
      "percentile": 0.2778,
      "direction": "higher",
      "sample": 9
@@ -4700,23 +4700,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -4724,9 +4724,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.4676,
+   "quality_percentile": 0.4445,
    "valuation_percentile": 0.5642,
-   "combined_percentile": 0.5014,
+   "combined_percentile": 0.4864,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -4786,9 +4786,9 @@
     },
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
-     "value": 1.0,
+     "value": 0.95,
      "median": 0.95,
-     "percentile": 0.7778,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 9
     },
@@ -4802,17 +4802,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1209,
-     "median": 0.1209,
-     "percentile": 0.5,
+     "value": 0.0941,
+     "median": 0.1284,
+     "percentile": 0.3889,
      "direction": "higher",
      "sample": 9
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 2.0544,
+     "value": 1.806,
      "median": 1.3308,
-     "percentile": 0.0556,
+     "percentile": 0.1667,
      "direction": "lower",
      "sample": 9
     },
@@ -4860,8 +4860,8 @@
    "strengths": [
     "ev_ebitda",
     "liq_corr",
-    "profitable_quarters_ratio",
-    "pvp"
+    "pvp",
+    "history_score"
    ],
    "weaknesses": [
     "net_debt_to_equity",
@@ -4869,29 +4869,29 @@
     "div_liq_pat",
     "mrg_liq"
    ],
-   "quality_rank": 6,
+   "quality_rank": 7,
    "valuation_rank": 4,
    "combined_rank": 4,
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -4899,9 +4899,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.3519,
+   "quality_percentile": 0.3426,
    "valuation_percentile": 0.4496,
-   "combined_percentile": 0.3861,
+   "combined_percentile": 0.38,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -4978,7 +4978,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.0816,
-     "median": 0.1209,
+     "median": 0.1284,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 9
@@ -4987,7 +4987,7 @@
      "label": "Dívida líquida/PL histórica",
      "value": 1.8147,
      "median": 1.3308,
-     "percentile": 0.1667,
+     "percentile": 0.0556,
      "direction": "lower",
      "sample": 9
     },
@@ -5039,8 +5039,8 @@
    ],
    "weaknesses": [
     "positive_free_cash_flow_years_ratio",
-    "div_liq_pat",
     "net_debt_to_equity",
+    "div_liq_pat",
     "roe_ttm"
    ],
    "quality_rank": 8,
@@ -5049,23 +5049,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -5151,16 +5151,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1167,
-     "median": 0.1167,
+     "value": 0.1262,
+     "median": 0.1262,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.0132,
-     "median": 1.0132,
+     "value": 0.9767,
+     "median": 0.9767,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
@@ -5316,16 +5316,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0307,
-     "median": -0.0827,
+     "value": 0.0418,
+     "median": -0.0807,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.1616,
-     "median": 0.1616,
+     "value": 0.1564,
+     "median": 0.1564,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
@@ -5384,11 +5384,11 @@
     },
     {
      "ticker": "USIM5",
-     "combined_percentile": 0.4743
+     "combined_percentile": 0.4833
     },
     {
      "ticker": "CSNA3",
-     "combined_percentile": 0.4534
+     "combined_percentile": 0.4445
     }
    ]
   },
@@ -5475,7 +5475,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": -0.0088,
-     "median": 0.1167,
+     "median": 0.1262,
      "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
@@ -5483,7 +5483,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 0.2572,
-     "median": 1.0132,
+     "median": 0.9767,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -5633,16 +5633,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1298,
-     "median": 0.1232,
+     "value": 0.1319,
+     "median": 0.129,
      "percentile": 0.625,
      "direction": "higher",
      "sample": 4
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.4413,
-     "median": 0.7273,
+     "value": 0.4077,
+     "median": 0.6922,
      "percentile": 0.625,
      "direction": "lower",
      "sample": 4
@@ -5766,7 +5766,7 @@
     },
     "history_score": {
      "label": "Qualidade histórica",
-     "value": 62.0,
+     "value": 56.0,
      "median": 69.0,
      "percentile": 0.1667,
      "direction": "higher",
@@ -5790,16 +5790,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1536,
-     "median": 0.1536,
+     "value": 0.1351,
+     "median": 0.1351,
      "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.8074,
-     "median": 0.7791,
+     "value": 0.8947,
+     "median": 0.7366,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -5874,9 +5874,9 @@
    "scope": "setor",
    "group": "Financeiro e Outros",
    "peer_count": 13,
-   "quality_percentile": 0.3493,
+   "quality_percentile": 0.3589,
    "valuation_percentile": 0.6795,
-   "combined_percentile": 0.4649,
+   "combined_percentile": 0.4711,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -5898,7 +5898,7 @@
      "label": "Qualidade histórica",
      "value": 58.0,
      "median": 75.0,
-     "percentile": 0.0385,
+     "percentile": 0.1154,
      "direction": "higher",
      "sample": 13
     },
@@ -5921,7 +5921,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.184,
-     "median": 0.2259,
+     "median": 0.2303,
      "percentile": 0.35,
      "direction": "higher",
      "sample": 10
@@ -5973,8 +5973,8 @@
     "pl"
    ],
    "weaknesses": [
-    "history_score",
     "revenue_cagr",
+    "history_score",
     "cresc_rec_5a",
     "roe_ttm"
    ],
@@ -5984,11 +5984,11 @@
    "top_peers": [
     {
      "ticker": "ITSA4",
-     "combined_percentile": 0.4649
+     "combined_percentile": 0.4711
     },
     {
      "ticker": "B3SA3",
-     "combined_percentile": 0.4207
+     "combined_percentile": 0.4157
     }
    ]
   },
@@ -6340,17 +6340,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0547,
-     "median": 0.0684,
-     "percentile": 0.3889,
+     "value": 0.0365,
+     "median": 0.0418,
+     "percentile": 0.2778,
      "direction": "higher",
      "sample": 9
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.6363,
-     "median": 0.1616,
-     "percentile": 0.1667,
+     "value": 1.5988,
+     "median": 0.1564,
+     "percentile": 0.2778,
      "direction": "lower",
      "sample": 9
     },
@@ -6404,8 +6404,8 @@
    "weaknesses": [
     "div_liq_pat",
     "pl",
-    "net_debt_to_equity",
-    "ev_ebitda"
+    "ev_ebitda",
+    "net_debt_to_equity"
    ],
    "quality_rank": 2,
    "valuation_rank": 2,
@@ -6413,7 +6413,7 @@
    "top_peers": [
     {
      "ticker": "SUZB3",
-     "combined_percentile": 0.5704
+     "combined_percentile": 0.5643
     },
     {
      "ticker": "KLBN11",
@@ -6421,7 +6421,7 @@
     },
     {
      "ticker": "BRKM5",
-     "combined_percentile": 0.2692
+     "combined_percentile": 0.2722
     }
    ]
   },
@@ -6492,7 +6492,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 1.0,
-     "median": 0.8,
+     "median": 0.825,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 12
@@ -6507,15 +6507,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1448,
-     "median": 0.0953,
+     "value": 0.1446,
+     "median": 0.1111,
      "percentile": 0.7083,
      "direction": "higher",
      "sample": 12
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.0592,
+     "value": -0.0442,
      "median": 0.6036,
      "percentile": 0.9583,
      "direction": "lower",
@@ -6578,7 +6578,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -6594,7 +6594,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -6602,9 +6602,9 @@
    "scope": "setor",
    "group": "Consumo Cíclico",
    "peer_count": 13,
-   "quality_percentile": 0.3,
+   "quality_percentile": 0.2965,
    "valuation_percentile": 0.5822,
-   "combined_percentile": 0.3988,
+   "combined_percentile": 0.3965,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -6664,9 +6664,9 @@
     },
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
-     "value": 0.55,
-     "median": 0.8,
-     "percentile": 0.2917,
+     "value": 0.5,
+     "median": 0.825,
+     "percentile": 0.25,
      "direction": "higher",
      "sample": 12
     },
@@ -6680,15 +6680,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0121,
-     "median": 0.0953,
+     "value": 0.008,
+     "median": 0.1111,
      "percentile": 0.2083,
      "direction": "higher",
      "sample": 12
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.3347,
+     "value": 0.3619,
      "median": 0.6036,
      "percentile": 0.7917,
      "direction": "lower",
@@ -6749,11 +6749,11 @@
    ],
    "quality_rank": 9,
    "valuation_rank": 4,
-   "combined_rank": 8,
+   "combined_rank": 9,
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -6769,7 +6769,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -7012,16 +7012,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.2002,
-     "median": 0.1536,
+     "value": 0.219,
+     "median": 0.1351,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.7791,
-     "median": 0.7791,
+     "value": 0.7366,
+     "median": 0.7366,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
@@ -7193,12 +7193,12 @@
    "combined_rank": 4,
    "top_peers": [
     {
-     "ticker": "ABEV3",
-     "combined_percentile": 0.5386
+     "ticker": "RADL3",
+     "combined_percentile": 0.5369
     },
     {
-     "ticker": "RADL3",
-     "combined_percentile": 0.5336
+     "ticker": "ABEV3",
+     "combined_percentile": 0.5319
     },
     {
      "ticker": "SLCE3",
@@ -7276,24 +7276,24 @@
     },
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
-     "value": 0.2,
-     "median": 0.6,
+     "value": 0.15,
+     "median": 0.575,
      "percentile": 0.25,
      "direction": "higher",
      "sample": 2
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": -1.2049,
-     "median": -0.4826,
+     "value": -1.4255,
+     "median": -0.5929,
      "percentile": 0.25,
      "direction": "higher",
      "sample": 2
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 4.7361,
-     "median": 3.4675,
+     "value": 9.0049,
+     "median": 5.6019,
      "percentile": 0.25,
      "direction": "lower",
      "sample": 2
@@ -7441,16 +7441,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.256,
-     "median": 0.1104,
+     "value": 0.3027,
+     "median": 0.1261,
      "percentile": 0.9375,
      "direction": "higher",
      "sample": 8
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.7559,
-     "median": 0.8682,
+     "value": 0.691,
+     "median": 0.8013,
      "percentile": 0.6875,
      "direction": "lower",
      "sample": 8
@@ -7521,7 +7521,7 @@
     },
     {
      "ticker": "VBBR3",
-     "combined_percentile": 0.5013
+     "combined_percentile": 0.4878
     },
     {
      "ticker": "RAIZ4",
@@ -7634,11 +7634,11 @@
    ],
    "quality_rank": 7,
    "valuation_rank": 8,
-   "combined_rank": 9,
+   "combined_rank": 8,
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -7654,7 +7654,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -7662,9 +7662,9 @@
    "scope": "setor",
    "group": "Bens Industriais",
    "peer_count": 6,
-   "quality_percentile": 0.6319,
+   "quality_percentile": 0.618,
    "valuation_percentile": 0.7875,
-   "combined_percentile": 0.6864,
+   "combined_percentile": 0.6773,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -7740,16 +7740,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.3091,
-     "median": 0.2143,
-     "percentile": 0.75,
+     "value": 0.2832,
+     "median": 0.202,
+     "percentile": 0.5833,
      "direction": "higher",
      "sample": 6
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.3758,
-     "median": 0.8072,
+     "value": 0.4218,
+     "median": 0.8302,
      "percentile": 0.5833,
      "direction": "lower",
      "sample": 6
@@ -7810,7 +7810,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6864
+     "combined_percentile": 0.6773
     },
     {
      "ticker": "STBP3",
@@ -7818,7 +7818,7 @@
     },
     {
      "ticker": "WEGE3",
-     "combined_percentile": 0.5308
+     "combined_percentile": 0.5398
     },
     {
      "ticker": "AZUL4",
@@ -7834,9 +7834,9 @@
    "scope": "atividade",
    "group": "Exploração e Produção",
    "peer_count": 3,
-   "quality_percentile": 0.5972,
+   "quality_percentile": 0.625,
    "valuation_percentile": 0.25,
-   "combined_percentile": 0.4757,
+   "combined_percentile": 0.4938,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -7912,16 +7912,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0973,
-     "median": 0.0973,
-     "percentile": 0.5,
+     "value": 0.1423,
+     "median": 0.1125,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.9053,
-     "median": 0.9053,
+     "value": 0.7716,
+     "median": 0.7716,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
@@ -7979,17 +7979,17 @@
     "pvp",
     "positive_free_cash_flow_years_ratio"
    ],
-   "quality_rank": 2,
+   "quality_rank": 1,
    "valuation_rank": 3,
    "combined_rank": 2,
    "top_peers": [
     {
      "ticker": "RECV3",
-     "combined_percentile": 0.6889
+     "combined_percentile": 0.6708
     },
     {
      "ticker": "PRIO3",
-     "combined_percentile": 0.4757
+     "combined_percentile": 0.4938
     },
     {
      "ticker": "BRAV3",
@@ -8039,7 +8039,7 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.2516,
+     "value": 0.2417,
      "median": 0.3159,
      "percentile": 0.1667,
      "direction": "higher",
@@ -8047,8 +8047,8 @@
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.1272,
-     "median": -0.1272,
+     "value": -0.1123,
+     "median": -0.1123,
      "percentile": 0.5,
      "direction": "lower",
      "sample": 3
@@ -8119,9 +8119,9 @@
    "scope": "setor",
    "group": "Consumo não Cíclico",
    "peer_count": 10,
-   "quality_percentile": 0.7115,
+   "quality_percentile": 0.7167,
    "valuation_percentile": 0.2031,
-   "combined_percentile": 0.5336,
+   "combined_percentile": 0.5369,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -8175,7 +8175,7 @@
      "label": "Qualidade histórica",
      "value": 88.0,
      "median": 68.5,
-     "percentile": 0.75,
+     "percentile": 0.8125,
      "direction": "higher",
      "sample": 8
     },
@@ -8197,15 +8197,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.187,
-     "median": 0.1798,
+     "value": 0.1911,
+     "median": 0.1876,
      "percentile": 0.5625,
      "direction": "higher",
      "sample": 8
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.4386,
+     "value": 0.4,
      "median": 1.5287,
      "percentile": 0.8125,
      "direction": "lower",
@@ -8254,9 +8254,9 @@
    },
    "strengths": [
     "cresc_rec_5a",
+    "history_score",
     "profitable_quarters_ratio",
-    "net_debt_to_equity",
-    "div_liq_pat"
+    "net_debt_to_equity"
    ],
    "weaknesses": [
     "pvp",
@@ -8265,15 +8265,15 @@
    ],
    "quality_rank": 1,
    "valuation_rank": 4,
-   "combined_rank": 2,
+   "combined_rank": 1,
    "top_peers": [
     {
-     "ticker": "ABEV3",
-     "combined_percentile": 0.5386
+     "ticker": "RADL3",
+     "combined_percentile": 0.5369
     },
     {
-     "ticker": "RADL3",
-     "combined_percentile": 0.5336
+     "ticker": "ABEV3",
+     "combined_percentile": 0.5319
     },
     {
      "ticker": "SLCE3",
@@ -8368,7 +8368,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.0733,
-     "median": 0.2143,
+     "median": 0.202,
      "percentile": 0.25,
      "direction": "higher",
      "sample": 6
@@ -8376,7 +8376,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 1.2385,
-     "median": 0.8072,
+     "median": 0.8302,
      "percentile": 0.4167,
      "direction": "lower",
      "sample": 6
@@ -8437,7 +8437,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6864
+     "combined_percentile": 0.6773
     },
     {
      "ticker": "STBP3",
@@ -8445,7 +8445,7 @@
     },
     {
      "ticker": "WEGE3",
-     "combined_percentile": 0.5308
+     "combined_percentile": 0.5398
     },
     {
      "ticker": "AZUL4",
@@ -8540,7 +8540,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": -5.4813,
-     "median": 0.1104,
+     "median": 0.1261,
      "percentile": 0.0625,
      "direction": "higher",
      "sample": 8
@@ -8548,7 +8548,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": -7.5396,
-     "median": 0.8682,
+     "median": 0.8013,
      "percentile": 0.9375,
      "direction": "lower",
      "sample": 8
@@ -8603,7 +8603,7 @@
     },
     {
      "ticker": "VBBR3",
-     "combined_percentile": 0.5013
+     "combined_percentile": 0.4878
     },
     {
      "ticker": "RAIZ4",
@@ -8698,7 +8698,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.1919,
-     "median": 0.1167,
+     "median": 0.1262,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 3
@@ -8706,7 +8706,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 1.9301,
-     "median": 1.0132,
+     "median": 0.9767,
      "percentile": 0.1667,
      "direction": "lower",
      "sample": 3
@@ -8786,9 +8786,9 @@
    "scope": "atividade",
    "group": "Exploração e Produção",
    "peer_count": 3,
-   "quality_percentile": 0.6111,
+   "quality_percentile": 0.5833,
    "valuation_percentile": 0.8333,
-   "combined_percentile": 0.6889,
+   "combined_percentile": 0.6708,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -8864,16 +8864,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1235,
-     "median": 0.0973,
-     "percentile": 0.8333,
+     "value": 0.1125,
+     "median": 0.1125,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.6915,
-     "median": 0.9053,
+     "value": 0.6409,
+     "median": 0.7716,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -8923,23 +8923,23 @@
     "liq_corr",
     "div_liq_pat",
     "profitable_quarters_ratio",
-    "roe_ttm"
+    "net_debt_to_equity"
    ],
    "weaknesses": [
     "revenue_cagr",
     "cresc_rec_5a"
    ],
-   "quality_rank": 1,
+   "quality_rank": 2,
    "valuation_rank": 1,
    "combined_rank": 1,
    "top_peers": [
     {
      "ticker": "RECV3",
-     "combined_percentile": 0.6889
+     "combined_percentile": 0.6708
     },
     {
      "ticker": "PRIO3",
-     "combined_percentile": 0.4757
+     "combined_percentile": 0.4938
     },
     {
      "ticker": "BRAV3",
@@ -8951,9 +8951,9 @@
    "scope": "setor",
    "group": "Consumo Cíclico",
    "peer_count": 13,
-   "quality_percentile": 0.5198,
+   "quality_percentile": 0.5337,
    "valuation_percentile": 0.3619,
-   "combined_percentile": 0.4645,
+   "combined_percentile": 0.4736,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -9014,7 +9014,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 0.85,
-     "median": 0.8,
+     "median": 0.825,
      "percentile": 0.5417,
      "direction": "higher",
      "sample": 12
@@ -9029,15 +9029,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0853,
-     "median": 0.0953,
-     "percentile": 0.4583,
+     "value": 0.1301,
+     "median": 0.1111,
+     "percentile": 0.625,
      "direction": "higher",
      "sample": 12
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.5278,
+     "value": 1.5806,
      "median": 0.6036,
      "percentile": 0.125,
      "direction": "lower",
@@ -9102,7 +9102,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -9118,7 +9118,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -9172,8 +9172,8 @@
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.0249,
-     "median": 1.6352,
+     "value": -0.0267,
+     "median": 1.661,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -9248,9 +9248,9 @@
    "scope": "setor",
    "group": "Utilidade Pública",
    "peer_count": 10,
-   "quality_percentile": 0.6333,
+   "quality_percentile": 0.6292,
    "valuation_percentile": 0.4125,
-   "combined_percentile": 0.556,
+   "combined_percentile": 0.5534,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -9311,8 +9311,8 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 1.0,
-     "median": 0.975,
-     "percentile": 0.75,
+     "median": 0.95,
+     "percentile": 0.8,
      "direction": "higher",
      "sample": 10
     },
@@ -9327,8 +9327,8 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.2123,
-     "median": 0.1456,
-     "percentile": 0.85,
+     "median": 0.1494,
+     "percentile": 0.75,
      "direction": "higher",
      "sample": 10
     },
@@ -9385,7 +9385,7 @@
     "roic",
     "liq_corr",
     "div_liq_pat",
-    "roe_ttm"
+    "profitable_quarters_ratio"
    ],
    "weaknesses": [
     "positive_free_cash_flow_years_ratio",
@@ -9399,7 +9399,7 @@
    "top_peers": [
     {
      "ticker": "SBSP3",
-     "combined_percentile": 0.556
+     "combined_percentile": 0.5534
     }
    ]
   },
@@ -9486,7 +9486,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.0525,
-     "median": 0.1798,
+     "median": 0.1876,
      "percentile": 0.1875,
      "direction": "higher",
      "sample": 8
@@ -9557,12 +9557,12 @@
    "combined_rank": 3,
    "top_peers": [
     {
-     "ticker": "ABEV3",
-     "combined_percentile": 0.5386
+     "ticker": "RADL3",
+     "combined_percentile": 0.5369
     },
     {
-     "ticker": "RADL3",
-     "combined_percentile": 0.5336
+     "ticker": "ABEV3",
+     "combined_percentile": 0.5319
     },
     {
      "ticker": "SLCE3",
@@ -9578,9 +9578,9 @@
    "scope": "setor",
    "group": "Consumo Cíclico",
    "peer_count": 13,
-   "quality_percentile": 0.5043,
+   "quality_percentile": 0.5008,
    "valuation_percentile": 0.3776,
-   "combined_percentile": 0.46,
+   "combined_percentile": 0.4577,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -9640,9 +9640,9 @@
     },
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
-     "value": 0.75,
-     "median": 0.8,
-     "percentile": 0.4167,
+     "value": 0.8,
+     "median": 0.825,
+     "percentile": 0.4583,
      "direction": "higher",
      "sample": 12
     },
@@ -9656,15 +9656,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1206,
-     "median": 0.0953,
-     "percentile": 0.625,
+     "value": 0.1169,
+     "median": 0.1111,
+     "percentile": 0.5417,
      "direction": "higher",
      "sample": 12
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 1.0,
+     "value": 0.9185,
      "median": 0.6036,
      "percentile": 0.2917,
      "direction": "lower",
@@ -9729,7 +9729,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -9745,7 +9745,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -9832,7 +9832,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 1.2169,
-     "median": 0.2143,
+     "median": 0.202,
      "percentile": 0.9167,
      "direction": "higher",
      "sample": 6
@@ -9840,7 +9840,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 2.4147,
-     "median": 0.8072,
+     "median": 0.8302,
      "percentile": 0.25,
      "direction": "lower",
      "sample": 6
@@ -9904,7 +9904,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6864
+     "combined_percentile": 0.6773
     },
     {
      "ticker": "STBP3",
@@ -9912,7 +9912,7 @@
     },
     {
      "ticker": "WEGE3",
-     "combined_percentile": 0.5308
+     "combined_percentile": 0.5398
     },
     {
      "ticker": "AZUL4",
@@ -9928,9 +9928,9 @@
    "scope": "setor",
    "group": "Materiais Básicos",
    "peer_count": 9,
-   "quality_percentile": 0.5839,
+   "quality_percentile": 0.5746,
    "valuation_percentile": 0.5452,
-   "combined_percentile": 0.5704,
+   "combined_percentile": 0.5643,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -10007,7 +10007,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.263,
-     "median": 0.0684,
+     "median": 0.0418,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 9
@@ -10015,8 +10015,8 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 1.6305,
-     "median": 0.1616,
-     "percentile": 0.2778,
+     "median": 0.1564,
+     "percentile": 0.1667,
      "direction": "lower",
      "sample": 9
     },
@@ -10068,8 +10068,8 @@
     "roe_ttm"
    ],
    "weaknesses": [
-    "div_liq_pat",
     "net_debt_to_equity",
+    "div_liq_pat",
     "ev_ebitda"
    ],
    "quality_rank": 1,
@@ -10078,7 +10078,7 @@
    "top_peers": [
     {
      "ticker": "SUZB3",
-     "combined_percentile": 0.5704
+     "combined_percentile": 0.5643
     },
     {
      "ticker": "KLBN11",
@@ -10086,7 +10086,7 @@
     },
     {
      "ticker": "BRKM5",
-     "combined_percentile": 0.2692
+     "combined_percentile": 0.2722
     }
    ]
   },
@@ -10094,9 +10094,9 @@
    "scope": "atividade",
    "group": "Energia Elétrica",
    "peer_count": 9,
-   "quality_percentile": 0.7454,
+   "quality_percentile": 0.7407,
    "valuation_percentile": 0.6337,
-   "combined_percentile": 0.7063,
+   "combined_percentile": 0.7033,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -10158,7 +10158,7 @@
      "label": "Trimestres lucrativos",
      "value": 1.0,
      "median": 0.95,
-     "percentile": 0.7778,
+     "percentile": 0.8333,
      "direction": "higher",
      "sample": 9
     },
@@ -10173,8 +10173,8 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.2056,
-     "median": 0.1209,
-     "percentile": 0.8333,
+     "median": 0.1284,
+     "percentile": 0.7222,
      "direction": "higher",
      "sample": 9
     },
@@ -10242,23 +10242,23 @@
    "top_peers": [
     {
      "ticker": "TAEE11",
-     "combined_percentile": 0.7063
+     "combined_percentile": 0.7033
     },
     {
      "ticker": "CPFE3",
-     "combined_percentile": 0.6606
+     "combined_percentile": 0.6576
     },
     {
      "ticker": "CMIG4",
-     "combined_percentile": 0.6498
+     "combined_percentile": 0.6529
     },
     {
      "ticker": "ENGI11",
-     "combined_percentile": 0.5014
+     "combined_percentile": 0.4864
     },
     {
      "ticker": "CPLE6",
-     "combined_percentile": 0.4593
+     "combined_percentile": 0.4684
     }
    ]
   },
@@ -10266,9 +10266,9 @@
    "scope": "mercado",
    "group": "IBOV monitorado",
    "peer_count": 76,
-   "quality_percentile": 0.2975,
+   "quality_percentile": 0.3052,
    "valuation_percentile": 0.2977,
-   "combined_percentile": 0.2976,
+   "combined_percentile": 0.3026,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -10320,15 +10320,15 @@
     },
     "history_score": {
      "label": "Qualidade histórica",
-     "value": 50.0,
+     "value": 42.0,
      "median": 67.0,
-     "percentile": 0.2055,
+     "percentile": 0.0753,
      "direction": "higher",
      "sample": 73
     },
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
-     "value": 0.7059,
+     "value": 0.7222,
      "median": 0.95,
      "percentile": 0.2183,
      "direction": "higher",
@@ -10336,17 +10336,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0669,
-     "median": 0.1347,
-     "percentile": 0.2643,
+     "value": 0.1428,
+     "median": 0.1409,
+     "percentile": 0.5214,
      "direction": "higher",
      "sample": 70
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": -0.0487,
+     "value": -0.0011,
      "median": 0.7697,
-     "percentile": 0.8803,
+     "percentile": 0.838,
      "direction": "lower",
      "sample": 71
     },
@@ -10408,15 +10408,15 @@
    "top_peers": [
     {
      "ticker": "TOTS3",
-     "combined_percentile": 0.5591
+     "combined_percentile": 0.5737
     },
     {
      "ticker": "VIVT3",
-     "combined_percentile": 0.5525
+     "combined_percentile": 0.5514
     },
     {
      "ticker": "TIMS3",
-     "combined_percentile": 0.2976
+     "combined_percentile": 0.3026
     }
    ]
   },
@@ -10424,9 +10424,9 @@
    "scope": "mercado",
    "group": "IBOV monitorado",
    "peer_count": 76,
-   "quality_percentile": 0.7031,
+   "quality_percentile": 0.7256,
    "valuation_percentile": 0.2916,
-   "combined_percentile": 0.5591,
+   "combined_percentile": 0.5737,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -10480,7 +10480,7 @@
      "label": "Qualidade histórica",
      "value": 81.0,
      "median": 67.0,
-     "percentile": 0.8014,
+     "percentile": 0.8082,
      "direction": "higher",
      "sample": 73
     },
@@ -10488,7 +10488,7 @@
      "label": "Trimestres lucrativos",
      "value": 1.0,
      "median": 0.95,
-     "percentile": 0.7958,
+     "percentile": 0.8028,
      "direction": "higher",
      "sample": 71
     },
@@ -10502,17 +10502,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.1828,
-     "median": 0.1347,
-     "percentile": 0.6071,
+     "value": 0.2709,
+     "median": 0.1409,
+     "percentile": 0.8214,
      "direction": "higher",
      "sample": 70
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.6465,
+     "value": 0.5509,
      "median": 0.7697,
-     "percentile": 0.5704,
+     "percentile": 0.6127,
      "direction": "lower",
      "sample": 71
     },
@@ -10561,7 +10561,7 @@
     "roic",
     "mrg_liq",
     "roe",
-    "history_score"
+    "roe_ttm"
    ],
    "weaknesses": [
     "pvp",
@@ -10574,15 +10574,15 @@
    "top_peers": [
     {
      "ticker": "TOTS3",
-     "combined_percentile": 0.5591
+     "combined_percentile": 0.5737
     },
     {
      "ticker": "VIVT3",
-     "combined_percentile": 0.5525
+     "combined_percentile": 0.5514
     },
     {
      "ticker": "TIMS3",
-     "combined_percentile": 0.2976
+     "combined_percentile": 0.3026
     }
    ]
   },
@@ -10669,7 +10669,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.1798,
-     "median": 0.1104,
+     "median": 0.1261,
      "percentile": 0.8125,
      "direction": "higher",
      "sample": 8
@@ -10677,7 +10677,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 0.9326,
-     "median": 0.8682,
+     "median": 0.8013,
      "percentile": 0.3125,
      "direction": "lower",
      "sample": 8
@@ -10735,7 +10735,7 @@
     "div_liq_pat",
     "net_debt_to_equity"
    ],
-   "quality_rank": 3,
+   "quality_rank": 2,
    "valuation_rank": 2,
    "combined_rank": 2,
    "top_peers": [
@@ -10749,7 +10749,7 @@
     },
     {
      "ticker": "VBBR3",
-     "combined_percentile": 0.5013
+     "combined_percentile": 0.4878
     },
     {
      "ticker": "RAIZ4",
@@ -10765,9 +10765,9 @@
    "scope": "atividade",
    "group": "Siderurgia",
    "peer_count": 3,
-   "quality_percentile": 0.4306,
+   "quality_percentile": 0.4445,
    "valuation_percentile": 0.5555,
-   "combined_percentile": 0.4743,
+   "combined_percentile": 0.4833,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -10819,9 +10819,9 @@
     },
     "history_score": {
      "label": "Qualidade histórica",
-     "value": 44.0,
+     "value": 31.0,
      "median": 44.0,
-     "percentile": 0.3333,
+     "percentile": 0.1667,
      "direction": "higher",
      "sample": 3
     },
@@ -10843,16 +10843,16 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": -0.0932,
-     "median": -0.0827,
-     "percentile": 0.1667,
+     "value": -0.0807,
+     "median": -0.0807,
+     "percentile": 0.5,
      "direction": "higher",
      "sample": 3
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.0634,
-     "median": 0.1616,
+     "value": 0.0401,
+     "median": 0.1564,
      "percentile": 0.8333,
      "direction": "lower",
      "sample": 3
@@ -10897,8 +10897,8 @@
     "pvp"
    ],
    "weaknesses": [
-    "roe_ttm",
     "revenue_cagr",
+    "history_score",
     "cresc_rec_5a",
     "mrg_liq"
    ],
@@ -10912,11 +10912,11 @@
     },
     {
      "ticker": "USIM5",
-     "combined_percentile": 0.4743
+     "combined_percentile": 0.4833
     },
     {
      "ticker": "CSNA3",
-     "combined_percentile": 0.4534
+     "combined_percentile": 0.4445
     }
    ]
   },
@@ -11002,7 +11002,7 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0684,
+     "value": 0.0411,
      "median": 0.2477,
      "percentile": 0.1667,
      "direction": "higher",
@@ -11010,7 +11010,7 @@
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.3664,
+     "value": 0.3433,
      "median": 0.0406,
      "percentile": 0.1667,
      "direction": "lower",
@@ -11168,7 +11168,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.1208,
-     "median": 0.2143,
+     "median": 0.202,
      "percentile": 0.4167,
      "direction": "higher",
      "sample": 6
@@ -11176,7 +11176,7 @@
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 6.3217,
-     "median": 0.8072,
+     "median": 0.8302,
      "percentile": 0.0833,
      "direction": "lower",
      "sample": 6
@@ -11239,7 +11239,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6864
+     "combined_percentile": 0.6773
     },
     {
      "ticker": "STBP3",
@@ -11247,7 +11247,7 @@
     },
     {
      "ticker": "WEGE3",
-     "combined_percentile": 0.5308
+     "combined_percentile": 0.5398
     },
     {
      "ticker": "AZUL4",
@@ -11263,9 +11263,9 @@
    "scope": "setor",
    "group": "Petróleo, Gás e Biocombustíveis",
    "peer_count": 8,
-   "quality_percentile": 0.5885,
+   "quality_percentile": 0.5677,
    "valuation_percentile": 0.3393,
-   "combined_percentile": 0.5013,
+   "combined_percentile": 0.4878,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -11342,16 +11342,16 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.1396,
-     "median": 0.1104,
-     "percentile": 0.6875,
+     "median": 0.1261,
+     "percentile": 0.5625,
      "direction": "higher",
      "sample": 8
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": 0.8311,
-     "median": 0.8682,
-     "percentile": 0.5625,
+     "median": 0.8013,
+     "percentile": 0.4375,
      "direction": "lower",
      "sample": 8
     },
@@ -11400,13 +11400,13 @@
     "history_score",
     "liq_corr",
     "profitable_quarters_ratio",
-    "roe_ttm"
+    "positive_free_cash_flow_years_ratio"
    ],
    "weaknesses": [
     "ev_ebitda",
     "pl"
    ],
-   "quality_rank": 2,
+   "quality_rank": 3,
    "valuation_rank": 3,
    "combined_rank": 3,
    "top_peers": [
@@ -11420,7 +11420,7 @@
     },
     {
      "ticker": "VBBR3",
-     "combined_percentile": 0.5013
+     "combined_percentile": 0.4878
     },
     {
      "ticker": "RAIZ4",
@@ -11499,7 +11499,7 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 1.0,
-     "median": 0.8,
+     "median": 0.825,
      "percentile": 0.8333,
      "direction": "higher",
      "sample": 12
@@ -11514,15 +11514,15 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.2075,
-     "median": 0.0953,
+     "value": 0.1967,
+     "median": 0.1111,
      "percentile": 0.7917,
      "direction": "higher",
      "sample": 12
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.0675,
+     "value": 0.0319,
      "median": 0.6036,
      "percentile": 0.875,
      "direction": "lower",
@@ -11586,7 +11586,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -11602,7 +11602,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   },
@@ -11610,9 +11610,9 @@
    "scope": "mercado",
    "group": "IBOV monitorado",
    "peer_count": 76,
-   "quality_percentile": 0.5367,
+   "quality_percentile": 0.5349,
    "valuation_percentile": 0.5819,
-   "combined_percentile": 0.5525,
+   "combined_percentile": 0.5514,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -11674,7 +11674,7 @@
      "label": "Trimestres lucrativos",
      "value": 1.0,
      "median": 0.95,
-     "percentile": 0.7958,
+     "percentile": 0.8028,
      "direction": "higher",
      "sample": 71
     },
@@ -11688,17 +11688,17 @@
     },
     "roe_ttm": {
      "label": "ROE TTM",
-     "value": 0.0925,
-     "median": 0.1347,
-     "percentile": 0.3643,
+     "value": 0.0987,
+     "median": 0.1409,
+     "percentile": 0.35,
      "direction": "higher",
      "sample": 70
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
-     "value": 0.1549,
+     "value": 0.171,
      "median": 0.7697,
-     "percentile": 0.7535,
+     "percentile": 0.7394,
      "direction": "lower",
      "sample": 71
     },
@@ -11752,7 +11752,8 @@
    "weaknesses": [
     "liq_corr",
     "pl",
-    "roic"
+    "roic",
+    "roe_ttm"
    ],
    "quality_rank": 2,
    "valuation_rank": 1,
@@ -11760,15 +11761,15 @@
    "top_peers": [
     {
      "ticker": "TOTS3",
-     "combined_percentile": 0.5591
+     "combined_percentile": 0.5737
     },
     {
      "ticker": "VIVT3",
-     "combined_percentile": 0.5525
+     "combined_percentile": 0.5514
     },
     {
      "ticker": "TIMS3",
-     "combined_percentile": 0.2976
+     "combined_percentile": 0.3026
     }
    ]
   },
@@ -11776,9 +11777,9 @@
    "scope": "setor",
    "group": "Bens Industriais",
    "peer_count": 6,
-   "quality_percentile": 0.6528,
+   "quality_percentile": 0.6667,
    "valuation_percentile": 0.3041,
-   "combined_percentile": 0.5308,
+   "combined_percentile": 0.5398,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -11855,15 +11856,15 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.3079,
-     "median": 0.2143,
-     "percentile": 0.5833,
+     "median": 0.202,
+     "percentile": 0.75,
      "direction": "higher",
      "sample": 6
     },
     "net_debt_to_equity": {
      "label": "Dívida líquida/PL histórica",
      "value": -0.1329,
-     "median": 0.8072,
+     "median": 0.8302,
      "percentile": 0.75,
      "direction": "lower",
      "sample": 6
@@ -11927,7 +11928,7 @@
    "top_peers": [
     {
      "ticker": "POMO4",
-     "combined_percentile": 0.6864
+     "combined_percentile": 0.6773
     },
     {
      "ticker": "STBP3",
@@ -11935,7 +11936,7 @@
     },
     {
      "ticker": "WEGE3",
-     "combined_percentile": 0.5308
+     "combined_percentile": 0.5398
     },
     {
      "ticker": "AZUL4",
@@ -11951,9 +11952,9 @@
    "scope": "setor",
    "group": "Consumo Cíclico",
    "peer_count": 13,
-   "quality_percentile": 0.3537,
+   "quality_percentile": 0.3502,
    "valuation_percentile": 0.528,
-   "combined_percentile": 0.4147,
+   "combined_percentile": 0.4124,
    "metrics": {
     "roe": {
      "label": "ROE atual",
@@ -12014,8 +12015,8 @@
     "profitable_quarters_ratio": {
      "label": "Trimestres lucrativos",
      "value": 0.75,
-     "median": 0.8,
-     "percentile": 0.4167,
+     "median": 0.825,
+     "percentile": 0.375,
      "direction": "higher",
      "sample": 12
     },
@@ -12030,7 +12031,7 @@
     "roe_ttm": {
      "label": "ROE TTM",
      "value": 0.0381,
-     "median": 0.0953,
+     "median": 0.1111,
      "percentile": 0.2917,
      "direction": "higher",
      "sample": 12
@@ -12102,7 +12103,7 @@
    "top_peers": [
     {
      "ticker": "AZZA3",
-     "combined_percentile": 0.708
+     "combined_percentile": 0.7035
     },
     {
      "ticker": "LREN3",
@@ -12118,7 +12119,7 @@
     },
     {
      "ticker": "RENT3",
-     "combined_percentile": 0.4645
+     "combined_percentile": 0.4736
     }
    ]
   }
