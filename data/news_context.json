@@ -1,13 +1,13 @@
 {
- "data_geracao": "2026-08-09",
+ "data_geracao": "2026-08-10",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
- "new_reads": 10,
+ "new_reads": 8,
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-08-09T13:33:17.846351+00:00",
+   "checked_at": "2026-08-10T21:29:37.123371+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -48,22 +48,22 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-08-09T13:33:18.265893+00:00",
+   "checked_at": "2026-08-10T21:29:37.533820+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
    "articles": []
   },
   "ASAI3": {
-   "checked_at": "2026-08-09T13:33:18.666719+00:00",
+   "checked_at": "2026-08-10T21:29:37.938977+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-08-09T13:33:20.124119+00:00",
+   "checked_at": "2026-08-10T21:29:38.350456+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-08-09T13:33:20.509348+00:00",
+   "checked_at": "2026-08-10T21:29:38.733197+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -101,12 +101,12 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-08-09T13:33:20.854456+00:00",
+   "checked_at": "2026-08-10T21:29:39.121350+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": []
   },
   "B3SA3": {
-   "checked_at": "2026-08-09T13:33:23.014237+00:00",
+   "checked_at": "2026-08-10T21:29:41.700762+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
@@ -143,7 +143,7 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-08-09T13:33:23.416468+00:00",
+   "checked_at": "2026-08-10T21:29:42.082800+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
@@ -183,7 +183,7 @@
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-08-09T13:33:23.750989+00:00",
+   "checked_at": "2026-08-10T21:29:42.440241+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
@@ -223,7 +223,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-08-09T13:33:24.087999+00:00",
+   "checked_at": "2026-08-10T21:29:42.804576+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -261,7 +261,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-08-09T13:33:24.476336+00:00",
+   "checked_at": "2026-08-10T21:29:43.217296+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -299,7 +299,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-08-09T13:33:24.832431+00:00",
+   "checked_at": "2026-08-10T21:29:43.600492+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -338,12 +338,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-08-09T13:33:25.248026+00:00",
+   "checked_at": "2026-08-10T21:29:44.778251+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-08-09T13:33:25.611839+00:00",
+   "checked_at": "2026-08-10T21:29:45.198436+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -382,7 +382,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-08-09T13:33:25.964228+00:00",
+   "checked_at": "2026-08-10T21:29:45.797454+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -420,7 +420,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-08-09T13:33:26.266735+00:00",
+   "checked_at": "2026-08-10T21:29:46.508702+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -462,7 +462,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-08-09T13:33:26.616942+00:00",
+   "checked_at": "2026-08-10T21:29:46.937973+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -493,7 +493,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-08-09T13:33:26.969363+00:00",
+   "checked_at": "2026-08-10T21:29:47.320411+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -533,7 +533,7 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-08-09T13:33:27.335615+00:00",
+   "checked_at": "2026-08-10T21:29:47.725404+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
@@ -571,22 +571,22 @@
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-08-09T13:33:27.712630+00:00",
+   "checked_at": "2026-08-10T21:29:49.078387+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
    "articles": []
   },
   "CPLE6": {
-   "checked_at": "2026-08-09T13:33:28.336986+00:00",
+   "checked_at": "2026-08-10T21:29:50.407125+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-08-09T13:33:28.735947+00:00",
+   "checked_at": "2026-08-10T21:29:51.280564+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-08-09T13:33:29.099204+00:00",
+   "checked_at": "2026-08-10T21:29:51.685466+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -624,7 +624,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-08-09T13:33:29.457988+00:00",
+   "checked_at": "2026-08-10T21:29:52.053331+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -660,12 +660,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-08-09T13:33:29.839146+00:00",
+   "checked_at": "2026-08-10T21:29:52.501471+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-08-09T13:33:30.171696+00:00",
+   "checked_at": "2026-08-10T21:29:52.905710+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -698,7 +698,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-08-09T13:33:30.506027+00:00",
+   "checked_at": "2026-08-10T21:29:53.307450+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -734,12 +734,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-08-09T13:33:30.910968+00:00",
+   "checked_at": "2026-08-10T21:29:53.722448+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-08-09T13:33:31.246813+00:00",
+   "checked_at": "2026-08-10T21:29:54.120198+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -780,12 +780,12 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-08-09T13:33:31.619825+00:00",
+   "checked_at": "2026-08-10T21:29:54.539489+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": []
   },
   "ENGI11": {
-   "checked_at": "2026-08-09T13:33:31.974374+00:00",
+   "checked_at": "2026-08-10T21:29:54.907513+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -823,7 +823,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-08-09T13:33:32.309214+00:00",
+   "checked_at": "2026-08-10T21:29:55.307703+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -854,12 +854,12 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-08-09T13:33:32.712188+00:00",
+   "checked_at": "2026-08-10T21:29:56.393495+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": []
   },
   "GGBR4": {
-   "checked_at": "2026-08-09T13:33:33.092323+00:00",
+   "checked_at": "2026-08-10T21:29:56.907060+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -892,7 +892,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-08-09T13:33:34.747754+00:00",
+   "checked_at": "2026-08-10T21:29:58.890053+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -929,7 +929,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-08-09T13:33:35.096125+00:00",
+   "checked_at": "2026-08-10T21:29:59.279571+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -968,7 +968,7 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-08-09T13:33:35.393831+00:00",
+   "checked_at": "2026-08-10T21:29:59.676616+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": [
     {
@@ -1011,7 +1011,7 @@
    ]
   },
   "ITSA4": {
-   "checked_at": "2026-08-09T13:33:35.753510+00:00",
+   "checked_at": "2026-08-10T21:30:00.027923+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1053,7 +1053,7 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-08-09T13:33:36.238145+00:00",
+   "checked_at": "2026-08-10T21:30:00.503005+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
@@ -1091,7 +1091,7 @@
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-08-09T13:33:36.797964+00:00",
+   "checked_at": "2026-08-10T21:30:00.886484+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
@@ -1133,7 +1133,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-08-09T13:33:37.169213+00:00",
+   "checked_at": "2026-08-10T21:30:01.505674+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1171,7 +1171,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-08-09T13:33:40.733285+00:00",
+   "checked_at": "2026-08-10T21:30:01.939368+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1214,7 +1214,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-08-09T13:33:44.160086+00:00",
+   "checked_at": "2026-08-10T21:30:02.368579+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1257,7 +1257,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-08-09T13:33:44.609164+00:00",
+   "checked_at": "2026-08-10T21:30:02.825317+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1296,22 +1296,22 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-08-09T13:33:45.052265+00:00",
+   "checked_at": "2026-08-10T21:30:03.303255+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
    "articles": []
   },
   "NTCO3": {
-   "checked_at": "2026-08-09T13:33:45.452726+00:00",
+   "checked_at": "2026-08-10T21:30:04.616890+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-08-09T13:33:45.860825+00:00",
+   "checked_at": "2026-08-10T21:30:05.961882+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-08-09T13:33:52.024071+00:00",
+   "checked_at": "2026-08-10T21:30:08.298744+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
@@ -1350,12 +1350,12 @@
    ]
   },
   "PETZ3": {
-   "checked_at": "2026-08-09T13:33:52.404316+00:00",
+   "checked_at": "2026-08-10T21:30:09.701137+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
    "articles": []
   },
   "POMO4": {
-   "checked_at": "2026-08-09T13:33:52.987283+00:00",
+   "checked_at": "2026-08-10T21:30:10.088027+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
    "articles": [
     {
@@ -1396,7 +1396,7 @@
    ]
   },
   "PRIO3": {
-   "checked_at": "2026-08-09T13:33:53.350173+00:00",
+   "checked_at": "2026-08-10T21:30:10.495904+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1438,12 +1438,12 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-08-09T13:33:53.729898+00:00",
+   "checked_at": "2026-08-10T21:30:11.533563+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-08-09T13:33:54.104458+00:00",
+   "checked_at": "2026-08-10T21:30:11.910770+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
@@ -1486,7 +1486,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-08-09T13:33:54.465940+00:00",
+   "checked_at": "2026-08-10T21:30:12.274491+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1525,7 +1525,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-08-09T13:33:54.787206+00:00",
+   "checked_at": "2026-08-10T21:30:12.675073+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1563,7 +1563,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-08-09T13:33:59.467528+00:00",
+   "checked_at": "2026-08-10T21:30:17.112715+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1594,7 +1594,7 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-08-09T13:33:59.796986+00:00",
+   "checked_at": "2026-08-10T21:30:17.479308+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
@@ -1634,7 +1634,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-08-09T13:34:00.134722+00:00",
+   "checked_at": "2026-08-10T21:30:17.879453+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1668,7 +1668,7 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-08-09T13:34:00.473037+00:00",
+   "checked_at": "2026-08-10T21:30:18.267284+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
@@ -1702,7 +1702,7 @@
    ]
   },
   "SBSP3": {
-   "checked_at": "2026-08-09T13:34:04.307416+00:00",
+   "checked_at": "2026-08-10T21:30:22.103334+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
    "articles": [
     {
@@ -1740,22 +1740,22 @@
    ]
   },
   "SLCE3": {
-   "checked_at": "2026-08-09T13:34:04.700300+00:00",
+   "checked_at": "2026-08-10T21:30:22.528042+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-08-09T13:34:05.078914+00:00",
+   "checked_at": "2026-08-10T21:30:22.978766+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-08-09T13:34:05.511944+00:00",
+   "checked_at": "2026-08-10T21:30:27.412547+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-08-09T13:34:05.843433+00:00",
+   "checked_at": "2026-08-10T21:30:27.802955+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1788,12 +1788,12 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-08-09T13:34:06.211702+00:00",
+   "checked_at": "2026-08-10T21:30:28.261493+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": []
   },
   "TIMS3": {
-   "checked_at": "2026-08-09T13:34:06.593919+00:00",
+   "checked_at": "2026-08-10T21:30:28.649238+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
@@ -1834,7 +1834,7 @@
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-08-09T13:34:06.936954+00:00",
+   "checked_at": "2026-08-10T21:30:29.093136+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -1865,7 +1865,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-08-09T13:34:07.286606+00:00",
+   "checked_at": "2026-08-10T21:30:29.496419+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -1899,7 +1899,7 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-08-09T13:34:07.614630+00:00",
+   "checked_at": "2026-08-10T21:30:29.831350+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
@@ -1939,7 +1939,7 @@
    ]
   },
   "VALE3": {
-   "checked_at": "2026-08-09T13:34:07.946050+00:00",
+   "checked_at": "2026-08-10T21:30:30.201134+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
@@ -1979,12 +1979,12 @@
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-08-09T13:34:08.347508+00:00",
+   "checked_at": "2026-08-10T21:30:30.619746+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-08-09T13:34:08.681884+00:00",
+   "checked_at": "2026-08-10T21:30:31.027530+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -2019,12 +2019,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-08-09T13:34:09.097567+00:00",
+   "checked_at": "2026-08-10T21:30:32.365157+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-08-09T13:34:09.428089+00:00",
+   "checked_at": "2026-08-10T21:30:32.759938+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2061,38 +2061,30 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-08-09T13:34:09.783209+00:00",
+   "checked_at": "2026-08-10T21:30:35.050116+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
-     "id": "69607220a790174c",
-     "title": "Weg (WEGE3) e Engie (EGIE3) firmam acordo bilionário para ampliar usina; entenda",
-     "url": "https://www.suno.com.br/noticias/weg-engie-contrato-1-2-bilhao-usina-jaguara-232-mw-2030-go/",
+     "id": "8e0d2153726eb491",
+     "title": "Weg (WEGE3) e JHSF (JHSF3): Veja quem vai pagar dividendos na semana",
+     "url": "https://www.suno.com.br/noticias/a-weg-wege3-a-jhsf-jhsf3-agenda-dividendos-07082026-go/",
      "source": "Suno",
-     "published": "2026-07-27",
-     "content_hash": "69607220a790174c6232c3e0ca9057a2ca1c2d0b2ca5a5944179d3aed6c936e7",
+     "published": "2026-08-09",
+     "content_hash": "8e0d2153726eb4917e1e719f66cef4308580e04b14574f161a16d3e398db65af",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Weg e Engie fecharam contrato de R$ 1,2 bi para expansão da Usina Hidrelétrica Jaguara. Weg fornecerá duas unidades geradoras de 116 MW cada. Projeto decorre de leilão do governo e prevê receita anual de R$ 270,4 mi para Engie a partir de 2030. Acordo reforça carteira da Weg em momento de pressões no setor solar e câmbio.",
-      "evento": "outro",
+      "resumo": "Weg (WEGE3) e JHSF (JHSF3) pagarão dividendos na semana: WEGE3 paga R$ 0,4128/ação em 12/08 e JHSF3 paga R$ 0,0692/ação em 10/08. Outras empresas também distribuem proventos.",
+      "evento": "dividendo",
       "impacto": "positivo",
-      "horizonte": "longo",
-      "intensidade": "alta",
+      "horizonte": "curto",
+      "intensidade": "baixa",
       "drivers": [
-       "contrato de fornecimento de equipamentos",
-       "expansão de capacidade de geração",
-       "receita fixa por 15 anos"
+       "pagamento de dividendos"
       ],
-      "riscos": [
-       "prazo de execução até 2030",
-       "dependência de condições de leilão",
-       "possíveis atrasos ou problemas técnicos"
-      ],
+      "riscos": [],
       "metricas_afetadas": [
-       "receita",
-       "lucro",
-       "caixa"
+       "dividendos"
       ],
       "incerteza": "baixa"
      }
@@ -2100,7 +2092,7 @@
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-08-09T13:34:10.222938+00:00",
+   "checked_at": "2026-08-10T21:30:35.449450+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
