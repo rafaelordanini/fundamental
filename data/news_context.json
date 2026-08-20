@@ -1,13 +1,13 @@
 {
- "data_geracao": "2026-08-19",
+ "data_geracao": "2026-08-20",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
- "new_reads": 7,
+ "new_reads": 12,
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-08-19T21:14:12.281015+00:00",
+   "checked_at": "2026-08-20T21:16:09.900554+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -48,22 +48,57 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-08-19T21:14:12.724057+00:00",
+   "checked_at": "2026-08-20T21:16:13.842066+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
-   "articles": []
+   "articles": [
+    {
+     "id": "857673d9705efd24",
+     "title": "Allos (ALOS3), Iguatemi (IGTI11) ou Multiplan (MULT3)? Analistas escolhem a favorita dos shoppings",
+     "url": "https://www.suno.com.br/noticias/allos-alos3-iguatemi-igti11-multiplan-mult3-acoes-shoppings-mt/",
+     "source": "Suno",
+     "published": "2026-08-19",
+     "content_hash": "857673d9705efd2494d6ab23a8b02f5616198a847c0a70f82d76bf4f49dd8551",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "O BofA compara as três principais empresas de shopping centers da Bolsa (Allos, Iguatemi e Multiplan) e elege Allos como favorita, com recomendação de compra e preço-alvo de R$ 35. O banco projeta dividend yield acumulado de 14% até 2027 para Allos, citando geração de caixa, ocupação de 96,2% e possíveis vendas de ativos. Para Iguatemi e Multiplan, recomendações neutras.",
+      "evento": "recomendacao_terceiro",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "recomendação de compra do BofA",
+       "dividend yield projetado",
+       "vendas de ativos potenciais",
+       "ocupação alta"
+      ],
+      "riscos": [
+       "mudança na recomendação do banco",
+       "não concretização de vendas de ativos",
+       "queda na ocupação ou aluguéis"
+      ],
+      "metricas_afetadas": [
+       "valuation",
+       "dividendos",
+       "caixa"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
   },
   "ASAI3": {
-   "checked_at": "2026-08-19T21:14:13.130101+00:00",
+   "checked_at": "2026-08-20T21:16:14.491657+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-08-19T21:14:13.546534+00:00",
+   "checked_at": "2026-08-20T21:16:15.133932+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-08-19T21:14:13.937006+00:00",
+   "checked_at": "2026-08-20T21:16:15.686213+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -101,12 +136,12 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-08-19T21:14:14.622406+00:00",
+   "checked_at": "2026-08-20T21:16:16.279518+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": []
   },
   "B3SA3": {
-   "checked_at": "2026-08-19T21:14:17.063848+00:00",
+   "checked_at": "2026-08-20T21:16:18.756962+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
@@ -143,40 +178,36 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-08-19T21:14:17.450060+00:00",
+   "checked_at": "2026-08-20T21:16:22.960367+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
-     "id": "f23636c7f5c1398e",
-     "title": "Banco do Brasil (BBAS3) acende alerta: é hora de investir nas ações?",
-     "url": "https://www.suno.com.br/noticias/banco-do-brasil-bbas3-acoes-investir-resultado-mt/",
+     "id": "77ba9bb8dcea0382",
+     "title": "CVM abre processo contra presidente do Banco do Brasil (BBAS3) após fala sobre ações; entenda",
+     "url": "https://www.suno.com.br/noticias/cvm-processo-presidente-banco-do-brasil-acoes-mt/",
      "source": "Suno",
-     "published": "2026-08-17",
-     "content_hash": "f23636c7f5c1398ed27cf9d56e48efdaf6125c2ac67a915271c503576f2e5356",
+     "published": "2026-08-19",
+     "content_hash": "77ba9bb8dcea0382c28bcecb8b2e2fef0621e84ee53365ce3521a85350451560",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "BBAS3 tem lucro de R$ 3 bi estável, com melhora no agro, mas inadimplência de 14% no cartão de crédito acende alerta. Analista classifica resultado como neutro, com expectativa de recuperação no agro e monitoramento das pessoas físicas.",
-      "evento": "resultado",
-      "impacto": "misto",
+      "resumo": "A CVM abriu processo administrativo sancionador contra a presidente do Banco do Brasil, Tarciana Medeiros, e o vice-presidente de RI, Marco Geovanne Tobias, por declarações sobre as ações (BBAS3) durante teleconferência de resultados. Eles teriam recomendado a compra dos papéis e feito projeções otimistas, o que pode violar a Resolução CVM 80. O processo está em fase inicial, sem condenação, e os executivos poderão se defender.",
+      "evento": "governanca",
+      "impacto": "negativo",
       "horizonte": "medio",
       "intensidade": "media",
       "drivers": [
-       "recuperação do agronegócio",
-       "recomposição de provisões",
-       "redução da carteira reestruturada",
-       "melhora da margem com clientes"
+       "Processo da CVM contra executivos",
+       "Possível violação de regras de divulgação",
+       "Impacto na percepção de governança"
       ],
       "riscos": [
-       "inadimplência no cartão de crédito em 14%",
-       "possível aumento de provisões",
-       "deterioração persistente das pessoas físicas"
+       "Sanções administrativas, como multas ou inabilitação",
+       "Danos reputacionais para a companhia e executivos",
+       "Possível impacto na confiança do mercado"
       ],
       "metricas_afetadas": [
-       "lucro",
-       "margem",
-       "provisões",
-       "inadimplência"
+       "governanca"
       ],
       "incerteza": "media"
      }
@@ -184,7 +215,7 @@
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-08-19T21:14:17.886448+00:00",
+   "checked_at": "2026-08-20T21:16:23.519082+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
@@ -224,7 +255,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-08-19T21:14:18.229676+00:00",
+   "checked_at": "2026-08-20T21:16:24.088587+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -262,7 +293,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-08-19T21:14:18.617660+00:00",
+   "checked_at": "2026-08-20T21:16:24.638467+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -300,7 +331,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-08-19T21:14:19.242693+00:00",
+   "checked_at": "2026-08-20T21:16:25.222012+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -334,12 +365,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-08-19T21:14:19.665611+00:00",
+   "checked_at": "2026-08-20T21:16:25.878727+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-08-19T21:14:20.033721+00:00",
+   "checked_at": "2026-08-20T21:16:26.416881+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -378,7 +409,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-08-19T21:14:20.452667+00:00",
+   "checked_at": "2026-08-20T21:16:27.013932+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -416,7 +447,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-08-19T21:14:41.785721+00:00",
+   "checked_at": "2026-08-20T21:16:54.619299+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -459,7 +490,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-08-19T21:14:42.146755+00:00",
+   "checked_at": "2026-08-20T21:16:55.174121+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -490,7 +521,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-08-19T21:14:42.492849+00:00",
+   "checked_at": "2026-08-20T21:16:55.721025+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -530,7 +561,7 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-08-19T21:14:42.909712+00:00",
+   "checked_at": "2026-08-20T21:16:56.272466+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
@@ -568,22 +599,22 @@
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-08-19T21:14:43.340912+00:00",
+   "checked_at": "2026-08-20T21:16:56.900850+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
    "articles": []
   },
   "CPLE6": {
-   "checked_at": "2026-08-19T21:15:05.491798+00:00",
+   "checked_at": "2026-08-20T21:16:57.706141+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-08-19T21:15:05.925889+00:00",
+   "checked_at": "2026-08-20T21:16:58.373026+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-08-19T21:15:06.293568+00:00",
+   "checked_at": "2026-08-20T21:16:58.954731+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -621,7 +652,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-08-19T21:15:06.653799+00:00",
+   "checked_at": "2026-08-20T21:16:59.515331+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -663,12 +694,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-08-19T21:15:07.106171+00:00",
+   "checked_at": "2026-08-20T21:17:00.231814+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-08-19T21:15:07.483069+00:00",
+   "checked_at": "2026-08-20T21:17:00.879637+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -702,7 +733,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-08-19T21:15:07.851319+00:00",
+   "checked_at": "2026-08-20T21:17:01.487120+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -739,12 +770,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-08-19T21:15:08.947484+00:00",
+   "checked_at": "2026-08-20T21:17:02.231267+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-08-19T21:15:09.324921+00:00",
+   "checked_at": "2026-08-20T21:17:04.007718+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -785,12 +816,12 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-08-19T21:15:09.723240+00:00",
+   "checked_at": "2026-08-20T21:17:04.712930+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": []
   },
   "ENGI11": {
-   "checked_at": "2026-08-19T21:15:10.122708+00:00",
+   "checked_at": "2026-08-20T21:17:08.787095+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -828,7 +859,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-08-19T21:15:10.480320+00:00",
+   "checked_at": "2026-08-20T21:17:09.397704+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -859,7 +890,7 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-08-19T21:15:10.834905+00:00",
+   "checked_at": "2026-08-20T21:17:09.952742+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": [
     {
@@ -901,7 +932,7 @@
    ]
   },
   "GGBR4": {
-   "checked_at": "2026-08-19T21:15:11.187823+00:00",
+   "checked_at": "2026-08-20T21:17:10.578410+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -934,7 +965,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-08-19T21:15:13.377620+00:00",
+   "checked_at": "2026-08-20T21:17:12.772498+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -971,7 +1002,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-08-19T21:15:13.728847+00:00",
+   "checked_at": "2026-08-20T21:17:13.390746+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -1010,41 +1041,43 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-08-19T21:15:34.807241+00:00",
+   "checked_at": "2026-08-20T21:17:44.159082+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": [
     {
-     "id": "4faf3dd1a2d08182",
-     "title": "Iguatemi (IGTI11) cai após balanço do 2T26; analistas ainda veem espaço para alta",
-     "url": "https://www.suno.com.br/noticias/iguatemi-igti11-resultado-2t26-acoes-analistas-mt/",
+     "id": "857673d9705efd24",
+     "title": "Allos (ALOS3), Iguatemi (IGTI11) ou Multiplan (MULT3)? Analistas escolhem a favorita dos shoppings",
+     "url": "https://www.suno.com.br/noticias/allos-alos3-iguatemi-igti11-multiplan-mult3-acoes-shoppings-mt/",
      "source": "Suno",
-     "published": "2026-08-05",
-     "content_hash": "4faf3dd1a2d08182245ff0efc921af923d1df9437ea9be8408a69c1b476d9816",
+     "published": "2026-08-19",
+     "content_hash": "857673d9705efd2494d6ab23a8b02f5616198a847c0a70f82d76bf4f49dd8551",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Iguatemi (IGTI11) recua 1,13% após balanço do 2T26 com vendas e aluguéis abaixo do esperado, apesar de lucro e Ebitda em alta. Analistas BTG, Safra e Itaú BBA mantêm recomendação positiva, com preços-alvo distintos.",
-      "evento": "resultado",
-      "impacto": "misto",
-      "horizonte": "curto",
+      "resumo": "BofA elege Allos como favorita entre shoppings, com compra e preço-alvo de R$ 35, citando geração de caixa, dividendos e vendas de ativos. Iguatemi e Multiplan mantêm recomendação neutra, com preços-alvo ajustados. Iguatemi tem ciclo de investimentos de R$ 700 mi e possível venda ao TRXF11; Multiplan tem ocupação elevada e inadimplência negativa.",
+      "evento": "recomendacao_terceiro",
+      "impacto": "positivo",
+      "horizonte": "medio",
       "intensidade": "media",
       "drivers": [
-       "SSS abaixo do esperado",
-       "SSR abaixo do esperado",
-       "lucro recorrente em alta",
-       "Ebitda em alta",
-       "vacância baixa",
-       "inadimplência baixa"
+       "recomendação de compra do BofA para Allos",
+       "preço-alvo elevado para Allos",
+       "projeção de dividend yield de 14% até 2027",
+       "ocupação saudável de 96,2%",
+       "possibilidade de novas vendas de ativos"
       ],
       "riscos": [
-       "desaceleração de vendas",
-       "aumento da inadimplência",
-       "cenário econômico desafiador"
+       "ciclo de investimentos da Iguatemi pode pressionar caixa",
+       "venda de ativos da Iguatemi pode não ser concluída",
+       "condições macroeconômicas podem afetar consumo",
+       "competição no setor de shoppings"
       ],
       "metricas_afetadas": [
        "receita",
        "margem",
        "lucro",
+       "caixa",
+       "dividendos",
        "valuation"
       ],
       "incerteza": "media"
@@ -1053,7 +1086,7 @@
    ]
   },
   "ITSA4": {
-   "checked_at": "2026-08-19T21:15:35.194927+00:00",
+   "checked_at": "2026-08-20T21:17:44.765744+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1093,7 +1126,7 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-08-19T21:15:35.549090+00:00",
+   "checked_at": "2026-08-20T21:17:45.332434+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
@@ -1129,35 +1162,37 @@
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-08-19T21:15:35.894712+00:00",
+   "checked_at": "2026-08-20T21:17:52.489700+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
-     "id": "d47e37d4ce013e6e",
-     "title": "Gilberto Tomazoni deixa comando da JBS (JBSS32) após oito anos; veja o legado da sua gestão",
-     "url": "https://www.suno.com.br/noticias/gilberto-tomazoni-jbs-jbss32-gestao-wesley-batista-filho-mt/",
+     "id": "48c39ef411445509",
+     "title": "JBS (JBSS32) quer comprar fatia restante da Pilgrim’s Pride; entenda a proposta",
+     "url": "https://www.suno.com.br/noticias/jbs-jbss32-pilgrims-pride-compra-participacao-mt/",
      "source": "Suno",
-     "published": "2026-08-11",
-     "content_hash": "d47e37d4ce013e6e73f23183ed526c0522fcca5793755123684e5fb479dce54c",
+     "published": "2026-08-19",
+     "content_hash": "48c39ef4114455094421e3b2ec4593948e98226f63f5f97f117e95e29b629103",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Gilberto Tomazoni deixará o comando da JBS em 1º de janeiro de 2027, com Wesley Batista Filho assumindo como CEO. A gestão de Tomazoni foi marcada por diversificação, recuperação de rentabilidade, recordes de receita e a listagem na Bolsa de NY. A sucessão causou queda de quase 6% nas ações em Nova York.",
-      "evento": "governanca",
-      "impacto": "misto",
+      "resumo": "A JBS propôs comprar os 18% restantes da Pilgrim's Pride por meio de troca de ações, sem desembolso de caixa. A operação visa simplificar a estrutura societária, não pressionando a alavancagem. A relação de troca é considerada razoável pelo Safra, mas ainda depende de aprovações.",
+      "evento": "aquisicao",
+      "impacto": "positivo",
       "horizonte": "medio",
       "intensidade": "media",
       "drivers": [
-       "Sucessão na liderança",
-       "Diversificação de negócios",
-       "Listagem na Bolsa de NY",
-       "Desempenho financeiro recorde"
+       "Simplificação da estrutura societária",
+       "Eliminação de custos de listagem da subsidiária",
+       "Potencial aumento da concentração de investidores na JBS"
       ],
       "riscos": [
-       "Desafios contínuos na carne bovina nos EUA",
-       "Incertezas quanto à nova liderança"
+       "Aprovação do comitê especial e da maioria dos minoritários da Pilgrim's",
+       "Possível rejeição da proposta pelos acionistas",
+       "Condições de mercado e volatilidade"
       ],
       "metricas_afetadas": [
+       "caixa",
+       "divida",
        "governanca",
        "valuation"
       ],
@@ -1167,7 +1202,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-08-19T21:15:38.433600+00:00",
+   "checked_at": "2026-08-20T21:17:53.113445+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1200,7 +1235,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-08-19T21:15:38.817451+00:00",
+   "checked_at": "2026-08-20T21:17:53.948008+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1243,7 +1278,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-08-19T21:15:39.157753+00:00",
+   "checked_at": "2026-08-20T21:17:54.485122+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1286,7 +1321,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-08-19T21:15:39.499824+00:00",
+   "checked_at": "2026-08-20T21:17:55.031969+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1325,35 +1360,72 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-08-19T21:15:40.742954+00:00",
+   "checked_at": "2026-08-20T21:17:57.961071+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
-   "articles": []
+   "articles": [
+    {
+     "id": "857673d9705efd24",
+     "title": "Allos (ALOS3), Iguatemi (IGTI11) ou Multiplan (MULT3)? Analistas escolhem a favorita dos shoppings",
+     "url": "https://www.suno.com.br/noticias/allos-alos3-iguatemi-igti11-multiplan-mult3-acoes-shoppings-mt/",
+     "source": "Suno",
+     "published": "2026-08-19",
+     "content_hash": "857673d9705efd2494d6ab23a8b02f5616198a847c0a70f82d76bf4f49dd8551",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "BofA elege Allos (ALOS3) como favorita entre as ações de shoppings, com recomendação de compra e preço-alvo de R$ 35, citando geração de caixa, dividendos e vendas de ativos. Iguatemi e Multiplan têm recomendação neutra, com preços-alvo de R$ 30 e R$ 36, respectivamente.",
+      "evento": "recomendacao_terceiro",
+      "impacto": "positivo",
+      "horizonte": "medio",
+      "intensidade": "media",
+      "drivers": [
+       "geração de caixa",
+       "dividendos",
+       "vendas de ativos",
+       "ocupação alta",
+       "crescimento de aluguéis"
+      ],
+      "riscos": [
+       "ciclo de investimentos",
+       "desaceleração econômica",
+       "dependência de vendas de ativos"
+      ],
+      "metricas_afetadas": [
+       "valuation",
+       "lucro",
+       "dividendos",
+       "caixa"
+      ],
+      "incerteza": "media"
+     }
+    }
+   ]
   },
   "NTCO3": {
-   "checked_at": "2026-08-19T21:15:42.277792+00:00",
+   "checked_at": "2026-08-20T21:17:58.713731+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-08-19T21:15:43.695903+00:00",
+   "checked_at": "2026-08-20T21:17:59.355146+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-08-19T21:15:46.152000+00:00",
+   "checked_at": "2026-08-20T21:18:03.928193+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
-     "id": "015d280a5370dc67",
-     "title": "Petrobras (PETR4) e Caixa Seguridade (CXSE3): Veja quem paga dividendos na semana",
-     "url": "https://www.suno.com.br/noticias/petrobras-petr4-a-caixa-seguridade-cxse3-agenda-dividendos-14082026-go/",
+     "id": "9da46c64af473372",
+     "title": "Petrobras (PETR4) paga dividendos nesta quinta-feira; veja valor por ação",
+     "url": "https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-20082026/",
      "source": "Suno",
-     "published": "2026-08-16",
-     "content_hash": "015d280a5370dc67e39a580ca13443b473b05d6fa519bd6ba83284448aa18973",
+     "published": "2026-08-20",
+     "content_hash": "9da46c64af473372bd7f9a9dc266afe7c7879ac3be36237b1157ab5e82579b92",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Notícia divulga agenda de pagamentos de dividendos e JCP de empresas da B3 na semana de 17 a 21 de agosto, destacando Petrobras e Caixa Seguridade, além de datas-com da Log e Banco BMG.",
+      "resumo": "Petrobras paga dividendos de R$ 0,3504 por ação nesta quinta-feira (20). Acionistas com posição em 01 de junho têm direito. Dividendos são isentos de IR para pessoa física, mas devem ser declarados. Matéria não é recomendação de investimento.",
       "evento": "dividendo",
       "impacto": "neutro",
       "horizonte": "curto",
@@ -1362,9 +1434,11 @@
        "pagamento de dividendos"
       ],
       "riscos": [
-       "possíveis alterações nos valores ou datas"
+       "mudanças na política de dividendos da empresa",
+       "impactos fiscais para acionistas"
       ],
       "metricas_afetadas": [
+       "caixa",
        "dividendos"
       ],
       "incerteza": "baixa"
@@ -1373,12 +1447,12 @@
    ]
   },
   "PETZ3": {
-   "checked_at": "2026-08-19T21:15:46.553363+00:00",
+   "checked_at": "2026-08-20T21:18:08.210584+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
    "articles": []
   },
   "POMO4": {
-   "checked_at": "2026-08-19T21:15:46.906843+00:00",
+   "checked_at": "2026-08-20T21:18:08.772124+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
    "articles": [
     {
@@ -1419,7 +1493,7 @@
    ]
   },
   "PRIO3": {
-   "checked_at": "2026-08-19T21:15:47.616705+00:00",
+   "checked_at": "2026-08-20T21:18:09.332786+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1461,12 +1535,12 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-08-19T21:15:48.041259+00:00",
+   "checked_at": "2026-08-20T21:18:09.967801+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-08-19T21:15:48.422012+00:00",
+   "checked_at": "2026-08-20T21:18:10.542482+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
@@ -1509,7 +1583,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-08-19T21:15:48.801276+00:00",
+   "checked_at": "2026-08-20T21:18:11.073963+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1548,7 +1622,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-08-19T21:15:49.165864+00:00",
+   "checked_at": "2026-08-20T21:18:11.633498+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1586,7 +1660,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-08-19T21:15:50.629093+00:00",
+   "checked_at": "2026-08-20T21:18:13.638194+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1657,7 +1731,7 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-08-19T21:15:51.302602+00:00",
+   "checked_at": "2026-08-20T21:18:14.219473+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
@@ -1695,7 +1769,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-08-19T21:15:51.732367+00:00",
+   "checked_at": "2026-08-20T21:18:14.870582+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1729,7 +1803,7 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-08-19T21:15:52.088592+00:00",
+   "checked_at": "2026-08-20T21:18:15.452054+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
@@ -1763,7 +1837,7 @@
    ]
   },
   "SBSP3": {
-   "checked_at": "2026-08-19T21:15:55.799874+00:00",
+   "checked_at": "2026-08-20T21:18:19.413163+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
    "articles": [
     {
@@ -1801,22 +1875,22 @@
    ]
   },
   "SLCE3": {
-   "checked_at": "2026-08-19T21:15:56.218453+00:00",
+   "checked_at": "2026-08-20T21:18:20.147696+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-08-19T21:15:56.609618+00:00",
+   "checked_at": "2026-08-20T21:18:20.842206+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-08-19T21:16:00.397672+00:00",
+   "checked_at": "2026-08-20T21:18:25.222357+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-08-19T21:16:00.766376+00:00",
+   "checked_at": "2026-08-20T21:18:25.773077+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1851,12 +1925,12 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-08-19T21:16:01.173247+00:00",
+   "checked_at": "2026-08-20T21:18:26.509206+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": []
   },
   "TIMS3": {
-   "checked_at": "2026-08-19T21:16:01.522344+00:00",
+   "checked_at": "2026-08-20T21:18:27.033668+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
@@ -1897,7 +1971,7 @@
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-08-19T21:16:01.877786+00:00",
+   "checked_at": "2026-08-20T21:18:27.564260+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -1928,7 +2002,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-08-19T21:16:02.267845+00:00",
+   "checked_at": "2026-08-20T21:18:28.291582+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -1962,7 +2036,7 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-08-19T21:16:02.970723+00:00",
+   "checked_at": "2026-08-20T21:18:28.826980+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
@@ -2002,7 +2076,7 @@
    ]
   },
   "VALE3": {
-   "checked_at": "2026-08-19T21:16:04.147932+00:00",
+   "checked_at": "2026-08-20T21:18:29.365623+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
@@ -2037,12 +2111,12 @@
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-08-19T21:16:04.653271+00:00",
+   "checked_at": "2026-08-20T21:18:30.046354+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-08-19T21:16:05.008934+00:00",
+   "checked_at": "2026-08-20T21:18:30.606805+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -2077,12 +2151,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-08-19T21:16:05.479713+00:00",
+   "checked_at": "2026-08-20T21:18:31.226219+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-08-19T21:16:05.833550+00:00",
+   "checked_at": "2026-08-20T21:18:31.761895+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2119,7 +2193,7 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-08-19T21:16:06.225186+00:00",
+   "checked_at": "2026-08-20T21:18:32.328287+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
@@ -2153,7 +2227,7 @@
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-08-19T21:16:06.611508+00:00",
+   "checked_at": "2026-08-20T21:18:33.102595+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
