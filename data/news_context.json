@@ -1,5 +1,5 @@
 {
- "data_geracao": "2026-08-20",
+ "data_geracao": "2026-08-21",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
@@ -7,7 +7,7 @@
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-08-20T21:16:09.900554+00:00",
+   "checked_at": "2026-08-21T21:11:39.770957+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -48,7 +48,7 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-08-20T21:16:13.842066+00:00",
+   "checked_at": "2026-08-21T21:11:40.331119+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
    "articles": [
     {
@@ -88,17 +88,17 @@
    ]
   },
   "ASAI3": {
-   "checked_at": "2026-08-20T21:16:14.491657+00:00",
+   "checked_at": "2026-08-21T21:11:40.906966+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-08-20T21:16:15.133932+00:00",
+   "checked_at": "2026-08-21T21:11:41.496192+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-08-20T21:16:15.686213+00:00",
+   "checked_at": "2026-08-21T21:11:42.013115+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -136,12 +136,12 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-08-20T21:16:16.279518+00:00",
+   "checked_at": "2026-08-21T21:11:42.550292+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": []
   },
   "B3SA3": {
-   "checked_at": "2026-08-20T21:16:18.756962+00:00",
+   "checked_at": "2026-08-21T21:11:44.719157+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
@@ -178,44 +178,41 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-08-20T21:16:22.960367+00:00",
+   "checked_at": "2026-08-21T21:11:47.781880+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
-     "id": "77ba9bb8dcea0382",
-     "title": "CVM abre processo contra presidente do Banco do Brasil (BBAS3) após fala sobre ações; entenda",
-     "url": "https://www.suno.com.br/noticias/cvm-processo-presidente-banco-do-brasil-acoes-mt/",
+     "id": "58a8e577c93751b5",
+     "title": "Banco do Brasil (BBAS3) antecipa pagamento de JCP; veja valores e datas",
+     "url": "https://www.suno.com.br/noticias/banco-do-brasil-bbas3-jcp-antecipado-3t26-go/",
      "source": "Suno",
-     "published": "2026-08-19",
-     "content_hash": "77ba9bb8dcea0382c28bcecb8b2e2fef0621e84ee53365ce3521a85350451560",
+     "published": "2026-08-20",
+     "content_hash": "58a8e577c93751b50b7a91bbdfd530950d231c6ee9177fffd6e9eec85d080ddb",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "A CVM abriu processo administrativo sancionador contra a presidente do Banco do Brasil, Tarciana Medeiros, e o vice-presidente de RI, Marco Geovanne Tobias, por declarações sobre as ações (BBAS3) durante teleconferência de resultados. Eles teriam recomendado a compra dos papéis e feito projeções otimistas, o que pode violar a Resolução CVM 80. O processo está em fase inicial, sem condenação, e os executivos poderão se defender.",
-      "evento": "governanca",
-      "impacto": "negativo",
-      "horizonte": "medio",
-      "intensidade": "media",
+      "resumo": "Banco do Brasil aprova pagamento antecipado de JCP referente ao 3T26, totalizando cerca de R$ 197 milhões, com crédito em 11/09/2026. Acionistas com posição até 01/09 têm direito; a partir de 02/09 as ações são negociadas ex-JCP. Inclui também JCP complementar do 2T26 de R$ 584,9 milhões com mesmo pagamento.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
       "drivers": [
-       "Processo da CVM contra executivos",
-       "Possível violação de regras de divulgação",
-       "Impacto na percepção de governança"
+       "Pagamento de JCP antecipado do 3T26"
       ],
       "riscos": [
-       "Sanções administrativas, como multas ou inabilitação",
-       "Danos reputacionais para a companhia e executivos",
-       "Possível impacto na confiança do mercado"
+       "Possível alteração no cronograma de proventos"
       ],
       "metricas_afetadas": [
-       "governanca"
+       "caixa",
+       "dividendos"
       ],
-      "incerteza": "media"
+      "incerteza": "baixa"
      }
     }
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-08-20T21:16:23.519082+00:00",
+   "checked_at": "2026-08-21T21:11:48.330811+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
@@ -255,7 +252,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-08-20T21:16:24.088587+00:00",
+   "checked_at": "2026-08-21T21:11:48.819754+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -293,7 +290,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-08-20T21:16:24.638467+00:00",
+   "checked_at": "2026-08-21T21:11:49.306000+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -331,7 +328,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-08-20T21:16:25.222012+00:00",
+   "checked_at": "2026-08-21T21:11:49.807251+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -365,12 +362,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-08-20T21:16:25.878727+00:00",
+   "checked_at": "2026-08-21T21:11:50.387619+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-08-20T21:16:26.416881+00:00",
+   "checked_at": "2026-08-21T21:11:50.866044+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -409,7 +406,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-08-20T21:16:27.013932+00:00",
+   "checked_at": "2026-08-21T21:11:51.414246+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -447,7 +444,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-08-20T21:16:54.619299+00:00",
+   "checked_at": "2026-08-21T21:11:51.867334+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -490,7 +487,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-08-20T21:16:55.174121+00:00",
+   "checked_at": "2026-08-21T21:11:52.359820+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -521,7 +518,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-08-20T21:16:55.721025+00:00",
+   "checked_at": "2026-08-21T21:11:52.944170+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -561,7 +558,7 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-08-20T21:16:56.272466+00:00",
+   "checked_at": "2026-08-21T21:11:53.441472+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
@@ -599,22 +596,50 @@
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-08-20T21:16:56.900850+00:00",
+   "checked_at": "2026-08-21T21:11:56.378279+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
-   "articles": []
+   "articles": [
+    {
+     "id": "26740167d5b76450",
+     "title": "CPFL (CPFE3) e Mitre (MTRE3) pagam dividendos nesta sexta-feira; saiba mais",
+     "url": "https://www.suno.com.br/noticias/a-cpfl-cpfe3-agenda-dividendos-21082026-go/",
+     "source": "Suno",
+     "published": "2026-08-21",
+     "content_hash": "26740167d5b764508f2b40ec3e9b227529fe06224dd1a359aec06be77bcad2c2",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "CPFL (CPFE3) e Mitre (MTRE3) pagam dividendos hoje, 21/08/2026. CPFL paga R$0,2169/ação e Mitre R$0,0283/ação, com datas de corte em 29/04 e 12/08 respectivamente. Dividendos são isentos de IR para PF, mas precisam ser declarados.",
+      "evento": "dividendo",
+      "impacto": "neutro",
+      "horizonte": "curto",
+      "intensidade": "baixa",
+      "drivers": [
+       "Pagamento de dividendos"
+      ],
+      "riscos": [
+       "Possíveis oscilações de preço devido ao ex-dividendo"
+      ],
+      "metricas_afetadas": [
+       "dividendos"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
   },
   "CPLE6": {
-   "checked_at": "2026-08-20T21:16:57.706141+00:00",
+   "checked_at": "2026-08-21T21:11:57.237496+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-08-20T21:16:58.373026+00:00",
+   "checked_at": "2026-08-21T21:11:57.883925+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-08-20T21:16:58.954731+00:00",
+   "checked_at": "2026-08-21T21:11:58.449833+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -652,7 +677,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-08-20T21:16:59.515331+00:00",
+   "checked_at": "2026-08-21T21:11:59.249078+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -694,12 +719,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-08-20T21:17:00.231814+00:00",
+   "checked_at": "2026-08-21T21:12:00.039180+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-08-20T21:17:00.879637+00:00",
+   "checked_at": "2026-08-21T21:12:00.525278+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -733,7 +758,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-08-20T21:17:01.487120+00:00",
+   "checked_at": "2026-08-21T21:12:01.043972+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -770,12 +795,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-08-20T21:17:02.231267+00:00",
+   "checked_at": "2026-08-21T21:12:01.855135+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-08-20T21:17:04.007718+00:00",
+   "checked_at": "2026-08-21T21:12:02.559545+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -816,12 +841,12 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-08-20T21:17:04.712930+00:00",
+   "checked_at": "2026-08-21T21:12:04.052144+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": []
   },
   "ENGI11": {
-   "checked_at": "2026-08-20T21:17:08.787095+00:00",
+   "checked_at": "2026-08-21T21:12:04.746670+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -859,7 +884,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-08-20T21:17:09.397704+00:00",
+   "checked_at": "2026-08-21T21:12:05.351286+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -890,7 +915,7 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-08-20T21:17:09.952742+00:00",
+   "checked_at": "2026-08-21T21:12:05.870914+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": [
     {
@@ -932,7 +957,7 @@
    ]
   },
   "GGBR4": {
-   "checked_at": "2026-08-20T21:17:10.578410+00:00",
+   "checked_at": "2026-08-21T21:12:06.369762+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -965,7 +990,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-08-20T21:17:12.772498+00:00",
+   "checked_at": "2026-08-21T21:12:08.450714+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -1002,7 +1027,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-08-20T21:17:13.390746+00:00",
+   "checked_at": "2026-08-21T21:12:09.024857+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -1041,7 +1066,7 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-08-20T21:17:44.159082+00:00",
+   "checked_at": "2026-08-21T21:12:09.511992+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": [
     {
@@ -1086,7 +1111,7 @@
    ]
   },
   "ITSA4": {
-   "checked_at": "2026-08-20T21:17:44.765744+00:00",
+   "checked_at": "2026-08-21T21:12:10.163121+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1126,7 +1151,7 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-08-20T21:17:45.332434+00:00",
+   "checked_at": "2026-08-21T21:12:10.862381+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
@@ -1162,7 +1187,7 @@
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-08-20T21:17:52.489700+00:00",
+   "checked_at": "2026-08-21T21:12:11.368168+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
@@ -1202,7 +1227,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-08-20T21:17:53.113445+00:00",
+   "checked_at": "2026-08-21T21:12:11.867257+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1235,7 +1260,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-08-20T21:17:53.948008+00:00",
+   "checked_at": "2026-08-21T21:12:12.636367+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1278,7 +1303,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-08-20T21:17:54.485122+00:00",
+   "checked_at": "2026-08-21T21:12:13.416921+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1321,7 +1346,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-08-20T21:17:55.031969+00:00",
+   "checked_at": "2026-08-21T21:12:13.983453+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1360,7 +1385,7 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-08-20T21:17:57.961071+00:00",
+   "checked_at": "2026-08-21T21:12:14.486908+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
    "articles": [
     {
@@ -1402,98 +1427,104 @@
    ]
   },
   "NTCO3": {
-   "checked_at": "2026-08-20T21:17:58.713731+00:00",
+   "checked_at": "2026-08-21T21:12:15.804706+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-08-20T21:17:59.355146+00:00",
+   "checked_at": "2026-08-21T21:12:17.282396+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-08-20T21:18:03.928193+00:00",
+   "checked_at": "2026-08-21T21:12:22.411853+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
-     "id": "9da46c64af473372",
-     "title": "Petrobras (PETR4) paga dividendos nesta quinta-feira; veja valor por ação",
-     "url": "https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-20082026/",
+     "id": "4043df9850f3cc0c",
+     "title": "Ibovespa fecha estável com Petrobras (PETR4), mas aversão ao risco limita alta",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-20-agosto-2026-petrobras-petr4-mt/",
      "source": "Suno",
      "published": "2026-08-20",
-     "content_hash": "9da46c64af473372bd7f9a9dc266afe7c7879ac3be36237b1157ab5e82579b92",
+     "content_hash": "4043df9850f3cc0c7f093a1d9f63a5d8cfe4d27a6d960705364bc63c7fb36d31",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Petrobras paga dividendos de R$ 0,3504 por ação nesta quinta-feira (20). Acionistas com posição em 01 de junho têm direito. Dividendos são isentos de IR para pessoa física, mas devem ser declarados. Matéria não é recomendação de investimento.",
-      "evento": "dividendo",
-      "impacto": "neutro",
+      "resumo": "Ibovespa fecha estável com alta de 0,06%, apoiado por Petrobras e Vale, mas tensões EUA-Irã e pressão no setor financeiro limitam ganhos. Petróleo sobe 2,36%, beneficiando petroleiras, mas gera preocupações inflacionárias. Banco e outros setores recuam.",
+      "evento": "macroeconomia",
+      "impacto": "misto",
       "horizonte": "curto",
-      "intensidade": "baixa",
-      "drivers": [
-       "pagamento de dividendos"
-      ],
-      "riscos": [
-       "mudanças na política de dividendos da empresa",
-       "impactos fiscais para acionistas"
-      ],
-      "metricas_afetadas": [
-       "caixa",
-       "dividendos"
-      ],
-      "incerteza": "baixa"
-     }
-    }
-   ]
-  },
-  "PETZ3": {
-   "checked_at": "2026-08-20T21:18:08.210584+00:00",
-   "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
-   "articles": []
-  },
-  "POMO4": {
-   "checked_at": "2026-08-20T21:18:08.772124+00:00",
-   "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
-   "articles": [
-    {
-     "id": "b499fd6c0ccfb960",
-     "title": "Marcopolo (POMO4): mercado de ônibus perde fôlego e acende alerta",
-     "url": "https://www.suno.com.br/noticias/marcopolo-pomo4-onibus-antt-demanda-btg-mt/",
-     "source": "Suno",
-     "published": "2026-07-15",
-     "content_hash": "b499fd6c0ccfb9602ace3df88da108f958e6a55a2f516f1d5fbb84eb4cee7518",
-     "reader_model": "deepseek-v4-flash",
-     "leitura": {
-      "relevante": true,
-      "resumo": "Dados da ANTT mostram queda na frota (-2%), passageiros (-9,7%) e receita de ônibus rodoviários em 2025. BTG Pactual mantém recomendação neutra para Marcopolo, citando ambiente de juros elevados e orçamentos apertados das operadoras, mas vê potencial no fretamento. O programa Move Brasil pode trazer alívio em 2026, mas o banco segue conservador.",
-      "evento": "regulacao",
-      "impacto": "negativo",
-      "horizonte": "medio",
       "intensidade": "media",
       "drivers": [
-       "queda na frota de ônibus rodoviários",
-       "redução de passageiros transportados",
-       "menor receita do setor",
-       "juros elevados",
-       "orçamentos apertados das operadoras"
+       "Alta do petróleo",
+       "Tensões geopolíticas EUA-Irã",
+       "Pressão no setor bancário"
       ],
       "riscos": [
-       "demanda por ônibus menor que o esperado",
-       "custo de financiamento elevado",
-       "dificuldade de renovação de frota"
+       "Inflação elevada",
+       "Juros altos por mais tempo",
+       "Aversão ao risco global"
       ],
       "metricas_afetadas": [
        "receita",
-       "lucro",
-       "caixa"
+       "margem",
+       "caixa",
+       "valuation"
       ],
       "incerteza": "media"
      }
     }
    ]
   },
+  "PETZ3": {
+   "checked_at": "2026-08-21T21:12:23.124058+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
+   "articles": []
+  },
+  "POMO4": {
+   "checked_at": "2026-08-21T21:12:27.028148+00:00",
+   "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
+   "articles": [
+    {
+     "id": "19d3b3a5b4692a24",
+     "title": "Vale a pena investir em Marcopolo (POMO4)? JPMorgan vê dividendos atrativos e ações sobem",
+     "url": "https://www.suno.com.br/noticias/vale-a-pena-investir-marcopolo-pomo4-dividendos-jpmorgan-go/",
+     "source": "Suno",
+     "published": "2026-08-20",
+     "content_hash": "19d3b3a5b4692a248ca1390519e626ec1f6b5d0a9d06500ac3cbd5d599701d46",
+     "reader_model": "deepseek-v4-flash",
+     "leitura": {
+      "relevante": true,
+      "resumo": "Marcopolo anuncia dividendos de R$ 0,13/ação e programa de recompra de até 49 milhões de ações. JPMorgan reitera recomendação de compra e vê potencial de reprecificação, citando baixa alavancagem e múltiplo atrativo. Ações sobem mais de 6%.",
+      "evento": "dividendo",
+      "impacto": "positivo",
+      "horizonte": "curto",
+      "intensidade": "alta",
+      "drivers": [
+       "Anúncio de dividendos",
+       "Programa de recompra de ações",
+       "Recomendação do JPMorgan (overweight, preço-alvo R$ 7)",
+       "Baixa alavancagem (dívida líquida/Ebitda de 0,3x)",
+       "Múltiplo abaixo da média histórica (4,4x vs 7,1x)"
+      ],
+      "riscos": [
+       "Queda no preço das ações em momentos de estresse de mercado",
+       "Não cumprimento da meta de payout ou redução de dividendos futuros",
+       "Condições macroeconômicas adversas",
+       "Riscos operacionais e de demanda"
+      ],
+      "metricas_afetadas": [
+       "dividendos",
+       "valuation",
+       "caixa"
+      ],
+      "incerteza": "baixa"
+     }
+    }
+   ]
+  },
   "PRIO3": {
-   "checked_at": "2026-08-20T21:18:09.332786+00:00",
+   "checked_at": "2026-08-21T21:12:27.575350+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1535,12 +1566,12 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-08-20T21:18:09.967801+00:00",
+   "checked_at": "2026-08-21T21:12:28.256081+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-08-20T21:18:10.542482+00:00",
+   "checked_at": "2026-08-21T21:12:28.800436+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
@@ -1583,7 +1614,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-08-20T21:18:11.073963+00:00",
+   "checked_at": "2026-08-21T21:12:29.296754+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1622,7 +1653,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-08-20T21:18:11.633498+00:00",
+   "checked_at": "2026-08-21T21:12:29.876070+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1660,7 +1691,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-08-20T21:18:13.638194+00:00",
+   "checked_at": "2026-08-21T21:12:31.709809+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1731,37 +1762,38 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-08-20T21:18:14.219473+00:00",
+   "checked_at": "2026-08-21T21:12:35.159620+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
-     "id": "b44cd38009922ff0",
-     "title": "Ibovespa muda em setembro: Tenda (TEND3) entra e PetroReconcavo (RECV3) deixa índice",
-     "url": "https://www.suno.com.br/noticias/ibovespa-tenda-tend3-petroreconcavo-recv3-carteira-mt/",
+     "id": "5649b86f26ef5366",
+     "title": "PetroReconcavo (RECV3) fecha acordo com Petrobras e poupa US$ 60 milhões; entenda",
+     "url": "https://www.suno.com.br/noticias/petroreconcavo-recv3-acordo-petrobras-gas-bahia/",
      "source": "Suno",
-     "published": "2026-08-17",
-     "content_hash": "b44cd38009922ff0fe38949caf79dc68153022dadab377f93e825d00b84a1346",
+     "published": "2026-08-20",
+     "content_hash": "5649b86f26ef5366f9c623c346f7625041cd9ba94af54ca526743cfab72d9ca6",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Na segunda prévia do Ibovespa para setembro, a B3 inclui Tenda e exclui PetroReconcavo. A composição final será divulgada em 31 de agosto e entrará em vigor em 8 de setembro.",
+      "resumo": "PetroReconcavo fecha acordo com Petrobras para processamento de gás na Bahia até 2037, garantindo capacidade na UTG Catu. Com isso, suspende investimento de US$ 60 milhões na UPGN Miranga, mantendo-o como opção futura. Acordo visa previsibilidade e redução de risco operacional.",
       "evento": "outro",
-      "impacto": "negativo",
-      "horizonte": "curto",
+      "impacto": "positivo",
+      "horizonte": "medio",
       "intensidade": "media",
       "drivers": [
-       "Exclusão do Ibovespa pode reduzir liquidez e interesse de investidores em RECV3",
-       "Mudança no índice pode gerar venda forçada por fundos passivos",
-       "Entrada de Tenda no índice reflete maior liquidez"
+       "garantia de capacidade de processamento até 2037",
+       "redução de risco operacional",
+       "evita investimento imediato de US$ 60 milhões"
       ],
       "riscos": [
-       "Impacto negativo na liquidez das ações RECV3",
-       "Possível reversão na terceira prévia",
-       "Pressão vendedora próxima à data de mudança"
+       "dependência da infraestrutura da Petrobras",
+       "volumes e tarifas não divulgados",
+       "possível retomada de investimento futuro"
       ],
       "metricas_afetadas": [
-       "liquidez",
-       "valuation"
+       "caixa",
+       "investimentos",
+       "risco operacional"
       ],
       "incerteza": "media"
      }
@@ -1769,7 +1801,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-08-20T21:18:14.870582+00:00",
+   "checked_at": "2026-08-21T21:12:35.739397+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1803,7 +1835,7 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-08-20T21:18:15.452054+00:00",
+   "checked_at": "2026-08-21T21:12:36.381911+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
@@ -1837,7 +1869,7 @@
    ]
   },
   "SBSP3": {
-   "checked_at": "2026-08-20T21:18:19.413163+00:00",
+   "checked_at": "2026-08-21T21:12:40.433772+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
    "articles": [
     {
@@ -1875,22 +1907,22 @@
    ]
   },
   "SLCE3": {
-   "checked_at": "2026-08-20T21:18:20.147696+00:00",
+   "checked_at": "2026-08-21T21:12:41.070275+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-08-20T21:18:20.842206+00:00",
+   "checked_at": "2026-08-21T21:12:41.655223+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-08-20T21:18:25.222357+00:00",
+   "checked_at": "2026-08-21T21:12:53.257013+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-08-20T21:18:25.773077+00:00",
+   "checked_at": "2026-08-21T21:12:53.759430+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1925,53 +1957,52 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-08-20T21:18:26.509206+00:00",
+   "checked_at": "2026-08-21T21:12:54.385582+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": []
   },
   "TIMS3": {
-   "checked_at": "2026-08-20T21:18:27.033668+00:00",
+   "checked_at": "2026-08-21T21:12:58.559911+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
-     "id": "16d5fdd678121406",
-     "title": "TIM (TIMS3) registra lucro de R$ 1,03 bilhão no 2T26, com alta de 6,2%; veja detalhes",
-     "url": "https://www.suno.com.br/noticias/tims3-resultado-2t26-lucro-1-bilhao-alta-fibra-b2b-go/",
+     "id": "f11aaf4395664363",
+     "title": "TIM (TIMS3) aprova recompra de até R$ 1 bilhão em ações; entenda o que muda",
+     "url": "https://www.suno.com.br/noticias/tim-tims3-recompra-acoes-1-bilhao-programa-mt/",
      "source": "Suno",
-     "published": "2026-07-28",
-     "content_hash": "16d5fdd678121406194aa063f6409a111d99a8f6b3bcd58bb60260723e2d633e",
+     "published": "2026-08-20",
+     "content_hash": "f11aaf43956643631e7824baf17b4d3889864e26f0979403046f657791afad65",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "TIM registra lucro líquido normalizado de R$ 1,03 bilhão no 2T26, alta de 6,2% ante 2T25, impulsionado por crescimento nos segmentos móvel, fibra e B2B. Receita líquida cresce 5,5%, Ebitda sobe 7% com margem de 51,5%. Destaque para telefonia fixa (+27%) e B2B (+16,6% em 12 meses). Resultado financeiro líquido negativo em R$ 569 milhões, piora de 51,8% devido a base de comparação desfavorável e maiores despesas financeiras.",
-      "evento": "resultado",
-      "impacto": "positivo",
-      "horizonte": "curto",
-      "intensidade": "alta",
+      "resumo": "TIM aprova programa de recompra de até R$ 1 bilhão e 55,19 milhões de ações, válido até fevereiro de 2028. Ação visa corrigir preço defasado e remunerar acionistas, complementando dividendos. Programa anterior adquiriu 46,88 milhões de papéis, com forte geração de caixa. Recomendações de mercado são majoritariamente neutras, com preço-alvo mediano de R$ 24.",
+      "evento": "outro",
+      "impacto": "neutro",
+      "horizonte": "medio",
+      "intensidade": "media",
       "drivers": [
-       "crescimento em fibra",
-       "crescimento em B2B",
-       "consolidação V8.Tech",
-       "expansão base pós-paga"
+       "Geração de caixa operacional de R$ 1,24 bi no 2T26, alta de 10,1%",
+       "Percepção de preço defasado das ações",
+       "Programa de recompra como forma de remuneração ao acionista",
+       "Guidance de retorno total de R$ 5,3 a 5,5 bi para 2026"
       ],
       "riscos": [
-       "resultado financeiro líquido negativo",
-       "despesas operacionais em alta",
-       "base de comparação desfavorável no financeiro"
+       "Condições de mercado podem limitar execução do programa",
+       "Recomendação neutra da XP e maioria neutra entre casas",
+       "Desaceleração de métricas do negócio móvel"
       ],
       "metricas_afetadas": [
-       "receita",
-       "margem",
-       "lucro",
+       "dividendos",
+       "valuation",
        "caixa"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-08-20T21:18:27.564260+00:00",
+   "checked_at": "2026-08-21T21:12:59.130396+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -2002,7 +2033,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-08-20T21:18:28.291582+00:00",
+   "checked_at": "2026-08-21T21:12:59.696415+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -2036,7 +2067,7 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-08-20T21:18:28.826980+00:00",
+   "checked_at": "2026-08-21T21:13:00.172528+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
@@ -2076,7 +2107,7 @@
    ]
   },
   "VALE3": {
-   "checked_at": "2026-08-20T21:18:29.365623+00:00",
+   "checked_at": "2026-08-21T21:13:00.633148+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
@@ -2111,12 +2142,12 @@
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-08-20T21:18:30.046354+00:00",
+   "checked_at": "2026-08-21T21:13:01.257908+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-08-20T21:18:30.606805+00:00",
+   "checked_at": "2026-08-21T21:13:01.774401+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -2151,12 +2182,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-08-20T21:18:31.226219+00:00",
+   "checked_at": "2026-08-21T21:13:02.369907+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-08-20T21:18:31.761895+00:00",
+   "checked_at": "2026-08-21T21:13:02.853855+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2193,7 +2224,7 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-08-20T21:18:32.328287+00:00",
+   "checked_at": "2026-08-21T21:13:03.547422+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
@@ -2227,7 +2258,7 @@
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-08-20T21:18:33.102595+00:00",
+   "checked_at": "2026-08-21T21:13:04.258515+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
