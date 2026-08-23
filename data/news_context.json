@@ -1,5 +1,5 @@
 {
- "data_geracao": "2026-08-21",
+ "data_geracao": "2026-08-23",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
@@ -7,7 +7,7 @@
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-08-21T21:11:39.770957+00:00",
+   "checked_at": "2026-08-23T13:12:44.688395+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -48,7 +48,7 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-08-21T21:11:40.331119+00:00",
+   "checked_at": "2026-08-23T13:12:45.288978+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
    "articles": [
     {
@@ -88,17 +88,17 @@
    ]
   },
   "ASAI3": {
-   "checked_at": "2026-08-21T21:11:40.906966+00:00",
+   "checked_at": "2026-08-23T13:12:45.970816+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-08-21T21:11:41.496192+00:00",
+   "checked_at": "2026-08-23T13:12:46.705270+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-08-21T21:11:42.013115+00:00",
+   "checked_at": "2026-08-23T13:12:47.306961+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -136,41 +136,42 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-08-21T21:11:42.550292+00:00",
+   "checked_at": "2026-08-23T13:12:47.968455+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": []
   },
   "B3SA3": {
-   "checked_at": "2026-08-21T21:11:44.719157+00:00",
+   "checked_at": "2026-08-23T13:12:53.390235+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
-     "id": "acbbf21c8359f632",
-     "title": "Renda fixa na B3 (B3SA3) cresce 13% e chega a R$ 6,3 trilhões",
-     "url": "https://www.suno.com.br/noticias/b3-b3sa3-renda-fixa-captacao-bancaria-cdb-lci-lca-mt/",
+     "id": "efb5f0edb0118f43",
+     "title": "Inteligência artificial corta falsos alertas pela metade na B3 (B3SA3)",
+     "url": "https://www.suno.com.br/noticias/inteligencia-artificial-reduz-alertas-b3-b3sa3-mt/",
      "source": "Suno",
-     "published": "2026-07-27",
-     "content_hash": "acbbf21c8359f632a8c99bd351593b65f14ebbc0e0c823893f76a148ee508644",
+     "published": "2026-08-21",
+     "content_hash": "efb5f0edb0118f439a3d70676911897773b4b07a448b4a01918e7f469f33a789",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "B3 reporta crescimento de 13% no estoque de produtos de renda fixa de captação bancária no 1S26, atingindo R$ 6,3 trilhões, com destaque para CDBs, RDBs, LCIs e Letras Financeiras. LCAs registraram queda de 4%. O movimento reflete juros elevados e busca por previsibilidade.",
-      "evento": "resultado",
+      "resumo": "A BSM, autorreguladora da B3, reduziu em 50% os falsos alertas e acelerou análises em até 90% com uso de IA e machine learning, aumentando eficiência na supervisão do mercado sem expandir estrutura operacional.",
+      "evento": "outro",
       "impacto": "positivo",
       "horizonte": "medio",
-      "intensidade": "media",
+      "intensidade": "baixa",
       "drivers": [
-       "crescimento da renda fixa",
-       "juros elevados",
-       "busca por menor risco"
+       "adoção de IA e machine learning na supervisão",
+       "redução de custos operacionais",
+       "aumento da eficiência regulatória"
       ],
       "riscos": [
-       "mudanças regulatórias",
-       "queda nas LCAs",
-       "acomodação após expansão"
+       "desafios de escalabilidade e governança de dados",
+       "risco de dependência tecnológica",
+       "possíveis falhas de IA"
       ],
       "metricas_afetadas": [
-       "receita"
+       "margem",
+       "governanca"
       ],
       "incerteza": "baixa"
      }
@@ -178,41 +179,46 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-08-21T21:11:47.781880+00:00",
+   "checked_at": "2026-08-23T13:12:56.911976+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
-     "id": "58a8e577c93751b5",
-     "title": "Banco do Brasil (BBAS3) antecipa pagamento de JCP; veja valores e datas",
-     "url": "https://www.suno.com.br/noticias/banco-do-brasil-bbas3-jcp-antecipado-3t26-go/",
+     "id": "77537dc753a00b10",
+     "title": "Banco do Brasil (BBAS3) fecha parceria com iFood para ampliar financiamento a entregadores",
+     "url": "https://www.suno.com.br/noticias/banco-do-brasil-bbas3-parceria-ifood-financiamento-entregadores-mt/",
      "source": "Suno",
-     "published": "2026-08-20",
-     "content_hash": "58a8e577c93751b50b7a91bbdfd530950d231c6ee9177fffd6e9eec85d080ddb",
+     "published": "2026-08-21",
+     "content_hash": "77537dc753a00b10ad1a7bf367a6bdbba70a914ddd94b80a0466502d56e1eca9",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Banco do Brasil aprova pagamento antecipado de JCP referente ao 3T26, totalizando cerca de R$ 197 milhões, com crédito em 11/09/2026. Acionistas com posição até 01/09 têm direito; a partir de 02/09 as ações são negociadas ex-JCP. Inclui também JCP complementar do 2T26 de R$ 584,9 milhões com mesmo pagamento.",
-      "evento": "dividendo",
-      "impacto": "neutro",
-      "horizonte": "curto",
+      "resumo": "Banco do Brasil firma parceria com iFood para financiar motos e bicicletas elétricas a entregadores, com taxas diferenciadas por gênero. Programa já desembolsou R$ 17,1 mi, mas enfrenta baixa conversão. Objetivo é ampliar crédito e reduzir custos para entregadores.",
+      "evento": "outro",
+      "impacto": "positivo",
+      "horizonte": "medio",
       "intensidade": "baixa",
       "drivers": [
-       "Pagamento de JCP antecipado do 3T26"
+       "Expansão da linha de crédito",
+       "Integração com plataforma iFood",
+       "Condições atrativas (taxas, carência, 100% financiamento)"
       ],
       "riscos": [
-       "Possível alteração no cronograma de proventos"
+       "Baixa adesão ao programa",
+       "Risco de crédito dos entregadores",
+       "Dependência de parceria com iFood"
       ],
       "metricas_afetadas": [
-       "caixa",
-       "dividendos"
+       "receita",
+       "lucro",
+       "caixa"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-08-21T21:11:48.330811+00:00",
+   "checked_at": "2026-08-23T13:12:57.671866+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
@@ -252,7 +258,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-08-21T21:11:48.819754+00:00",
+   "checked_at": "2026-08-23T13:12:58.262880+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -290,7 +296,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-08-21T21:11:49.306000+00:00",
+   "checked_at": "2026-08-23T13:12:58.867625+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -328,7 +334,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-08-21T21:11:49.807251+00:00",
+   "checked_at": "2026-08-23T13:12:59.435064+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -362,12 +368,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-08-21T21:11:50.387619+00:00",
+   "checked_at": "2026-08-23T13:13:00.102398+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-08-21T21:11:50.866044+00:00",
+   "checked_at": "2026-08-23T13:13:00.695714+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -406,7 +412,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-08-21T21:11:51.414246+00:00",
+   "checked_at": "2026-08-23T13:13:01.315626+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -444,7 +450,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-08-21T21:11:51.867334+00:00",
+   "checked_at": "2026-08-23T13:13:01.854087+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -487,7 +493,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-08-21T21:11:52.359820+00:00",
+   "checked_at": "2026-08-23T13:13:02.441587+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -518,7 +524,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-08-21T21:11:52.944170+00:00",
+   "checked_at": "2026-08-23T13:13:03.199252+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -558,7 +564,7 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-08-21T21:11:53.441472+00:00",
+   "checked_at": "2026-08-23T13:13:03.900153+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
@@ -596,7 +602,7 @@
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-08-21T21:11:56.378279+00:00",
+   "checked_at": "2026-08-23T13:13:04.473200+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
    "articles": [
     {
@@ -629,17 +635,17 @@
    ]
   },
   "CPLE6": {
-   "checked_at": "2026-08-21T21:11:57.237496+00:00",
+   "checked_at": "2026-08-23T13:13:05.434965+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-08-21T21:11:57.883925+00:00",
+   "checked_at": "2026-08-23T13:13:06.142529+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-08-21T21:11:58.449833+00:00",
+   "checked_at": "2026-08-23T13:13:06.733511+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -677,7 +683,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-08-21T21:11:59.249078+00:00",
+   "checked_at": "2026-08-23T13:13:07.397115+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -719,12 +725,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-08-21T21:12:00.039180+00:00",
+   "checked_at": "2026-08-23T13:13:08.068225+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-08-21T21:12:00.525278+00:00",
+   "checked_at": "2026-08-23T13:13:08.679858+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -758,7 +764,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-08-21T21:12:01.043972+00:00",
+   "checked_at": "2026-08-23T13:13:09.246868+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -795,12 +801,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-08-21T21:12:01.855135+00:00",
+   "checked_at": "2026-08-23T13:13:10.013750+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-08-21T21:12:02.559545+00:00",
+   "checked_at": "2026-08-23T13:13:10.591732+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -841,12 +847,12 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-08-21T21:12:04.052144+00:00",
+   "checked_at": "2026-08-23T13:13:11.281534+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": []
   },
   "ENGI11": {
-   "checked_at": "2026-08-21T21:12:04.746670+00:00",
+   "checked_at": "2026-08-23T13:13:11.905480+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -884,7 +890,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-08-21T21:12:05.351286+00:00",
+   "checked_at": "2026-08-23T13:13:12.476585+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -915,7 +921,7 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-08-21T21:12:05.870914+00:00",
+   "checked_at": "2026-08-23T13:13:13.049426+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": [
     {
@@ -957,7 +963,7 @@
    ]
   },
   "GGBR4": {
-   "checked_at": "2026-08-21T21:12:06.369762+00:00",
+   "checked_at": "2026-08-23T13:13:13.675185+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -990,7 +996,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-08-21T21:12:08.450714+00:00",
+   "checked_at": "2026-08-23T13:13:15.890980+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -1027,7 +1033,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-08-21T21:12:09.024857+00:00",
+   "checked_at": "2026-08-23T13:13:16.671884+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -1066,7 +1072,7 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-08-21T21:12:09.511992+00:00",
+   "checked_at": "2026-08-23T13:13:38.017227+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": [
     {
@@ -1111,7 +1117,7 @@
    ]
   },
   "ITSA4": {
-   "checked_at": "2026-08-21T21:12:10.163121+00:00",
+   "checked_at": "2026-08-23T13:13:38.644798+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1151,7 +1157,7 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-08-21T21:12:10.862381+00:00",
+   "checked_at": "2026-08-23T13:13:39.220666+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
@@ -1187,7 +1193,7 @@
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-08-21T21:12:11.368168+00:00",
+   "checked_at": "2026-08-23T13:13:39.784046+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
@@ -1227,7 +1233,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-08-21T21:12:11.867257+00:00",
+   "checked_at": "2026-08-23T13:13:40.424427+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1260,7 +1266,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-08-21T21:12:12.636367+00:00",
+   "checked_at": "2026-08-23T13:13:40.995465+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1303,7 +1309,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-08-21T21:12:13.416921+00:00",
+   "checked_at": "2026-08-23T13:13:41.564725+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1346,7 +1352,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-08-21T21:12:13.983453+00:00",
+   "checked_at": "2026-08-23T13:13:42.137349+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1385,7 +1391,7 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-08-21T21:12:14.486908+00:00",
+   "checked_at": "2026-08-23T13:13:42.794139+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
    "articles": [
     {
@@ -1427,62 +1433,60 @@
    ]
   },
   "NTCO3": {
-   "checked_at": "2026-08-21T21:12:15.804706+00:00",
+   "checked_at": "2026-08-23T13:13:43.486190+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-08-21T21:12:17.282396+00:00",
+   "checked_at": "2026-08-23T13:13:45.090456+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-08-21T21:12:22.411853+00:00",
+   "checked_at": "2026-08-23T13:13:49.996063+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
-     "id": "4043df9850f3cc0c",
-     "title": "Ibovespa fecha estável com Petrobras (PETR4), mas aversão ao risco limita alta",
-     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-20-agosto-2026-petrobras-petr4-mt/",
+     "id": "10422638de2cb6d6",
+     "title": "Petrobras (PETR4) avança em negociações em Gana e ações sobem",
+     "url": "https://www.suno.com.br/noticias/petrobras-petr4-blocos-exploratorios-gana-acoes-sobem-go/",
      "source": "Suno",
-     "published": "2026-08-20",
-     "content_hash": "4043df9850f3cc0c7f093a1d9f63a5d8cfe4d27a6d960705364bc63c7fb36d31",
+     "published": "2026-08-21",
+     "content_hash": "10422638de2cb6d6d929dbd05dabab97638baac3c347f557a674565c8f8b619a",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Ibovespa fecha estável com alta de 0,06%, apoiado por Petrobras e Vale, mas tensões EUA-Irã e pressão no setor financeiro limitam ganhos. Petróleo sobe 2,36%, beneficiando petroleiras, mas gera preocupações inflacionárias. Banco e outros setores recuam.",
-      "evento": "macroeconomia",
-      "impacto": "misto",
-      "horizonte": "curto",
-      "intensidade": "media",
+      "resumo": "Petrobras inicia negociações para blocos exploratórios em Gana, com aprovação do governo local. Ações sobem levemente. Empresa busca diversificar portfólio e repor reservas. Também fechou acordo com Porto do Açu para escoamento de coque.",
+      "evento": "outro",
+      "impacto": "positivo",
+      "horizonte": "longo",
+      "intensidade": "baixa",
       "drivers": [
-       "Alta do petróleo",
-       "Tensões geopolíticas EUA-Irã",
-       "Pressão no setor bancário"
+       "expansão internacional",
+       "reposição de reservas",
+       "diversificação de portfólio"
       ],
       "riscos": [
-       "Inflação elevada",
-       "Juros altos por mais tempo",
-       "Aversão ao risco global"
+       "risco político",
+       "risco de exploração",
+       "incerteza regulatória"
       ],
       "metricas_afetadas": [
        "receita",
-       "margem",
-       "caixa",
        "valuation"
       ],
-      "incerteza": "media"
+      "incerteza": "alta"
      }
     }
    ]
   },
   "PETZ3": {
-   "checked_at": "2026-08-21T21:12:23.124058+00:00",
+   "checked_at": "2026-08-23T13:13:51.534074+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
    "articles": []
   },
   "POMO4": {
-   "checked_at": "2026-08-21T21:12:27.028148+00:00",
+   "checked_at": "2026-08-23T13:13:52.161132+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
    "articles": [
     {
@@ -1524,7 +1528,7 @@
    ]
   },
   "PRIO3": {
-   "checked_at": "2026-08-21T21:12:27.575350+00:00",
+   "checked_at": "2026-08-23T13:13:52.745253+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1566,47 +1570,43 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-08-21T21:12:28.256081+00:00",
+   "checked_at": "2026-08-23T13:13:53.434292+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-08-21T21:12:28.800436+00:00",
+   "checked_at": "2026-08-23T13:13:56.940205+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
-     "id": "87e4c99af3378d58",
-     "title": "RD Saúde (RADL3): Safra corta preço-alvo, mas ainda vê alta de 63%",
-     "url": "https://www.suno.com.br/noticias/rd-saude-radl3-safra-preco-alvo-compra-mt/",
+     "id": "bee9b9ac4f1171a4",
+     "title": "Efeito Mounjaro favorece Raia Drogasil (RADL3) e Panvel (PNVL3)",
+     "url": "https://www.suno.com.br/noticias/mounjaro-radl3-pnvl3-farmacias-medicamentos-glp1-mt/",
      "source": "Suno",
-     "published": "2026-06-19",
-     "content_hash": "87e4c99af3378d58b190b8826d329a4b0145e5bcd13fffe3ba8c02f64fcafc72",
+     "published": "2026-08-21",
+     "content_hash": "bee9b9ac4f1171a42ddc5404593ead6b346f664b6aa2adff35ba40b55f63356b",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Safra corta preço-alvo da RD Saúde (RADL3) de R$30 para R$27, mas mantém recomendação de compra com potencial de alta de 63%. Banco revisa estimativas após resultado do 1T26, novas premissas macro e visão conservadora para 2027. Destaca múltiplos atrativos (17x lucro 2026, 13x 2027 vs média histórica 25x). Aumenta estimativa de vendas mesmas lojas em 2026 (11,8%), mas reduz projeções de lucro líquido em 5% (2026) e 10% (2027) devido a custo financeiro maior e incertezas sobre genéricos. Riscos i",
+      "resumo": "O avanço dos medicamentos GLP-1, como Mounjaro, impulsionou as vendas do setor farmacêutico em julho de 2026. Banco Safra vê crescimento de 10% a 17% nas vendas de Raia Drogasil, Panvel, Pague Menos e Hypera no 3T26, destacando maior oferta e demanda por esses tratamentos.",
       "evento": "recomendacao_terceiro",
-      "impacto": "misto",
+      "impacto": "positivo",
       "horizonte": "medio",
       "intensidade": "media",
       "drivers": [
-       "múltiplos atrativos",
-       "crescimento vendas mesmas lojas acima do esperado",
-       "redução de preço-alvo mas ainda com upside significativo"
+       "Crescimento das vendas do setor farmacêutico",
+       "Aumento da demanda por GLP-1",
+       "Expansão de oferta e demanda por medicamentos de diabetes e obesidade"
       ],
       "riscos": [
-       "ambiente macroeconômico adverso",
-       "aumento da concorrência",
-       "desafios de execução",
-       "mudanças regulatórias",
-       "incertezas sobre preços de genéricos",
-       "risco de mudanças na jornada de trabalho"
+       "Desaceleração nas vendas ao consumidor",
+       "Concorrência no setor",
+       "Dependência do desempenho dos GLP-1"
       ],
       "metricas_afetadas": [
        "receita",
        "margem",
-       "lucro",
-       "valuation"
+       "lucro"
       ],
       "incerteza": "media"
      }
@@ -1614,7 +1614,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-08-21T21:12:29.296754+00:00",
+   "checked_at": "2026-08-23T13:13:57.558406+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1653,7 +1653,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-08-21T21:12:29.876070+00:00",
+   "checked_at": "2026-08-23T13:13:58.135532+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1691,7 +1691,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-08-21T21:12:31.709809+00:00",
+   "checked_at": "2026-08-23T13:14:00.005679+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1762,7 +1762,7 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-08-21T21:12:35.159620+00:00",
+   "checked_at": "2026-08-23T13:14:00.687018+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
@@ -1801,7 +1801,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-08-21T21:12:35.739397+00:00",
+   "checked_at": "2026-08-23T13:14:01.269853+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1835,41 +1835,44 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-08-21T21:12:36.381911+00:00",
+   "checked_at": "2026-08-23T13:14:04.687687+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
-     "id": "9cad3f5e0cbdb29d",
-     "title": "Santander (SANB11) e Jalles Machado (JALL3) pagam dividendos hoje; veja detalhes",
-     "url": "https://www.suno.com.br/noticias/o-santander-sanb11-agenda-dividendos-06082026/",
+     "id": "db2ab7cfa180a42d",
+     "title": "Santander (SANB11) capta R$ 600 milhões e reforça capital; entenda",
+     "url": "https://www.suno.com.br/noticias/santander-sanb11-capta-600-milhoes-letras-financeiras-mt/",
      "source": "Suno",
-     "published": "2026-08-06",
-     "content_hash": "9cad3f5e0cbdb29d5c90dc3d361f9902a17050f0871095b91322fb182a91f672",
+     "published": "2026-08-21",
+     "content_hash": "db2ab7cfa180a42dd5e0b6be9e2fb3dba52e4bd8b7013b4fd3eb37176e46a7c7",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Santander e Jalles Machado pagam dividendos hoje. Santander paga R$0,5346 por ação, Jalles paga R$0,0080 por ação. Investidores com ações em datas específicas recebem os proventos, isentos de IR.",
-      "evento": "dividendo",
+      "resumo": "O Santander Brasil captou R$ 600,3 milhões via letras financeiras subordinadas, prazo de 10 anos, para reforçar o Capital Nível II de seu Patrimônio de Referência. A operação privada fortalece a estrutura de capital sem emitir ações e atende aos limites regulatórios do Banco Central, conforme comunicado oficial.",
+      "evento": "divida",
       "impacto": "positivo",
-      "horizonte": "curto",
-      "intensidade": "baixa",
+      "horizonte": "medio",
+      "intensidade": "media",
       "drivers": [
-       "pagamento de dividendos"
+       "Reforço do capital regulatório (Nível II)",
+       "Aumento de recursos de longo prazo"
       ],
       "riscos": [
-       "possível queda de preço ex-dividendo"
+       "Custo da dívida não detalhado",
+       "Opção de recompra em 2031 incerta",
+       "Condições regulatórias podem mudar"
       ],
       "metricas_afetadas": [
-       "dividendos",
-       "caixa"
+       "caixa",
+       "divida"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "SBSP3": {
-   "checked_at": "2026-08-21T21:12:40.433772+00:00",
+   "checked_at": "2026-08-23T13:14:08.268537+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
    "articles": [
     {
@@ -1907,22 +1910,22 @@
    ]
   },
   "SLCE3": {
-   "checked_at": "2026-08-21T21:12:41.070275+00:00",
+   "checked_at": "2026-08-23T13:14:08.987484+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-08-21T21:12:41.655223+00:00",
+   "checked_at": "2026-08-23T13:14:09.763465+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-08-21T21:12:53.257013+00:00",
+   "checked_at": "2026-08-23T13:14:21.986550+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-08-21T21:12:53.759430+00:00",
+   "checked_at": "2026-08-23T13:14:22.550297+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1957,12 +1960,12 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-08-21T21:12:54.385582+00:00",
+   "checked_at": "2026-08-23T13:14:23.227320+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": []
   },
   "TIMS3": {
-   "checked_at": "2026-08-21T21:12:58.559911+00:00",
+   "checked_at": "2026-08-23T13:14:23.967076+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
@@ -2002,7 +2005,7 @@
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-08-21T21:12:59.130396+00:00",
+   "checked_at": "2026-08-23T13:14:24.543470+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -2033,7 +2036,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-08-21T21:12:59.696415+00:00",
+   "checked_at": "2026-08-23T13:14:25.142950+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -2067,7 +2070,7 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-08-21T21:13:00.172528+00:00",
+   "checked_at": "2026-08-23T13:14:25.706283+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
@@ -2107,34 +2110,43 @@
    ]
   },
   "VALE3": {
-   "checked_at": "2026-08-21T21:13:00.633148+00:00",
+   "checked_at": "2026-08-23T13:14:29.504211+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
-     "id": "409d4576fa03b90b",
-     "title": "Vale (VALE3) defende &#8216;força-tarefa&#8217; para avanço de licenciamento de projetos estratégicos",
-     "url": "https://www.suno.com.br/noticias/vale-vale3-defende-forca-tarefa-para-avanco-de-licenciamento-go/",
+     "id": "3e712e06ab0da075",
+     "title": "VALE3: veja como foi o desempenho da Vale nos últimos 10 anos",
+     "url": "https://www.suno.com.br/noticias/vale3-desempenho-vale-ultimos-10-anos-mt/",
      "source": "Suno",
-     "published": "2026-08-18",
-     "content_hash": "409d4576fa03b90b1008bb11bfe1197bc3dc08bf7c0bd4b6ae10cd4f8266a13f",
+     "published": "2026-08-22",
+     "content_hash": "3e712e06ab0da07563f9276e56f602f5505789385e4f607e610b4151a53b7561",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "CEO da Vale defende força-tarefa para acelerar licenciamento de projetos estratégicos, citando exemplo de demora de 11 anos. Ele comenta o marco legal de minerais críticos em tramitação no Congresso, sem detalhar melhorias. O projeto prevê conselho com maioria do governo para homologar mudanças de controle em empresas do setor.",
-      "evento": "regulacao",
-      "impacto": "neutro",
+      "resumo": "Ações da Vale (VALE3) valorizam 343% em dez anos, sem dividendos. Cotação atual R$ 75,06. No 2T26, Ebitda proforma US$ 4,1 bi (+19% a/a), fluxo de caixa livre US$ 1,5 bi, dívida líquida US$ 16,7 bi (-US$ 1,1 bi t/t). Dividend yield 7,47%.",
+      "evento": "resultado",
+      "impacto": "positivo",
       "horizonte": "medio",
-      "intensidade": "baixa",
+      "intensidade": "media",
       "drivers": [
-       "Aprovação de política nacional de minerais críticos",
-       "Celeridade em licenciamento ambiental"
+       "preços realizados mais altos",
+       "aumento de volumes de vendas",
+       "redução de dívida líquida",
+       "fluxo de caixa livre recorrente positivo"
       ],
       "riscos": [
-       "Incerteza regulatória",
-       "Possíveis restrições à mudança de controle"
+       "volatilidade dos preços do minério de ferro",
+       "demanda chinesa incerta",
+       "flutuações cambiais",
+       "riscos operacionais e de governança"
       ],
       "metricas_afetadas": [
-       "governanca"
+       "receita",
+       "margem",
+       "lucro",
+       "caixa",
+       "divida",
+       "dividendos"
       ],
       "incerteza": "media"
      }
@@ -2142,12 +2154,12 @@
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-08-21T21:13:01.257908+00:00",
+   "checked_at": "2026-08-23T13:14:31.139983+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-08-21T21:13:01.774401+00:00",
+   "checked_at": "2026-08-23T13:14:31.716317+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -2182,12 +2194,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-08-21T21:13:02.369907+00:00",
+   "checked_at": "2026-08-23T13:14:32.446596+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-08-21T21:13:02.853855+00:00",
+   "checked_at": "2026-08-23T13:14:33.019917+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2224,7 +2236,7 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-08-21T21:13:03.547422+00:00",
+   "checked_at": "2026-08-23T13:14:33.607184+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
@@ -2258,7 +2270,7 @@
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-08-21T21:13:04.258515+00:00",
+   "checked_at": "2026-08-23T13:14:34.368169+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
