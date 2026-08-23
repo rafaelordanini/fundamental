@@ -1,5 +1,5 @@
 {
- "data_coleta": "2026-08-09",
+ "data_coleta": "2026-08-23",
  "fonte": "CVM ITR/DFP consolidados (inclui DFC) + cadastro B3",
  "years": [
   2017,
@@ -898,7 +898,7 @@
   },
   "ASAI3": {
    "code_cvm": "25372",
-   "cnpj": "6057223000171",
+   "cnpj": "06057223000171",
    "company_name": "SENDAS DISTRIBUIDORA S.A.",
    "quarters": [
     {
@@ -1539,23 +1539,6 @@
    "company_name": "AZUL S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 1702.366,
-     "ebit": -401.915,
-     "net_income": 1162.051,
-     "operating_cash_flow": -219.437,
-     "investing_cash_flow": -122.384,
-     "assets": 17386.73,
-     "cash": 4339.074,
-     "current_assets": 6755.204,
-     "current_liabilities": 10362.983,
-     "equity": -15742.55,
-     "gross_debt": 9897.487,
-     "net_debt": 5558.413,
-     "net_margin": 0.6826093801215485,
-     "free_cash_flow": -341.821
-    },
-    {
      "date": "2021-09-30",
      "revenue": 2717.801,
      "ebit": 73.19,
@@ -1877,20 +1860,37 @@
      "net_debt": 18554.438,
      "net_margin": 1.1003447401088722,
      "free_cash_flow": -171.394
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 4978.651,
+     "ebit": -518.505,
+     "net_income": -1400.665,
+     "operating_cash_flow": -208.116,
+     "investing_cash_flow": -130.622,
+     "assets": 30784.892,
+     "cash": 1268.892,
+     "current_assets": 6292.513,
+     "current_liabilities": 14891.908,
+     "equity": -5154.864,
+     "gross_debt": 21415.88,
+     "net_debt": 20146.988,
+     "net_margin": -0.28133424094197407,
+     "free_cash_flow": -338.738
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.4,
+    "profitable_quarters_ratio": 0.35,
     "revenue_cagr": 0.10709705966173755,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": -0.08679541058443103,
     "margin_volatility": 0.18501135574698963,
-    "roe_ttm": -0.27876269301366685,
-    "net_debt_to_equity": -4.91590201387198,
-    "net_debt_trend": 2.3380819309396403,
-    "latest_equity_million": -3774.371,
+    "roe_ttm": -0.10405201472361832,
+    "net_debt_to_equity": -3.9083452056155124,
+    "net_debt_trend": 1.9790716652956946,
+    "latest_equity_million": -5154.864,
     "history_score": 44,
     "breakdown": [
      {
@@ -1901,7 +1901,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "40%"
+      "value": "35%"
      },
      {
       "label": "CAGR da receita",
@@ -1921,12 +1921,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-27.9%"
+      "value": "-10.4%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+233.8%"
+      "value": "+197.9%"
      },
      {
       "label": "FCL anual positivo",
@@ -1941,9 +1941,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": -1425.953,
+    "free_cash_flow_ttm_million": -1748.495,
     "normalized_free_cash_flow_million": 1221.3690000000001,
-    "ttm_net_income_million": 4491.634,
+    "ttm_net_income_million": 1622.9679999999996,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -1978,23 +1978,6 @@
    "cnpj": "16590234000176",
    "company_name": "AZZAS 2154 S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 552.976,
-     "ebit": 188.972,
-     "net_income": 132.496,
-     "operating_cash_flow": 33.76,
-     "investing_cash_flow": 4.759,
-     "assets": 2755.405,
-     "cash": 69.625,
-     "current_assets": 1340.793,
-     "current_liabilities": 864.79,
-     "equity": 1431.252,
-     "gross_debt": 509.496,
-     "net_debt": 439.871,
-     "net_margin": 0.23960533549376467,
-     "free_cash_flow": 38.519
-    },
     {
      "date": "2021-09-30",
      "revenue": 777.949,
@@ -2317,6 +2300,23 @@
      "net_debt": 3114.533,
      "net_margin": 0.015565897150379324,
      "free_cash_flow": -223.151
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 2664.045,
+     "ebit": 117.164,
+     "net_income": 29.811,
+     "operating_cash_flow": 279.054,
+     "investing_cash_flow": -19.927,
+     "assets": 15052.655,
+     "cash": 244.064,
+     "current_assets": 6500.537,
+     "current_liabilities": 2870.983,
+     "equity": 8040.341,
+     "gross_debt": 3267.884,
+     "net_debt": 3023.82,
+     "net_margin": 0.011190126292911719,
+     "free_cash_flow": 259.127
     }
    ],
    "summary": {
@@ -2327,11 +2327,11 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.07967628520344947,
     "margin_volatility": 0.021617554979007303,
-    "roe_ttm": 0.10525291115060817,
-    "net_debt_to_equity": 0.38904706401552025,
-    "net_debt_trend": 6.080559982358464,
-    "latest_equity_million": 8005.543,
-    "history_score": 75,
+    "roe_ttm": 0.03958219741293729,
+    "net_debt_to_equity": 0.3760810642235199,
+    "net_debt_trend": 4.823875071984223,
+    "latest_equity_million": 8040.341,
+    "history_score": 69,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -2360,13 +2360,13 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 1,
-      "value": "10.5%"
+      "pts": 0,
+      "value": "4.0%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+608.1%"
+      "value": "+482.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -2378,9 +2378,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": 909.374,
+    "free_cash_flow_ttm_million": 834.854,
     "normalized_free_cash_flow_million": 540.59,
-    "ttm_net_income_million": 832.019,
+    "ttm_net_income_million": 324.176,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -2415,23 +2415,6 @@
    "cnpj": "9346601000125",
    "company_name": "B3 S.A. - BRASIL. BOLSA. BALCÃO",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 2417.694,
-     "ebit": 1669.636,
-     "net_income": 1193.311,
-     "operating_cash_flow": -620.913,
-     "investing_cash_flow": -75.845,
-     "assets": 49530.81,
-     "cash": 2065.184,
-     "current_assets": 19873.683,
-     "current_liabilities": 12507.996,
-     "equity": 22704.101,
-     "gross_debt": 10057.777,
-     "net_debt": 7992.593,
-     "net_margin": 0.4935740420417141,
-     "free_cash_flow": -696.758
-    },
     {
      "date": "2021-09-30",
      "revenue": 3042.179,
@@ -2754,6 +2737,23 @@
      "net_debt": 14068.592,
      "net_margin": 0.4613529376489813,
      "free_cash_flow": 1505.762
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 3081.392,
+     "ebit": 1914.851,
+     "net_income": 1701.217,
+     "operating_cash_flow": 653.208,
+     "investing_cash_flow": 613.793,
+     "assets": 48951.12,
+     "cash": 1163.233,
+     "current_assets": 19047.627,
+     "current_liabilities": 9942.058,
+     "equity": 18729.402,
+     "gross_debt": 14933.316,
+     "net_debt": 13770.083,
+     "net_margin": 0.5520936641621709,
+     "free_cash_flow": 1267.001
     }
    ],
    "summary": {
@@ -2764,10 +2764,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.41728213530864655,
     "margin_volatility": 0.007729665691643554,
-    "roe_ttm": 0.26737907956867146,
-    "net_debt_to_equity": 0.7697112861581665,
-    "net_debt_trend": 0.7602037286272428,
-    "latest_equity_million": 18277.752,
+    "roe_ttm": 0.27713984137268693,
+    "net_debt_to_equity": 0.7352121012726408,
+    "net_debt_trend": 0.3534373760339432,
+    "latest_equity_million": 18729.402,
     "history_score": 75,
     "breakdown": [
      {
@@ -2798,12 +2798,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "26.7%"
+      "value": "27.7%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+76.0%"
+      "value": "+35.3%"
      },
      {
       "label": "FCL anual positivo",
@@ -2815,9 +2815,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 6287.498,
+    "free_cash_flow_ttm_million": 6311.592,
     "normalized_free_cash_flow_million": 4031.8779999999997,
-    "ttm_net_income_million": 4957.883,
+    "ttm_net_income_million": 5332.119000000001,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -2852,23 +2852,6 @@
    "cnpj": "191",
    "company_name": "BCO BRASIL S.A.",
    "quarters": [
-    {
-     "date": "2019-12-31",
-     "revenue": 123105.325,
-     "ebit": 11139.512,
-     "net_income": null,
-     "operating_cash_flow": 58542.666,
-     "investing_cash_flow": -30587.074,
-     "assets": 1452266.807,
-     "cash": 14171.188,
-     "current_assets": 71936.023,
-     "current_liabilities": 961.636,
-     "equity": 1220561.201,
-     "gross_debt": null,
-     "net_debt": null,
-     "net_margin": null,
-     "free_cash_flow": 27955.592
-    },
     {
      "date": "2020-12-31",
      "revenue": 98659.704,
@@ -3191,6 +3174,23 @@
      "net_debt": 911030.07,
      "net_margin": 0.039594326651700346,
      "free_cash_flow": 11815.258
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 82294.536,
+     "ebit": 1702.3,
+     "net_income": 3256.684,
+     "operating_cash_flow": 13308.26,
+     "investing_cash_flow": -9788.3,
+     "assets": 2588103.74,
+     "cash": 27063.12,
+     "current_assets": 65017.849,
+     "current_liabilities": 5614.344,
+     "equity": 40351.333,
+     "gross_debt": 954018.837,
+     "net_debt": 926955.717,
+     "net_margin": 0.03957351433392857,
+     "free_cash_flow": 3519.96
     }
    ],
    "summary": {
@@ -3201,10 +3201,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.11580225695262748,
     "margin_volatility": 0.02991227516513772,
-    "roe_ttm": 0.47858621873041374,
-    "net_debt_to_equity": 23.29353143107742,
-    "net_debt_trend": 0.5567849098625229,
-    "latest_equity_million": 39110.861,
+    "roe_ttm": 0.4512227024561951,
+    "net_debt_to_equity": 22.972121317528718,
+    "net_debt_trend": 0.5839989478463595,
+    "latest_equity_million": 40351.333,
     "history_score": 100,
     "breakdown": [
      {
@@ -3235,16 +3235,16 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "47.9%"
+      "value": "45.1%"
      }
     ],
     "vetos": [],
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": 9385.166,
+    "free_cash_flow_ttm_million": 15479.114,
     "normalized_free_cash_flow_million": 33715.284,
-    "ttm_net_income_million": 15710.361,
+    "ttm_net_income_million": 15384.783,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -4124,23 +4124,6 @@
    "company_name": "MINERVA S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 6287.817,
-     "ebit": 459.908,
-     "net_income": 116.67,
-     "operating_cash_flow": 483.643,
-     "investing_cash_flow": -69.451,
-     "assets": 17627.666,
-     "cash": 4767.588,
-     "current_assets": 12061.519,
-     "current_liabilities": 7504.13,
-     "equity": 422.925,
-     "gross_debt": 11651.172,
-     "net_debt": 6883.584,
-     "net_margin": 0.018554929318076528,
-     "free_cash_flow": 414.192
-    },
-    {
      "date": "2021-09-30",
      "revenue": 7368.241,
      "ebit": 548.806,
@@ -4462,6 +4445,23 @@
      "net_debt": 16593.639,
      "net_margin": 0.00650880350369745,
      "free_cash_flow": -613.018
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 14102.235,
+     "ebit": 962.199,
+     "net_income": 196.887,
+     "operating_cash_flow": -54.57,
+     "investing_cash_flow": -205.867,
+     "assets": 46737.041,
+     "cash": 12260.644,
+     "current_assets": 29428.068,
+     "current_liabilities": 20558.064,
+     "equity": 2182.311,
+     "gross_debt": 29297.526,
+     "net_debt": 17036.882,
+     "net_margin": 0.013961403990218571,
+     "free_cash_flow": -260.437
     }
    ],
    "summary": {
@@ -4472,10 +4472,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.015089562213324281,
     "margin_volatility": 0.02739717579094508,
-    "roe_ttm": 0.8375549520907599,
-    "net_debt_to_equity": 8.940432279358758,
-    "net_debt_trend": 1.4106103738982485,
-    "latest_equity_million": 1856.022,
+    "roe_ttm": 0.2321991917116744,
+    "net_debt_to_equity": 7.806807554010405,
+    "net_debt_trend": 1.253428543123292,
+    "latest_equity_million": 2182.311,
     "history_score": 81,
     "breakdown": [
      {
@@ -4506,12 +4506,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "83.8%"
+      "value": "23.2%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+141.1%"
+      "value": "+125.3%"
      },
      {
       "label": "FCL anual positivo",
@@ -4523,9 +4523,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 3069.893,
+    "free_cash_flow_ttm_million": 2730.0339999999997,
     "normalized_free_cash_flow_million": 213.61900000000003,
-    "ttm_net_income_million": 750.5509999999999,
+    "ttm_net_income_million": 489.168,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -4560,23 +4560,6 @@
    "cnpj": "30306294000145",
    "company_name": "BCO BTG PACTUAL S.A.",
    "quarters": [
-    {
-     "date": "2019-12-31",
-     "revenue": 11678.102,
-     "ebit": 5055.63,
-     "net_income": null,
-     "operating_cash_flow": -9567.473,
-     "investing_cash_flow": 2672.844,
-     "assets": 166344.09,
-     "cash": null,
-     "current_assets": 2338.808,
-     "current_liabilities": 43493.767,
-     "equity": 86501.006,
-     "gross_debt": null,
-     "net_debt": null,
-     "net_margin": null,
-     "free_cash_flow": -6894.629
-    },
     {
      "date": "2020-12-31",
      "revenue": 18643.965,
@@ -4899,6 +4882,23 @@
      "net_debt": null,
      "net_margin": null,
      "free_cash_flow": -6378.067
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 10516.185,
+     "ebit": 6127.729,
+     "net_income": null,
+     "operating_cash_flow": 54274.679,
+     "investing_cash_flow": -366.701,
+     "assets": 929990.141,
+     "cash": null,
+     "current_assets": 5007.577,
+     "current_liabilities": 69372.917,
+     "equity": 642674.133,
+     "gross_debt": null,
+     "net_debt": null,
+     "net_margin": null,
+     "free_cash_flow": 53907.978
     }
    ],
    "summary": {
@@ -4912,7 +4912,7 @@
     "roe_ttm": null,
     "net_debt_to_equity": null,
     "net_debt_trend": null,
-    "latest_equity_million": 585738.59,
+    "latest_equity_million": 642674.133,
     "history_score": 67,
     "breakdown": [
      {
@@ -4935,7 +4935,7 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": -20618.937,
+    "free_cash_flow_ttm_million": 51714.046,
     "normalized_free_cash_flow_million": -17159.816,
     "ttm_net_income_million": null,
     "annual_cash_flow": [
@@ -5843,23 +5843,6 @@
    "company_name": "BRF S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 11636.901,
-     "ebit": 580.322,
-     "net_income": -239.845,
-     "operating_cash_flow": -289.719,
-     "investing_cash_flow": -694.932,
-     "assets": 49617.892,
-     "cash": 6941.842,
-     "current_assets": 22597.774,
-     "current_liabilities": 17420.464,
-     "equity": 8411.043,
-     "gross_debt": 22555.183,
-     "net_debt": 15613.341,
-     "net_margin": -0.02061072789052687,
-     "free_cash_flow": -984.651
-    },
-    {
      "date": "2021-09-30",
      "revenue": 12389.985,
      "ebit": 730.48,
@@ -6181,21 +6164,38 @@
      "net_debt": 15504.882,
      "net_margin": 0.03515646077413348,
      "free_cash_flow": 932.778
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 15967.343,
+     "ebit": 1514.15,
+     "net_income": 544.957,
+     "operating_cash_flow": 2439.83,
+     "investing_cash_flow": -933.195,
+     "assets": 67647.107,
+     "cash": 14350.864,
+     "current_assets": 33452.888,
+     "current_liabilities": 23474.485,
+     "equity": 15275.367,
+     "gross_debt": 30207.115,
+     "net_debt": 15856.251,
+     "net_margin": 0.034129472887254944,
+     "free_cash_flow": 1506.635
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.55,
+    "profitable_quarters_ratio": 0.6,
     "revenue_cagr": 0.06530015189137872,
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.007846512312389548,
     "margin_volatility": 0.05177188464923777,
-    "roe_ttm": 0.16122659710889473,
-    "net_debt_to_equity": 1.0070147996255863,
-    "net_debt_trend": -0.006946559355873976,
-    "latest_equity_million": 15396.876,
-    "history_score": 56,
+    "roe_ttm": 0.14692664911806694,
+    "net_debt_to_equity": 1.0380274987828444,
+    "net_debt_trend": -0.08285771597936654,
+    "latest_equity_million": 15275.367,
+    "history_score": 50,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -6205,7 +6205,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "55%"
+      "value": "60%"
      },
      {
       "label": "CAGR da receita",
@@ -6224,13 +6224,13 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 2,
-      "value": "16.1%"
+      "pts": 1,
+      "value": "14.7%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 1,
-      "value": "-0.7%"
+      "value": "-8.3%"
      },
      {
       "label": "FCL anual positivo",
@@ -6242,9 +6242,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": 4384.785,
+    "free_cash_flow_ttm_million": 4192.119,
     "normalized_free_cash_flow_million": 5763.018,
-    "ttm_net_income_million": 2641.951,
+    "ttm_net_income_million": 2451.987,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -6279,23 +6279,6 @@
    "cnpj": "42150391000170",
    "company_name": "BRASKEM S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 26421.465,
-     "ebit": 9063.093,
-     "net_income": 7561.961,
-     "operating_cash_flow": 2512.321,
-     "investing_cash_flow": -708.937,
-     "assets": 87934.078,
-     "cash": 9765.013,
-     "current_assets": 39039.439,
-     "current_liabilities": 31043.006,
-     "equity": 7166.947,
-     "gross_debt": 34110.085,
-     "net_debt": 24345.072,
-     "net_margin": 0.2862052123150628,
-     "free_cash_flow": 1803.384
-    },
     {
      "date": "2021-09-30",
      "revenue": 28299.463,
@@ -6618,6 +6601,23 @@
      "net_debt": 44386.0,
      "net_margin": 0.08044938016528926,
      "free_cash_flow": -5169.0
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 21715.0,
+     "ebit": 4054.0,
+     "net_income": 3323.0,
+     "operating_cash_flow": 29.0,
+     "investing_cash_flow": -841.0,
+     "assets": 79240.0,
+     "cash": 3931.0,
+     "current_assets": 29300.0,
+     "current_liabilities": 38001.0,
+     "equity": -13087.0,
+     "gross_debt": 49336.0,
+     "net_debt": 45405.0,
+     "net_margin": 0.15302786092562745,
+     "free_cash_flow": -812.0
     }
    ],
    "summary": {
@@ -6628,10 +6628,10 @@
     "positive_revenue_years_ratio": 0.3333333333333333,
     "median_net_margin": -0.1121459867826851,
     "margin_volatility": 0.06206443859625632,
-    "roe_ttm": 1.0332534451767525,
-    "net_debt_to_equity": -2.734306659274318,
-    "net_debt_trend": 0.8232026588378955,
-    "latest_equity_million": -16233.0,
+    "roe_ttm": 0.8117467115325788,
+    "net_debt_to_equity": -3.469473523343776,
+    "net_debt_trend": 1.0720223184252686,
+    "latest_equity_million": -13087.0,
     "history_score": 31,
     "breakdown": [
      {
@@ -6662,12 +6662,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "103.3%"
+      "value": "81.2%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+82.3%"
+      "value": "+107.2%"
      },
      {
       "label": "FCL anual positivo",
@@ -6682,9 +6682,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.25,
-    "free_cash_flow_ttm_million": -9408.0,
+    "free_cash_flow_ttm_million": -9239.0,
     "normalized_free_cash_flow_million": -6797.0,
-    "ttm_net_income_million": -10347.0,
+    "ttm_net_income_million": -6634.0,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -6719,23 +6719,6 @@
    "cnpj": "17155730000164",
    "company_name": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 7353.982,
-     "ebit": 2348.457,
-     "net_income": 1946.639,
-     "operating_cash_flow": 2157.999,
-     "investing_cash_flow": -1950.104,
-     "assets": 53839.254,
-     "cash": 2661.596,
-     "current_assets": 14893.762,
-     "current_liabilities": 9547.297,
-     "equity": 19846.008,
-     "gross_debt": 13318.988,
-     "net_debt": 10657.392,
-     "net_margin": 0.2647054344163475,
-     "free_cash_flow": 207.895
-    },
     {
      "date": "2021-09-30",
      "revenue": 9524.667,
@@ -7058,6 +7041,23 @@
      "net_debt": 18232.957,
      "net_margin": 0.09356989022649656,
      "free_cash_flow": -507.334
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 11156.238,
+     "ebit": 1884.896,
+     "net_income": 945.444,
+     "operating_cash_flow": 555.123,
+     "investing_cash_flow": -1523.726,
+     "assets": 70861.249,
+     "cash": 2162.396,
+     "current_assets": 15720.485,
+     "current_liabilities": 13463.402,
+     "equity": 29186.153,
+     "gross_debt": 22352.709,
+     "net_debt": 20190.313,
+     "net_margin": 0.08474577182738482,
+     "free_cash_flow": -968.603
     }
    ],
    "summary": {
@@ -7068,10 +7068,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.1376506024858516,
     "margin_volatility": 0.026700822584333966,
-    "roe_ttm": 0.17037662239277288,
-    "net_debt_to_equity": 0.6310428037208251,
-    "net_debt_trend": 0.7108272830726315,
-    "latest_equity_million": 28893.376,
+    "roe_ttm": 0.15943875708482022,
+    "net_debt_to_equity": 0.6917771245837024,
+    "net_debt_trend": 0.91859861040119,
+    "latest_equity_million": 29186.153,
     "history_score": 75,
     "breakdown": [
      {
@@ -7102,12 +7102,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "17.0%"
+      "value": "15.9%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+71.1%"
+      "value": "+91.9%"
      },
      {
       "label": "FCL anual positivo",
@@ -7119,9 +7119,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": -1702.453,
+    "free_cash_flow_ttm_million": -3141.582,
     "normalized_free_cash_flow_million": 2677.034,
-    "ttm_net_income_million": 4839.856,
+    "ttm_net_income_million": 4597.019,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -7156,23 +7156,6 @@
    "cnpj": "8902291000115",
    "company_name": "CSN MINERAÇÃO S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 7693.327,
-     "ebit": 4473.423,
-     "net_income": 2500.637,
-     "operating_cash_flow": 2598.688,
-     "investing_cash_flow": -466.903,
-     "assets": 27325.969,
-     "cash": 9065.45,
-     "current_assets": 13838.984,
-     "current_liabilities": 6372.934,
-     "equity": 15490.964,
-     "gross_debt": 3170.27,
-     "net_debt": -5895.18,
-     "net_margin": 0.3250397389841872,
-     "free_cash_flow": 2131.785
-    },
     {
      "date": "2021-09-30",
      "revenue": 3057.586,
@@ -7495,6 +7478,23 @@
      "net_debt": 287.342,
      "net_margin": 0.059967339185714987,
      "free_cash_flow": -360.097
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 3613.204,
+     "ebit": 762.611,
+     "net_income": 219.395,
+     "operating_cash_flow": 119.254,
+     "investing_cash_flow": -652.096,
+     "assets": 33847.438,
+     "cash": 7920.16,
+     "current_assets": 11437.315,
+     "current_liabilities": 9750.279,
+     "equity": 7339.601,
+     "gross_debt": 8964.506,
+     "net_debt": 1044.346,
+     "net_margin": 0.06072034681684178,
+     "free_cash_flow": -532.842
     }
    ],
    "summary": {
@@ -7505,10 +7505,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.20565164119631482,
     "margin_volatility": 0.06672236017305604,
-    "roe_ttm": 0.257405593699253,
-    "net_debt_to_equity": 0.04058075809819447,
-    "net_debt_trend": 1.0487418535142268,
-    "latest_equity_million": 7080.745,
+    "roe_ttm": 0.2813622011041907,
+    "net_debt_to_equity": 0.14228920618436888,
+    "net_debt_trend": 1.1454526563613339,
+    "latest_equity_million": 7339.601,
     "history_score": 69,
     "breakdown": [
      {
@@ -7539,12 +7539,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "25.7%"
+      "value": "28.1%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+104.9%"
+      "value": "+114.5%"
      },
      {
       "label": "FCL anual positivo",
@@ -7556,9 +7556,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": -3097.2239999999997,
+    "free_cash_flow_ttm_million": -3921.0589999999997,
     "normalized_free_cash_flow_million": 7037.651,
-    "ttm_net_income_million": 2228.574,
+    "ttm_net_income_million": 2332.202,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -7593,23 +7593,6 @@
    "cnpj": "2800026000140",
    "company_name": "COGNA EDUCAÇÃO S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 1152.56,
-     "ebit": 22.564,
-     "net_income": -106.609,
-     "operating_cash_flow": 60.701,
-     "investing_cash_flow": -253.358,
-     "assets": 29628.23,
-     "cash": 1205.161,
-     "current_assets": 8303.01,
-     "current_liabilities": 4388.836,
-     "equity": 14111.292,
-     "gross_debt": 9620.724,
-     "net_debt": 8415.563,
-     "net_margin": -0.09249757062539044,
-     "free_cash_flow": -192.657
-    },
     {
      "date": "2021-09-30",
      "revenue": 1022.437,
@@ -7932,20 +7915,37 @@
      "net_debt": 6529.777,
      "net_margin": 0.06580082828237645,
      "free_cash_flow": 303.489
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1960.727,
+     "ebit": 348.329,
+     "net_income": 148.948,
+     "operating_cash_flow": 400.678,
+     "investing_cash_flow": -254.693,
+     "assets": 24534.326,
+     "cash": 72.401,
+     "current_assets": 5099.537,
+     "current_liabilities": 2707.1,
+     "equity": 13744.284,
+     "gross_debt": 6686.831,
+     "net_debt": 6614.43,
+     "net_margin": 0.07596570047742496,
+     "free_cash_flow": 145.985
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.4,
+    "profitable_quarters_ratio": 0.45,
     "revenue_cagr": 0.11277748978021163,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": -0.0022097354987052134,
     "margin_volatility": 0.11133138216987906,
-    "roe_ttm": 0.046551947361184974,
-    "net_debt_to_equity": 0.4800573118313246,
-    "net_debt_trend": -0.22408316591534042,
-    "latest_equity_million": 13602.078,
+    "roe_ttm": 0.049264434707818265,
+    "net_debt_to_equity": 0.4812495143435628,
+    "net_debt_trend": -0.18160454718168695,
+    "latest_equity_million": 13744.284,
     "history_score": 62,
     "breakdown": [
      {
@@ -7956,7 +7956,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "40%"
+      "value": "45%"
      },
      {
       "label": "CAGR da receita",
@@ -7976,12 +7976,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "4.7%"
+      "value": "4.9%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 2,
-      "value": "-22.4%"
+      "value": "-18.2%"
      },
      {
       "label": "FCL anual positivo",
@@ -7995,9 +7995,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 801.7869999999999,
+    "free_cash_flow_ttm_million": 260.257,
     "normalized_free_cash_flow_million": 628.536,
-    "ttm_net_income_million": 633.004,
+    "ttm_net_income_million": 676.0550000000001,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -8032,23 +8032,6 @@
    "cnpj": "2429144000193",
    "company_name": "CPFL ENERGIA S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 8812.807,
-     "ebit": 1622.835,
-     "net_income": 1126.052,
-     "operating_cash_flow": 1332.814,
-     "investing_cash_flow": -320.493,
-     "assets": 56131.409,
-     "cash": 2738.478,
-     "current_assets": 11432.989,
-     "current_liabilities": 12459.445,
-     "equity": 15380.992,
-     "gross_debt": 16983.461,
-     "net_debt": 14244.983,
-     "net_margin": 0.12777449908979055,
-     "free_cash_flow": 1012.321
-    },
     {
      "date": "2021-09-30",
      "revenue": 11189.884,
@@ -8371,6 +8354,23 @@
      "net_debt": 29582.221,
      "net_margin": 0.16835951542000538,
      "free_cash_flow": -2494.383
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 11107.428,
+     "ebit": 2916.913,
+     "net_income": 1438.046,
+     "operating_cash_flow": 1710.611,
+     "investing_cash_flow": 500.548,
+     "assets": 83455.954,
+     "cash": 2164.836,
+     "current_assets": 17199.176,
+     "current_liabilities": 18603.197,
+     "equity": 23674.713,
+     "gross_debt": 31552.149,
+     "net_debt": 29387.313,
+     "net_margin": 0.12946705573963657,
+     "free_cash_flow": 2211.159
     }
    ],
    "summary": {
@@ -8381,10 +8381,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.13388472706339843,
     "margin_volatility": 0.003620092026761259,
-    "roe_ttm": 0.2476311864739402,
-    "net_debt_to_equity": 1.165341692279214,
-    "net_debt_trend": 1.0766764691821675,
-    "latest_equity_million": 25385.019,
+    "roe_ttm": 0.2727623293809306,
+    "net_debt_to_equity": 1.2412954277418273,
+    "net_debt_trend": 0.9698808578982083,
+    "latest_equity_million": 23674.713,
     "history_score": 81,
     "breakdown": [
      {
@@ -8415,12 +8415,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "24.8%"
+      "value": "27.3%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+107.7%"
+      "value": "+97.0%"
      },
      {
       "label": "FCL anual positivo",
@@ -8432,9 +8432,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": -190.59199999999964,
+    "free_cash_flow_ttm_million": 1190.9910000000004,
     "normalized_free_cash_flow_million": 2763.226,
-    "ttm_net_income_million": 6036.616,
+    "ttm_net_income_million": 6288.859,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -8907,23 +8907,6 @@
    "company_name": "COSAN S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 6558.108,
-     "ebit": 1673.644,
-     "net_income": 1195.117,
-     "operating_cash_flow": 1916.16,
-     "investing_cash_flow": -1036.621,
-     "assets": 78973.555,
-     "cash": 8567.45,
-     "current_assets": 19127.182,
-     "current_liabilities": 9820.134,
-     "equity": 22102.911,
-     "gross_debt": 38728.709,
-     "net_debt": 30161.259,
-     "net_margin": 0.18223502876134395,
-     "free_cash_flow": 879.539
-    },
-    {
      "date": "2021-09-30",
      "revenue": 6883.364,
      "ebit": 4498.113,
@@ -9245,6 +9228,23 @@
      "net_debt": 47412.652,
      "net_margin": -0.1489654217614744,
      "free_cash_flow": -1096.007
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 10775.931,
+     "ebit": 2524.567,
+     "net_income": 186.752,
+     "operating_cash_flow": 3455.165,
+     "investing_cash_flow": -3553.726,
+     "assets": 126694.332,
+     "cash": 13357.975,
+     "current_assets": 31546.41,
+     "current_liabilities": 18905.212,
+     "equity": 31910.02,
+     "gross_debt": 60890.14,
+     "net_debt": 47532.165,
+     "net_margin": 0.01733047474041918,
+     "free_cash_flow": -98.561
     }
    ],
    "summary": {
@@ -9255,10 +9255,10 @@
     "positive_revenue_years_ratio": 0.3333333333333333,
     "median_net_margin": -0.05735730402643674,
     "margin_volatility": 0.16099230995723046,
-    "roe_ttm": -0.29937157412325016,
-    "net_debt_to_equity": 1.6132256004344339,
-    "net_debt_trend": 0.5719719127109384,
-    "latest_equity_million": 29389.97,
+    "roe_ttm": -0.27222049576804763,
+    "net_debt_to_equity": 1.4895686370613368,
+    "net_debt_trend": 0.5141327806888918,
+    "latest_equity_million": 31910.02,
     "history_score": 25,
     "breakdown": [
      {
@@ -9289,12 +9289,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-29.9%"
+      "value": "-27.2%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+57.2%"
+      "value": "+51.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -9306,9 +9306,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": 4178.679,
+    "free_cash_flow_ttm_million": 1768.835,
     "normalized_free_cash_flow_million": 8593.029,
-    "ttm_net_income_million": -9603.982,
+    "ttm_net_income_million": -8849.131000000001,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -9343,23 +9343,6 @@
    "cnpj": "33042730000104",
    "company_name": "CIA SIDERURGICA NACIONAL",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 15391.573,
-     "ebit": 7108.582,
-     "net_income": 5512.66,
-     "operating_cash_flow": 4792.431,
-     "investing_cash_flow": 529.101,
-     "assets": 79440.123,
-     "cash": 21756.753,
-     "current_assets": 38801.277,
-     "current_liabilities": 18963.27,
-     "equity": 25096.115,
-     "gross_debt": 34598.28,
-     "net_debt": 12841.527,
-     "net_margin": 0.35816092351314577,
-     "free_cash_flow": 5321.532
-    },
     {
      "date": "2021-09-30",
      "revenue": 10246.173,
@@ -9682,20 +9665,37 @@
      "net_debt": 37612.295,
      "net_margin": -0.05234203451375605,
      "free_cash_flow": -1402.581
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 11306.169,
+     "ebit": 764.791,
+     "net_income": -773.058,
+     "operating_cash_flow": 105.508,
+     "investing_cash_flow": -1866.488,
+     "assets": 100602.032,
+     "cash": 13630.963,
+     "current_assets": 29739.027,
+     "current_liabilities": 25947.546,
+     "equity": 15240.376,
+     "gross_debt": 53365.56,
+     "net_debt": 39734.597,
+     "net_margin": -0.06837488454311978,
+     "free_cash_flow": -1760.98
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.55,
+    "profitable_quarters_ratio": 0.5,
     "revenue_cagr": 0.0032640949315481116,
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": -0.012386152748863823,
     "margin_volatility": 0.03466309618435024,
-    "roe_ttm": -0.08273650108562311,
-    "net_debt_to_equity": 2.366404008283985,
-    "net_debt_trend": 1.9289581371436588,
-    "latest_equity_million": 15894.283,
+    "roe_ttm": -0.12294395246705761,
+    "net_debt_to_equity": 2.6071926965581427,
+    "net_debt_trend": 1.754032305296397,
+    "latest_equity_million": 15240.376,
     "history_score": 44,
     "breakdown": [
      {
@@ -9706,7 +9706,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "55%"
+      "value": "50%"
      },
      {
       "label": "CAGR da receita",
@@ -9726,12 +9726,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-8.3%"
+      "value": "-12.3%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+192.9%"
+      "value": "+175.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -9743,9 +9743,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": -6162.753,
+    "free_cash_flow_ttm_million": -6116.204,
     "normalized_free_cash_flow_million": 2703.482,
-    "ttm_net_income_million": -1330.169,
+    "ttm_net_income_million": -1972.858,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -9780,23 +9780,6 @@
    "cnpj": "10760260000119",
    "company_name": "CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 115.52,
-     "ebit": -173.706,
-     "net_income": -175.57,
-     "operating_cash_flow": -44.6,
-     "investing_cash_flow": -24.291,
-     "assets": 4728.021,
-     "cash": 583.947,
-     "current_assets": 2750.885,
-     "current_liabilities": 3052.304,
-     "equity": 161.787,
-     "gross_debt": 1186.574,
-     "net_debt": 602.627,
-     "net_margin": -1.519823407202216,
-     "free_cash_flow": -68.891
-    },
     {
      "date": "2021-09-30",
      "revenue": 230.374,
@@ -10119,6 +10102,23 @@
      "net_debt": 248.507,
      "net_margin": -0.19143884206513911,
      "free_cash_flow": -96.86
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 332.703,
+     "ebit": 15.88,
+     "net_income": -72.537,
+     "operating_cash_flow": 86.043,
+     "investing_cash_flow": -29.834,
+     "assets": 3682.869,
+     "cash": 175.763,
+     "current_assets": 2014.022,
+     "current_liabilities": 2943.264,
+     "equity": 322.905,
+     "gross_debt": 398.197,
+     "net_debt": 222.434,
+     "net_margin": -0.2180232820263118,
+     "free_cash_flow": 56.209
     }
    ],
    "summary": {
@@ -10129,10 +10129,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": -0.19581644510760682,
     "margin_volatility": 0.14481591891069076,
-    "roe_ttm": -0.2298085254702169,
-    "net_debt_to_equity": 0.6185905493974824,
-    "net_debt_trend": -0.5876271723636677,
-    "latest_equity_million": 401.731,
+    "roe_ttm": -0.3334533942484503,
+    "net_debt_to_equity": 0.6888527585512767,
+    "net_debt_trend": -0.3261638104701288,
+    "latest_equity_million": 322.905,
     "history_score": 44,
     "breakdown": [
      {
@@ -10163,12 +10163,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-23.0%"
+      "value": "-33.3%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 2,
-      "value": "-58.8%"
+      "value": "-32.6%"
      },
      {
       "label": "FCL anual positivo",
@@ -10182,9 +10182,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": 194.61399999999998,
+    "free_cash_flow_ttm_million": 247.46499999999997,
     "normalized_free_cash_flow_million": 229.636,
-    "ttm_net_income_million": -105.822,
+    "ttm_net_income_million": -131.925,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -10219,23 +10219,6 @@
    "cnpj": "22543331000100",
    "company_name": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 0.0,
-     "ebit": 477.328,
-     "net_income": 426.634,
-     "operating_cash_flow": 812.822,
-     "investing_cash_flow": -36.069,
-     "assets": 10502.357,
-     "cash": 0.156,
-     "current_assets": 552.338,
-     "current_liabilities": 64.608,
-     "equity": 10436.845,
-     "gross_debt": 0,
-     "net_debt": -0.156,
-     "net_margin": null,
-     "free_cash_flow": 776.753
-    },
     {
      "date": "2021-09-30",
      "revenue": 0.0,
@@ -10558,6 +10541,23 @@
      "net_debt": 9.658,
      "net_margin": null,
      "free_cash_flow": 1056.706
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 0.0,
+     "ebit": 1251.94,
+     "net_income": 1159.95,
+     "operating_cash_flow": 1181.273,
+     "investing_cash_flow": -190.664,
+     "assets": 15002.272,
+     "cash": 0.248,
+     "current_assets": 1993.3,
+     "current_liabilities": 1196.039,
+     "equity": 13794.589,
+     "gross_debt": 9.66,
+     "net_debt": 9.412,
+     "net_margin": null,
+     "free_cash_flow": 990.609
     }
    ],
    "summary": {
@@ -10568,10 +10568,10 @@
     "positive_revenue_years_ratio": 0.0,
     "median_net_margin": null,
     "margin_volatility": null,
-    "roe_ttm": 0.3158769752475632,
-    "net_debt_to_equity": 0.000701277496986823,
-    "net_debt_trend": 62.91025641025641,
-    "latest_equity_million": 13772.009,
+    "roe_ttm": 0.33348646217987227,
+    "net_debt_to_equity": 0.0006822965149595976,
+    "net_debt_trend": 1.2764089160377081,
+    "latest_equity_million": 13794.589,
     "history_score": 75,
     "breakdown": [
      {
@@ -10592,16 +10592,16 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "31.6%"
+      "value": "33.3%"
      }
     ],
     "vetos": [],
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 3908.586,
+    "free_cash_flow_ttm_million": 3938.687,
     "normalized_free_cash_flow_million": 3241.0190000000002,
-    "ttm_net_income_million": 4391.419,
+    "ttm_net_income_million": 4522.961,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -10636,23 +10636,6 @@
    "cnpj": "73178600000118",
    "company_name": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 1182.019,
-     "ebit": 302.102,
-     "net_income": 290.351,
-     "operating_cash_flow": -34.058,
-     "investing_cash_flow": -103.3,
-     "assets": 12376.658,
-     "cash": 292.013,
-     "current_assets": 6683.988,
-     "current_liabilities": 1946.022,
-     "equity": 6293.038,
-     "gross_debt": 3349.669,
-     "net_debt": 3057.656,
-     "net_margin": 0.24563987550115524,
-     "free_cash_flow": -137.358
-    },
     {
      "date": "2021-09-30",
      "revenue": 1288.339,
@@ -10975,6 +10958,23 @@
      "net_debt": 8599.177,
      "net_margin": 0.177804016033319,
      "free_cash_flow": -485.987
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 2480.871,
+     "ebit": 504.392,
+     "net_income": 518.727,
+     "operating_cash_flow": 208.931,
+     "investing_cash_flow": -167.93,
+     "assets": 27740.895,
+     "cash": 230.669,
+     "current_assets": 15927.399,
+     "current_liabilities": 4729.063,
+     "equity": 12451.506,
+     "gross_debt": 8873.618,
+     "net_debt": 8642.949,
+     "net_margin": 0.20909067823357197,
+     "free_cash_flow": 41.001
     }
    ],
    "summary": {
@@ -10985,10 +10985,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.20900074783720068,
     "margin_volatility": 0.04076059974668843,
-    "roe_ttm": 0.21141407313378965,
-    "net_debt_to_equity": 0.7209236855234478,
-    "net_debt_trend": 1.8123428534799204,
-    "latest_equity_million": 11927.999,
+    "roe_ttm": 0.20592990577961237,
+    "net_debt_to_equity": 0.6941288065877333,
+    "net_debt_trend": 1.7457240567573709,
+    "latest_equity_million": 12451.506,
     "history_score": 69,
     "breakdown": [
      {
@@ -11019,12 +11019,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "21.1%"
+      "value": "20.6%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+181.2%"
+      "value": "+174.6%"
      },
      {
       "label": "FCL anual positivo",
@@ -11036,9 +11036,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.0,
-    "free_cash_flow_ttm_million": -995.618,
+    "free_cash_flow_ttm_million": -174.02600000000004,
     "normalized_free_cash_flow_million": -38.49699999999996,
-    "ttm_net_income_million": 2362.075,
+    "ttm_net_income_million": 2401.799,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -11073,23 +11073,6 @@
    "cnpj": "16614075000100",
    "company_name": "DIRECIONAL ENGENHARIA S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 422.163,
-     "ebit": 76.852,
-     "net_income": 52.98,
-     "operating_cash_flow": 4.364,
-     "investing_cash_flow": -29.533,
-     "assets": 5436.449,
-     "cash": 757.124,
-     "current_assets": 2690.264,
-     "current_liabilities": 502.568,
-     "equity": 1297.797,
-     "gross_debt": 1228.344,
-     "net_debt": 471.22,
-     "net_margin": 0.12549654991081644,
-     "free_cash_flow": -25.169
-    },
     {
      "date": "2021-09-30",
      "revenue": 453.361,
@@ -11412,6 +11395,23 @@
      "net_debt": 1501.16,
      "net_margin": 0.2297361933214086,
      "free_cash_flow": 387.789
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1279.265,
+     "ebit": 288.768,
+     "net_income": 255.427,
+     "operating_cash_flow": 110.134,
+     "investing_cash_flow": -232.308,
+     "assets": 14628.318,
+     "cash": 1529.554,
+     "current_assets": 7032.181,
+     "current_liabilities": 1684.451,
+     "equity": 2737.142,
+     "gross_debt": 3041.41,
+     "net_debt": 1511.856,
+     "net_margin": 0.19966699628302187,
+     "free_cash_flow": -122.174
     }
    ],
    "summary": {
@@ -11422,10 +11422,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.19078989764669857,
     "margin_volatility": 0.04337457724473435,
-    "roe_ttm": 0.4294515510749976,
-    "net_debt_to_equity": 0.5886583392741883,
-    "net_debt_trend": 2.185688213573278,
-    "latest_equity_million": 2550.138,
+    "roe_ttm": 0.4188178022470944,
+    "net_debt_to_equity": 0.5523483984389557,
+    "net_debt_trend": 1.6450840838949423,
+    "latest_equity_million": 2737.142,
     "history_score": 75,
     "breakdown": [
      {
@@ -11456,12 +11456,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "42.9%"
+      "value": "41.9%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+218.6%"
+      "value": "+164.5%"
      },
      {
       "label": "FCL anual positivo",
@@ -11473,9 +11473,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": 511.996,
+    "free_cash_flow_ttm_million": 432.034,
     "normalized_free_cash_flow_million": -16.329,
-    "ttm_net_income_million": 1055.774,
+    "ttm_net_income_million": 1090.558,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -12385,23 +12385,6 @@
    "company_name": "EMBRAER S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 5922.83,
-     "ebit": 738.148,
-     "net_income": 444.868,
-     "operating_cash_flow": 122.38,
-     "investing_cash_flow": 1347.497,
-     "assets": 51729.369,
-     "cash": 6759.12,
-     "current_assets": 29659.739,
-     "current_liabilities": 14287.13,
-     "equity": 14434.919,
-     "gross_debt": 21668.883,
-     "net_debt": 14909.763,
-     "net_margin": 0.07511071565450975,
-     "free_cash_flow": 1469.877
-    },
-    {
      "date": "2021-09-30",
      "revenue": 5010.382,
      "ebit": 153.041,
@@ -12723,6 +12706,23 @@
      "net_debt": 7173.907,
      "net_margin": 0.02559924142582833,
      "free_cash_flow": -2879.207
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 11335.557,
+     "ebit": 1458.437,
+     "net_income": 1090.894,
+     "operating_cash_flow": 2261.041,
+     "investing_cash_flow": -345.654,
+     "assets": 68524.665,
+     "cash": 7207.793,
+     "current_assets": 38148.565,
+     "current_liabilities": 26511.918,
+     "equity": 19830.679,
+     "gross_debt": 12756.36,
+     "net_debt": 5548.567,
+     "net_margin": 0.09623647077951264,
+     "free_cash_flow": 1915.387
     }
    ],
    "summary": {
@@ -12733,10 +12733,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.03880074590441442,
     "margin_volatility": 0.03938665861374708,
-    "roe_ttm": 0.08788757172991604,
-    "net_debt_to_equity": 0.3751364161991171,
-    "net_debt_trend": -0.5188450010908959,
-    "latest_equity_million": 19123.462,
+    "roe_ttm": 0.1219027590465197,
+    "net_debt_to_equity": 0.2797971264624877,
+    "net_debt_trend": -0.6236588195882796,
+    "latest_equity_million": 19830.679,
     "history_score": 88,
     "breakdown": [
      {
@@ -12767,12 +12767,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 1,
-      "value": "8.8%"
+      "value": "12.2%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 2,
-      "value": "-51.9%"
+      "value": "-62.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -12784,9 +12784,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 904.9690000000004,
+    "free_cash_flow_ttm_million": 4385.193,
     "normalized_free_cash_flow_million": 1901.4890000000005,
-    "ttm_net_income_million": 1715.306,
+    "ttm_net_income_million": 2408.723,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -12821,23 +12821,6 @@
    "cnpj": "4423567000121",
    "company_name": "ENEVA S.A",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 962.544,
-     "ebit": 228.44,
-     "net_income": 118.365,
-     "operating_cash_flow": -90.933,
-     "investing_cash_flow": -104.202,
-     "assets": 16759.157,
-     "cash": 1175.463,
-     "current_assets": 2650.326,
-     "current_liabilities": 976.992,
-     "equity": 8198.964,
-     "gross_debt": 7392.507,
-     "net_debt": 6217.044,
-     "net_margin": 0.12297100184511045,
-     "free_cash_flow": -195.135
-    },
     {
      "date": "2021-09-30",
      "revenue": 1528.094,
@@ -13160,6 +13143,23 @@
      "net_debt": 19690.851,
      "net_margin": 0.13576536362244288,
      "free_cash_flow": -1181.19
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 3975.798,
+     "ebit": 751.858,
+     "net_income": 162.997,
+     "operating_cash_flow": 1570.071,
+     "investing_cash_flow": -1147.749,
+     "assets": 58091.08,
+     "cash": 1824.208,
+     "current_assets": 8192.011,
+     "current_liabilities": 6405.907,
+     "equity": 21997.618,
+     "gross_debt": 22362.619,
+     "net_debt": 20538.411,
+     "net_margin": 0.040997304188995526,
+     "free_cash_flow": 422.322
     }
    ],
    "summary": {
@@ -13170,11 +13170,11 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.05478348710560019,
     "margin_volatility": 0.022540415574262965,
-    "roe_ttm": 0.08724732415651798,
-    "net_debt_to_equity": 0.8920025484167933,
-    "net_debt_trend": 2.167236873343666,
-    "latest_equity_million": 22074.882,
-    "history_score": 69,
+    "roe_ttm": 0.07149258039114315,
+    "net_debt_to_equity": 0.9336652268441066,
+    "net_debt_trend": 2.289100161328912,
+    "latest_equity_million": 21997.618,
+    "history_score": 62,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -13203,13 +13203,13 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 1,
-      "value": "8.7%"
+      "pts": 0,
+      "value": "7.1%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+216.7%"
+      "value": "+228.9%"
      },
      {
       "label": "FCL anual positivo",
@@ -13221,9 +13221,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": -767.546,
+    "free_cash_flow_ttm_million": -443.67800000000005,
     "normalized_free_cash_flow_million": 750.4319999999999,
-    "ttm_net_income_million": 1858.471,
+    "ttm_net_income_million": 1535.519,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -13696,23 +13696,6 @@
    "company_name": "EQUATORIAL S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 4554.686,
-     "ebit": 1086.343,
-     "net_income": 632.009,
-     "operating_cash_flow": 902.054,
-     "investing_cash_flow": 55.224,
-     "assets": 43501.276,
-     "cash": 4205.024,
-     "current_assets": 15745.207,
-     "current_liabilities": 7977.453,
-     "equity": 12521.067,
-     "gross_debt": 17770.098,
-     "net_debt": 13565.074,
-     "net_margin": 0.1387601691971741,
-     "free_cash_flow": 957.278
-    },
-    {
      "date": "2021-09-30",
      "revenue": 7488.836,
      "ebit": 1149.334,
@@ -14034,6 +14017,23 @@
      "net_debt": 51173.499,
      "net_margin": 0.047588929830258024,
      "free_cash_flow": 1289.809
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 13738.934,
+     "ebit": 2514.418,
+     "net_income": 653.007,
+     "operating_cash_flow": 17.422,
+     "investing_cash_flow": -6572.267,
+     "assets": 118944.065,
+     "cash": 5075.274,
+     "current_assets": 26308.228,
+     "current_liabilities": 16749.945,
+     "equity": 28715.324,
+     "gross_debt": 63369.492,
+     "net_debt": 58294.218,
+     "net_margin": 0.0475296700602827,
+     "free_cash_flow": -6554.845
     }
    ],
    "summary": {
@@ -14044,11 +14044,11 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.0705082301986682,
     "margin_volatility": 0.012609524300023513,
-    "roe_ttm": 0.08159970591056105,
-    "net_debt_to_equity": 1.8147066509362655,
-    "net_debt_trend": 2.7724452516808977,
-    "latest_equity_million": 28199.323,
-    "history_score": 69,
+    "roe_ttm": 0.05812418097454303,
+    "net_debt_to_equity": 2.03007348968098,
+    "net_debt_trend": 2.22010199179472,
+    "latest_equity_million": 28715.324,
+    "history_score": 62,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -14077,13 +14077,13 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 1,
-      "value": "8.2%"
+      "pts": 0,
+      "value": "5.8%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+277.2%"
+      "value": "+222.0%"
      },
      {
       "label": "FCL anual positivo",
@@ -14095,9 +14095,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.25,
-    "free_cash_flow_ttm_million": 2796.509,
+    "free_cash_flow_ttm_million": -4443.094,
     "normalized_free_cash_flow_million": -4353.15,
-    "ttm_net_income_million": 2404.406,
+    "ttm_net_income_million": 1767.7779999999998,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -15007,23 +15007,6 @@
    "company_name": "HAPVIDA PARTICIPACOES E INVESTIMENTOS SA",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 2402.443,
-     "ebit": 84.036,
-     "net_income": 104.61,
-     "operating_cash_flow": -262.676,
-     "investing_cash_flow": -1345.448,
-     "assets": 17305.814,
-     "cash": 226.616,
-     "current_assets": 3749.082,
-     "current_liabilities": 2653.804,
-     "equity": 10665.409,
-     "gross_debt": 2094.622,
-     "net_debt": 1868.006,
-     "net_margin": 0.04354317667474317,
-     "free_cash_flow": -1608.124
-    },
-    {
      "date": "2021-09-30",
      "revenue": 2558.882,
      "ebit": 53.169,
@@ -15345,20 +15328,37 @@
      "net_debt": 12384.805,
      "net_margin": -0.07235288792192918,
      "free_cash_flow": 230.339
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1218.855,
+     "ebit": 369.542,
+     "net_income": -75.83,
+     "operating_cash_flow": 343.897,
+     "investing_cash_flow": 765.48,
+     "assets": 72799.736,
+     "cash": 1001.996,
+     "current_assets": 10957.434,
+     "current_liabilities": 5971.886,
+     "equity": 48063.476,
+     "gross_debt": 12911.686,
+     "net_debt": 11909.69,
+     "net_margin": -0.06221412719314438,
+     "free_cash_flow": 1109.377
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.35,
+    "profitable_quarters_ratio": 0.3,
     "revenue_cagr": 0.09962384207303487,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": -0.02486645148498768,
     "margin_volatility": 0.010579691754903786,
-    "roe_ttm": -0.008838700315834844,
-    "net_debt_to_equity": 0.257192965689669,
-    "net_debt_trend": 5.629959968008668,
-    "latest_equity_million": 48153.747,
+    "roe_ttm": -0.003582041303895899,
+    "net_debt_to_equity": 0.24779085890500305,
+    "net_debt_trend": 6.65433265143087,
+    "latest_equity_million": 48063.476,
     "history_score": 62,
     "breakdown": [
      {
@@ -15369,7 +15369,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "35%"
+      "value": "30%"
      },
      {
       "label": "CAGR da receita",
@@ -15389,12 +15389,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-0.9%"
+      "value": "-0.4%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+563.0%"
+      "value": "+665.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -15408,9 +15408,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 3588.947,
+    "free_cash_flow_ttm_million": 3757.652,
     "normalized_free_cash_flow_million": 1457.034,
-    "ttm_net_income_million": -428.764,
+    "ttm_net_income_million": -173.083,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -16320,23 +16320,6 @@
    "company_name": "ITAUSA S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 1974.0,
-     "ebit": 4180.0,
-     "net_income": 3966.0,
-     "operating_cash_flow": 256.0,
-     "investing_cash_flow": -2.0,
-     "assets": 79276.0,
-     "cash": 5067.0,
-     "current_assets": 10448.0,
-     "current_liabilities": 4838.0,
-     "equity": 64688.0,
-     "gross_debt": 8088.0,
-     "net_debt": 3021.0,
-     "net_margin": 2.0091185410334345,
-     "free_cash_flow": 254.0
-    },
-    {
      "date": "2021-09-30",
      "revenue": 2177.0,
      "ebit": 2848.0,
@@ -16658,6 +16641,23 @@
      "net_debt": 6190.0,
      "net_margin": 2.2100049529470036,
      "free_cash_flow": 1110.0
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 2231.0,
+     "ebit": 4975.0,
+     "net_income": 5264.0,
+     "operating_cash_flow": 417.0,
+     "investing_cash_flow": 152.0,
+     "assets": 119772.0,
+     "cash": 4709.0,
+     "current_assets": 15055.0,
+     "current_liabilities": 7530.0,
+     "equity": 98582.0,
+     "gross_debt": 10618.0,
+     "net_debt": 5909.0,
+     "net_margin": 2.3594800537875393,
+     "free_cash_flow": 569.0
     }
    ],
    "summary": {
@@ -16668,10 +16668,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 1.8505200126219172,
     "margin_volatility": 0.12357702961392673,
-    "roe_ttm": 0.18400314996305267,
-    "net_debt_to_equity": 0.06518671412624528,
-    "net_debt_trend": 1.048990400529626,
-    "latest_equity_million": 94958.0,
+    "roe_ttm": 0.18925008046346958,
+    "net_debt_to_equity": 0.059939948469294596,
+    "net_debt_trend": 0.04233550890809667,
+    "latest_equity_million": 98582.0,
     "history_score": 58,
     "breakdown": [
      {
@@ -16702,16 +16702,16 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "18.4%"
+      "value": "18.9%"
      }
     ],
     "vetos": [],
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 11993.0,
+    "free_cash_flow_ttm_million": 12506.0,
     "normalized_free_cash_flow_million": 7002.0,
-    "ttm_net_income_million": 17057.0,
+    "ttm_net_income_million": 18228.0,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -17327,31 +17327,48 @@
      "net_debt": 94315.531,
      "net_margin": 0.011180237892866195,
      "free_cash_flow": -6854.709
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 120647.879,
+     "ebit": 2390.229,
+     "net_income": -485.496,
+     "operating_cash_flow": 4301.261,
+     "investing_cash_flow": -3096.85,
+     "assets": 237286.921,
+     "cash": 17958.245,
+     "current_assets": 91919.696,
+     "current_liabilities": 59958.559,
+     "equity": 46895.131,
+     "gross_debt": 117253.55,
+     "net_debt": 99295.305,
+     "net_margin": -0.004024074057696447,
+     "free_cash_flow": 1204.411
     }
    ],
    "summary": {
-    "quarters_count": 10,
+    "quarters_count": 11,
     "years_count": 2,
-    "profitable_quarters_ratio": 0.9,
+    "profitable_quarters_ratio": 0.8181818181818182,
     "revenue_cagr": null,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.025956186090767365,
     "margin_volatility": null,
-    "roe_ttm": 0.4403745600616934,
-    "net_debt_to_equity": 1.9943488445920314,
+    "roe_ttm": 0.1364012251952359,
+    "net_debt_to_equity": 2.117390502651544,
     "net_debt_trend": null,
-    "latest_equity_million": 47291.391,
-    "history_score": 90,
+    "latest_equity_million": 46895.131,
+    "history_score": 70,
     "breakdown": [
      {
       "label": "Cobertura histórica",
       "pts": 1,
-      "value": "10 tri"
+      "value": "11 tri"
      },
      {
       "label": "Lucros trimestrais positivos",
-      "pts": 2,
-      "value": "90%"
+      "pts": 1,
+      "value": "82%"
      },
      {
       "label": "Anos com receita crescente",
@@ -17360,8 +17377,8 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 2,
-      "value": "44.0%"
+      "pts": 1,
+      "value": "13.6%"
      },
      {
       "label": "FCL anual positivo",
@@ -17370,12 +17387,12 @@
      }
     ],
     "vetos": [],
-    "cashflow_quarters_count": 10,
+    "cashflow_quarters_count": 11,
     "free_cash_flow_years_count": 2,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": -4401.507,
+    "free_cash_flow_ttm_million": 2485.1720000000005,
     "normalized_free_cash_flow_million": 2051.214,
-    "ttm_net_income_million": 13019.335,
+    "ttm_net_income_million": 6639.576999999999,
     "annual_cash_flow": [
      {
       "year": 2024,
@@ -18710,23 +18727,6 @@
    "company_name": "MARFRIG GLOBAL FOODS S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 20573.673,
-     "ebit": 3450.708,
-     "net_income": 2376.401,
-     "operating_cash_flow": 3043.376,
-     "investing_cash_flow": -2631.577,
-     "assets": 43706.572,
-     "cash": 1611.197,
-     "current_assets": 22111.036,
-     "current_liabilities": 16650.372,
-     "equity": 5868.878,
-     "gross_debt": 28500.121,
-     "net_debt": 26888.924,
-     "net_margin": 0.11550689077249357,
-     "free_cash_flow": 411.799
-    },
-    {
      "date": "2021-09-30",
      "revenue": 23637.794,
      "ebit": 4269.902,
@@ -19048,6 +19048,23 @@
      "net_debt": 68842.438,
      "net_margin": -0.0007407031151504774,
      "free_cash_flow": 1177.691
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 40720.032,
+     "ebit": 1393.653,
+     "net_income": 40.772,
+     "operating_cash_flow": 2168.515,
+     "investing_cash_flow": 262.376,
+     "assets": 139184.871,
+     "cash": 5505.329,
+     "current_assets": 52582.456,
+     "current_liabilities": 49888.853,
+     "equity": 13786.34,
+     "gross_debt": 73786.253,
+     "net_debt": 68280.924,
+     "net_margin": 0.0010012762268949101,
+     "free_cash_flow": 2430.891
     }
    ],
    "summary": {
@@ -19058,10 +19075,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.012901195771890727,
     "margin_volatility": 0.02091004321433557,
-    "roe_ttm": 0.018121228668028785,
-    "net_debt_to_equity": 4.905322085979185,
-    "net_debt_trend": 1.5602526155379068,
-    "latest_equity_million": 14034.234,
+    "roe_ttm": 0.009062502070470236,
+    "net_debt_to_equity": 4.952795593319184,
+    "net_debt_trend": 1.5300354833786365,
+    "latest_equity_million": 13786.34,
     "history_score": 62,
     "breakdown": [
      {
@@ -19092,12 +19109,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "1.8%"
+      "value": "0.9%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+156.0%"
+      "value": "+153.0%"
      },
      {
       "label": "FCL anual positivo",
@@ -19109,9 +19126,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 1466.2559999999999,
+    "free_cash_flow_ttm_million": 4854.445,
     "normalized_free_cash_flow_million": 6226.014,
-    "ttm_net_income_million": 308.832,
+    "ttm_net_income_million": 152.512,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -19146,23 +19163,6 @@
    "cnpj": "8343492000120",
    "company_name": "MRV ENGENHARIA E PARTICIPACOES S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 1816.499,
-     "ebit": 226.112,
-     "net_income": 225.452,
-     "operating_cash_flow": -89.195,
-     "investing_cash_flow": -312.811,
-     "assets": 19126.056,
-     "cash": 1142.278,
-     "current_assets": 9172.264,
-     "current_liabilities": 4059.035,
-     "equity": 6148.404,
-     "gross_debt": 4872.052,
-     "net_debt": 3729.774,
-     "net_margin": 0.12411347322514353,
-     "free_cash_flow": -402.006
-    },
     {
      "date": "2021-09-30",
      "revenue": 1800.098,
@@ -19485,20 +19485,37 @@
      "net_debt": 7931.289,
      "net_margin": -0.027470673010596868,
      "free_cash_flow": 800.227
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 2999.518,
+     "ebit": -182.238,
+     "net_income": -645.762,
+     "operating_cash_flow": 346.789,
+     "investing_cash_flow": -550.012,
+     "assets": 28349.797,
+     "cash": 438.286,
+     "current_assets": 16164.499,
+     "current_liabilities": 8547.337,
+     "equity": 5201.564,
+     "gross_debt": 8646.395,
+     "net_debt": 8208.109,
+     "net_margin": -0.21528858970007847,
+     "free_cash_flow": -203.223
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.5,
+    "profitable_quarters_ratio": 0.45,
     "revenue_cagr": 0.17956105859500293,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": -0.03604582511725711,
     "margin_volatility": 0.03576036573225277,
-    "roe_ttm": -0.11789462263578875,
-    "net_debt_to_equity": 1.3488052259153676,
-    "net_debt_trend": 1.1264797813486822,
-    "latest_equity_million": 5880.233,
+    "roe_ttm": -0.10038950753503223,
+    "net_debt_to_equity": 1.5780078837826468,
+    "net_debt_trend": 1.1918462160445926,
+    "latest_equity_million": 5201.564,
     "history_score": 50,
     "breakdown": [
      {
@@ -19509,7 +19526,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "50%"
+      "value": "45%"
      },
      {
       "label": "CAGR da receita",
@@ -19529,12 +19546,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-11.8%"
+      "value": "-10.0%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+112.6%"
+      "value": "+119.2%"
      },
      {
       "label": "FCL anual positivo",
@@ -19542,13 +19559,15 @@
       "value": "25%"
      }
     ],
-    "vetos": [],
+    "vetos": [
+     "Prejuízo recorrente em mais da metade dos trimestres"
+    ],
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.25,
-    "free_cash_flow_ttm_million": 1692.405,
+    "free_cash_flow_ttm_million": 904.217,
     "normalized_free_cash_flow_million": -1285.875,
-    "ttm_net_income_million": -756.292,
+    "ttm_net_income_million": -563.6909999999999,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -22635,23 +22654,6 @@
    "company_name": "RUMO S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 2215.893,
-     "ebit": 740.442,
-     "net_income": 314.387,
-     "operating_cash_flow": 1272.715,
-     "investing_cash_flow": -858.075,
-     "assets": 42718.6,
-     "cash": 4794.875,
-     "current_assets": 8035.691,
-     "current_liabilities": 3765.125,
-     "equity": 15764.907,
-     "gross_debt": 16187.565,
-     "net_debt": 11392.69,
-     "net_margin": 0.14187824051071057,
-     "free_cash_flow": 414.64
-    },
-    {
      "date": "2021-09-30",
      "revenue": 1965.57,
      "ebit": 436.344,
@@ -22973,6 +22975,23 @@
      "net_debt": 17466.467,
      "net_margin": 0.02977299780062962,
      "free_cash_flow": -366.835
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 3940.275,
+     "ebit": 1566.524,
+     "net_income": 519.758,
+     "operating_cash_flow": 2183.256,
+     "investing_cash_flow": -1456.691,
+     "assets": 55135.865,
+     "cash": 5455.578,
+     "current_assets": 8005.544,
+     "current_liabilities": 6116.856,
+     "equity": 14686.691,
+     "gross_debt": 22909.847,
+     "net_debt": 17454.269,
+     "net_margin": 0.13190906726053386,
+     "free_cash_flow": 726.565
     }
    ],
    "summary": {
@@ -22983,11 +23002,11 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.05735191649866275,
     "margin_volatility": 0.055806032939934413,
-    "roe_ttm": 0.07333799525977902,
-    "net_debt_to_equity": 1.238529021973978,
-    "net_debt_trend": 0.5331293136212781,
-    "latest_equity_million": 14102.59,
-    "history_score": 56,
+    "roe_ttm": 0.08810059548422314,
+    "net_debt_to_equity": 1.1884412220560778,
+    "net_debt_trend": 0.5200693260764073,
+    "latest_equity_million": 14686.691,
+    "history_score": 62,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -23016,13 +23035,13 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 0,
-      "value": "7.3%"
+      "pts": 1,
+      "value": "8.8%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+53.3%"
+      "value": "+52.0%"
      },
      {
       "label": "FCL anual positivo",
@@ -23034,9 +23053,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 1648.72,
+    "free_cash_flow_ttm_million": 1793.1680000000001,
     "normalized_free_cash_flow_million": 1590.151,
-    "ttm_net_income_million": 1060.0249999999999,
+    "ttm_net_income_million": 1246.527,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -23071,23 +23090,6 @@
    "cnpj": "33453598000123",
    "company_name": "RAIZEN S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 34046.663,
-     "ebit": 1554.122,
-     "net_income": 780.317,
-     "operating_cash_flow": 708.193,
-     "investing_cash_flow": 1926.889,
-     "assets": 75284.557,
-     "cash": 4802.559,
-     "current_assets": 33249.348,
-     "current_liabilities": 31584.515,
-     "equity": 10443.032,
-     "gross_debt": 30052.286,
-     "net_debt": 25249.727,
-     "net_margin": 0.022919044958972925,
-     "free_cash_flow": 2635.082
-    },
     {
      "date": "2021-09-30",
      "revenue": 48340.223,
@@ -23410,20 +23412,37 @@
      "net_debt": 62389.941,
      "net_margin": -0.14288281734264544,
      "free_cash_flow": 2499.035
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 51459.71,
+     "ebit": 2138.076,
+     "net_income": -1641.604,
+     "operating_cash_flow": 4393.393,
+     "investing_cash_flow": -786.634,
+     "assets": 95654.603,
+     "cash": 13921.231,
+     "current_assets": 33248.487,
+     "current_liabilities": 93169.664,
+     "equity": -10603.231,
+     "gross_debt": 74057.521,
+     "net_debt": 60136.29,
+     "net_margin": -0.0319007627520637,
+     "free_cash_flow": 3606.759
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.55,
+    "profitable_quarters_ratio": 0.5,
     "revenue_cagr": -0.016802332441272494,
     "positive_revenue_years_ratio": 0.3333333333333333,
     "median_net_margin": -0.00473908616767221,
     "margin_volatility": 0.04416334402400681,
-    "roe_ttm": -5.481312100088962,
-    "net_debt_to_equity": -7.539582665154962,
-    "net_debt_trend": 1.4709154677197105,
-    "latest_equity_million": -8274.986,
+    "roe_ttm": -8.65020291962738,
+    "net_debt_to_equity": -5.671506166375136,
+    "net_debt_trend": 0.9577461455268097,
+    "latest_equity_million": -10603.231,
     "history_score": 25,
     "breakdown": [
      {
@@ -23434,7 +23453,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 0,
-      "value": "55%"
+      "value": "50%"
      },
      {
       "label": "CAGR da receita",
@@ -23454,12 +23473,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "-548.1%"
+      "value": "-865.0%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+147.1%"
+      "value": "+95.8%"
      },
      {
       "label": "FCL anual positivo",
@@ -23473,9 +23492,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": -7843.898,
+    "free_cash_flow_ttm_million": 7258.094,
     "normalized_free_cash_flow_million": 1267.7820000000015,
-    "ttm_net_income_million": -27135.104,
+    "ttm_net_income_million": -26932.822,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -23510,23 +23529,6 @@
    "cnpj": "6047087000139",
    "company_name": "REDE DOR SÃO LUIZ S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 5218.686,
-     "ebit": 943.737,
-     "net_income": 477.736,
-     "operating_cash_flow": -474.474,
-     "investing_cash_flow": -2580.744,
-     "assets": 49243.455,
-     "cash": 96.524,
-     "current_assets": 23130.67,
-     "current_liabilities": 4535.116,
-     "equity": 16326.332,
-     "gross_debt": 24152.581,
-     "net_debt": 24056.057,
-     "net_margin": 0.09154335018431843,
-     "free_cash_flow": -3055.218
-    },
     {
      "date": "2021-09-30",
      "revenue": 5307.919,
@@ -23849,6 +23851,23 @@
      "net_debt": 43111.032,
      "net_margin": 0.0703132135961796,
      "free_cash_flow": 599.655
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 14658.396,
+     "ebit": 2806.546,
+     "net_income": 1289.606,
+     "operating_cash_flow": 1205.213,
+     "investing_cash_flow": -4569.553,
+     "assets": 113232.658,
+     "cash": 3014.917,
+     "current_assets": 57326.317,
+     "current_liabilities": 19731.847,
+     "equity": 22938.044,
+     "gross_debt": 50939.017,
+     "net_debt": 47924.1,
+     "net_margin": 0.08797729301350571,
+     "free_cash_flow": -3364.34
     }
    ],
    "summary": {
@@ -23859,10 +23878,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.06635345961135723,
     "margin_volatility": 0.01674599013556459,
-    "roe_ttm": 0.19188162806916523,
-    "net_debt_to_equity": 1.9301394878550526,
-    "net_debt_trend": 0.7921071603712944,
-    "latest_equity_million": 22335.708,
+    "roe_ttm": 0.19779159369988808,
+    "net_debt_to_equity": 2.089284509176109,
+    "net_debt_trend": 0.7929505584177831,
+    "latest_equity_million": 22938.044,
     "history_score": 81,
     "breakdown": [
      {
@@ -23893,12 +23912,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "19.2%"
+      "value": "19.8%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+79.2%"
+      "value": "+79.3%"
      },
      {
       "label": "FCL anual positivo",
@@ -23910,9 +23929,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.5,
-    "free_cash_flow_ttm_million": -4302.478,
+    "free_cash_flow_ttm_million": -5623.7119999999995,
     "normalized_free_cash_flow_million": 2146.313,
-    "ttm_net_income_million": 4785.275,
+    "ttm_net_income_million": 5027.12,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -25424,26 +25443,43 @@
      "net_debt": 48102.385,
      "net_margin": 0.17552019389770554,
      "free_cash_flow": -12011.827
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 10208.902,
+     "ebit": 3167.463,
+     "net_income": 1464.433,
+     "operating_cash_flow": 3366.064,
+     "investing_cash_flow": -562.741,
+     "assets": 119606.768,
+     "cash": 4243.477,
+     "current_assets": 23894.391,
+     "current_liabilities": 16245.048,
+     "equity": 45310.286,
+     "gross_debt": 51657.802,
+     "net_debt": 47414.325,
+     "net_margin": 0.14344667036670544,
+     "free_cash_flow": 2803.323
     }
    ],
    "summary": {
-    "quarters_count": 11,
+    "quarters_count": 12,
     "years_count": 2,
     "profitable_quarters_ratio": 1.0,
     "revenue_cagr": 0.05385384732922471,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.2435878132482065,
     "margin_volatility": 0.021440173517606576,
-    "roe_ttm": 0.21232769426702322,
-    "net_debt_to_equity": 1.0976259026869395,
-    "net_debt_trend": 1.7630457110897013,
-    "latest_equity_million": 43824.025,
+    "roe_ttm": 0.18791967158026057,
+    "net_debt_to_equity": 1.0464362330443024,
+    "net_debt_trend": 1.7235229050589318,
+    "latest_equity_million": 45310.286,
     "history_score": 62,
     "breakdown": [
      {
       "label": "Cobertura histórica",
       "pts": 1,
-      "value": "11 tri"
+      "value": "12 tri"
      },
      {
       "label": "Lucros trimestrais positivos",
@@ -25468,12 +25504,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "21.2%"
+      "value": "18.8%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+176.3%"
+      "value": "+172.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -25482,12 +25518,12 @@
      }
     ],
     "vetos": [],
-    "cashflow_quarters_count": 11,
+    "cashflow_quarters_count": 12,
     "free_cash_flow_years_count": 2,
     "positive_free_cash_flow_years_ratio": 0.0,
-    "free_cash_flow_ttm_million": -18980.715,
+    "free_cash_flow_ttm_million": -16324.948,
     "normalized_free_cash_flow_million": -4956.7905,
-    "ttm_net_income_million": 8728.998,
+    "ttm_net_income_million": 8057.469999999999,
     "annual_cash_flow": [
      {
       "year": 2024,
@@ -25510,23 +25546,6 @@
    "cnpj": "89096457000155",
    "company_name": "SLC AGRICOLA S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 1687.896,
-     "ebit": 719.891,
-     "net_income": 447.24,
-     "operating_cash_flow": 38.948,
-     "investing_cash_flow": -110.673,
-     "assets": 10248.415,
-     "cash": 1270.308,
-     "current_assets": 4723.424,
-     "current_liabilities": 2546.371,
-     "equity": 3976.833,
-     "gross_debt": 2687.338,
-     "net_debt": 1417.03,
-     "net_margin": 0.2649689317351306,
-     "free_cash_flow": -71.725
-    },
     {
      "date": "2021-09-30",
      "revenue": 1143.493,
@@ -25849,6 +25868,23 @@
      "net_debt": 6346.758,
      "net_margin": 0.08858382278282476,
      "free_cash_flow": -1316.244
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 2765.644,
+     "ebit": 677.429,
+     "net_income": 245.069,
+     "operating_cash_flow": -57.224,
+     "investing_cash_flow": -372.261,
+     "assets": 19986.941,
+     "cash": 924.266,
+     "current_assets": 8663.265,
+     "current_liabilities": 3937.939,
+     "equity": 6096.702,
+     "gross_debt": 8212.449,
+     "net_debt": 7288.183,
+     "net_margin": 0.08861191100517637,
+     "free_cash_flow": -429.485
     }
    ],
    "summary": {
@@ -25859,10 +25895,10 @@
     "positive_revenue_years_ratio": 0.3333333333333333,
     "median_net_margin": 0.0822776955453193,
     "margin_volatility": 0.03328576143956564,
-    "roe_ttm": 0.0525273102427306,
-    "net_debt_to_equity": 1.0631500358389196,
-    "net_debt_trend": 3.478915760428502,
-    "latest_equity_million": 5969.767,
+    "roe_ttm": 0.0697471064546121,
+    "net_debt_to_equity": 1.1954304146733759,
+    "net_debt_trend": 2.2498142818795297,
+    "latest_equity_million": 6096.702,
     "history_score": 44,
     "breakdown": [
      {
@@ -25893,12 +25929,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 0,
-      "value": "5.3%"
+      "value": "7.0%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+347.9%"
+      "value": "+225.0%"
      },
      {
       "label": "FCL anual positivo",
@@ -25910,9 +25946,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": -230.80299999999988,
+    "free_cash_flow_ttm_million": -497.0039999999999,
     "normalized_free_cash_flow_million": 637.018,
-    "ttm_net_income_million": 290.59499999999997,
+    "ttm_net_income_million": 395.827,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -26385,23 +26421,6 @@
    "company_name": "SANTOS BRASIL PARTICIPACOES S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 379.547,
-     "ebit": 101.569,
-     "net_income": 60.398,
-     "operating_cash_flow": 96.304,
-     "investing_cash_flow": -54.931,
-     "assets": 4520.069,
-     "cash": 668.041,
-     "current_assets": 1322.324,
-     "current_liabilities": 403.051,
-     "equity": 2192.349,
-     "gross_debt": 410.71,
-     "net_debt": -257.331,
-     "net_margin": 0.15913180712797098,
-     "free_cash_flow": 41.373
-    },
-    {
      "date": "2021-09-30",
      "revenue": 396.561,
      "ebit": 103.66,
@@ -26723,6 +26742,23 @@
      "net_debt": 2212.124,
      "net_margin": 0.265074398829489,
      "free_cash_flow": 307.107
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1075.616,
+     "ebit": 565.56,
+     "net_income": 304.28,
+     "operating_cash_flow": 571.082,
+     "investing_cash_flow": -52.615,
+     "assets": 5970.121,
+     "cash": 809.088,
+     "current_assets": 1315.77,
+     "current_liabilities": 933.475,
+     "equity": 1220.383,
+     "gross_debt": 2666.505,
+     "net_debt": 1857.417,
+     "net_margin": 0.2828890607800553,
+     "free_cash_flow": 518.467
     }
    ],
    "summary": {
@@ -26733,10 +26769,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.23825763621877225,
     "margin_volatility": 0.011860690233132033,
-    "roe_ttm": 1.2169365015720226,
-    "net_debt_to_equity": 2.4147136454237628,
-    "net_debt_trend": 9.59641473433049,
-    "latest_equity_million": 916.102,
+    "roe_ttm": 1.0268252442165484,
+    "net_debt_to_equity": 1.52199514414737,
+    "net_debt_trend": 7.130959179025406,
+    "latest_equity_million": 1220.383,
     "history_score": 88,
     "breakdown": [
      {
@@ -26767,12 +26803,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "121.7%"
+      "value": "102.7%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+959.6%"
+      "value": "+713.1%"
      },
      {
       "label": "FCL anual positivo",
@@ -26784,9 +26820,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 1153.211,
+    "free_cash_flow_ttm_million": 1382.881,
     "normalized_free_cash_flow_million": 694.709,
-    "ttm_net_income_million": 927.204,
+    "ttm_net_income_million": 1038.108,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -26821,23 +26857,6 @@
    "cnpj": "16404287000155",
    "company_name": "SUZANO S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 9844.439,
-     "ebit": 5206.487,
-     "net_income": 10036.699,
-     "operating_cash_flow": 4962.68,
-     "investing_cash_flow": 239.449,
-     "assets": 103307.588,
-     "cash": 8585.57,
-     "current_assets": 21799.292,
-     "current_liabilities": 7378.131,
-     "equity": 14587.492,
-     "gross_debt": 68476.998,
-     "net_debt": 59891.428,
-     "net_margin": 1.0195298076406385,
-     "free_cash_flow": 5202.129
-    },
     {
      "date": "2021-09-30",
      "revenue": 10761.855,
@@ -27160,6 +27179,23 @@
      "net_debt": 78559.598,
      "net_margin": 0.3931279594063537,
      "free_cash_flow": -317.503
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 11590.133,
+     "ebit": 2788.631,
+     "net_income": 1807.466,
+     "operating_cash_flow": 4368.576,
+     "investing_cash_flow": -1937.629,
+     "assets": 171045.775,
+     "cash": 16645.571,
+     "current_assets": 46860.1,
+     "current_liabilities": 13871.91,
+     "equity": 49851.513,
+     "gross_debt": 92706.122,
+     "net_debt": 76060.551,
+     "net_margin": 0.15594868497194983,
+     "free_cash_flow": 2430.947
     }
    ],
    "summary": {
@@ -27170,10 +27206,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.31148056811599006,
     "margin_volatility": 0.2332350851804778,
-    "roe_ttm": 0.26295464455013956,
-    "net_debt_to_equity": 1.6304513332795518,
-    "net_debt_trend": 0.3117001985659784,
-    "latest_equity_million": 48182.731,
+    "roe_ttm": 0.17604735715794165,
+    "net_debt_to_equity": 1.5257420772765715,
+    "net_debt_trend": 0.19430700304301143,
+    "latest_equity_million": 49851.513,
     "history_score": 50,
     "breakdown": [
      {
@@ -27204,12 +27240,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "26.3%"
+      "value": "17.6%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+31.2%"
+      "value": "+19.4%"
      },
      {
       "label": "FCL anual positivo",
@@ -27221,9 +27257,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": 260.05200000000013,
+    "free_cash_flow_ttm_million": 3207.376,
     "normalized_free_cash_flow_million": 91.68600000000009,
-    "ttm_net_income_million": 11401.5,
+    "ttm_net_income_million": 8197.012999999999,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -27258,23 +27294,6 @@
    "cnpj": "7859971000130",
    "company_name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 904.321,
-     "ebit": 1015.049,
-     "net_income": 697.895,
-     "operating_cash_flow": 495.686,
-     "investing_cash_flow": -8.765,
-     "assets": 15184.963,
-     "cash": 719.541,
-     "current_assets": 2252.478,
-     "current_liabilities": 1120.353,
-     "equity": 6378.766,
-     "gross_debt": 6801.995,
-     "net_debt": 6082.454,
-     "net_margin": 0.7717337096009049,
-     "free_cash_flow": 486.921
-    },
     {
      "date": "2021-09-30",
      "revenue": 942.321,
@@ -27597,6 +27616,23 @@
      "net_debt": 10591.84,
      "net_margin": 0.34091158852233666,
      "free_cash_flow": 301.127
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1067.649,
+     "ebit": 997.184,
+     "net_income": 567.144,
+     "operating_cash_flow": 534.474,
+     "investing_cash_flow": 176.45,
+     "assets": 22700.882,
+     "cash": 208.359,
+     "current_assets": 2987.699,
+     "current_liabilities": 858.768,
+     "equity": 8070.915,
+     "gross_debt": 10957.895,
+     "net_debt": 10749.536,
+     "net_margin": 0.531208290365092,
+     "free_cash_flow": 710.924
     }
    ],
    "summary": {
@@ -27607,10 +27643,10 @@
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.43120938605488157,
     "margin_volatility": 0.07742662832253129,
-    "roe_ttm": 0.20558855246453908,
-    "net_debt_to_equity": 1.3307650720655602,
-    "net_debt_trend": 0.7413760958981359,
-    "latest_equity_million": 7959.211,
+    "roe_ttm": 0.2072873390093133,
+    "net_debt_to_equity": 1.331885665999456,
+    "net_debt_trend": 0.7817236326255469,
+    "latest_equity_million": 8070.915,
     "history_score": 81,
     "breakdown": [
      {
@@ -27641,12 +27677,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "20.6%"
+      "value": "20.7%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+74.1%"
+      "value": "+78.2%"
      },
      {
       "label": "FCL anual positivo",
@@ -27658,9 +27694,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 1681.921,
+    "free_cash_flow_ttm_million": 1775.4379999999999,
     "normalized_free_cash_flow_million": 920.0619999999999,
-    "ttm_net_income_million": 1568.348,
+    "ttm_net_income_million": 1625.473,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -28514,23 +28550,6 @@
    "company_name": "ULTRAPAR PARTICIPACOES S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 28526.054,
-     "ebit": 39.366,
-     "net_income": -18.243,
-     "operating_cash_flow": 1149.648,
-     "investing_cash_flow": -442.275,
-     "assets": 35973.179,
-     "cash": 2860.287,
-     "current_assets": 17681.461,
-     "current_liabilities": 10053.056,
-     "equity": 10048.817,
-     "gross_debt": 17901.349,
-     "net_debt": 15041.062,
-     "net_margin": -0.0006395206291062899,
-     "free_cash_flow": 707.373
-    },
-    {
      "date": "2021-09-30",
      "revenue": 31911.126,
      "ebit": 562.279,
@@ -28852,21 +28871,38 @@
      "net_debt": 17261.532,
      "net_margin": 0.024873984975335748,
      "free_cash_flow": 1560.206
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 41521.247,
+     "ebit": 2990.76,
+     "net_income": 1677.238,
+     "operating_cash_flow": 4788.843,
+     "investing_cash_flow": -1537.952,
+     "assets": 51772.124,
+     "cash": 4644.834,
+     "current_assets": 23471.922,
+     "current_liabilities": 14280.918,
+     "equity": 20026.383,
+     "gross_debt": 19563.366,
+     "net_debt": 14918.532,
+     "net_margin": 0.04039469238484095,
+     "free_cash_flow": 3250.891
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.95,
+    "profitable_quarters_ratio": 1.0,
     "revenue_cagr": -0.002944740710881466,
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.018387524976094916,
     "margin_volatility": 0.0027480733041895943,
-    "roe_ttm": 0.1798175395708156,
-    "net_debt_to_equity": 0.9325607704450934,
-    "net_debt_trend": 0.14762720877023175,
-    "latest_equity_million": 18509.82,
-    "history_score": 62,
+    "roe_ttm": 0.18841151843863405,
+    "net_debt_to_equity": 0.744943907244758,
+    "net_debt_trend": -0.031173564281335414,
+    "latest_equity_million": 20026.383,
+    "history_score": 69,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -28876,7 +28912,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 2,
-      "value": "95%"
+      "value": "100%"
      },
      {
       "label": "CAGR da receita",
@@ -28896,12 +28932,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 2,
-      "value": "18.0%"
+      "value": "18.8%"
      },
      {
       "label": "Tendência da dívida líquida",
-      "pts": 0,
-      "value": "+14.8%"
+      "pts": 1,
+      "value": "-3.1%"
      },
      {
       "label": "FCL anual positivo",
@@ -28913,9 +28949,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": 3336.705,
+    "free_cash_flow_ttm_million": 5265.645,
     "normalized_free_cash_flow_million": 2606.79,
-    "ttm_net_income_million": 3092.882,
+    "ttm_net_income_million": 3619.588,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -29825,23 +29861,6 @@
    "company_name": "VAMOS LOCAÇÃO DE CAMINHÕES. MÁQUINAS E EQUIP. S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 665.582,
-     "ebit": 174.52,
-     "net_income": 100.031,
-     "operating_cash_flow": 110.927,
-     "investing_cash_flow": -40.081,
-     "assets": 5105.363,
-     "cash": 38.62,
-     "current_assets": 1182.643,
-     "current_liabilities": 1024.606,
-     "equity": 1536.957,
-     "gross_debt": 2395.301,
-     "net_debt": 2356.681,
-     "net_margin": 0.15029102349522674,
-     "free_cash_flow": 70.846
-    },
-    {
      "date": "2021-09-30",
      "revenue": 830.269,
      "ebit": 211.626,
@@ -30163,6 +30182,23 @@
      "net_debt": 16466.114,
      "net_margin": 0.053470675002622994,
      "free_cash_flow": 229.461
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1564.305,
+     "ebit": 675.735,
+     "net_income": 101.068,
+     "operating_cash_flow": 886.065,
+     "investing_cash_flow": -24.161,
+     "assets": 22772.802,
+     "cash": 185.221,
+     "current_assets": 6377.759,
+     "current_liabilities": 3816.282,
+     "equity": 3298.473,
+     "gross_debt": 15677.572,
+     "net_debt": 15492.351,
+     "net_margin": 0.06460888381741411,
+     "free_cash_flow": 861.904
     }
    ],
    "summary": {
@@ -30173,10 +30209,10 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.08876125431364495,
     "margin_volatility": 0.02871409001606937,
-    "roe_ttm": 0.12075920709923238,
-    "net_debt_to_equity": 6.321693093254503,
-    "net_debt_trend": 5.98699314841508,
-    "latest_equity_million": 2604.7,
+    "roe_ttm": 0.10700600081623705,
+    "net_debt_to_equity": 4.696825167281951,
+    "net_debt_trend": 3.8818777472150896,
+    "latest_equity_million": 3298.473,
     "history_score": 56,
     "breakdown": [
      {
@@ -30207,12 +30243,12 @@
      {
       "label": "ROE TTM histórico",
       "pts": 1,
-      "value": "12.1%"
+      "value": "10.7%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+598.7%"
+      "value": "+388.2%"
      },
      {
       "label": "FCL anual positivo",
@@ -30224,9 +30260,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.0,
-    "free_cash_flow_ttm_million": 802.119,
+    "free_cash_flow_ttm_million": 2317.3559999999998,
     "normalized_free_cash_flow_million": -928.148,
-    "ttm_net_income_million": 307.51,
+    "ttm_net_income_million": 315.812,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -30261,23 +30297,6 @@
    "cnpj": "34274233000102",
    "company_name": "VIBRA ENERGIA S.A.",
    "quarters": [
-    {
-     "date": "2021-06-30",
-     "revenue": 29023.0,
-     "ebit": 675.0,
-     "net_income": 382.0,
-     "operating_cash_flow": -212.0,
-     "investing_cash_flow": -74.0,
-     "assets": 28564.0,
-     "cash": 2311.0,
-     "current_assets": 14457.0,
-     "current_liabilities": 5570.0,
-     "equity": 11775.0,
-     "gross_debt": 9128.0,
-     "net_debt": 6817.0,
-     "net_margin": 0.013161974985356442,
-     "free_cash_flow": -286.0
-    },
     {
      "date": "2021-09-30",
      "revenue": 35694.0,
@@ -30600,6 +30619,23 @@
      "net_debt": 18152.0,
      "net_margin": 0.03360136655278727,
      "free_cash_flow": 2467.0
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 57299.0,
+     "ebit": 3861.0,
+     "net_income": 2352.0,
+     "operating_cash_flow": 3033.0,
+     "investing_cash_flow": -120.0,
+     "assets": 65837.0,
+     "cash": 5784.0,
+     "current_assets": 28170.0,
+     "current_liabilities": 14025.0,
+     "equity": 23645.0,
+     "gross_debt": 21926.0,
+     "net_debt": 16142.0,
+     "net_margin": 0.041047836785982304,
+     "free_cash_flow": 2913.0
     }
    ],
    "summary": {
@@ -30610,11 +30646,11 @@
     "positive_revenue_years_ratio": 0.6666666666666666,
     "median_net_margin": 0.019857760070774826,
     "margin_volatility": 0.012148386046061384,
-    "roe_ttm": 0.1396195588750146,
-    "net_debt_to_equity": 0.8310974772217389,
-    "net_debt_trend": 1.6627548775121022,
-    "latest_equity_million": 21841.0,
-    "history_score": 62,
+    "roe_ttm": 0.2262080702225805,
+    "net_debt_to_equity": 0.6826813279763163,
+    "net_debt_trend": 0.8431148664078557,
+    "latest_equity_million": 23645.0,
+    "history_score": 69,
     "breakdown": [
      {
       "label": "Cobertura histórica",
@@ -30643,13 +30679,13 @@
      },
      {
       "label": "ROE TTM histórico",
-      "pts": 1,
-      "value": "14.0%"
+      "pts": 2,
+      "value": "22.6%"
      },
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+166.3%"
+      "value": "+84.3%"
      },
      {
       "label": "FCL anual positivo",
@@ -30661,9 +30697,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 0.75,
-    "free_cash_flow_ttm_million": 7425.0,
+    "free_cash_flow_ttm_million": 9789.0,
     "normalized_free_cash_flow_million": 3315.0,
-    "ttm_net_income_million": 2991.0,
+    "ttm_net_income_million": 5051.0,
     "annual_cash_flow": [
      {
       "year": 2022,
@@ -32010,23 +32046,6 @@
    "company_name": "YDUQS PARTICIPACOES S.A.",
    "quarters": [
     {
-     "date": "2021-06-30",
-     "revenue": 1160.644,
-     "ebit": 194.309,
-     "net_income": 116.465,
-     "operating_cash_flow": 160.015,
-     "investing_cash_flow": -91.908,
-     "assets": 9641.205,
-     "cash": 1212.307,
-     "current_assets": 3075.841,
-     "current_liabilities": 1977.231,
-     "equity": 3261.916,
-     "gross_debt": 5101.39,
-     "net_debt": 3889.083,
-     "net_margin": 0.10034515320804657,
-     "free_cash_flow": 68.107
-    },
-    {
      "date": "2021-09-30",
      "revenue": 1098.059,
      "ebit": 165.545,
@@ -32348,20 +32367,37 @@
      "net_debt": 4798.1,
      "net_margin": 0.04340610433345241,
      "free_cash_flow": 306.421
+    },
+    {
+     "date": "2026-06-30",
+     "revenue": 1392.055,
+     "ebit": 197.251,
+     "net_income": -1.451,
+     "operating_cash_flow": 127.712,
+     "investing_cash_flow": 30.927,
+     "assets": 9245.11,
+     "cash": 348.118,
+     "current_assets": 2018.02,
+     "current_liabilities": 1253.14,
+     "equity": 2939.421,
+     "gross_debt": 5042.132,
+     "net_debt": 4694.014,
+     "net_margin": -0.0010423438729073205,
+     "free_cash_flow": 158.639
     }
    ],
    "summary": {
     "quarters_count": 20,
     "years_count": 4,
-    "profitable_quarters_ratio": 0.75,
+    "profitable_quarters_ratio": 0.7,
     "revenue_cagr": 0.06548406729366008,
     "positive_revenue_years_ratio": 1.0,
     "median_net_margin": 0.0313370090597725,
     "margin_volatility": 0.026992912489127215,
-    "roe_ttm": 0.03811652691399583,
-    "net_debt_to_equity": 1.5884382117696914,
-    "net_debt_trend": 0.23373556182781396,
-    "latest_equity_million": 3020.64,
+    "roe_ttm": 0.03751392191183802,
+    "net_debt_to_equity": 1.5969178964156547,
+    "net_debt_trend": 0.1415081675711483,
+    "latest_equity_million": 2939.421,
     "history_score": 62,
     "breakdown": [
      {
@@ -32372,7 +32408,7 @@
      {
       "label": "Lucros trimestrais positivos",
       "pts": 1,
-      "value": "75%"
+      "value": "70%"
      },
      {
       "label": "CAGR da receita",
@@ -32397,7 +32433,7 @@
      {
       "label": "Tendência da dívida líquida",
       "pts": 0,
-      "value": "+23.4%"
+      "value": "+14.2%"
      },
      {
       "label": "FCL anual positivo",
@@ -32409,9 +32445,9 @@
     "cashflow_quarters_count": 20,
     "free_cash_flow_years_count": 4,
     "positive_free_cash_flow_years_ratio": 1.0,
-    "free_cash_flow_ttm_million": 664.757,
+    "free_cash_flow_ttm_million": 664.4449999999999,
     "normalized_free_cash_flow_million": 603.015,
-    "ttm_net_income_million": 116.993,
+    "ttm_net_income_million": 112.432,
     "annual_cash_flow": [
      {
       "year": 2022,
