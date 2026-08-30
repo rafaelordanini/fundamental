@@ -1,16 +1,17 @@
 {
- "data_geracao": "2026-08-29",
+ "data_geracao": "2026-08-30",
  "fonte": "DeepSeek API sobre fatos determinísticos do projeto",
  "modelo_padrao": "deepseek-v4-pro",
  "prompt_version": "deepseek-sector-news-v4",
  "mercado_data": "2026-08-29",
- "historico_data": "2026-08-23",
+ "historico_data": "2026-08-30",
  "total": 76,
- "geradas_nesta_execucao": 73,
+ "geradas_nesta_execucao": 1,
  "erros": [
   "AZUL4: Campo mudancas_desde_anterior.evidencias não contém chave válida",
   "CRFB3: Campo mudancas_desde_anterior.evidencias não contém chave válida",
-  "NTCO3: Campo mudancas_desde_anterior.evidencias não contém chave válida"
+  "NTCO3: Campo mudancas_desde_anterior.evidencias não contém chave válida",
+  "VALE3: Campo mudancas_desde_anterior.evidencias não contém chave válida"
  ],
  "companies": {
   "ABEV3": {
@@ -4605,10 +4606,10 @@
    }
   },
   "BBDC4": {
-   "data_geracao": "2026-08-29",
+   "data_geracao": "2026-08-30",
    "modelo": "deepseek-v4-pro",
    "prompt_version": "deepseek-sector-news-v4",
-   "facts_hash": "39ff079390888ed5120ddff7e0bc42bcec40afa9e7dac1a3e3645220573ff486",
+   "facts_hash": "f32f68afae61b00e62be16b3557890ce84ee644e2da48ef6a92e140b3c18993d",
    "facts": {
     "ticker": "BBDC4",
     "empresa": "BCO BRADESCO S.A.",
@@ -4845,12 +4846,12 @@
       "valor": 0.0911,
       "formatado": "empresa 0.0911 · mediana 0.0769 · 90º percentil"
      },
-     "news_4cd24fb7d82a5ea0": {
-      "rotulo": "Notícia Suno: Bradesco (BBDC4) entra mais forte no novo ciclo, mas BTG mantém cautela; entenda",
+     "news_6c3b87027614d814": {
+      "rotulo": "Notícia Suno: Vale (VALE3) e Bradesco (BBDC4): Veja quem paga dividendos na semana",
       "valor": "neutro",
-      "formatado": "Bradesco reporta lucro líquido recorrente de R$ 7,05 bilhões no 2T26, em linha com expectativas. ROE de 16,2%, carteira de crédito expandida cresce 12% para R$ 1,14 trilhão. BTG mantém recomendação Neutra com preço-alvo de R$ 22, citando ambiente macro desafiador. Destaques: melhora na qualidade da carteira, eficiência operacional e patrimônio tangível, mas leve alta da inadimplência.",
-      "url": "https://www.suno.com.br/noticias/bradesco-bbdc4-btg-analise-2t26-mt/",
-      "data": "2026-08-06"
+      "formatado": "A Vale e o Bradesco são destaque na agenda de pagamento de dividendos da semana. A Vale pagará R$ 1,5687 por ação em 2 de setembro, e o Bradesco pagará R$ 0,0172 por ação em 1 de setembro. Outras empresas como Itaú, BB Seguridade e Ultrapar também pagam dividendos. O texto é informativo e não constitui recomendação.",
+      "url": "https://www.suno.com.br/noticias/a-vale-vale3-o-bradesco-bbdc4-agenda-dividendos-28082026/",
+      "data": "2026-08-30"
      }
     },
     "comparacao_setorial": {
@@ -4978,37 +4979,33 @@
     },
     "contexto_noticioso": [
      {
-      "id": "4cd24fb7d82a5ea0",
-      "titulo": "Bradesco (BBDC4) entra mais forte no novo ciclo, mas BTG mantém cautela; entenda",
-      "data": "2026-08-06",
+      "id": "6c3b87027614d814",
+      "titulo": "Vale (VALE3) e Bradesco (BBDC4): Veja quem paga dividendos na semana",
+      "data": "2026-08-30",
       "fonte": "Suno",
-      "url": "https://www.suno.com.br/noticias/bradesco-bbdc4-btg-analise-2t26-mt/",
-      "resumo": "Bradesco reporta lucro líquido recorrente de R$ 7,05 bilhões no 2T26, em linha com expectativas. ROE de 16,2%, carteira de crédito expandida cresce 12% para R$ 1,14 trilhão. BTG mantém recomendação Neutra com preço-alvo de R$ 22, citando ambiente macro desafiador. Destaques: melhora na qualidade da carteira, eficiência operacional e patrimônio tangível, mas leve alta da inadimplência.",
-      "evento": "resultado",
+      "url": "https://www.suno.com.br/noticias/a-vale-vale3-o-bradesco-bbdc4-agenda-dividendos-28082026/",
+      "resumo": "A Vale e o Bradesco são destaque na agenda de pagamento de dividendos da semana. A Vale pagará R$ 1,5687 por ação em 2 de setembro, e o Bradesco pagará R$ 0,0172 por ação em 1 de setembro. Outras empresas como Itaú, BB Seguridade e Ultrapar também pagam dividendos. O texto é informativo e não constitui recomendação.",
+      "evento": "dividendo",
       "impacto": "neutro",
-      "horizonte": "medio",
-      "intensidade": "media",
+      "horizonte": "curto",
+      "intensidade": "baixa",
       "drivers": [
-       "resultado em linha",
-       "crescimento da carteira com garantias",
-       "melhora de eficiência",
-       "fortalecimento patrimonial"
+       "pagamento de dividendos"
       ],
       "riscos": [
-       "deterioração da inadimplência",
-       "cenário macroeconômico desafiador"
+       "nenhum relevante"
       ],
-      "incerteza": "media"
+      "incerteza": "baixa"
      }
     ]
    },
    "analysis": {
-    "titulo": "BBDC4: valuation segue atrativo com margem de 72,9%, mas qualidade abaixo da mediana e ROE TTM fraco",
-    "resumo": "A ação do Bradesco negocia a R$ 17,08, com margem de segurança de 72,9% sobre o preço justo Graham de R$ 29,53. O dividend yield de 9,1% está no 90º percentil do setor, enquanto a qualidade consolidada fica no 39º percentil. O resultado do 2T26 reportado pela Suno veio em linha, com melhora na carteira e eficiência, mas leve alta da inadimplência e cautela do BTG mantêm incerteza média. A posição combinada entre pares é o 52º percentil, indicando que o desconto compensa parcialmente a qualidade inferior.",
-    "tese": "O Bradesco combina a melhor posição de valuation do setor (77º percentil, P/L de 7,31 no 70º percentil, P/VP de 1,03 no 70º percentil e dividend yield de 9,1% no 90º percentil) com qualidade operacional abaixo da mediana (ROE TTM de 5,6% no 25º percentil, qualidade consolidada no 39º percentil). A posição combinada entre pares é o 52º percentil, indicando que o desconto compensa apenas parcialmente a fraqueza operacional. A notícia do 2T26 destaca avanços em eficiência e expansão da carteira de crédito, mas a cautela do BTG e o cenário macro desafiador mantêm incerteza média sobre a sustentação da recuperação. A realização do valor justo depende de melhora consistente do ROE.",
+    "titulo": "BBDC4: valuation atrativo com dividend yield elevado, mas qualidade abaixo da mediana",
+    "resumo": "O Bradesco negocia a R$ 17,08 com margem de segurança de 72,9% pelo modelo Graham e dividend yield de 9,1%, no 90º percentil do setor. A qualidade consolidada fica no 39º percentil, com ROE TTM de 5,6% no 25º percentil. A posição combinada entre pares é o 52º percentil, indicando que o desconto compensa parcialmente a fraqueza operacional. A notícia recente sobre pagamento de dividendos tem impacto neutro e baixa incerteza.",
+    "tese": "O Bradesco combina a melhor posição de valuation do setor (77º percentil, P/L de 7,31, P/VP de 1,03 e dividend yield de 9,1% no 90º percentil) com qualidade operacional inferior à mediana (ROE TTM de 5,6% no 25º percentil). A posição combinada entre pares é o 52º percentil, refletindo um equilíbrio entre preço e qualidade. A notícia de pagamento de dividendos é neutra e não altera a tese. A realização do valor justo depende de recuperação consistente do ROE, com incerteza média sobre o ritmo dessa melhora.",
     "pontos_fortes": [
      {
-      "texto": "Margem de segurança de 72,9% pelo modelo Graham, com a ação cotada a R$ 17,08 e preço justo estimado em R$ 29,53.",
+      "texto": "Margem de segurança de 72,9% pelo modelo Graham, com a ação cotada a R$ 17,08 e preço justo de R$ 29,53.",
       "evidencias": [
        "cotacao",
        "fair_price_reference",
@@ -5016,23 +5013,16 @@
       ]
      },
      {
-      "texto": "Dividend yield de 9,1%, no 90º percentil do setor (mediana de 7,69%), oferecendo retorno elevado via proventos.",
+      "texto": "Dividend yield de 9,1%, no 90º percentil do setor, oferecendo retorno elevado via proventos.",
       "evidencias": [
        "div_yield",
        "sector_metric_div_yield"
-      ]
-     },
-     {
-      "texto": "100% dos trimestres analisados tiveram lucro e 75% dos anos apresentaram fluxo de caixa positivo, indicando consistência operacional.",
-      "evidencias": [
-       "profitable_quarters_ratio",
-       "positive_fcf_years_ratio"
       ]
      }
     ],
     "pontos_atencao": [
      {
-      "texto": "ROE TTM de apenas 5,6%, muito abaixo do ROE anual de 14,1% e no 25º percentil do setor, indicando deterioração recente da rentabilidade.",
+      "texto": "ROE TTM de 5,6%, no 25º percentil do setor, muito abaixo do ROE anual de 14,1%, indicando deterioração recente.",
       "evidencias": [
        "roe_ttm",
        "roe",
@@ -5040,23 +5030,15 @@
       ]
      },
      {
-      "texto": "Qualidade atual baixa (33) versus qualidade histórica de 75, e qualidade consolidada de 48, refletindo piora nos fundamentos recentes em relação aos pares (39º percentil de qualidade setorial).",
+      "texto": "Qualidade consolidada de 48, no 39º percentil do setor, refletindo fundamentos atuais mais fracos que a média.",
       "evidencias": [
-       "quality_current",
-       "quality_history",
        "quality_combined",
        "sector_quality_percentile"
-      ]
-     },
-     {
-      "texto": "Notícia do 2T26 reporta leve alta da inadimplência e BTG mantém recomendação Neutra citando ambiente macro desafiador, o que adiciona risco ao crescimento da rentabilidade.",
-      "evidencias": [
-       "news_4cd24fb7d82a5ea0"
       ]
      }
     ],
     "valuation": {
-     "texto": "O preço justo Graham é de R$ 29,53, resultando em margem de segurança de 72,9% sobre a cotação de R$ 17,08. O P/L de 7,31 está no 70º percentil do setor e o P/VP de 1,03 no 70º percentil, indicando desconto moderado. O dividend yield de 9,1% é o mais alto entre os pares (90º percentil). A posição de valuation é a melhor do grupo (77º percentil), mas a qualidade fraca limita a convergência ao valor justo. A realização depende de recuperação do ROE.",
+     "texto": "O preço justo Graham é de R$ 29,53, resultando em margem de segurança de 72,9% sobre a cotação de R$ 17,08. O P/L de 7,31 está no 70º percentil do setor e o P/VP de 1,03 no 70º percentil, indicando desconto moderado. O dividend yield de 9,1% é o mais alto entre os pares (90º percentil). A posição de valuation é a melhor do grupo (77º percentil), mas a qualidade fraca limita a convergência ao valor justo.",
      "evidencias": [
       "fair_price_reference",
       "cotacao",
@@ -5071,31 +5053,21 @@
      ]
     },
     "mudancas_desde_anterior": {
-     "texto": "Desde a análise anterior, a cotação subiu de R$ 16,93 para R$ 17,08, reduzindo a margem de segurança de 74,6% para 72,9%. O P/L passou de 7,24 para 7,31, o P/VP de 1,02 para 1,03 e o dividend yield caiu de 9,2% para 9,1%. A posição relativa de valuation permaneceu no 77º percentil e a combinada no 52º percentil. A causa da alta da cotação não pode ser determinada apenas pelos indicadores disponíveis.",
+     "texto": "Desde a análise anterior, não houve mudanças materiais nos indicadores financeiros ou na posição setorial. A cotação permaneceu em R$ 17,08, mantendo margem de segurança de 72,9% e dividend yield de 9,1%. A notícia atual sobre pagamento de dividendos é neutra e não altera a tese.",
      "evidencias": [
       "cotacao",
-      "fair_price_reference",
       "safety_margin",
-      "pl",
-      "pvp",
-      "div_yield",
-      "sector_valuation_percentile",
-      "sector_combined_percentile"
+      "div_yield"
      ]
     },
     "monitorar": [
-     "Evolução trimestral do ROE para verificar se a rentabilidade se estabiliza ou segue em queda",
-     "Qualidade da carteira de crédito e inadimplência, conforme divulgado no 2T26",
-     "Sustentabilidade do dividend yield elevado frente ao ROE comprimido e ao cenário macro",
-     "Reação do mercado a revisões de recomendação e preço-alvo por instituições financeiras",
-     "Variação do P/L e P/VP em relação aos pares, considerando a posição de valuation"
+     "Evolução trimestral do ROE para verificar se a rentabilidade se estabiliza",
+     "Qualidade da carteira de crédito e inadimplência",
+     "Sustentabilidade do dividend yield elevado frente ao ROE comprimido"
     ],
     "limitacoes": [
-     "Dados de fluxo de caixa livre baseados em apenas 4 anos, limitando a avaliação da geração de caixa",
-     "Comparação setorial restrita a 5 pares, podendo não capturar todo o universo competitivo",
-     "Notícia única e impacto neutro, com incerteza média quanto aos efeitos futuros",
-     "Modelo Graham pode não capturar particularidades do setor bancário, como alavancagem regulatória",
-     "ROE TTM calculado com poucos pares (amostra=2) no comparativo setorial, reduzindo robustez"
+     "Dados de fluxo de caixa livre baseados em apenas 4 anos",
+     "Comparação setorial restrita a 5 pares"
     ],
     "confianca": "alta"
    }
