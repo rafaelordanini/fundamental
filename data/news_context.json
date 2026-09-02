@@ -1,13 +1,13 @@
 {
- "data_geracao": "2026-08-30",
+ "data_geracao": "2026-09-01",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
- "new_reads": 8,
+ "new_reads": 10,
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-08-30T16:56:47.220937+00:00",
+   "checked_at": "2026-09-01T22:52:05.001109+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -41,7 +41,7 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-08-30T16:56:59.073731+00:00",
+   "checked_at": "2026-09-01T22:52:05.841098+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
    "articles": [
     {
@@ -81,17 +81,17 @@
    ]
   },
   "ASAI3": {
-   "checked_at": "2026-08-30T16:56:59.847964+00:00",
+   "checked_at": "2026-09-01T22:52:06.788489+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-08-30T16:57:10.150204+00:00",
+   "checked_at": "2026-09-01T22:52:07.610070+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-08-30T16:57:10.835145+00:00",
+   "checked_at": "2026-09-01T22:52:08.356373+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -129,12 +129,12 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-08-30T16:57:11.573638+00:00",
+   "checked_at": "2026-09-01T22:52:09.256347+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": []
   },
   "B3SA3": {
-   "checked_at": "2026-08-30T16:57:14.038778+00:00",
+   "checked_at": "2026-09-01T22:52:11.375164+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
@@ -172,7 +172,7 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-08-30T16:57:15.153722+00:00",
+   "checked_at": "2026-09-01T22:52:12.076799+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
@@ -211,20 +211,20 @@
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-08-30T16:57:18.615986+00:00",
+   "checked_at": "2026-09-01T22:52:14.615288+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
-     "id": "6c3b87027614d814",
-     "title": "Vale (VALE3) e Bradesco (BBDC4): Veja quem paga dividendos na semana",
-     "url": "https://www.suno.com.br/noticias/a-vale-vale3-o-bradesco-bbdc4-agenda-dividendos-28082026/",
+     "id": "a26c5db7e4c57bc5",
+     "title": "Bradesco (BBDC4) e Itaú (ITUB4) pagam dividendos nesta terça; saiba mais",
+     "url": "https://www.suno.com.br/noticias/o-bradesco-bbdc4-agenda-dividendos-01092026/",
      "source": "Suno",
-     "published": "2026-08-30",
-     "content_hash": "6c3b87027614d814323e45b87bddf285e4e3e5bd73d375811e5d5afa6459ecdf",
+     "published": "2026-09-01",
+     "content_hash": "a26c5db7e4c57bc553a198dfd6914f3542f8e74472d3d7e65f9167534532a0be",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "A Vale e o Bradesco são destaque na agenda de pagamento de dividendos da semana. A Vale pagará R$ 1,5687 por ação em 2 de setembro, e o Bradesco pagará R$ 0,0172 por ação em 1 de setembro. Outras empresas como Itaú, BB Seguridade e Ultrapar também pagam dividendos. O texto é informativo e não constitui recomendação.",
+      "resumo": "Bradesco e Itaú Unibanco pagam dividendos nesta terça-feira (01/09). Bradesco paga R$ 0,0172 por ação e Itaú R$ 0,0181. Data de corte para Bradesco foi 03/08 e para Itaú 31/07. Dividendos são isentos de IR para pessoas físicas. Matéria é apenas informativa.",
       "evento": "dividendo",
       "impacto": "neutro",
       "horizonte": "curto",
@@ -233,7 +233,7 @@
        "pagamento de dividendos"
       ],
       "riscos": [
-       "nenhum relevante"
+       "nenhum"
       ],
       "metricas_afetadas": [
        "dividendos"
@@ -244,7 +244,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-08-30T16:57:19.510936+00:00",
+   "checked_at": "2026-09-01T22:52:15.405011+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -282,7 +282,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-08-30T16:57:20.190091+00:00",
+   "checked_at": "2026-09-01T22:52:16.117105+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -320,7 +320,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-08-30T16:57:20.915400+00:00",
+   "checked_at": "2026-09-01T22:52:16.848966+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -354,12 +354,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-08-30T16:57:21.716701+00:00",
+   "checked_at": "2026-09-01T22:52:17.724851+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-08-30T16:57:22.375464+00:00",
+   "checked_at": "2026-09-01T22:52:18.513505+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -398,7 +398,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-08-30T16:57:25.887149+00:00",
+   "checked_at": "2026-09-01T22:52:19.258308+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -436,7 +436,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-08-30T16:57:53.617786+00:00",
+   "checked_at": "2026-09-01T22:52:19.984755+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -475,7 +475,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-08-30T16:58:05.125802+00:00",
+   "checked_at": "2026-09-01T22:52:20.920549+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -506,7 +506,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-08-30T16:58:05.785703+00:00",
+   "checked_at": "2026-09-01T22:52:21.663834+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -546,7 +546,7 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-08-30T16:58:06.471428+00:00",
+   "checked_at": "2026-09-01T22:52:22.554745+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
@@ -584,7 +584,7 @@
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-08-30T16:58:07.128130+00:00",
+   "checked_at": "2026-09-01T22:52:23.278851+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
    "articles": [
     {
@@ -617,17 +617,17 @@
    ]
   },
   "CPLE6": {
-   "checked_at": "2026-08-30T16:58:35.352933+00:00",
+   "checked_at": "2026-09-01T22:52:24.763244+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-08-30T16:58:46.777634+00:00",
+   "checked_at": "2026-09-01T22:52:25.682286+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-08-30T16:58:47.434379+00:00",
+   "checked_at": "2026-09-01T22:52:26.383620+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -665,7 +665,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-08-30T16:58:48.081507+00:00",
+   "checked_at": "2026-09-01T22:52:27.228266+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -707,12 +707,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-08-30T16:58:48.863548+00:00",
+   "checked_at": "2026-09-01T22:52:28.117146+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-08-30T16:59:00.582855+00:00",
+   "checked_at": "2026-09-01T22:52:28.863731+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -746,7 +746,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-08-30T16:59:01.240032+00:00",
+   "checked_at": "2026-09-01T22:52:29.611282+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -783,12 +783,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-08-30T16:59:02.092999+00:00",
+   "checked_at": "2026-09-01T22:52:30.462199+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-08-30T16:59:02.984918+00:00",
+   "checked_at": "2026-09-01T22:52:31.195105+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -829,12 +829,12 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-08-30T16:59:03.772476+00:00",
+   "checked_at": "2026-09-01T22:52:32.042263+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": []
   },
   "ENGI11": {
-   "checked_at": "2026-08-30T16:59:16.214868+00:00",
+   "checked_at": "2026-09-01T22:52:32.827752+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -872,7 +872,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-08-30T16:59:27.516336+00:00",
+   "checked_at": "2026-09-01T22:52:33.691935+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -903,7 +903,7 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-08-30T16:59:28.192099+00:00",
+   "checked_at": "2026-09-01T22:52:34.387920+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": [
     {
@@ -945,7 +945,7 @@
    ]
   },
   "GGBR4": {
-   "checked_at": "2026-08-30T16:59:28.856046+00:00",
+   "checked_at": "2026-09-01T22:52:35.079879+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -978,7 +978,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-08-30T16:59:31.150628+00:00",
+   "checked_at": "2026-09-01T22:52:37.275527+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -1017,7 +1017,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-08-30T16:59:31.893018+00:00",
+   "checked_at": "2026-09-01T22:52:38.061207+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -1056,7 +1056,7 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-08-30T16:59:59.603003+00:00",
+   "checked_at": "2026-09-01T22:52:38.789631+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": [
     {
@@ -1101,7 +1101,7 @@
    ]
   },
   "ITSA4": {
-   "checked_at": "2026-08-30T17:00:00.332862+00:00",
+   "checked_at": "2026-09-01T22:52:39.542045+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1134,32 +1134,31 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-08-30T17:00:01.036318+00:00",
+   "checked_at": "2026-09-01T22:52:42.744491+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
-     "id": "46f03d6e805bcdbe",
-     "title": "Itaúsa (ITSA4) e Itaú (ITUB4) pagam dividendos nesta sexta; saiba mais",
-     "url": "https://www.suno.com.br/noticias/a-itausa-itsa4-agenda-dividendos-28082026/",
+     "id": "a26c5db7e4c57bc5",
+     "title": "Bradesco (BBDC4) e Itaú (ITUB4) pagam dividendos nesta terça; saiba mais",
+     "url": "https://www.suno.com.br/noticias/o-bradesco-bbdc4-agenda-dividendos-01092026/",
      "source": "Suno",
-     "published": "2026-08-28",
-     "content_hash": "46f03d6e805bcdbe518523039aa5fa78ef4b15092ae1bc4b584b1db781ca9f98",
+     "published": "2026-09-01",
+     "content_hash": "a26c5db7e4c57bc553a198dfd6914f3542f8e74472d3d7e65f9167534532a0be",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Itaúsa e Itaú Unibanco pagam dividendos hoje, 28/08. Itaúsa paga R$ 0,138 por ação e Itaú paga R$ 0,3618 por ação. Data de corte foi 18 de junho. Dividendos isentos de IR.",
+      "resumo": "Bradesco (BBDC4) e Itaú Unibanco (ITUB4) pagam dividendos nesta terça-feira, 01/09. Bradesco paga R$ 0,0172 por ação e Itaú R$ 0,0181 por ação. Data-limite para ter direito foi 03/08 para Bradesco e 31/07 para Itaú. Dividendos são isentos de IR para PF, mas devem ser declarados. Texto é meramente informativo, sem recomendação.",
       "evento": "dividendo",
-      "impacto": "positivo",
+      "impacto": "neutro",
       "horizonte": "curto",
       "intensidade": "baixa",
       "drivers": [
        "pagamento de dividendos"
       ],
       "riscos": [
-       "nenhum relevante"
+       "possível variação de preço das ações após o ex-dividendo"
       ],
       "metricas_afetadas": [
-       "caixa",
        "dividendos"
       ],
       "incerteza": "baixa"
@@ -1168,7 +1167,7 @@
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-08-30T17:00:01.733631+00:00",
+   "checked_at": "2026-09-01T22:52:43.822295+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
@@ -1208,7 +1207,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-08-30T17:00:02.467738+00:00",
+   "checked_at": "2026-09-01T22:52:44.537198+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1241,7 +1240,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-08-30T17:00:03.409771+00:00",
+   "checked_at": "2026-09-01T22:52:45.654099+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1284,7 +1283,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-08-30T17:00:04.296273+00:00",
+   "checked_at": "2026-09-01T22:52:46.373317+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1327,7 +1326,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-08-30T17:00:05.007331+00:00",
+   "checked_at": "2026-09-01T22:52:47.085239+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1366,7 +1365,7 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-08-30T17:00:08.623204+00:00",
+   "checked_at": "2026-09-01T22:52:47.796100+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
    "articles": [
     {
@@ -1408,62 +1407,61 @@
    ]
   },
   "NTCO3": {
-   "checked_at": "2026-08-30T17:00:10.285399+00:00",
+   "checked_at": "2026-09-01T22:52:49.357614+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-08-30T17:00:23.555859+00:00",
+   "checked_at": "2026-09-01T22:52:50.201822+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-08-30T17:00:26.378397+00:00",
+   "checked_at": "2026-09-01T22:52:55.369410+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
-     "id": "fb3b4a60d0b209f1",
-     "title": "Petrobras (PETR4) domina ranking de empresas mais lucrativas da B3 no 2T26; veja a lista",
-     "url": "https://www.suno.com.br/noticias/petrobras-empresas-mais-lucrativas-b3-2t26-mt/",
+     "id": "6be4a40a93ad5091",
+     "title": "Ibovespa dispara 1% e engata 9ª alta seguida com Petrobras (PETR4)",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-31-agosto-petrobras-petr4-mt/",
      "source": "Suno",
-     "published": "2026-08-28",
-     "content_hash": "fb3b4a60d0b209f1b582400d92276a0e7ef618539e9c55b3461861de042f7b7d",
+     "published": "2026-08-31",
+     "content_hash": "6be4a40a93ad50915dc4e077c1eb68008080639789fae313467a6ff80f3d65a2",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Petrobras lucra R$ 52,4 bilhões no 2T26, alta de 97% ano a ano, e lidera ranking de lucros da B3, superando sozinha as outras nove empresas somadas. Resultado impulsionado por recordes operacionais e Brent mais alto. Aprova R$ 17,4 bilhões em dividendos e JCP.",
-      "evento": "resultado",
+      "resumo": "Ibovespa sobe 1% e engata nona alta seguida, impulsionado por Petrobras em meio à alta do petróleo e otimismo eleitoral. Índice fecha aos 177.418,78 pontos, mas agosto termina com leve queda de 0,32%. Dólar sobe 2,16% no mês. Bancos e MRV avançam; Vale e Embraer caem. Cenário internacional tem aversão ao risco.",
+      "evento": "macroeconomia",
       "impacto": "positivo",
       "horizonte": "curto",
-      "intensidade": "alta",
+      "intensidade": "media",
       "drivers": [
-       "Produção própria de óleo no Brasil: 2,7 milhões bpd (+15% a/a)",
-       "Fator de utilização do refino: 101%",
-       "Brent mais alto",
-       "Aumento de volume de produção de óleo e derivados"
+       "Alta do petróleo (Brent acima de US$ 90)",
+       "Cenário eleitoral doméstico",
+       "Queda dos juros futuros"
       ],
       "riscos": [
-       "Queda futura do preço do petróleo",
-       "Dependência de fatores macroeconômicos e operacionais"
+       "Tensões geopolíticas (EUA e Irã)",
+       "Incertezas sobre política monetária do Fed",
+       "Inflação resiliente"
       ],
       "metricas_afetadas": [
+       "receita",
        "lucro",
-       "caixa",
-       "dividendos",
-       "receita"
+       "valuation"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "PETZ3": {
-   "checked_at": "2026-08-30T17:00:37.901687+00:00",
+   "checked_at": "2026-09-01T22:52:56.344411+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
    "articles": []
   },
   "POMO4": {
-   "checked_at": "2026-08-30T17:00:41.370006+00:00",
+   "checked_at": "2026-09-01T22:52:57.040360+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
    "articles": [
     {
@@ -1505,7 +1503,7 @@
    ]
   },
   "PRIO3": {
-   "checked_at": "2026-08-30T17:00:42.072863+00:00",
+   "checked_at": "2026-09-01T22:52:57.745548+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1547,12 +1545,12 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-08-30T17:00:42.914797+00:00",
+   "checked_at": "2026-09-01T22:52:58.655736+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-08-30T17:00:43.598809+00:00",
+   "checked_at": "2026-09-01T22:52:59.450962+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
@@ -1591,7 +1589,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-08-30T17:00:44.274660+00:00",
+   "checked_at": "2026-09-01T22:53:00.167596+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1630,7 +1628,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-08-30T17:00:44.991122+00:00",
+   "checked_at": "2026-09-01T22:53:00.894008+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1668,7 +1666,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-08-30T17:00:46.952820+00:00",
+   "checked_at": "2026-09-01T22:53:02.861137+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1739,7 +1737,7 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-08-30T17:00:58.298030+00:00",
+   "checked_at": "2026-09-01T22:53:04.521575+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
@@ -1778,7 +1776,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-08-30T17:01:01.298853+00:00",
+   "checked_at": "2026-09-01T22:53:05.233825+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1812,7 +1810,7 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-08-30T17:01:02.002645+00:00",
+   "checked_at": "2026-09-01T22:53:05.967793+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
@@ -1849,7 +1847,7 @@
    ]
   },
   "SBSP3": {
-   "checked_at": "2026-08-30T17:01:06.640240+00:00",
+   "checked_at": "2026-09-01T22:53:10.134488+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
    "articles": [
     {
@@ -1887,22 +1885,22 @@
    ]
   },
   "SLCE3": {
-   "checked_at": "2026-08-30T17:01:07.515724+00:00",
+   "checked_at": "2026-09-01T22:53:12.027262+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-08-30T17:01:08.327822+00:00",
+   "checked_at": "2026-09-01T22:53:12.898330+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-08-30T17:01:09.739299+00:00",
+   "checked_at": "2026-09-01T22:53:13.812896+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-08-30T17:01:10.421662+00:00",
+   "checked_at": "2026-09-01T22:53:14.537136+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1937,7 +1935,7 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-08-30T17:01:11.107642+00:00",
+   "checked_at": "2026-09-01T22:53:15.305762+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": [
     {
@@ -1973,7 +1971,7 @@
    ]
   },
   "TIMS3": {
-   "checked_at": "2026-08-30T17:01:11.786688+00:00",
+   "checked_at": "2026-09-01T22:53:16.024481+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
@@ -2013,7 +2011,7 @@
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-08-30T17:01:12.428705+00:00",
+   "checked_at": "2026-09-01T22:53:16.740097+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -2044,7 +2042,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-08-30T17:01:13.102977+00:00",
+   "checked_at": "2026-09-01T22:53:17.438555+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -2078,7 +2076,7 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-08-30T17:01:13.800689+00:00",
+   "checked_at": "2026-09-01T22:53:18.153516+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
@@ -2114,45 +2112,49 @@
    ]
   },
   "VALE3": {
-   "checked_at": "2026-08-30T17:01:16.537395+00:00",
+   "checked_at": "2026-09-01T22:53:21.322094+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
-     "id": "6c3b87027614d814",
-     "title": "Vale (VALE3) e Bradesco (BBDC4): Veja quem paga dividendos na semana",
-     "url": "https://www.suno.com.br/noticias/a-vale-vale3-o-bradesco-bbdc4-agenda-dividendos-28082026/",
+     "id": "d97b3d0b5618910c",
+     "title": "Vale (VALE3) pode pagar imposto sobre lucros no exterior? STF zera placar; entenda",
+     "url": "https://www.suno.com.br/noticias/vale-vale3-imposto-lucros-no-exterior-stf-mt/",
      "source": "Suno",
-     "published": "2026-08-30",
-     "content_hash": "6c3b87027614d814323e45b87bddf285e4e3e5bd73d375811e5d5afa6459ecdf",
+     "published": "2026-08-31",
+     "content_hash": "d97b3d0b5618910cd7b119a82f1652c85bb2b548e3afdad92f0dcc4db1c5c17b",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Notícia sobre pagamento de dividendos da Vale e Bradesco na semana, com detalhes de datas e valores. Não há recomendação de investimento.",
-      "evento": "dividendo",
-      "impacto": "positivo",
-      "horizonte": "curto",
-      "intensidade": "media",
+      "resumo": "STF suspende julgamento sobre tributação de lucros de controladas da Vale no exterior. Placar estava 6x4 favorável à União, mas votos serão reiniciados. Disputa pode envolver R$ 22 bilhões para a empresa, mas ainda sem decisão definitiva.",
+      "evento": "regulacao",
+      "impacto": "misto",
+      "horizonte": "medio",
+      "intensidade": "alta",
       "drivers": [
-       "pagamento de dividendos da Vale e Bradesco"
+       "De cisão do STF sobre tributação de lucros no exterior",
+       "Possível mudança contábil e financeira na Vale"
       ],
       "riscos": [
-       "possibilidade de mudanças na política de dividendos"
+       "Decisão desfavorável pode gerar custo tributário significativo",
+       "Impacto no caixa e na distribuição de dividendos"
       ],
       "metricas_afetadas": [
-       "dividendos"
+       "caixa",
+       "dividendos",
+       "lucro"
       ],
-      "incerteza": "baixa"
+      "incerteza": "alta"
      }
     }
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-08-30T17:01:17.389714+00:00",
+   "checked_at": "2026-09-01T22:53:22.231027+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-08-30T17:01:18.157887+00:00",
+   "checked_at": "2026-09-01T22:53:22.958068+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -2187,12 +2189,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-08-30T17:01:20.003460+00:00",
+   "checked_at": "2026-09-01T22:53:23.788047+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-08-30T17:01:20.670615+00:00",
+   "checked_at": "2026-09-01T22:53:24.501499+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2229,7 +2231,7 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-08-30T17:01:21.405679+00:00",
+   "checked_at": "2026-09-01T22:53:25.247545+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
@@ -2263,7 +2265,7 @@
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-08-30T17:01:22.227777+00:00",
+   "checked_at": "2026-09-01T22:53:26.123683+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
