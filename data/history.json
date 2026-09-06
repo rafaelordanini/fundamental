@@ -1,5 +1,5 @@
 {
- "data_coleta": "2026-08-30",
+ "data_coleta": "2026-09-06",
  "fonte": "CVM ITR/DFP consolidados (inclui DFC) + cadastro B3",
  "years": [
   2017,
@@ -25980,7 +25980,7 @@
   },
   "SMFT3": {
    "code_cvm": "24260",
-   "cnpj": "7594978000178",
+   "cnpj": "07594978000178",
    "company_name": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.",
    "quarters": [
     {
