@@ -1,15 +1,14 @@
 {
- "data_geracao": "2026-09-04",
+ "data_geracao": "2026-09-06",
  "fonte": "DeepSeek API sobre fatos determinísticos do projeto",
  "modelo_padrao": "deepseek-v4-pro",
  "prompt_version": "deepseek-sector-news-v4",
  "mercado_data": "2026-09-04",
- "historico_data": "2026-08-30",
+ "historico_data": "2026-09-06",
  "total": 76,
- "geradas_nesta_execucao": 74,
+ "geradas_nesta_execucao": 2,
  "erros": [
-  "AZUL4: Campo mudancas_desde_anterior.evidencias não contém chave válida",
-  "SUZB3: Resposta contém linguagem de recomendação ou certeza indevida"
+  "AZUL4: Campo mudancas_desde_anterior.evidencias não contém chave válida"
  ],
  "companies": {
   "ABEV3": {
@@ -22277,10 +22276,10 @@
    }
   },
   "JBSS3": {
-   "data_geracao": "2026-09-04",
+   "data_geracao": "2026-09-06",
    "modelo": "deepseek-v4-pro",
    "prompt_version": "deepseek-sector-news-v4",
-   "facts_hash": "1450d4e4ba138a8ecb89473096bff5527f44c2def1c63e5d46e5d98034017143",
+   "facts_hash": "b11bd91bec872560c69b7efe9178dd115f63d3428dc3a6b4277845a804642aae",
    "facts": {
     "ticker": "JBSS3",
     "empresa": "JBS N.V.",
@@ -22569,12 +22568,12 @@
       "valor": 0.0,
       "formatado": "empresa 0.0 · mediana 0.0516 · 17º percentil"
      },
-     "news_48c39ef411445509": {
-      "rotulo": "Notícia Suno: JBS (JBSS32) quer comprar fatia restante da Pilgrim’s Pride; entenda a proposta",
-      "valor": "positivo",
-      "formatado": "A JBS propôs comprar os 18% restantes da Pilgrim's Pride por meio de troca de ações, sem desembolso de caixa. A operação visa simplificar a estrutura societária, não pressionando a alavancagem. A relação de troca é considerada razoável pelo Safra, mas ainda depende de aprovações.",
-      "url": "https://www.suno.com.br/noticias/jbs-jbss32-pilgrims-pride-compra-participacao-mt/",
-      "data": "2026-08-19"
+     "news_644bce542c9224cb": {
+      "rotulo": "Notícia Suno: Europa fecha as portas para carne brasileira e pressiona JBS (JBSS32) e MBRF (MBRF3)",
+      "valor": "negativo",
+      "formatado": "União Europeia suspende importação de produtos animais do Brasil por supostas falhas no controle de antimicrobianos, afetando exportações de carne bovina e frango (US$ 1,84 bi/ano). Frigoríficos como JBS (JBSS3) e Marfrig (MRFG3) caíram em setembro; Minerva (BEEF3) subiu. Impacto varia conforme diversificação e mercados; risco de queda nos preços e margens.",
+      "url": "https://www.suno.com.br/noticias/jbss32-mbrf3-beef3-embargo-uniao-europeia-frigorificos-mt/",
+      "data": "2026-09-04"
      }
     },
     "comparacao_setorial": {
@@ -22726,37 +22725,37 @@
     },
     "contexto_noticioso": [
      {
-      "id": "48c39ef411445509",
-      "titulo": "JBS (JBSS32) quer comprar fatia restante da Pilgrim’s Pride; entenda a proposta",
-      "data": "2026-08-19",
+      "id": "644bce542c9224cb",
+      "titulo": "Europa fecha as portas para carne brasileira e pressiona JBS (JBSS32) e MBRF (MBRF3)",
+      "data": "2026-09-04",
       "fonte": "Suno",
-      "url": "https://www.suno.com.br/noticias/jbs-jbss32-pilgrims-pride-compra-participacao-mt/",
-      "resumo": "A JBS propôs comprar os 18% restantes da Pilgrim's Pride por meio de troca de ações, sem desembolso de caixa. A operação visa simplificar a estrutura societária, não pressionando a alavancagem. A relação de troca é considerada razoável pelo Safra, mas ainda depende de aprovações.",
-      "evento": "aquisicao",
-      "impacto": "positivo",
-      "horizonte": "medio",
+      "url": "https://www.suno.com.br/noticias/jbss32-mbrf3-beef3-embargo-uniao-europeia-frigorificos-mt/",
+      "resumo": "União Europeia suspende importação de produtos animais do Brasil por supostas falhas no controle de antimicrobianos, afetando exportações de carne bovina e frango (US$ 1,84 bi/ano). Frigoríficos como JBS (JBSS3) e Marfrig (MRFG3) caíram em setembro; Minerva (BEEF3) subiu. Impacto varia conforme diversificação e mercados; risco de queda nos preços e margens.",
+      "evento": "regulacao",
+      "impacto": "negativo",
+      "horizonte": "curto",
       "intensidade": "media",
       "drivers": [
-       "Simplificação da estrutura societária",
-       "Eliminação de custos de listagem da subsidiária",
-       "Potencial aumento da concentração de investidores na JBS"
+       "Suspensão de importações pela UE",
+       "Redirecionamento de exportações",
+       "Negociações Brasil-UE"
       ],
       "riscos": [
-       "Aprovação do comitê especial e da maioria dos minoritários da Pilgrim's",
-       "Possível rejeição da proposta pelos acionistas",
-       "Condições de mercado e volatilidade"
+       "Perda de mercado de alto valor",
+       "Pressão sobre preços e margens",
+       "Custos logísticos adicionais"
       ],
       "incerteza": "media"
      }
     ]
    },
    "analysis": {
-    "titulo": "JBSS3: desconto relevante, aquisição em andamento e qualidade mediana",
-    "resumo": "A JBS negocia a P/L de 5,90 e P/VP de 0,85, ambos no 83º percentil setorial, com preço justo Graham de R$ 82,67 e margem de segurança de 111,8%. A qualidade consolidada é 61, posicionando a companhia no 45º percentil setorial, refletindo rentabilidade abaixo da mediana e alavancagem elevada. A proposta de compra da Pilgrim’s Pride via troca de ações é reportada como positiva, mas depende de aprovações e possui incerteza média.",
-    "tese": "A JBS apresenta valuation atrativo em relação aos pares, com múltiplos de preço entre os mais baixos do setor e preço justo Graham bem acima da cotação. No entanto, a qualidade do negócio é apenas mediana, com ROE e ROIC inferiores à mediana e margem líquida muito estreita, além de alavancagem elevada. O histórico de receitas sempre crescentes e fluxo de caixa livre positivo é um ponto de resiliência. A notícia da aquisição da Pilgrim’s Pride sem desembolso de caixa, se aprovada, pode simplificar a estrutura e reduzir custos, mas o desfecho é incerto. O desconto pode ser justificado pelos riscos, e a realização do valor dependerá de recuperação operacional e da conclusão favorável da operação.",
+    "titulo": "JBSS3: embargo europeu adiciona risco, mas desconto permanece relevante",
+    "resumo": "A JBS continua com valuation atrativo, P/L de 5,90 e P/VP de 0,85 no 83º percentil setorial, embora a qualidade do negócio siga mediana (61, 45º percentil). A nova notícia negativa sobre embargo da União Europeia à carne brasileira introduz risco adicional, com potencial impacto nas exportações e margens. O desconto em relação ao preço justo Graham é expressivo, mas os fundamentos fracos e a incerteza regulatória justificam cautela.",
+    "tese": "A JBS apresenta múltiplos baixos e preço justo Graham bem acima da cotação, indicando desconto. Contudo, a rentabilidade é inferior à mediana setorial, a alavancagem é elevada e o dividend yield é zero. O recém-reportado embargo da UE pode agravar pressões sobre receitas e margens, ainda que o efeito real dependa da duração e do redirecionamento de mercados. Assim, o desconto parece refletir riscos reais, e a tese de investimento baseia-se na capacidade de a companhia navegar o cenário adverso sem deterioração adicional de qualidade.",
     "pontos_fortes": [
      {
-      "texto": "Valuation relativo atrativo: P/L de 5,90 e P/VP de 0,85 estão no 83º percentil setorial, EV/EBITDA de 4,24 na mediana, e preço justo Graham de R$ 82,67 com margem de segurança de 111,8%.",
+      "texto": "Valuation relativo atrativo: P/L de 5,90 e P/VP de 0,85 no 83º percentil setorial, EV/EBITDA de 4,24 na mediana, e preço justo Graham de R$ 82,67 com margem de segurança de 111,8%.",
       "evidencias": [
        "pl",
        "pvp",
@@ -22766,24 +22765,17 @@
       ]
      },
      {
-      "texto": "Liquidez corrente confortável de 1,54, acima da mediana setorial (83º percentil).",
+      "texto": "Liquidez corrente de 1,54, acima da mediana setorial (83º percentil).",
       "evidencias": [
-       "liq_corr",
-       "sector_metric_liq_corr"
+       "liq_corr"
       ]
      },
      {
-      "texto": "Histórico de consistência: receitas crescentes em 100% dos anos analisados e fluxo de caixa livre aproximado positivo em 100% dos anos completos, com FCL normalizado de R$ 2.051 milhões.",
+      "texto": "Histórico de consistência: receitas crescentes em 100% dos anos e fluxo de caixa livre positivo em 100% dos anos completos, com FCL normalizado de R$ 2.051 milhões.",
       "evidencias": [
        "positive_revenue_years_ratio",
        "positive_fcf_years_ratio",
        "normalized_fcf_million"
-      ]
-     },
-     {
-      "texto": "Proposta de aquisição da Pilgrim’s Pride via troca de ações, sem desembolso de caixa, é reportada como positiva e visa simplificar a estrutura societária, embora ainda dependa de aprovações.",
-      "evidencias": [
-       "news_48c39ef411445509"
       ]
      }
     ],
@@ -22799,36 +22791,37 @@
       ]
      },
      {
-      "texto": "Alavancagem elevada: dívida líquida/PL atual de 2,36 e histórica de 2,12, ambas na mediana setorial, representando risco financeiro em cenários adversos.",
+      "texto": "Alavancagem elevada: dívida líquida/PL atual de 2,36 e histórica de 2,12, ambas na mediana setorial.",
       "evidencias": [
        "div_liq_pat",
        "net_debt_to_equity"
       ]
      },
      {
-      "texto": "Dividend yield de 0,0%, bem abaixo da mediana setorial de 5,16% (17º percentil), podendo indicar retenção de capital ou ausência de distribuição.",
+      "texto": "Dividend yield de 0,0%, muito abaixo da mediana setorial de 5,16% (17º percentil).",
       "evidencias": [
        "div_yield",
        "sector_metric_div_yield"
       ]
      },
      {
-      "texto": "Sinais de qualidade em declínio: qualidade histórica de 70 (mediana), proporção de trimestres lucrativos de 81,8% (50º percentil) e posição combinada no 50º percentil.",
+      "texto": "Notícia negativa: embargo da União Europeia à carne brasileira pode reduzir exportações e pressionar preços e margens; impacto reportado como negativo e incerteza média.",
       "evidencias": [
-       "quality_history",
-       "profitable_quarters_ratio",
-       "sector_combined_percentile"
+       "news_644bce542c9224cb"
       ]
      },
      {
-      "texto": "A notícia da aquisição da Pilgrim’s Pride classifica a incerteza como média: a operação depende de aprovação do comitê especial e da maioria dos minoritários, podendo ser rejeitada.",
+      "texto": "Qualidade consolidada em 61, no 45º percentil setorial; declínio da qualidade histórica (70) para a atual (56) é um alerta.",
       "evidencias": [
-       "news_48c39ef411445509"
+       "quality_combined",
+       "sector_quality_percentile",
+       "quality_current",
+       "quality_history"
       ]
      }
     ],
     "valuation": {
-     "texto": "O modelo Graham indica preço justo de R$ 82,67, com margem de segurança de 111,8% sobre a cotação de R$ 39,03. Os múltiplos confirmam desconto: P/L de 5,90 (83º percentil), P/VP de 0,85 (83º percentil) e EV/EBITDA de 4,24 (mediana). Contudo, a baixa rentabilidade, a alavancagem elevada e a recente piora dos indicadores de qualidade justificam parte do desconto; a realização do valuation depende de recuperação operacional e de desfecho favorável da operação societária.",
+     "texto": "O modelo Graham indica preço justo de R$ 82,67, com margem de segurança de 111,8% sobre a cotação de R$ 39,03. Os múltiplos confirmam o desconto: P/L de 5,90 e P/VP de 0,85 no 83º percentil, EV/EBITDA de 4,24 na mediana. Porém, baixa rentabilidade, alavancagem elevada e o novo risco de embargo justificam parte do desconto; a realização do valor depende de recuperação operacional e de resolução favorável da questão regulatória.",
      "evidencias": [
       "fair_price_reference",
       "safety_margin",
@@ -22840,14 +22833,13 @@
      ]
     },
     "mudancas_desde_anterior": {
-     "texto": "Não houve mudanças materiais nos fundamentos da companhia; apenas pequenos ajustes nas medianas setoriais (P/L mediana de 8,36 para 8,27 e dividend yield mediana de 5,11% para 5,16%), que não alteram a tese. A notícia sobre a Pilgrim’s Pride permanece a mesma.",
+     "texto": "Desde a análise anterior, a notícia positiva sobre a aquisição da Pilgrim's Pride foi substituída por uma notícia negativa sobre embargo da União Europeia à carne brasileira. Os fundamentos quantitativos permanecem os mesmos; a mudança relevante está no contexto noticioso, com potencial impacto negativo nas exportações e margens.",
      "evidencias": [
-      "sector_metric_pl",
-      "sector_metric_div_yield"
+      "news_644bce542c9224cb"
      ]
     },
     "monitorar": [
-     "Aprovação e termos finais da aquisição da Pilgrim’s Pride",
+     "Desdobramentos do embargo da UE e negociações Brasil-União Europeia",
      "Evolução da rentabilidade (ROE, ROIC, margem líquida)",
      "Nível de alavancagem (dívida líquida/PL atual e histórica)",
      "Política de dividendos e potencial de distribuição",
@@ -22857,8 +22849,8 @@
     "limitacoes": [
      "Dados de fluxo de caixa livre disponíveis para apenas 2 anos, limitando a confiabilidade do modelo Graham.",
      "Comparação setorial restrita a 3 pares (BEEF3, BRFS3), podendo não capturar a dinâmica completa do setor.",
-     "A notícia sobre a aquisição da Pilgrim’s Pride é recente e seu desfecho é incerto; efeitos reais ainda não são confirmados.",
-     "Dividend yield zero pode indicar retenção de capital ou falta de distribuição, mas a causa não pode ser determinada apenas com os dados."
+     "A notícia do embargo é recente e seu impacto real depende da duração e do redirecionamento de mercados; incerteza média.",
+     "Dividend yield zero não tem causa identificada nos dados; pode ser política ou falta de lucro distribuível."
     ],
     "confianca": "media"
    }
@@ -36138,17 +36130,17 @@
    }
   },
   "SUZB3": {
-   "data_geracao": "2026-09-03",
+   "data_geracao": "2026-09-06",
    "modelo": "deepseek-v4-pro",
    "prompt_version": "deepseek-sector-news-v4",
-   "facts_hash": "cc1db092ef51573e197bd4a36169fc4d75358c3ac4ee3a819804120cc75ad456",
+   "facts_hash": "5ebfbd84a7654bfe4a9dd425357a21755f3ccdb0cd6296e396ddc71028e34bc6",
    "facts": {
     "ticker": "SUZB3",
     "empresa": "SUZANO S.A.",
     "setor": "Materiais Básicos",
     "atividade": "Papel e Celulose",
     "governanca": "NM",
-    "data_mercado": "2026-09-03",
+    "data_mercado": "2026-09-04",
     "qualidade": {
      "atual": 62,
      "historica": 50,
@@ -36156,11 +36148,11 @@
      "confianca_dos_dados": "alta"
     },
     "valuation": {
-     "graham": 75.6015,
-     "bazin": 0.0779,
+     "graham": 75.6139,
+     "bazin": 0.078,
      "reference_model": "Graham",
-     "reference_price": 75.6015,
-     "margin": 0.6171
+     "reference_price": 75.6139,
+     "margin": 0.616
     },
     "avaliacoes_atuais": [
      {
@@ -36204,13 +36196,13 @@
     "evidencias": {
      "cotacao": {
       "rotulo": "Cotação",
-      "valor": 46.75,
-      "formatado": "R$ 46,75"
+      "valor": 46.79,
+      "formatado": "R$ 46,79"
      },
      "pl": {
       "rotulo": "P/L",
-      "valor": 7.23,
-      "formatado": "7,23"
+      "valor": 7.24,
+      "formatado": "7,24"
      },
      "pvp": {
       "rotulo": "P/VP",
@@ -36329,13 +36321,13 @@
      },
      "fair_price_reference": {
       "rotulo": "Preço justo de referência",
-      "valor": 75.6015,
-      "formatado": "R$ 75,60"
+      "valor": 75.6139,
+      "formatado": "R$ 75,61"
      },
      "safety_margin": {
       "rotulo": "Margem de segurança",
-      "valor": 0.6171,
-      "formatado": "61,7%"
+      "valor": 0.616,
+      "formatado": "61,6%"
      },
      "sector_quality_percentile": {
       "rotulo": "Posição relativa de qualidade no setor",
@@ -36432,23 +36424,23 @@
      },
      "sector_metric_pl": {
       "rotulo": "P/L versus pares",
-      "valor": 7.23,
-      "formatado": "empresa 7.23 · mediana 18.97 · 92º percentil"
+      "valor": 7.24,
+      "formatado": "empresa 7.24 · mediana 18.87 · 92º percentil"
      },
      "sector_metric_pvp": {
       "rotulo": "P/VP versus pares",
       "valor": 1.19,
-      "formatado": "empresa 1.19 · mediana 1.155 · 44º percentil"
+      "formatado": "empresa 1.19 · mediana 1.145 · 44º percentil"
      },
      "sector_metric_ev_ebitda": {
       "rotulo": "EV/EBITDA versus pares",
       "valor": 6.4,
-      "formatado": "empresa 6.4 · mediana 5.605 · 31º percentil"
+      "formatado": "empresa 6.4 · mediana 5.695 · 31º percentil"
      },
      "sector_metric_div_yield": {
       "rotulo": "Dividend yield versus pares",
       "valor": 0.0001,
-      "formatado": "empresa 0.0001 · mediana 0.0314 · 39º percentil"
+      "formatado": "empresa 0.0001 · mediana 0.0318 · 39º percentil"
      },
      "news_45da45f71487c31a": {
       "rotulo": "Notícia Suno: Suzano (SUZB3) troca terrenos por fatia de 10% em porto estratégico no Espírito Santo",
@@ -36581,8 +36573,8 @@
       },
       "pl": {
        "label": "P/L",
-       "value": 7.23,
-       "median": 18.97,
+       "value": 7.24,
+       "median": 18.87,
        "percentile": 0.9167,
        "direction": "lower_positive",
        "sample": 6
@@ -36590,7 +36582,7 @@
       "pvp": {
        "label": "P/VP",
        "value": 1.19,
-       "median": 1.155,
+       "median": 1.145,
        "percentile": 0.4375,
        "direction": "lower_positive",
        "sample": 8
@@ -36598,7 +36590,7 @@
       "ev_ebitda": {
        "label": "EV/EBITDA",
        "value": 6.4,
-       "median": 5.605,
+       "median": 5.695,
        "percentile": 0.3125,
        "direction": "lower_positive",
        "sample": 8
@@ -36606,7 +36598,7 @@
       "div_yield": {
        "label": "Dividend yield",
        "value": 0.0001,
-       "median": 0.0314,
+       "median": 0.0318,
        "percentile": 0.3889,
        "direction": "higher",
        "sample": 9
@@ -36640,9 +36632,9 @@
     ]
    },
    "analysis": {
-    "titulo": "Suzano lidera setor com desconto de 61,7% e aposta portuária; alavancagem segue alta",
-    "resumo": "A Suzano mantém a liderança no comparativo combinado do setor (55º percentil), com ROE de 16,4% e margem líquida de 17,1% bem acima da mediana. O valuation segue atrativo: P/L de 7,23 e margem de segurança de 61,7% sobre o preço justo Graham de R$ 75,60. A aquisição de 10% da Imetame Logística Porto, sem desembolso relevante, adiciona opcionalidade logística, mas com efeito financeiro incerto. O principal risco permanece o endividamento elevado, com dívida líquida/PL de 1,34 contra mediana de 0,15.",
-    "tese": "A Suzano combina eficiência operacional superior à média do setor com valuation descontado, sustentando uma tese de valor. No comparativo, lidera o percentil combinado (55º) e apresenta ROE de 16,4% (72º percentil) e margem líquida de 17,1% (94º percentil). O P/L de 7,23 (92º percentil) e o preço justo Graham de R$ 75,60 geram margem de segurança de 61,7%, embora o EV/EBITDA de 6,40 esteja acima da mediana de 5,61. O endividamento elevado é o principal risco, com dívida líquida/PL atual de 1,34 (28º percentil). A participação portuária noticiada tem potencial positivo de longo prazo, mas permanece sujeita a aprovações regulatórias e riscos de execução.",
+    "titulo": "Suzano mantém liderança setorial e desconto de 61,6%; alavancagem segue como risco central",
+    "resumo": "A Suzano permanece na liderança do comparativo combinado do setor (55º percentil), com ROE de 16,4% e margem líquida de 17,1% bem acima da mediana. O valuation segue atrativo: P/L de 7,24 e margem de segurança de 61,6% sobre o preço justo Graham de R$ 75,61. A aquisição de 10% da Imetame Logística Porto, sem desembolso relevante, adiciona opcionalidade logística, mas com efeito financeiro incerto. O principal risco permanece o endividamento elevado, com dívida líquida/PL de 1,34 contra mediana de 0,15.",
+    "tese": "A Suzano combina eficiência operacional superior à média do setor com valuation descontado, sustentando uma tese de valor. No comparativo, lidera o percentil combinado (55º) e apresenta ROE de 16,4% (72º percentil) e margem líquida de 17,1% (94º percentil). O P/L de 7,24 (92º percentil) e o preço justo Graham de R$ 75,61 geram margem de segurança de 61,6%, embora o EV/EBITDA de 6,40 esteja acima da mediana de 5,70. O endividamento elevado é o principal risco, com dívida líquida/PL atual de 1,34 (28º percentil). A participação portuária noticiada tem potencial positivo de longo prazo, mas permanece sujeita a aprovações regulatórias e riscos de execução.",
     "pontos_fortes": [
      {
       "texto": "Rentabilidade muito acima dos pares: ROE de 16,4% (72º percentil) e margem líquida de 17,1% (94º percentil).",
@@ -36654,7 +36646,7 @@
       ]
      },
      {
-      "texto": "Valuation descontado: P/L de 7,23 (92º percentil) e margem de segurança de 61,7% sobre preço justo Graham de R$ 75,60.",
+      "texto": "Valuation descontado: P/L de 7,24 (92º percentil) e margem de segurança de 61,6% sobre preço justo Graham de R$ 75,61.",
       "evidencias": [
        "pl",
        "fair_price_reference",
@@ -36688,7 +36680,7 @@
       ]
      },
      {
-      "texto": "Dividend yield praticamente nulo (0,0%) contra mediana de 3,14% (39º percentil), limitando remuneração direta ao acionista.",
+      "texto": "Dividend yield praticamente nulo (0,0%) contra mediana de 3,18% (39º percentil), limitando remuneração direta ao acionista.",
       "evidencias": [
        "div_yield",
        "sector_metric_div_yield"
@@ -36704,7 +36696,7 @@
      }
     ],
     "valuation": {
-     "texto": "O preço justo Graham de R$ 75,60 contra cotação de R$ 46,75 produz upside de 61,7%. O P/L de 7,23 é o mais baixo entre os pares (92º percentil), mas o EV/EBITDA de 6,40 está no 31º percentil, acima da mediana de 5,61, indicando que a ação não é a mais barata nesse múltiplo. O P/VP de 1,19 está levemente acima da mediana (44º percentil). O dividend yield nulo não contribui para o retorno total, porém o desconto absoluto sustenta margem de segurança confortável, desde que a alavancagem não se dete",
+     "texto": "O preço justo Graham de R$ 75,61 contra cotação de R$ 46,79 produz upside de 61,6%. O P/L de 7,24 é o mais baixo entre os pares (92º percentil), mas o EV/EBITDA de 6,40 está no 31º percentil, acima da mediana de 5,70, indicando que a ação não é a mais barata nesse múltiplo. O P/VP de 1,19 está levemente acima da mediana (44º percentil). O dividend yield nulo não contribui para o retorno total, porém o desconto absoluto sustenta margem de segurança confortável, desde que a alavancagem não se dete",
      "evidencias": [
       "fair_price_reference",
       "cotacao",
@@ -36720,12 +36712,10 @@
      ]
     },
     "mudancas_desde_anterior": {
-     "texto": "A cotação subiu de R$ 45,76 para R$ 46,75, reduzindo a margem de segurança de 65,5% para 61,7%. O P/L aumentou de 7,08 para 7,23 e o P/VP de 1,16 para 1,19; o EV/EBITDA passou de 6,34 para 6,40. O preço justo Graham recuou marginalmente de R$ 75,74 para R$ 75,60. Não houve alteração nas métricas operacionais ou notícias relevantes desde a análise anterior.",
+     "texto": "A cotação subiu de R$ 46,75 para R$ 46,79, elevando o P/L de 7,23 para 7,24 e o preço justo Graham de R$ 75,60 para R$ 75,61; a margem de segurança recuou marginalmente de 61,7% para 61,6%. Não houve alteração nas métricas operacionais ou notícias relevantes desde a análise anterior.",
      "evidencias": [
       "cotacao",
       "pl",
-      "pvp",
-      "ev_ebitda",
       "fair_price_reference",
       "safety_margin"
      ]
