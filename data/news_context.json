@@ -1,13 +1,13 @@
 {
- "data_geracao": "2026-09-10",
+ "data_geracao": "2026-09-11",
  "fonte": "Suno Analítica e notícias públicas; textos integrais não são armazenados",
  "reader_model": "deepseek-v4-flash",
  "metadata_only": false,
- "new_reads": 8,
+ "new_reads": 9,
  "total": 76,
  "companies": {
   "ABEV3": {
-   "checked_at": "2026-09-10T22:49:30.553660+00:00",
+   "checked_at": "2026-09-11T22:50:38.718634+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/abev3/",
    "articles": [
     {
@@ -41,7 +41,7 @@
    ]
   },
   "ALOS3": {
-   "checked_at": "2026-09-10T22:49:30.934255+00:00",
+   "checked_at": "2026-09-11T22:50:39.101775+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/alos3/",
    "articles": [
     {
@@ -81,17 +81,17 @@
    ]
   },
   "ASAI3": {
-   "checked_at": "2026-09-10T22:49:31.356648+00:00",
+   "checked_at": "2026-09-11T22:50:39.808956+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/asai3/",
    "articles": []
   },
   "AURE3": {
-   "checked_at": "2026-09-10T22:49:31.767031+00:00",
+   "checked_at": "2026-09-11T22:50:40.406076+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/aure3/",
    "articles": []
   },
   "AZUL4": {
-   "checked_at": "2026-09-10T22:49:32.184813+00:00",
+   "checked_at": "2026-09-11T22:50:41.074583+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azul4/",
    "articles": [
     {
@@ -129,7 +129,7 @@
    ]
   },
   "AZZA3": {
-   "checked_at": "2026-09-10T22:49:32.767044+00:00",
+   "checked_at": "2026-09-11T22:50:41.410987+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/azza3/",
    "articles": [
     {
@@ -166,7 +166,7 @@
    ]
   },
   "B3SA3": {
-   "checked_at": "2026-09-10T22:49:34.238121+00:00",
+   "checked_at": "2026-09-11T22:50:43.039141+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/b3sa3/",
    "articles": [
     {
@@ -204,7 +204,7 @@
    ]
   },
   "BBAS3": {
-   "checked_at": "2026-09-10T22:49:34.605040+00:00",
+   "checked_at": "2026-09-11T22:50:43.510016+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbas3/",
    "articles": [
     {
@@ -237,7 +237,7 @@
    ]
   },
   "BBDC4": {
-   "checked_at": "2026-09-10T22:49:35.008210+00:00",
+   "checked_at": "2026-09-11T22:50:44.000271+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbdc4/",
    "articles": [
     {
@@ -270,7 +270,7 @@
    ]
   },
   "BBSE3": {
-   "checked_at": "2026-09-10T22:49:35.395721+00:00",
+   "checked_at": "2026-09-11T22:50:44.395154+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bbse3/",
    "articles": [
     {
@@ -308,7 +308,7 @@
    ]
   },
   "BEEF3": {
-   "checked_at": "2026-09-10T22:49:35.765848+00:00",
+   "checked_at": "2026-09-11T22:50:44.847824+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/beef3/",
    "articles": [
     {
@@ -346,7 +346,7 @@
    ]
   },
   "BPAC11": {
-   "checked_at": "2026-09-10T22:49:36.178392+00:00",
+   "checked_at": "2026-09-11T22:50:45.372975+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/bpac11/",
    "articles": [
     {
@@ -380,12 +380,12 @@
    ]
   },
   "BRAP4": {
-   "checked_at": "2026-09-10T22:49:36.576853+00:00",
+   "checked_at": "2026-09-11T22:50:46.160045+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brap4/",
    "articles": []
   },
   "BRAV3": {
-   "checked_at": "2026-09-10T22:49:36.930266+00:00",
+   "checked_at": "2026-09-11T22:50:46.634335+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brav3/",
    "articles": [
     {
@@ -424,7 +424,7 @@
    ]
   },
   "BRFS3": {
-   "checked_at": "2026-09-10T22:49:37.329171+00:00",
+   "checked_at": "2026-09-11T22:50:47.049596+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brfs3/",
    "articles": [
     {
@@ -462,7 +462,7 @@
    ]
   },
   "BRKM5": {
-   "checked_at": "2026-09-10T22:49:37.659039+00:00",
+   "checked_at": "2026-09-11T22:50:47.382759+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/brkm5/",
    "articles": [
     {
@@ -501,7 +501,7 @@
    ]
   },
   "CMIG4": {
-   "checked_at": "2026-09-10T22:49:38.065476+00:00",
+   "checked_at": "2026-09-11T22:50:47.784990+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmig4/",
    "articles": [
     {
@@ -532,7 +532,7 @@
    ]
   },
   "CMIN3": {
-   "checked_at": "2026-09-10T22:49:38.467564+00:00",
+   "checked_at": "2026-09-11T22:50:48.229659+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cmin3/",
    "articles": [
     {
@@ -572,7 +572,7 @@
    ]
   },
   "COGN3": {
-   "checked_at": "2026-09-10T22:49:38.889788+00:00",
+   "checked_at": "2026-09-11T22:50:48.659403+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cogn3/",
    "articles": [
     {
@@ -610,7 +610,7 @@
    ]
   },
   "CPFE3": {
-   "checked_at": "2026-09-10T22:49:39.582588+00:00",
+   "checked_at": "2026-09-11T22:50:49.056848+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cpfe3/",
    "articles": [
     {
@@ -643,17 +643,17 @@
    ]
   },
   "CPLE6": {
-   "checked_at": "2026-09-10T22:49:40.186963+00:00",
+   "checked_at": "2026-09-11T22:50:49.557799+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cple6/",
    "articles": []
   },
   "CRFB3": {
-   "checked_at": "2026-09-10T22:49:41.119030+00:00",
+   "checked_at": "2026-09-11T22:50:50.083370+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/crfb3/",
    "articles": []
   },
   "CSAN3": {
-   "checked_at": "2026-09-10T22:49:44.558282+00:00",
+   "checked_at": "2026-09-11T22:50:50.559727+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csan3/",
    "articles": [
     {
@@ -690,7 +690,7 @@
    ]
   },
   "CSNA3": {
-   "checked_at": "2026-09-10T22:49:44.981458+00:00",
+   "checked_at": "2026-09-11T22:50:51.274615+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/csna3/",
    "articles": [
     {
@@ -732,12 +732,12 @@
    ]
   },
   "CVCB3": {
-   "checked_at": "2026-09-10T22:49:45.457450+00:00",
+   "checked_at": "2026-09-11T22:50:51.734946+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cvcb3/",
    "articles": []
   },
   "CXSE3": {
-   "checked_at": "2026-09-10T22:49:46.054816+00:00",
+   "checked_at": "2026-09-11T22:50:52.178760+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cxse3/",
    "articles": [
     {
@@ -771,7 +771,7 @@
    ]
   },
   "CYRE3": {
-   "checked_at": "2026-09-10T22:49:46.911742+00:00",
+   "checked_at": "2026-09-11T22:50:52.629529+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/cyre3/",
    "articles": [
     {
@@ -808,12 +808,12 @@
    ]
   },
   "DIRR3": {
-   "checked_at": "2026-09-10T22:49:47.566576+00:00",
+   "checked_at": "2026-09-11T22:50:53.061251+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/dirr3/",
    "articles": []
   },
   "EGIE3": {
-   "checked_at": "2026-09-10T22:49:48.029722+00:00",
+   "checked_at": "2026-09-11T22:50:53.478185+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/egie3/",
    "articles": [
     {
@@ -854,7 +854,7 @@
    ]
   },
   "ENEV3": {
-   "checked_at": "2026-09-10T22:49:48.404367+00:00",
+   "checked_at": "2026-09-11T22:50:53.855489+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/enev3/",
    "articles": [
     {
@@ -894,7 +894,7 @@
    ]
   },
   "ENGI11": {
-   "checked_at": "2026-09-10T22:49:48.815015+00:00",
+   "checked_at": "2026-09-11T22:50:54.286422+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/engi11/",
    "articles": [
     {
@@ -932,7 +932,7 @@
    ]
   },
   "EQTL3": {
-   "checked_at": "2026-09-10T22:49:49.325762+00:00",
+   "checked_at": "2026-09-11T22:50:54.716383+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/eqtl3/",
    "articles": [
     {
@@ -963,7 +963,7 @@
    ]
   },
   "FLRY3": {
-   "checked_at": "2026-09-10T22:49:49.690395+00:00",
+   "checked_at": "2026-09-11T22:50:55.084970+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/flry3/",
    "articles": [
     {
@@ -998,7 +998,7 @@
    ]
   },
   "GGBR4": {
-   "checked_at": "2026-09-10T22:49:50.073622+00:00",
+   "checked_at": "2026-09-11T22:50:55.442607+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ggbr4/",
    "articles": [
     {
@@ -1031,7 +1031,7 @@
    ]
   },
   "HAPV3": {
-   "checked_at": "2026-09-10T22:49:51.833329+00:00",
+   "checked_at": "2026-09-11T22:50:57.167004+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hapv3/",
    "articles": [
     {
@@ -1070,7 +1070,7 @@
    ]
   },
   "HYPE3": {
-   "checked_at": "2026-09-10T22:49:52.232027+00:00",
+   "checked_at": "2026-09-11T22:50:57.568615+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/hype3/",
    "articles": [
     {
@@ -1109,7 +1109,7 @@
    ]
   },
   "IGTI11": {
-   "checked_at": "2026-09-10T22:49:52.567672+00:00",
+   "checked_at": "2026-09-11T22:50:57.900350+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/igti11/",
    "articles": [
     {
@@ -1154,7 +1154,7 @@
    ]
   },
   "ITSA4": {
-   "checked_at": "2026-09-10T22:49:53.025544+00:00",
+   "checked_at": "2026-09-11T22:50:58.289333+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itsa4/",
    "articles": [
     {
@@ -1187,7 +1187,7 @@
    ]
   },
   "ITUB4": {
-   "checked_at": "2026-09-10T22:49:53.468135+00:00",
+   "checked_at": "2026-09-11T22:50:58.660239+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/itub4/",
    "articles": [
     {
@@ -1220,7 +1220,7 @@
    ]
   },
   "JBSS3": {
-   "checked_at": "2026-09-10T22:49:53.835621+00:00",
+   "checked_at": "2026-09-11T22:50:59.040345+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/jbss3/",
    "articles": [
     {
@@ -1259,7 +1259,7 @@
    ]
   },
   "KLBN11": {
-   "checked_at": "2026-09-10T22:49:54.198467+00:00",
+   "checked_at": "2026-09-11T22:50:59.400346+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/klbn11/",
    "articles": [
     {
@@ -1292,7 +1292,7 @@
    ]
   },
   "LREN3": {
-   "checked_at": "2026-09-10T22:49:54.600740+00:00",
+   "checked_at": "2026-09-11T22:50:59.786137+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/lren3/",
    "articles": [
     {
@@ -1335,7 +1335,7 @@
    ]
   },
   "MGLU3": {
-   "checked_at": "2026-09-10T22:49:55.014867+00:00",
+   "checked_at": "2026-09-11T22:51:00.218779+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mglu3/",
    "articles": [
     {
@@ -1378,7 +1378,7 @@
    ]
   },
   "MRVE3": {
-   "checked_at": "2026-09-10T22:49:55.430772+00:00",
+   "checked_at": "2026-09-11T22:51:00.604816+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mrve3/",
    "articles": [
     {
@@ -1417,7 +1417,7 @@
    ]
   },
   "MULT3": {
-   "checked_at": "2026-09-10T22:49:56.294740+00:00",
+   "checked_at": "2026-09-11T22:51:00.964179+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/mult3/",
    "articles": [
     {
@@ -1459,49 +1459,52 @@
    ]
   },
   "NTCO3": {
-   "checked_at": "2026-09-10T22:49:57.812622+00:00",
+   "checked_at": "2026-09-11T22:51:01.442320+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ntco3/",
    "articles": []
   },
   "PCAR3": {
-   "checked_at": "2026-09-10T22:49:59.237246+00:00",
+   "checked_at": "2026-09-11T22:51:03.324360+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pcar3/",
    "articles": []
   },
   "PETR4": {
-   "checked_at": "2026-09-10T22:50:03.767615+00:00",
+   "checked_at": "2026-09-11T22:51:07.806659+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petr4/",
    "articles": [
     {
-     "id": "df64f7552c249dcb",
-     "title": "Petrobras (PETR4) volta a perfurar na Margem Equatorial na próxima semana",
-     "url": "https://www.suno.com.br/noticias/petrobras-petr4-retoma-perfuracao-margem-equatorial-foz-amazonas-mt/",
+     "id": "626674d341542a4a",
+     "title": "Preço da gasolina cai? Petrobras (PETR4) reduz R$ 0,19 e fixa novo valor",
+     "url": "https://www.suno.com.br/noticias/preco-da-gasolina-petrobras-petr4-reducao-r-019-mt/",
      "source": "Suno",
-     "published": "2026-09-09",
-     "content_hash": "df64f7552c249dcb3a766ea435f155f1084bb0bdfb0c8fba56b4e6194436b51c",
+     "published": "2026-09-10",
+     "content_hash": "626674d341542a4ac7496542c959ae3ef82893ca95332b409040f64c40a9afde",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "A Petrobras retomará a perfuração do poço Morpho, na Margem Equatorial, após o Ibama ratificar a licença de operação. A estatal também planeja perfurar os poços contingentes Manga, Crotalus e PAD Morpho. A presidente Magda Chambriard informou que, após Morpho, a sonda NS-42 seguirá para a bacia Potiguar explorar o poço Mãe de Ouro. A exploração no bloco FZA-M-59 será feita pela NS-43, sem data definida. A empresa anunciou descoberta de petróleo de boa qualidade em Morpho em agosto.",
+      "resumo": "A Petrobras reduziu o preço da gasolina A em R$ 0,19/litro, para R$ 3,05, após correção de anúncio anterior. A queda foi possível pela redução de tributos federais (PIS/Cofins) em R$ 0,63/litro, válida até 5 de outubro. A estatal atribuiu a confusão a erro na divulgação. A medida busca conter impacto da alta do petróleo (Brent acima de US$ 100), mas margens da companhia podem ser afetadas pela defasagem em relação à paridade de importação.",
       "evento": "regulacao",
-      "impacto": "positivo",
-      "horizonte": "medio",
+      "impacto": "misto",
+      "horizonte": "curto",
       "intensidade": "media",
       "drivers": [
-       "ratificação da licença pelo Ibama",
-       "retomada da perfuração na Margem Equatorial",
-       "descoberta de petróleo de boa qualidade em Morpho",
-       "potencial de novas descobertas na região"
+       "redução de tributos federais (PIS/Cofins)",
+       "correção no preço da gasolina A",
+       "volatilidade do petróleo Brent acima de US$ 100",
+       "tensões no Oriente Médio",
+       "defasagem em relação à paridade de importação"
       ],
       "riscos": [
-       "atrasos ou novas exigências ambientais",
-       "incerteza sobre volume e viabilidade comercial",
-       "volatilidade do preço do petróleo",
-       "riscos operacionais na perfuração"
+       "aumento contínuo do petróleo no mercado internacional",
+       "depreciação do real frente ao dólar",
+       "manutenção de subsídios e pressão sobre margens da Petrobras",
+       "incerteza sobre nova subvenção federal",
+       "repasse limitado aos consumidores pelos postos"
       ],
       "metricas_afetadas": [
        "receita",
-       "valuation"
+       "margem",
+       "lucro"
       ],
       "incerteza": "media"
      }
@@ -1509,12 +1512,12 @@
    ]
   },
   "PETZ3": {
-   "checked_at": "2026-09-10T22:50:04.382496+00:00",
+   "checked_at": "2026-09-11T22:51:08.380117+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/petz3/",
    "articles": []
   },
   "POMO4": {
-   "checked_at": "2026-09-10T22:50:04.839717+00:00",
+   "checked_at": "2026-09-11T22:51:08.806010+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pomo4/",
    "articles": [
     {
@@ -1545,7 +1548,7 @@
    ]
   },
   "PRIO3": {
-   "checked_at": "2026-09-10T22:50:05.304352+00:00",
+   "checked_at": "2026-09-11T22:51:09.184929+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/prio3/",
    "articles": [
     {
@@ -1587,12 +1590,12 @@
    ]
   },
   "PSSA3": {
-   "checked_at": "2026-09-10T22:50:05.867014+00:00",
+   "checked_at": "2026-09-11T22:51:09.661905+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/pssa3/",
    "articles": []
   },
   "RADL3": {
-   "checked_at": "2026-09-10T22:50:06.241283+00:00",
+   "checked_at": "2026-09-11T22:51:10.054346+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/radl3/",
    "articles": [
     {
@@ -1631,7 +1634,7 @@
    ]
   },
   "RAIL3": {
-   "checked_at": "2026-09-10T22:50:06.797479+00:00",
+   "checked_at": "2026-09-11T22:51:10.446618+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rail3/",
    "articles": [
     {
@@ -1670,7 +1673,7 @@
    ]
   },
   "RAIZ4": {
-   "checked_at": "2026-09-10T22:50:07.216436+00:00",
+   "checked_at": "2026-09-11T22:51:10.804585+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/raiz4/",
    "articles": [
     {
@@ -1708,7 +1711,7 @@
    ]
   },
   "RDOR3": {
-   "checked_at": "2026-09-10T22:50:09.734977+00:00",
+   "checked_at": "2026-09-11T22:51:12.757889+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rdor3/",
    "articles": [
     {
@@ -1773,7 +1776,7 @@
    ]
   },
   "RECV3": {
-   "checked_at": "2026-09-10T22:50:10.106044+00:00",
+   "checked_at": "2026-09-11T22:51:13.181703+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/recv3/",
    "articles": [
     {
@@ -1812,7 +1815,7 @@
    ]
   },
   "RENT3": {
-   "checked_at": "2026-09-10T22:50:10.532199+00:00",
+   "checked_at": "2026-09-11T22:51:13.553661+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/rent3/",
    "articles": [
     {
@@ -1846,7 +1849,7 @@
    ]
   },
   "SANB11": {
-   "checked_at": "2026-09-10T22:50:10.964523+00:00",
+   "checked_at": "2026-09-11T22:51:13.934033+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sanb11/",
    "articles": [
     {
@@ -1883,7 +1886,7 @@
    ]
   },
   "SBSP3": {
-   "checked_at": "2026-09-10T22:50:14.357856+00:00",
+   "checked_at": "2026-09-11T22:51:16.756762+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/sbsp3/",
    "articles": [
     {
@@ -1921,22 +1924,22 @@
    ]
   },
   "SLCE3": {
-   "checked_at": "2026-09-10T22:50:14.874729+00:00",
+   "checked_at": "2026-09-11T22:51:17.172443+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/slce3/",
    "articles": []
   },
   "SMFT3": {
-   "checked_at": "2026-09-10T22:50:15.463903+00:00",
+   "checked_at": "2026-09-11T22:51:17.739501+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/smft3/",
    "articles": []
   },
   "STBP3": {
-   "checked_at": "2026-09-10T22:50:15.912242+00:00",
+   "checked_at": "2026-09-11T22:51:18.200815+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/stbp3/",
    "articles": []
   },
   "SUZB3": {
-   "checked_at": "2026-09-10T22:50:16.298960+00:00",
+   "checked_at": "2026-09-11T22:51:18.589380+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/suzb3/",
    "articles": [
     {
@@ -1976,7 +1979,7 @@
    ]
   },
   "TAEE11": {
-   "checked_at": "2026-09-10T22:50:16.682741+00:00",
+   "checked_at": "2026-09-11T22:51:19.005782+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/taee11/",
    "articles": [
     {
@@ -2012,7 +2015,7 @@
    ]
   },
   "TIMS3": {
-   "checked_at": "2026-09-10T22:50:17.200696+00:00",
+   "checked_at": "2026-09-11T22:51:19.422675+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tims3/",
    "articles": [
     {
@@ -2052,7 +2055,7 @@
    ]
   },
   "TOTS3": {
-   "checked_at": "2026-09-10T22:50:17.579863+00:00",
+   "checked_at": "2026-09-11T22:51:19.801679+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/tots3/",
    "articles": [
     {
@@ -2083,7 +2086,7 @@
    ]
   },
   "UGPA3": {
-   "checked_at": "2026-09-10T22:50:17.950232+00:00",
+   "checked_at": "2026-09-11T22:51:20.171969+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/ugpa3/",
    "articles": [
     {
@@ -2117,7 +2120,7 @@
    ]
   },
   "USIM5": {
-   "checked_at": "2026-09-10T22:50:18.553321+00:00",
+   "checked_at": "2026-09-11T22:51:20.503107+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/usim5/",
    "articles": [
     {
@@ -2153,42 +2156,49 @@
    ]
   },
   "VALE3": {
-   "checked_at": "2026-09-10T22:50:18.998153+00:00",
+   "checked_at": "2026-09-11T22:51:22.851765+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vale3/",
    "articles": [
     {
-     "id": "9a62e31b668935bc",
-     "title": "Vale (VALE3) e Fleury (FLRY3) pagam dividendos nesta quarta-feira; veja detalhes",
-     "url": "https://www.suno.com.br/noticias/a-vale-vale3-agenda-dividendos-02092026/",
+     "id": "078b286b29cffd40",
+     "title": "Ibovespa dispara 1,42% com ‘trade eleitoral’ e bancos; Vale (VALE3) recua",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-10-setembro-eleicoes-bancos-mt/",
      "source": "Suno",
-     "published": "2026-09-02",
-     "content_hash": "9a62e31b668935bc28791d5cd9b71aa16672b729bcb3d56026095216e80751e6",
+     "published": "2026-09-10",
+     "content_hash": "078b286b29cffd408c9d7f83b81d3661d2a1e8636e87e5705bc477d8a32e66fb",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Vale e Fleury pagam dividendos nesta quarta-feira: Vale paga R$ 1,5687 por ação, com data de corte em 11/08; Fleury paga R$ 0,1302, com data de corte em 02/12. Dividendos são isentos de IR.",
-      "evento": "dividendo",
-      "impacto": "neutro",
+      "resumo": "O Ibovespa subiu 1,42% nesta quinta-feira, impulsionado por pesquisas eleitorais e desempenho de bancos. A Vale (VALE3) recuou 1,10%, refletindo a fraqueza do minério de ferro, o que limitou um avanço maior do índice. O mercado acompanha o cenário eleitoral e a alta do petróleo. No exterior, o PPI dos EUA veio acima do esperado, elevando preocupações inflacionárias.",
+      "evento": "outro",
+      "impacto": "negativo",
       "horizonte": "curto",
-      "intensidade": "baixa",
-      "drivers": [],
-      "riscos": [],
-      "metricas_afetadas": [
-       "dividendos",
-       "caixa"
+      "intensidade": "media",
+      "drivers": [
+       "queda do preço do minério de ferro"
       ],
-      "incerteza": "baixa"
+      "riscos": [
+       "continuidade da fraqueza do minério de ferro",
+       "volatilidade do mercado externo"
+      ],
+      "metricas_afetadas": [
+       "receita",
+       "margem",
+       "lucro",
+       "valuation"
+      ],
+      "incerteza": "media"
      }
     }
    ]
   },
   "VAMO3": {
-   "checked_at": "2026-09-10T22:50:19.625905+00:00",
+   "checked_at": "2026-09-11T22:51:23.267325+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vamo3/",
    "articles": []
   },
   "VBBR3": {
-   "checked_at": "2026-09-10T22:50:20.128040+00:00",
+   "checked_at": "2026-09-11T22:51:23.645128+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vbbr3/",
    "articles": [
     {
@@ -2223,12 +2233,12 @@
    ]
   },
   "VIVA3": {
-   "checked_at": "2026-09-10T22:50:20.671075+00:00",
+   "checked_at": "2026-09-11T22:51:25.124544+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/viva3/",
    "articles": []
   },
   "VIVT3": {
-   "checked_at": "2026-09-10T22:50:21.027191+00:00",
+   "checked_at": "2026-09-11T22:51:25.498637+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/vivt3/",
    "articles": [
     {
@@ -2265,41 +2275,48 @@
    ]
   },
   "WEGE3": {
-   "checked_at": "2026-09-10T22:50:21.415443+00:00",
+   "checked_at": "2026-09-11T22:51:28.352546+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/wege3/",
    "articles": [
     {
-     "id": "81eda0abe34a6718",
-     "title": "Weg (WEGE3) e ABC Brasil (ABCB4) pagam dividendos nesta quarta-feira; veja detalhes",
-     "url": "https://www.suno.com.br/noticias/a-weg-wege3-agenda-dividendos-12082026/",
+     "id": "b9ba0dbb1a3fe77d",
+     "title": "WEGE3 surpreende nos dados da Secex; Embraer (EMBJ3) e Intelbras (INTB3) entram no radar",
+     "url": "https://www.suno.com.br/noticias/wege3-dados-secex-exportacoes-embraer-intelbras-mt/",
      "source": "Suno",
-     "published": "2026-08-12",
-     "content_hash": "81eda0abe34a6718c0b141ba7c5f04add85e2294bdc2ea36a869e817276b3431",
+     "published": "2026-09-10",
+     "content_hash": "b9ba0dbb1a3fe77d56ab9207f6ba5fd020d4249700ae3ac70ece9bbe1ab6be26",
      "reader_model": "deepseek-v4-flash",
      "leitura": {
       "relevante": true,
-      "resumo": "Weg e Banco ABC Brasil pagam dividendos nesta quarta-feira. Weg paga R$ 0,4128 por ação (data de corte 19/12), e ABC Brasil paga R$ 1,168 por ação (data de corte 29/06). Dividendos são creditados na corretora e isentos de IR.",
-      "evento": "dividendo",
-      "impacto": "neutro",
+      "resumo": "Dados da Secex de agosto mostram exportações da WEG com alta de 4% a/a e 15,6% m/m, puxadas por transformadores (+35,6% a/a) e peças para motores (+229% a/a). Análise do Safra é positiva, mas o acumulado de 2026 ainda cai 2%. Embraer exportou 5 aeronaves, acima de 3 em 2025, porém valor médio recuou 14%. Intelbras cresceu 19% nas importações, com destaque para nobreaks (+107%).",
+      "evento": "outro",
+      "impacto": "misto",
       "horizonte": "curto",
-      "intensidade": "baixa",
+      "intensidade": "media",
       "drivers": [
-       "pagamento de dividendos"
+       "avanço das exportações de transformadores da WEG (+35,6% a/a)",
+       "crescimento de peças para motores elétricos (+229% a/a)",
+       "ritmo de entregas da Embraer acima de 2025, mas valor médio 14% menor",
+       "importações da Intelbras +19% a/a, puxadas por nobreaks (+107% a/a)"
       ],
       "riscos": [
-       "possíveis variações de preço das ações no dia ex-dividendo"
+       "dados da Secex não equivalem a receita ou lucro reconhecidos",
+       "embarques podem ocorrer antes ou depois do reconhecimento da receita",
+       "estoques podem distorcer comparações mensais",
+       "produção fora do Brasil não aparece integralmente nas estatísticas",
+       "impulso de exportações pode ser de curta duração, segundo o Safra"
       ],
       "metricas_afetadas": [
-       "dividendos",
+       "receita",
        "caixa"
       ],
-      "incerteza": "baixa"
+      "incerteza": "media"
      }
     }
    ]
   },
   "YDUQ3": {
-   "checked_at": "2026-09-10T22:50:21.958546+00:00",
+   "checked_at": "2026-09-11T22:51:29.934506+00:00",
    "source_page": "https://www.suno.com.br/analitica/acoes/yduq3/",
    "articles": []
   }
